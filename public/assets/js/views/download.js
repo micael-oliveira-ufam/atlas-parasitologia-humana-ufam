@@ -5,7 +5,7 @@ export const APK = { url: 'https://github.com/micael-oliveira-ufam/atlas-parasit
 // Cartão de download do aplicativo (somente Android).
 export function downloadCard() {
   return h('div', { class: 'dl-card' },
-    h('div', null, h('strong', null, 'Aplicativo para Android'), h('p', { class: 'muted small' }, `Versão ${APK.version} · APK de ~54 MB · funciona offline. `, h('strong', null, 'Somente Android'), ': não há versão para iPhone/iOS (use este site).`)),
+    h('div', null, h('strong', null, 'Aplicativo para Android'), h('p', { class: 'muted small' }, `Versão ${APK.version} · APK de ~54 MB · funciona offline. `, h('strong', null, 'Somente Android'), ': não há versão para iPhone/iOS (use este site).')),
     h('p', null, h('a', { class: 'btn primary', href: APK.url, rel: 'noopener', download: APK.file }, '⬇ Baixar APK (Android)'), ' ', h('a', { href: APK.releases, rel: 'noopener' }, 'todas as versões')),
     h('details', null, h('summary', null, 'Como instalar e conferir'),
       h('ol', { class: 'list' }, h('li', null, 'No celular Android, baixe o arquivo e abra-o.'), h('li', null, 'Quando o Android pedir, permita a instalação de fontes desconhecidas para o navegador/gerenciador de arquivos usado.'), h('li', null, 'Integridade (SHA-256): ', h('code', null, APK.sha256)))));
