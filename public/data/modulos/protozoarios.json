@@ -1,0 +1,1348 @@
+{
+  "specimens": [
+    {
+      "id": "entamoeba_histolytica",
+      "commonName": "Entamoeba histolytica",
+      "scientificName": "Entamoeba histolytica",
+      "taxonomy": {
+        "phylum": "Evosea (Amoebozoa)",
+        "class": "(sem classe no NCBI)",
+        "order": "Mastigamoebida",
+        "family": "Endamoebidae",
+        "genus": "Entamoeba",
+        "species": "Entamoeba histolytica",
+        "note": "NCBI Taxonomy (23/10/2026): Amoebozoa (sem categoria) › Evosea (filo) › Archamoebae (sem categoria) › Mastigamoebida › Endamoebidae. Antes: ordem Entamoebida; família Entamoebidae.",
+        "ncbi": "taxid 5759",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário ameboide",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: Entamoeba histolytica",
+      "status": "publicado",
+      "approxSizeMicrons": "Cistos: geralmente 12–15 µm. Trofozoítos: geralmente 15–20 µm (faixa 10–60 µm).",
+      "morphologyDescription": "Cistos com 4 núcleos de cariossomos caracteristicamente centrais; corpos cromatoides de extremidades arredondadas/rombas. Trofozoítos podem conter hemácias fagocitadas (eritrofagocitose), clássica de E. histolytica, mas que raramente pode ocorrer com E. dispar: não é critério confiável.",
+      "keyDiagnosticFeatures": [
+        "Cisto com 4 núcleos e cariossomo central.",
+        "E. histolytica, E. dispar e E. moshkovskii não são distinguíveis pela morfologia."
+      ],
+      "disease": "Amebíase.",
+      "pathogenesis": "Os trofozoítos podem permanecer no lúmen intestinal (infecção não invasiva), invadir a mucosa intestinal ou os vasos e atingir locais extraintestinais, como fígado, cérebro e pulmões.",
+      "clinicalManifestations": [
+        "Sintomas variam de cólicas leves e diarreia aquosa a colite grave com diarreia sanguinolenta e muco; abscesso hepático: dor no hipocôndrio direito, febre e dor à palpação."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Microscopia de fezes (cistos e trofozoítos): a sensibilidade é baixa com uma amostra; três amostras consecutivas em dez dias aumentam a chance de detecção.",
+        "alternatives": [
+          "A PCR é o método de escolha para diferenciar E. histolytica de E. dispar; a detecção de antígeno pode ser adjunta; sorologia detecta anticorpos específicos."
+        ],
+        "sampleType": "Fezes.",
+        "technicalObservation": "Microscopia não diferencia E. histolytica, E. dispar e E. moshkovskii; métodos moleculares são recomendados para distinguir as espécies."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de cistos maduros.",
+        "infectiveForm": "Cisto maduro.",
+        "diagnosticForm": "Cistos e trofozoítos nas fezes.",
+        "habitat": "Intestino grosso (trofozoítos migram do intestino delgado, onde ocorre o desencistamento, para o intestino grosso).",
+        "cycleType": "Ingestão de cistos → desencistamento no intestino delgado → trofozoítos no intestino grosso (não invasivos ou invasivos)."
+      },
+      "treatment": [
+        "Hidratação e metronidazol e/ou tinidazol; agentes luminais como paromomicina e furoato de diloxanida; abscesso hepático: aspiração guiada por TC com metronidazol."
+      ],
+      "prophylaxis": [
+        "A prevenção é feita por melhor saneamento; não há vacinas nem medicamentos profiláticos."
+      ],
+      "differentialDiagnosis": "Amebas não patogênicas (E. coli, E. hartmanni, E. gingivalis, Endolimax nana, Iodamoeba buetschlii) devem ser diferenciadas das Entamoeba patogênicas; esporos de fungos podem ser confundidos com cistos de Entamoeba.",
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/entamoeba_histolytica_pz01.jpg",
+          "width": 795,
+          "height": 857,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba histolytica (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura 1. Entamoeba histolytica. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image1.jpeg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "ext01",
+          "file": "protozoarios/entamoeba_histolytica_40x.jpeg",
+          "width": 800,
+          "height": 600,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Entamoeba histolytica - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ],
+      "verification": [
+        {
+          "id": "entamoeba_histolytica#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Entamoeba.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Evosea (phylum) · Archamoebae (no rank) · Mastigamoebida (order) · Endamoebidae (family) · Entamoeba (genus)",
+          "note": "Antes: ordem Entamoebida; família Entamoebidae; classe Archamoebae.",
+          "before": "Archamoebae / Entamoebida / Entamoebidae"
+        },
+        {
+          "id": "entamoeba_histolytica#02",
+          "section": "Lâmina",
+          "text": "Imagem: Figura 1 do documento enviado, legenda \"Entamoeba histolytica\".",
+          "status": "observacao",
+          "refs": [
+            "docx_protoz"
+          ],
+          "evidence": "",
+          "note": "A identificação da espécie na imagem é a que consta na legenda do documento recebido dos desenvolvedores; não foi confirmada de forma independente. Além disso, E. histolytica, E. dispar e E. moshkovskii não se distinguem pela morfologia."
+        },
+        {
+          "id": "entamoeba_histolytica#03",
+          "section": "Tamanho",
+          "text": "Cistos: geralmente 12–15 µm. Trofozoítos: geralmente 15–20 µm (faixa 10–60 µm).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Cysts usually measure 12 to 15 µm.\" · \"Trophozoites usually measure 15 to 20 µm (range 10 to 60 µm)\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#04",
+          "section": "Morfologia",
+          "text": "Cistos com 4 núcleos de cariossomos caracteristicamente centrais; corpos cromatoides de extremidades arredondadas/rombas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"have 4 nuclei that characteristically have centrally-located karyosomes\" · \"a chromatoid body with typically blunted ends\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#05",
+          "section": "Morfologia",
+          "text": "Trofozoítos podem conter hemácias fagocitadas (eritrofagocitose), clássica de E. histolytica, mas que raramente pode ocorrer com E. dispar: não é critério confiável.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"E. histolytica may be observed with ingested red blood cells (erythrophagocytosis)\" · \"classically associated with E. histolytica but may rarely occur with E. dispar\"",
+          "note": "A conclusão 'não é critério confiável' consta na página (segundo o leitor automático)."
+        },
+        {
+          "id": "entamoeba_histolytica#06",
+          "section": "Traços",
+          "text": "Cisto com 4 núcleos e cariossomo central.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"4 nuclei ... centrally-located karyosomes\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#07",
+          "section": "Traços",
+          "text": "E. histolytica, E. dispar e E. moshkovskii não são distinguíveis pela morfologia.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"E. dispar, E. histolytica, and E. moshkovskii are not distinguishable based on morphology.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#08",
+          "section": "Doença",
+          "text": "Amebíase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb",
+            "statpearls_amoeb"
+          ],
+          "evidence": "Título das páginas: Amebiasis",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#09",
+          "section": "Patogenia",
+          "text": "Os trofozoítos podem permanecer no lúmen intestinal (infecção não invasiva), invadir a mucosa intestinal ou os vasos e atingir locais extraintestinais, como fígado, cérebro e pulmões.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Trophozoites may remain confined to the intestinal lumen\" · \"Trophozoites can invade the intestinal mucosa (B: intestinal disease), or blood vessels,\" · \"reaching extraintestinal sites such as the liver, brain, and lungs\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#10",
+          "section": "Clínica",
+          "text": "Sintomas variam de cólicas leves e diarreia aquosa a colite grave com diarreia sanguinolenta e muco; abscesso hepático: dor no hipocôndrio direito, febre e dor à palpação.",
+          "status": "confirmado",
+          "refs": [
+            "statpearls_amoeb"
+          ],
+          "evidence": "\"Symptoms range from mild abdominal cramps and watery diarrhea to severe colitis producing bloody diarrhea with mucus.\" · \"Liver abscess usually presents with right upper quadrant pain, fever, and tenderness to palpation.\"",
+          "note": "A página é marcada como referência histórica."
+        },
+        {
+          "id": "entamoeba_histolytica#11",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos maduros.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Infection with Entamoeba histolytica (and E.dispar) occurs via ingestion of mature cysts\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#12",
+          "section": "Ciclo",
+          "text": "Cisto maduro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"ingestion of mature cysts\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#13",
+          "section": "Ciclo",
+          "text": "Cistos e trofozoítos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Microscopic identification of cysts and trophozoites in the stool is the common method\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#14",
+          "section": "Ciclo",
+          "text": "Intestino grosso (trofozoítos migram do intestino delgado, onde ocorre o desencistamento, para o intestino grosso).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"occurs in the small intestine and trophozoites are released, which migrate to the large intestine.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#15",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos → desencistamento no intestino delgado → trofozoítos no intestino grosso (não invasivos ou invasivos).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Ver linhas anteriores.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#16",
+          "section": "Diagnóstico",
+          "text": "Microscopia de fezes (cistos e trofozoítos): a sensibilidade é baixa com uma amostra; três amostras consecutivas em dez dias aumentam a chance de detecção.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Collection and analysis of three consecutive stool samples within ten days improves the chances for detection.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#17",
+          "section": "Diagnóstico",
+          "text": "A PCR é o método de escolha para diferenciar E. histolytica de E. dispar; a detecção de antígeno pode ser adjunta; sorologia detecta anticorpos específicos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb",
+            "santos2010",
+            "roshdy2017"
+          ],
+          "evidence": "\"conventional PCR-based assays is the method of choice for discriminating between E. histolytica and E. dispar.\" · \"Antigen detection during active infections may be useful as an adjunct to microscopic diagnosis\"",
+          "note": "Santos 2010 e Roshdy 2017: resumos lidos em 17/10/2026."
+        },
+        {
+          "id": "entamoeba_histolytica#18",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Microscopic identification of cysts and trophozoites in the stool\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#19",
+          "section": "Diagnóstico",
+          "text": "Microscopia não diferencia E. histolytica, E. dispar e E. moshkovskii; métodos moleculares são recomendados para distinguir as espécies.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "\"Molecular methods are currently recommended for distinguishing pathogenic\" Entamoeba species",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#20",
+          "section": "Tratamento",
+          "text": "Hidratação e metronidazol e/ou tinidazol; agentes luminais como paromomicina e furoato de diloxanida; abscesso hepático: aspiração guiada por TC com metronidazol.",
+          "status": "confirmado",
+          "refs": [
+            "statpearls_amoeb"
+          ],
+          "evidence": "\"The primary therapy for symptomatic amebiasis requires hydration and the use of metronidazole and/or tinidazole.\" · \"Luminal agents such as paromomycin and diloxanide furoate are also used.\"",
+          "note": "Página marcada como referência histórica: confirmar em diretriz atual."
+        },
+        {
+          "id": "entamoeba_histolytica#21",
+          "section": "Prevenção",
+          "text": "A prevenção é feita por melhor saneamento; não há vacinas nem medicamentos profiláticos.",
+          "status": "confirmado",
+          "refs": [
+            "statpearls_amoeb"
+          ],
+          "evidence": "\"Prevention of amoebiasis is by improved sanitation.\" · \"no vaccines or prophylactic medications to prevent amebiasis.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#22",
+          "section": "Diferencial",
+          "text": "Amebas não patogênicas (E. coli, E. hartmanni, E. gingivalis, Endolimax nana, Iodamoeba buetschlii) devem ser diferenciadas das Entamoeba patogênicas; esporos de fungos podem ser confundidos com cistos de Entamoeba.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb",
+            "dpdx_art"
+          ],
+          "evidence": "\"(Entamoeba coli, E. hartmanni, E. gingivalis, Endolimax nana, Iodamoeba buetschlii)\" · \"Such spores may be confused for the cysts of Entamoeba spp.\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "Todo o texto anterior do registro (cisto tetranucleado etc.)",
+          "reason": "Registro herdado ('revisar'); texto refeito a partir das fontes lidas. Texto antigo arquivado em acervo-nao-publicado/versao_anterior_v4.2/.",
+          "field": "geral"
+        },
+        {
+          "before": "Imagem externa 'entamoeba_histolytica_40x.jpeg' (origem não documentada)",
+          "reason": "Mantida no fim da galeria com aviso 'sem crédito'; recomenda-se substituí-la.",
+          "field": "imagem"
+        }
+      ]
+    },
+    {
+      "id": "entamoeba_coli",
+      "commonName": "Entamoeba coli",
+      "scientificName": "Entamoeba coli",
+      "taxonomy": {
+        "phylum": "Evosea (Amoebozoa)",
+        "class": "(sem classe no NCBI)",
+        "order": "Mastigamoebida",
+        "family": "Endamoebidae",
+        "genus": "Entamoeba",
+        "species": "Entamoeba coli",
+        "note": "NCBI Taxonomy (23/10/2026).",
+        "ncbi": "taxid 110766",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário ameboide (comensal)",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: Entamoeba coli",
+      "status": "publicado",
+      "approxSizeMicrons": "Cistos: 10–35 µm (geralmente esféricos, podendo ser alongados). Trofozoítos: geralmente 15–50 µm.",
+      "morphologyDescription": "Cistos maduros costumam ter 8 núcleos, mas podem ter 16 ou mais.",
+      "keyDiagnosticFeatures": [
+        "Cisto maduro tipicamente com 8 núcleos."
+      ],
+      "disease": "Ameba considerada não patogênica: nenhuma das amebas comensais causa doença sintomática; a colonização é não invasiva.",
+      "clinicalManifestations": [],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação morfológica de cistos ou trofozoítos característicos."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de cistos maduros em alimentos, água ou fômites contaminados com fezes; os cistos sobrevivem dias a semanas no ambiente.",
+        "infectiveForm": "Cisto maduro.",
+        "diagnosticForm": "Cistos ou trofozoítos nas fezes; cistos em fezes formadas e trofozoítos em fezes diarreicas."
+      },
+      "treatment": [],
+      "prophylaxis": [],
+      "differentialDiagnosis": "Deve ser diferenciada das Entamoeba patogênicas (E. histolytica).",
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/entamoeba_coli_pz01.jpg",
+          "width": 1600,
+          "height": 1033,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura. Entamoeba coli Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image4.jpeg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        }
+      ],
+      "verification": [
+        {
+          "id": "entamoeba_coli#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Entamoeba.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Evosea (phylum) · Mastigamoebida (order) · Endamoebidae (family) · Entamoeba (genus)",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#02",
+          "section": "Lâmina",
+          "text": "Imagem: documento enviado, legenda \"Entamoeba coli\".",
+          "status": "observacao",
+          "refs": [
+            "docx_protoz"
+          ],
+          "evidence": "",
+          "note": "A identificação da espécie na imagem é a que consta na legenda do documento recebido dos desenvolvedores; não foi confirmada de forma independente."
+        },
+        {
+          "id": "entamoeba_coli#03",
+          "section": "Tamanho",
+          "text": "Cistos: 10–35 µm (geralmente esféricos, podendo ser alongados). Trofozoítos: geralmente 15–50 µm.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Cysts of Entamoeba coli are usually spherical but may be elongated and measure 10–35 µm.\" · \"Trophozoites of Entamoeba coli usually measure 15–50 µm.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#04",
+          "section": "Morfologia",
+          "text": "Cistos maduros costumam ter 8 núcleos, mas podem ter 16 ou mais.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Mature cysts typically have 8 nuclei but may have as many as 16 or more.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#05",
+          "section": "Traços",
+          "text": "Cisto maduro tipicamente com 8 núcleos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Mature cysts typically have 8 nuclei\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#06",
+          "section": "Doença",
+          "text": "Ameba considerada não patogênica: nenhuma das amebas comensais causa doença sintomática; a colonização é não invasiva.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam",
+            "cdc_nonpath"
+          ],
+          "evidence": "\"are generally considered nonpathogenic\" · \"None of these amebae cause symptomatic disease in humans; colonization is noninvasive.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#07",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos maduros em alimentos, água ou fômites contaminados com fezes; os cistos sobrevivem dias a semanas no ambiente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Intestinal colonization with nonpathogenic amebae occurs after ingestion of mature cysts in fecally contaminated food, water, or fomites\" · \"the cysts can survive days to weeks in the external environment\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#08",
+          "section": "Ciclo",
+          "text": "Cisto maduro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"ingestion of mature cysts\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#09",
+          "section": "Ciclo",
+          "text": "Cistos ou trofozoítos nas fezes; cistos em fezes formadas e trofozoítos em fezes diarreicas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam",
+            "cdc_nonpath"
+          ],
+          "evidence": "\"Cysts are typically found in formed stool, whereas trophozoites are typically found in diarrheal stool.\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#10",
+          "section": "Diagnóstico",
+          "text": "Identificação morfológica de cistos ou trofozoítos característicos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Morphologic diagnosis is achieved by identification of characteristic cysts or trophozoites\"",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#11",
+          "section": "Diferencial",
+          "text": "Deve ser diferenciada das Entamoeba patogênicas (E. histolytica).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Lista de amebas não patogênicas a diferenciar das Entamoeba patogênicas.",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "(espécie nova nesta versão)",
+          "reason": "Sem texto anterior.",
+          "field": "geral"
+        },
+        {
+          "before": "Conduta clínica/tratamento",
+          "reason": "As páginas lidas não descrevem tratamento ou sintomas; nada é afirmado.",
+          "field": "tratamento"
+        }
+      ]
+    },
+    {
+      "id": "endolimax_nana",
+      "commonName": "Endolimax nana",
+      "scientificName": "Endolimax nana",
+      "taxonomy": {
+        "phylum": "Evosea (Amoebozoa)",
+        "class": "(sem classe no NCBI)",
+        "order": "Mastigamoebida",
+        "family": "Endamoebidae",
+        "genus": "Endolimax",
+        "species": "Endolimax nana",
+        "note": "NCBI Taxonomy (23/10/2026).",
+        "ncbi": "taxid 110788",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário ameboide (comensal)",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: Endolimax nana",
+      "status": "publicado",
+      "approxSizeMicrons": "Cistos: 5–10 µm (esféricos a elipsoides). Trofozoítos: 6–12 µm, com um único núcleo.",
+      "morphologyDescription": "Cistos maduros com quatro pequenos núcleos de cariossomos grandes, em geral centrais.",
+      "keyDiagnosticFeatures": [
+        "Cisto com 4 núcleos pequenos."
+      ],
+      "disease": "Ameba considerada não patogênica; colonização não invasiva.",
+      "clinicalManifestations": [],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação morfológica de cistos ou trofozoítos característicos."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de cistos maduros em alimentos, água ou fômites contaminados com fezes.",
+        "infectiveForm": "Cisto maduro.",
+        "diagnosticForm": "Cistos ou trofozoítos nas fezes."
+      },
+      "treatment": [],
+      "prophylaxis": [],
+      "differentialDiagnosis": "Deve ser diferenciada das Entamoeba patogênicas.",
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/endolimax_nana_pz01.jpg",
+          "width": 1600,
+          "height": 704,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Endolimax nana (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura. Endolimax nana Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image3.jpeg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        }
+      ],
+      "verification": [
+        {
+          "id": "endolimax_nana#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Endolimax.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Evosea (phylum) · Mastigamoebida (order) · Endamoebidae (family) · Endolimax (genus)",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#02",
+          "section": "Lâmina",
+          "text": "Imagem: documento enviado, legenda \"Endolimax nana\".",
+          "status": "observacao",
+          "refs": [
+            "docx_protoz"
+          ],
+          "evidence": "",
+          "note": "A identificação da espécie na imagem é a que consta na legenda do documento recebido dos desenvolvedores; não foi confirmada de forma independente."
+        },
+        {
+          "id": "endolimax_nana#03",
+          "section": "Tamanho",
+          "text": "Cistos: 5–10 µm (esféricos a elipsoides). Trofozoítos: 6–12 µm, com um único núcleo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Cysts of Endolimax nana vary from spherical to ellipsoidal in shape and measure 5–10 µm.\" · \"Endolimax nana trophozoites measure 6–12 µm and have a single nucleus\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#04",
+          "section": "Morfologia",
+          "text": "Cistos maduros com quatro pequenos núcleos de cariossomos grandes, em geral centrais.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Mature cysts have four small nuclei with large, usually centrally located karyosomes\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#05",
+          "section": "Traços",
+          "text": "Cisto com 4 núcleos pequenos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"four small nuclei\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#06",
+          "section": "Doença",
+          "text": "Ameba considerada não patogênica; colonização não invasiva.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam",
+            "cdc_nonpath"
+          ],
+          "evidence": "\"are generally considered nonpathogenic\" · \"colonization is noninvasive\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#07",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos maduros em alimentos, água ou fômites contaminados com fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Intestinal colonization with nonpathogenic amebae occurs after ingestion of mature cysts in fecally contaminated food, water, or fomites\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#08",
+          "section": "Ciclo",
+          "text": "Cisto maduro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"ingestion of mature cysts\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#09",
+          "section": "Ciclo",
+          "text": "Cistos ou trofozoítos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Morphologic diagnosis is achieved by identification of characteristic cysts or trophozoites\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#10",
+          "section": "Diagnóstico",
+          "text": "Identificação morfológica de cistos ou trofozoítos característicos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "\"Morphologic diagnosis is achieved by identification of characteristic cysts or trophozoites\"",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#11",
+          "section": "Diferencial",
+          "text": "Deve ser diferenciada das Entamoeba patogênicas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Lista de amebas não patogênicas a diferenciar das Entamoeba patogênicas.",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "(espécie nova nesta versão)",
+          "reason": "Sem texto anterior.",
+          "field": "geral"
+        },
+        {
+          "before": "Conduta clínica/tratamento",
+          "reason": "As páginas lidas não descrevem tratamento ou sintomas; nada é afirmado.",
+          "field": "tratamento"
+        }
+      ]
+    },
+    {
+      "id": "giardia_lamblia",
+      "commonName": "Giardia duodenalis (sin. G. lamblia, G. intestinalis)",
+      "scientificName": "Giardia duodenalis (sinônimos: Giardia lamblia, Giardia intestinalis)",
+      "taxonomy": {
+        "phylum": "Fornicata",
+        "class": "(sem classe no NCBI)",
+        "order": "Diplomonadida",
+        "family": "Hexamitidae (subfamília Giardiinae)",
+        "genus": "Giardia",
+        "species": "Giardia duodenalis",
+        "note": "NCBI Taxonomy (23/10/2026): nome científico G. duodenalis; superclado Metamonada sem categoria taxonômica. O CDC apresenta G. lamblia e G. intestinalis como sinônimos. Antes: Metamonada como filo e Fornicata como classe.",
+        "ncbi": "taxid 5741",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário flagelado",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: Giardia duodenalis",
+      "status": "publicado",
+      "approxSizeMicrons": "Cistos: 8–19 µm (média 10–14 µm). Trofozoítos: 10–20 µm de comprimento.",
+      "morphologyDescription": "Cistos ovais a elipsoides; cistos maduros têm 4 núcleos e os imaturos, 2. Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) e flagelos (8) podem ser vistos.",
+      "keyDiagnosticFeatures": [
+        "Trofozoíto piriforme com 2 núcleos.",
+        "Cisto com 4 núcleos quando maduro."
+      ],
+      "disease": "Giardíase.",
+      "pathogenesis": "Cada cisto libera dois trofozoítos no intestino delgado; os trofozoítos se multiplicam por fissão binária longitudinal no lúmen do intestino delgado proximal e encistam durante o trânsito para o cólon.",
+      "clinicalManifestations": [
+        "Diarreia aquosa e fétida na fase aguda e fezes fétidas na doença crônica; a má absorção de gorduras e açúcares pode causar perda de peso importante.",
+        "Muitos casos são assintomáticos, mas pessoas assintomáticas podem eliminar cistos infectantes."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação de cistos ou trofozoítos nas fezes: cistos costumam ser vistos em preparações a fresco e trofozoítos em preparações permanentes (tricrômico); amostragens repetidas podem ser necessárias.",
+        "alternatives": [
+          "Detecção de antígenos por imunoensaio enzimático é método alternativo e mais sensível que a microscopia; a excreção é intermitente e baixa em infecções crônicas."
+        ],
+        "sampleType": "Fezes."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de cistos em água ou alimentos contaminados ou por via fecal-oral (mãos ou fômites).",
+        "infectiveForm": "Cisto.",
+        "diagnosticForm": "Cistos ou trofozoítos nas fezes.",
+        "habitat": "Lúmen do intestino delgado proximal.",
+        "cycleType": "Ingestão de cistos → desencistamento no intestino delgado → trofozoítos → encistamento → cistos nas fezes."
+      },
+      "treatment": [
+        "Giardíase sintomática: tinidazol, metronidazol, secnidazol ou nitazoxanida; a nitazoxanida teve resultados encorajadores em crianças."
+      ],
+      "prophylaxis": [
+        "Tratamento adequado da água pública, preparo higiênico de alimentos, higiene fecal-oral e lavagem das mãos após contato com fezes; a água pode ser descontaminada por fervura."
+      ],
+      "differentialDiagnosis": "Leveduras em preparações a fresco podem ser confundidas com Giardia; esporos de fungos podem ser confundidos com Giardia ou Chilomastix.",
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/giardia_lamblia_pz01.jpg",
+          "width": 1300,
+          "height": 902,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Giardia duodenalis (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura 2. Giardia duodenalis. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image2.jpeg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "ext01",
+          "file": "protozoarios/giardia_lamblia_40x.jpeg",
+          "width": 960,
+          "height": 736,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Giardia lamblia - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ],
+      "verification": [
+        {
+          "id": "giardia_lamblia#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: Metamonada (sem categoria) › Fornicata (filo) › Diplomonadida › Hexamitidae › Giardiinae › Giardia.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Fornicata (phylum) · Diplomonadida (order) · Hexamitidae (family) · Giardiinae (subfamily) · Giardia (genus)",
+          "note": "Antes: filo Metamonada; classe Fornicata.",
+          "before": "Metamonada / Fornicata"
+        },
+        {
+          "id": "giardia_lamblia#02",
+          "section": "Taxonomia",
+          "text": "Nomenclatura: o CDC usa Giardia duodenalis, com G. lamblia e G. intestinalis como sinônimos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Giardia duodenalis (syn. G. lamblia, G. intestinalis)\"",
+          "note": "O NCBI, na entrada lida, usa G. duodenalis; G. lamblia aparece só como nome de linhagens."
+        },
+        {
+          "id": "giardia_lamblia#03",
+          "section": "Lâmina",
+          "text": "Imagem: Figura 2 do documento enviado, legenda \"Giardia duodenalis\".",
+          "status": "observacao",
+          "refs": [
+            "docx_protoz"
+          ],
+          "evidence": "",
+          "note": "A identificação da espécie na imagem é a que consta na legenda do documento recebido dos desenvolvedores; não foi confirmada de forma independente."
+        },
+        {
+          "id": "giardia_lamblia#04",
+          "section": "Tamanho",
+          "text": "Cistos: 8–19 µm (média 10–14 µm). Trofozoítos: 10–20 µm de comprimento.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Giardia duodenalis cysts are oval to ellipsoid and measure 8-19 µm (average 10-14 µm).\" · \"trophozoites are pear-shaped and measure 10-20 micrometers in length.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#05",
+          "section": "Morfologia",
+          "text": "Cistos ovais a elipsoides; cistos maduros têm 4 núcleos e os imaturos, 2.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Mature cysts have 4 nuclei, while immature cysts have two.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#06",
+          "section": "Morfologia",
+          "text": "Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) e flagelos (8) podem ser vistos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"In permanent, stained specimens, 2 large nuclei are usually visible.\" · \"The sucking disks (used for attaching to the host's mucosal epithelium)\" · \"flagella (8) may also be seen\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#07",
+          "section": "Traços",
+          "text": "Trofozoíto piriforme com 2 núcleos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"pear-shaped\" · \"2 large nuclei\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#08",
+          "section": "Traços",
+          "text": "Cisto com 4 núcleos quando maduro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Mature cysts have 4 nuclei\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#09",
+          "section": "Doença",
+          "text": "Giardíase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar",
+            "msd_giar"
+          ],
+          "evidence": "Título das páginas: Giardiasis",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#10",
+          "section": "Patogenia",
+          "text": "Cada cisto libera dois trofozoítos no intestino delgado; os trofozoítos se multiplicam por fissão binária longitudinal no lúmen do intestino delgado proximal e encistam durante o trânsito para o cólon.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"each cyst produces two trophozoites\" · \"Trophozoites multiply by longitudinal binary fission, remaining in the lumen of the proximal small bowel\" · \"Encystation occurs as the parasites transit toward the colon.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#11",
+          "section": "Clínica",
+          "text": "Diarreia aquosa e fétida na fase aguda e fezes fétidas na doença crônica; a má absorção de gorduras e açúcares pode causar perda de peso importante.",
+          "status": "confirmado",
+          "refs": [
+            "msd_giar"
+          ],
+          "evidence": "\"watery malodorous diarrhea\" · \"Malabsorption of fat and sugars can lead to significant weight loss in severe cases.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#12",
+          "section": "Clínica",
+          "text": "Muitos casos são assintomáticos, mas pessoas assintomáticas podem eliminar cistos infectantes.",
+          "status": "confirmado",
+          "refs": [
+            "msd_giar"
+          ],
+          "evidence": "\"Many cases of giardiasis are asymptomatic. However, asymptomatic people can pass infective cysts.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#13",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos em água ou alimentos contaminados ou por via fecal-oral (mãos ou fômites).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Infection occurs by the ingestion of cysts in contaminated water, food, or by the fecal-oral route (hands or fomites)\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#14",
+          "section": "Ciclo",
+          "text": "Cisto.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Infection occurs by the ingestion of cysts\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#15",
+          "section": "Ciclo",
+          "text": "Cistos ou trofozoítos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Giardiasis is diagnosed by the identification of cysts or trophozoites in the feces\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#16",
+          "section": "Ciclo",
+          "text": "Lúmen do intestino delgado proximal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"remaining in the lumen of the proximal small bowel\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#17",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos → desencistamento no intestino delgado → trofozoítos → encistamento → cistos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"In the small intestine, excystation releases trophozoites\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#18",
+          "section": "Diagnóstico",
+          "text": "Identificação de cistos ou trofozoítos nas fezes: cistos costumam ser vistos em preparações a fresco e trofozoítos em preparações permanentes (tricrômico); amostragens repetidas podem ser necessárias.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"Cysts are typically seen in wet mount preparations, while trophozoites are seen in permanent mounts (i.e. trichrome).\" · \"Repeated samplings may be necessary.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#19",
+          "section": "Diagnóstico",
+          "text": "Detecção de antígenos por imunoensaio enzimático é método alternativo e mais sensível que a microscopia; a excreção é intermitente e baixa em infecções crônicas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar",
+            "msd_giar"
+          ],
+          "evidence": "\"Alternate methods for detection include antigen detection tests by enzyme immunoassays\" · \"Enzyme immunoassay to detect parasite antigen in stool is more sensitive than microscopic examination.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#20",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "\"identification of cysts or trophozoites in the feces\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#21",
+          "section": "Tratamento",
+          "text": "Giardíase sintomática: tinidazol, metronidazol, secnidazol ou nitazoxanida; a nitazoxanida teve resultados encorajadores em crianças.",
+          "status": "confirmado",
+          "refs": [
+            "msd_giar",
+            "dpdx_giar_tx"
+          ],
+          "evidence": "\"For symptomatic giardiasis, tinidazole, metronidazole, secnidazole, or nitazoxanide are used.\" · \"Nitazoxanide has provided some encouraging results in the management of giardiasis in children.\"",
+          "note": "Doses e esquemas não reproduzidos."
+        },
+        {
+          "id": "giardia_lamblia#22",
+          "section": "Prevenção",
+          "text": "Tratamento adequado da água pública, preparo higiênico de alimentos, higiene fecal-oral e lavagem das mãos após contato com fezes; a água pode ser descontaminada por fervura.",
+          "status": "confirmado",
+          "refs": [
+            "msd_giar"
+          ],
+          "evidence": "\"Appropriate public water treatment\" · \"Thorough handwashing after contact with feces.\" · \"Water can be decontaminated by boiling.\"",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#23",
+          "section": "Diferencial",
+          "text": "Leveduras em preparações a fresco podem ser confundidas com Giardia; esporos de fungos podem ser confundidos com Giardia ou Chilomastix.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_art"
+          ],
+          "evidence": "\"Yeast in wet mounts may be confused for Giardia.\" · \"Such spores may be confused for protozoa such as Giardia or Chilomastix.\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "Giardia lamblia como nome principal",
+          "reason": "O CDC (página lida) usa G. duodenalis; G. lamblia e G. intestinalis foram mantidos como sinônimos.",
+          "field": "nome"
+        },
+        {
+          "before": "Trofozoíto corado com Giemsa (estágio evolutivo)",
+          "reason": "O documento recebido não informa o estágio nem a coloração da imagem; texto anterior era do registro herdado.",
+          "field": "lâmina"
+        },
+        {
+          "before": "Todo o texto anterior do registro (morfologia, patogenia, diagnóstico, profilaxia)",
+          "reason": "Registro herdado sinalizado como 'revisar'; foi substituído por texto totalmente refeito a partir das fontes lidas. O texto antigo está arquivado em acervo-nao-publicado/versao_anterior_v4.2/.",
+          "field": "geral"
+        },
+        {
+          "before": "Imagem externa 'giardia_lamblia_40x.jpeg' (origem não documentada)",
+          "reason": "Mantida no fim da galeria com aviso 'sem crédito'; recomenda-se substituí-la.",
+          "field": "imagem"
+        }
+      ]
+    },
+    {
+      "id": "chilomastix_mesnili",
+      "commonName": "Chilomastix mesnili",
+      "scientificName": "Chilomastix mesnili",
+      "taxonomy": {
+        "phylum": "Fornicata",
+        "class": "(sem classe no NCBI)",
+        "order": "(sem ordem no NCBI)",
+        "family": "Retortamonadidae",
+        "genus": "Chilomastix",
+        "species": "Chilomastix mesnili",
+        "note": "NCBI Taxonomy (23/10/2026): Metamonada (sem categoria) › Fornicata (filo) › Retortamonadidae.",
+        "ncbi": "taxid 472572",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário flagelado (comensal)",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: Chilomastix mesnili",
+      "status": "publicado",
+      "approxSizeMicrons": "Trofozoítos: em geral 6–24 µm de comprimento.",
+      "morphologyDescription": "Trofozoíto piriforme; extremidade anterior arredondada com um único núcleo de cariossomo excêntrico; extremidade posterior afilada.",
+      "keyDiagnosticFeatures": [
+        "Trofozoíto piriforme com um núcleo de cariossomo excêntrico."
+      ],
+      "disease": "Considerada não patogênica; é um flagelado comensal cujo papel em doença é incerto. Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimentos ou água e não excluem outras parasitoses.",
+      "clinicalManifestations": [],
+      "diagnosticMethods": {
+        "goldStandard": "Detecção de cistos e/ou trofozoítos nas fezes, em preparações a fresco concentradas e em esfregaços corados permanentes (tricrômico).",
+        "sampleType": "Fezes."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de cistos em água ou alimentos contaminados, ou por via fecal-oral (mãos ou fômites).",
+        "infectiveForm": "Cisto (resistente a pressões ambientais; responsável pela transmissão).",
+        "diagnosticForm": "Cistos ou trofozoítos nas fezes.",
+        "cycleType": "No intestino grosso (e possivelmente no delgado), o desencistamento libera trofozoítos."
+      },
+      "treatment": [],
+      "prophylaxis": [],
+      "differentialDiagnosis": "Esporos de fungos podem ser confundidos com Giardia ou Chilomastix.",
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/chilomastix_mesnili_pz01.jpg",
+          "width": 758,
+          "height": 496,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Chilomastix mesnili (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura. Chilomastix mesnili (Autora da foto: Júlia) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Júlia (autora da foto; sobrenome a confirmar) — documento de lâminas de Protozoários",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image5.jpeg)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz02",
+          "file": "protozoarios/chilomastix_mesnili_pz02.jpg",
+          "width": 1600,
+          "height": 849,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Chilomastix mesnili (legenda do documento de lâminas de protozoários)",
+          "caption": "Figura. Chilomastix mesnili (Autora da foto: Maria Luiza) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Maria Luiza (autora da foto; sobrenome a confirmar) — documento de lâminas de Protozoários",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image6.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        }
+      ],
+      "verification": [
+        {
+          "id": "chilomastix_mesnili#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: Metamonada › Fornicata › Retortamonadidae › Chilomastix.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Fornicata (phylum) · Retortamonadidae (family) · Chilomastix (genus)",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#02",
+          "section": "Lâmina",
+          "text": "Imagens: duas fotografias do documento enviado, legenda \"Chilomastix mesnili\" (autoras: Júlia e Maria Luiza).",
+          "status": "observacao",
+          "refs": [
+            "docx_protoz"
+          ],
+          "evidence": "",
+          "note": "A identificação da espécie na imagem é a que consta na legenda do documento recebido dos desenvolvedores; não foi confirmada de forma independente."
+        },
+        {
+          "id": "chilomastix_mesnili#03",
+          "section": "Tamanho",
+          "text": "Trofozoítos: em geral 6–24 µm de comprimento.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"Trophozoites are pear-shaped and usually measure 6–24 µm in length.\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#04",
+          "section": "Morfologia",
+          "text": "Trofozoíto piriforme; extremidade anterior arredondada com um único núcleo de cariossomo excêntrico; extremidade posterior afilada.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"The anterior end is rounded and contains a single nucleus with an eccentric karyosome.\" · \"The posterior end tapers off to a point.\"",
+          "note": "A morfologia do CISTO não foi encontrada em fonte lida: nada é afirmado sobre o cisto."
+        },
+        {
+          "id": "chilomastix_mesnili#05",
+          "section": "Traços",
+          "text": "Trofozoíto piriforme com um núcleo de cariossomo excêntrico.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"pear-shaped\" · \"eccentric karyosome\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#06",
+          "section": "Doença",
+          "text": "Considerada não patogênica; é um flagelado comensal cujo papel em doença é incerto.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"Chilomastix mesnili is considered nonpathogenic.\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#07",
+          "section": "Doença",
+          "text": "Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimentos ou água e não excluem outras parasitoses.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "Parafraseado pelo leitor automático a partir da página (não é citação literal).",
+          "note": "Evidência parafraseada: conferir na página."
+        },
+        {
+          "id": "chilomastix_mesnili#08",
+          "section": "Ciclo",
+          "text": "Ingestão de cistos em água ou alimentos contaminados, ou por via fecal-oral (mãos ou fômites).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"Infection occurs by the ingestion of cysts in contaminated water, food, or by the fecal-oral route (hands or fomites).\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#09",
+          "section": "Ciclo",
+          "text": "Cisto (resistente a pressões ambientais; responsável pela transmissão).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"The cyst stage is resistant to environmental pressures and is responsible for transmission of Chilomastix.\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#10",
+          "section": "Ciclo",
+          "text": "Cistos ou trofozoítos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"Chilomastix mesnili is identified through the detection of cysts and/or trophozoites in stool specimens.\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#11",
+          "section": "Ciclo",
+          "text": "No intestino grosso (e possivelmente no delgado), o desencistamento libera trofozoítos.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"In the large (and possibly small) intestine, excystation releases trophozoites.\"",
+          "note": "Local de residência 'ceco/cólon' vem de paráfrase do leitor automático."
+        },
+        {
+          "id": "chilomastix_mesnili#12",
+          "section": "Diagnóstico",
+          "text": "Detecção de cistos e/ou trofozoítos nas fezes, em preparações a fresco concentradas e em esfregaços corados permanentes (tricrômico).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"Chilomastix mesnili is identified through the detection of cysts and/or trophozoites in stool specimens.\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#13",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "\"in stool specimens\"",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#14",
+          "section": "Diferencial",
+          "text": "Esporos de fungos podem ser confundidos com Giardia ou Chilomastix.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_art"
+          ],
+          "evidence": "\"Such spores may be confused for protozoa such as Giardia or Chilomastix.\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "(espécie nova nesta versão)",
+          "reason": "Sem texto anterior.",
+          "field": "geral"
+        },
+        {
+          "before": "Morfologia do cisto (formato de limão, 'botão hialino')",
+          "reason": "Não encontrada em nenhuma fonte lida; deliberadamente NÃO afirmada.",
+          "field": "morfologia"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "giardia_duodenalis_100x",
+  "commonName": "Giardia duodenalis - trofozoíto - 100x",
+  "scientificName": "Giardia duodenalis",
+  "taxonomy": {
+    "phylum": "Metamonada",
+    "class": "",
+    "order": "Diplomonadida",
+    "family": "Hexamitidae",
+    "genus": "Giardia",
+    "species": "G. duodenalis"
+  },
+  "category": "Protozoário",
+  "evolutionaryStage": "Trofozoíto",
+  "status": "publicado",
+  "approxSizeMicrons": "12–15 µm (valor de literatura — cite a fonte)",
+  "morphologyDescription": "Texto descritivo.",
+  "keyDiagnosticFeatures": [
+    "Critério 1",
+    "Critério 2"
+  ],
+  "disease": "Giardíase",
+  "pathogenesis": "",
+  "clinicalManifestations": [],
+  "diagnosticMethods": {
+    "goldStandard": "",
+    "alternatives": [],
+    "sampleType": "",
+    "technicalObservation": ""
+  },
+  "transmissionAndCycle": {
+    "transmissionRoute": "",
+    "infectiveForm": "",
+    "diagnosticForm": "",
+    "habitat": "",
+    "cycleType": ""
+  },
+  "prophylaxis": [],
+  "benchTip": "",
+  "differentialDiagnosis": "",
+  "images": [
+    {
+      "id": "lam01_detalhe",
+      "file": "protozoarios/giardia_duodenalis_lam01_detalhe.jpg",
+      "width": 1600,
+      "height": 1600,
+      "type": "microfotografia",
+      "kind": "detalhe",
+      "lamina": 1,
+      "confidence": "alta",
+      "alt": "Trofozoíto de Giardia corado, detalhe ampliado",
+      "caption": "O que a foto mostra.",
+      "credit": "Nome de quem fotografou",
+      "license": "Uso didático interno",
+      "sourceFile": "nome_do_arquivo_original.jpg",
+      "hotspots": [
+        {
+          "id": "hs1",
+          "x": 48.5,
+          "y": 52.0,
+          "title": "Disco ventral",
+          "description": "O que é e por que importa."
+        }
+      ],
+      "creditStatus": "informado",
+      "date": "AAAA-MM-DD",
+      "dateBasis": "data no nome do arquivo da câmera"
+    }
+  ]
+}

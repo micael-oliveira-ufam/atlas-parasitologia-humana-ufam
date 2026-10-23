@@ -1,0 +1,144 @@
+{
+ "docx": "Laminas_de_Protozoarios.docx",
+ "docx_sha256": "c90a7ab9e6a488f8e11b4b1eba0bc87a093bd8cf4dc6812c3f2acddc0501b5f0",
+ "imagens": [
+  {
+   "ordem": 1,
+   "especie": "entamoeba_histolytica",
+   "arquivo": "protozoarios/entamoeba_histolytica_pz01.jpg",
+   "legenda_docx": "Figura 1. Entamoeba histolytica.",
+   "autoria_na_legenda": null,
+   "midia_origem": "media/image1.jpeg",
+   "tamanho_origem": [
+    1168,
+    875
+   ],
+   "srcRect_docx_1e5": {
+    "l": 6090,
+    "t": 1854,
+    "r": 25862,
+    "b": 280
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    795,
+    857
+   ]
+  },
+  {
+   "ordem": 2,
+   "especie": "giardia_lamblia",
+   "arquivo": "protozoarios/giardia_lamblia_pz01.jpg",
+   "legenda_docx": "Figura 2. Giardia duodenalis.",
+   "autoria_na_legenda": null,
+   "midia_origem": "media/image2.jpeg",
+   "tamanho_origem": [
+    1300,
+    902
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1300,
+    902
+   ]
+  },
+  {
+   "ordem": 3,
+   "especie": "endolimax_nana",
+   "arquivo": "protozoarios/endolimax_nana_pz01.jpg",
+   "legenda_docx": "Figura. Endolimax nana",
+   "autoria_na_legenda": null,
+   "midia_origem": "media/image3.jpeg",
+   "tamanho_origem": [
+    3060,
+    4080
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 55314,
+    "r": 20414,
+    "b": 18440
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1600,
+    704
+   ]
+  },
+  {
+   "ordem": 4,
+   "especie": "entamoeba_coli",
+   "arquivo": "protozoarios/entamoeba_coli_pz01.jpg",
+   "legenda_docx": "Figura. Entamoeba coli",
+   "autoria_na_legenda": null,
+   "midia_origem": "media/image4.jpeg",
+   "tamanho_origem": [
+    3060,
+    4080
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 51601
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1600,
+    1033
+   ]
+  },
+  {
+   "ordem": 5,
+   "especie": "chilomastix_mesnili",
+   "arquivo": "protozoarios/chilomastix_mesnili_pz01.jpg",
+   "legenda_docx": "Figura. Chilomastix mesnili (Autora da foto: Júlia)",
+   "autoria_na_legenda": "Júlia",
+   "midia_origem": "media/image5.jpeg",
+   "tamanho_origem": [
+    785,
+    1095
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 19451,
+    "r": 3469,
+    "b": 35211
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    758,
+    496
+   ]
+  },
+  {
+   "ordem": 6,
+   "especie": "chilomastix_mesnili",
+   "arquivo": "protozoarios/chilomastix_mesnili_pz02.jpg",
+   "legenda_docx": "Figura. Chilomastix mesnili (Autora da foto: Maria Luiza)",
+   "autoria_na_legenda": "Maria Luiza",
+   "midia_origem": "media/image6.png",
+   "tamanho_origem": [
+    2816,
+    1762
+   ],
+   "srcRect_docx_1e5": {
+    "l": 23894,
+    "t": 35482,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1600,
+    849
+   ]
+  }
+ ]
+}

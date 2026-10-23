@@ -1,0 +1,257 @@
+[
+  {
+    "id": "dsei_org_01",
+    "category": "DSEI & SASISUS",
+    "title": "Estrutura e Gestão do Subsistema de Atenção à Saúde Indígena (SASISUS)",
+    "context": "Uma médica recém-incorporada à Equipe Multidisciplinar de Saúde Indígena (EMSI) é designada para atuar em um Polo-Base na Amazônia Legal. Durante a reunião de planejamento com as lideranças tradicionais, discute-se o fluxo de assistência, desde a aldeia até a média e alta complexidade do SUS.",
+    "question": "Qual é a definição correta e a finalidade de um Distrito Sanitário Especial Indígena (DSEI)?",
+    "options": [
+      "É uma unidade hospitalar terciária instalada no interior das capitais estaduais para internações eletivas de povos originários.",
+      "É uma unidade gestora descentralizada do SUS (vinculada à SESAI/MS) com base territorial etnocultural, responsável por planejar e executar a atenção primária e o saneamento básico em aldeias.",
+      "É um consórcio privado mantido exclusivamente por organizações não governamentais internacionais para fornecimento de vacinas.",
+      "É uma divisão geopolítica militar que restringe a circulação de profissionais de saúde não autorizados pelo Ministério da Defesa."
+    ],
+    "correctIndex": 1,
+    "explanation": "O DSEI é um modelo descentralizado de organização dos serviços de saúde do SUS voltado especificamente para as populações indígenas, estruturado pela Lei Arouca (Lei nº 9.836/1999). Ele respeita critérios geográficos, epidemiológicos e sobretudo etnoculturais, e não as fronteiras político-administrativas dos estados ou municípios, sendo gerido pela SESAI (Secretaria de Saúde Indígena do Ministério da Saúde).",
+    "fieldPearl": "Atenção de campo: O Brasil possui 34 DSEIs cobrindo todo o território nacional, integrando atenção básica nas aldeias e polos-base com a rede do SUS para casos de média e alta complexidade.",
+    "module": "geral"
+  },
+  {
+    "id": "dsei_ais_02",
+    "category": "DSEI & SASISUS",
+    "title": "O Papel Estratégico dos Agentes Indígenas (AIS e AISAN)",
+    "context": "Em uma aldeia com 450 habitantes, a equipe da EMSI percebe que a adesão ao tratamento com antiparasitários e ao uso de hipoclorito de sódio na água dos vasilhames é baixa quando a orientação é feita apenas pelos profissionais não indígenas.",
+    "question": "Qual é a função primordial do Agente Indígena de Saúde (AIS) e do Agente Indígena de Saneamento (AISAN) nesse contexto comunitário?",
+    "options": [
+      "Substituir o médico nas prescrições farmacológicas complexas e realizar cirurgias de emergência na aldeia.",
+      "Atuar como ponte transcultural entre a comunidade e a equipe de saúde, comunicando na língua materna, orientando o saneamento ambiental e adaptando os cuidados à realidade cultural local.",
+      "Fiscalizar e aplicar sanções punitivas aos moradores da aldeia que não consumirem a água tratada.",
+      "Cuidar exclusivamente do transporte de combustíveis e da manutenção dos geradores dos polos-base."
+    ],
+    "correctIndex": 1,
+    "explanation": "Os AIS e AISAN são membros das próprias comunidades indígenas, escolhidos por elas. Eles desempenham um papel insubstituível de mediadores culturais, dominam a língua nativa, conhecem os costumes, realizam a vigilância ativa em saúde, o monitoramento de febris e a orientação sanitária sobre água e enteroparasitoses.",
+    "fieldPearl": "A eficácia de qualquer plano de controle de enteroparasitoses em terras indígenas depende intrinsecamente da valorização e do protagonismo dos AIS e AISAN.",
+    "module": "geral"
+  },
+  {
+    "id": "dsei_casai_03",
+    "category": "DSEI & SASISUS",
+    "title": "Acolhimento e Função da Casa de Apoio à Saúde Indígena (CASAI)",
+    "context": "Uma criança indígena de 3 anos com desnutrição calórico-proteica grave, esteatorreia crônica por giardíase e anemia severa necessita de internação pediátrica de urgência em hospital de referência da capital do estado.",
+    "question": "Qual é o papel institucional da CASAI (Casa de Apoio à Saúde Indígena) no fluxo regulatório do paciente indígena e de sua família?",
+    "options": [
+      "Realizar cirurgias de alta complexidade e quimioterapia diretamente no seu espaço físico.",
+      "Prestar alojamento, alimentação culturalmente adaptada, apoio psicossocial e acompanhamento com intérprete ao indígena e seus acompanhantes durante a realização de consultas, exames ou internações na rede urbana.",
+      "Funcionar como centro de triagem penitenciária para indivíduos que infringirem regras sanitárias no polo-base.",
+      "Armazenar apenas os medicamentos vencidos recolhidos das aldeias para incineração."
+    ],
+    "correctIndex": 1,
+    "explanation": "A CASAI é o estabelecimento responsável pelo acolhimento humanizado dos indígenas referenciados para atendimento de média e alta complexidade fora do seu território. Oferece estadia, alimentação respeitosa aos hábitos tradicionais, acomodação de redes para os familiares acompanhantes e apoio de enfermagem e assistência social enquanto o paciente aguarda procedimentos ou se recupera de altas hospitalares.",
+    "fieldPearl": "A presença do acompanhante indígena é garantida por lei e é fundamental para a recuperação e bem-estar psicológico do paciente fora da sua aldeia.",
+    "module": "geral"
+  },
+  {
+    "id": "san_giardia_04",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Giardíase, Veiculação Hídrica e Desafios de Desinfecção em Aldeias",
+    "context": "Em levantamento coprológico realizado em um DSEI no Alto Rio Negro, observou-se prevalência de 42% de Giardia lamblia entre crianças menores de 5 anos que consumiam água diretamente de poços rasos e igarapés. A equipe de saneamento do DSEI debate métodos de potabilização da água.",
+    "question": "Por que a simples cloração habitual da água com pastilhas de cloro ou solução de hipoclorito a 2,5% NÃO é suficiente para inativar com segurança os cistos de Giardia lamblia?",
+    "options": [
+      "Porque o cisto de Giardia se alimenta de cloro e se reproduz com maior velocidade na presença deste íon.",
+      "Porque os cistos de Giardia possuem parede quística rígida de glicoproteínas que confere alta resistência osmótica e química à cloração convencional, necessitando de filtração mecânica prévia ou fervura.",
+      "Porque Giardia lamblia só é transmitida por via respiratória através de gotículas de saliva.",
+      "Porque a cloração inativa apenas bactérias gram-positivas, não tendo efeito algum sobre qualquer outro microrganismo aquático."
+    ],
+    "correctIndex": 1,
+    "explanation": "Os cistos de Giardia lamblia e os oocistos de Cryptosporidium são notoriamente resistentes à concentração de cloro habitualmente utilizada na desinfecção domiciliar da água de consumo. Em áreas de aldeia sem estação convencional de tratamento com coagulação e filtração de areia, a conduta recomendada para evitar a transmissão é a filtração lenta associada à fervura da água por pelo menos 1 a 3 minutos antes da ingestão.",
+    "fieldPearl": "Dica Prática: A fervura vigorosa da água para consumo infantil nas aldeias é uma das intervenções mais custo-efetivas para quebrar o ciclo de transmissão de cistos de protozoários.",
+    "module": "protozoarios"
+  },
+  {
+    "id": "san_ancilostoma_05",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Ancilostomíase, Solo Arenoso e Anemia Ferropriva Grave na Infância",
+    "context": "Em uma aldeia indígena localizada em solo arenoso e úmido de várzea, várias crianças apresentam desânimo acentuado, cansaço aos mínimos esforços, palidez extrema de mucosas, episódios de geofagia (desejo compulsivo de comer terra) e níveis de hemoglobina entre 5,5 e 7,0 g/dL. O quadro epidemiológico é altamente sugestivo de ancilostomíase.",
+    "question": "Qual é o mecanismo central de transmissão desta parasitose e a razão da severa espoliação hematológica?",
+    "options": [
+      "Transmissão por picada de flebotomíneos; os vermes produzem toxinas neurotrópicas que paralisam o diafragma.",
+      "Penetração ativa de larvas filarioides (L3) através da pele (geralmente nos pés descalços); fixação dos vermes adultos com dentes ou placas cortantes na mucosa intestinal, consumindo sangue e liberando anticoagulantes.",
+      "Ingestão de carne bovina crua com cisticercos calcificados; os vermes bloqueiam os linfáticos da perna gerando elefantíase.",
+      "Inalação de esporos ambientais; destruição autoimune de hemácias no interior dos alvéolos pulmonares."
+    ],
+    "correctIndex": 1,
+    "explanation": "A ancilostomíase (Ancylostoma duodenale e Necator americanus) tem transmissão percutânea: ovos eliminados nas fezes no solo eclodem originando larvas rabditoides (L1/L2) que evoluem para larvas infectantes filarioides (L3). A deambulação descalça na terra contaminada permite a penetração cutânea. No duodeno e jejuno, os vermes adultos espoliam ativamente até 0,05 a 0,2 mL de sangue/dia por parasita, causando anemia ferropriva microcítica e hipocrômica grave.",
+    "fieldPearl": "A geofagia em crianças com ancilostomíase é uma manifestação da Síndrome de Pica, associada à carência extrema de ferro e zinco provocada pela espoliação hemorrágica intestinal.",
+    "module": "nematelmintos"
+  },
+  {
+    "id": "san_ascaris_06",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Ascaridíase Maciça e Risco de Obstrução Intestinal Aguda em Comunidades Remotas",
+    "context": "Uma criança indígena de 4 anos residente em aldeia a 18 horas de barco da cidade mais próxima inicia dor abdominal paroxística intensa, parada de eliminação de gases e fezes, vômitos fecaloideos e eliminação de vermes cilíndricos de 20 cm pela boca e pelo nariz. À palpação nota-se massa cilíndrica endurecida e móvel no mesogástrio.",
+    "question": "Qual é o diagnóstico da complicação e a conduta imediata preconizada para a equipe de saúde do Polo-Base?",
+    "options": [
+      "Apendicite retrocecal gangrenosa; administrar laxantes osmóticos em altas doses imediatamente.",
+      "Obstrução mecânica da luz intestinal por \"bolo de áscaris\" (suboclusão/oclusão por Ascaris lumbricoides); jejum, hidratação venosa, sonda nasogástrica descompressiva, suporte clínico e articulação de remoção aeromédica de urgência para avaliação cirúrgica.",
+      "Infarto agudo do miocárdio pediátrico; realizar trombolítico sistêmico de imediato.",
+      "Intoxicação exógena por veneno de cobra; administrar soro antibotrópico no posto sem hidratação."
+    ],
+    "correctIndex": 1,
+    "explanation": "A ascaridíase maciça é uma das causas mais comuns de abdome agudo obstrutivo na infância em regiões sem saneamento básico. Dezenas a centenas de vermes se enovelam formando o \"bolo de áscaris\", podendo levar a volvo, necrose isquêmica de alça intestinal e perfuração. Em polos remotos, a descompressão gástrica por sonda, hidratação venosa e evacuação aeromédica para centro com suporte cirúrgico são mandatórias.",
+    "fieldPearl": "Cuidado farmacológico: Em oclusão intestinal mecânica instalada por áscaris, NÃO se deve administrar antiparasitários paralisantes espásticos até que a desobstrução ocorra, evitando acentuar o enovelamento dos vermes.",
+    "module": "nematelmintos"
+  },
+  {
+    "id": "san_strongyloides_07",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Estrongiloidíase e Síndrome de Hiperinfecção em Pacientes Desnutridos",
+    "context": "Um idoso indígena de 68 anos, com desnutrição crônica e histórico de tosse seca persistente e diarreia intermitente, desenvolve lesões cutâneas serpiginosas eritematosas pruriginosas migratórias nas nádegas e coxas (larva currens), dor epigástrica e piora clínica súbita.",
+    "question": "Qual é a particularidade biológica do Strongyloides stercoralis que confere o risco de hiperinfecção potencialmente letal?",
+    "options": [
+      "A capacidade de autoinfecção interna e externa, na qual larvas rabditoides se transformam em larvas filarioides dentro do próprio intestino do hospedeiro, perfurando a mucosa e disseminando-se para pulmões e SNC carreadas por bactérias entéricas.",
+      "A capacidade do parasita de se fundir com os eritrócitos do paciente e gerar hemólise intravascular maciça.",
+      "O fato de a larva depositar ovos que bloqueiam os canais linfáticos da mama feminina.",
+      "A produção de uma neurotoxina bacteriana idêntica ao botulismo."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strongyloides stercoralis é o único nematódeo humano capaz de realizar o ciclo de autoinfecção interna (ciclo endógeno): larvas rabditoides (L1) eliminadas no intestino podem sofrer muda precoce para a forma filarioide infectante (L3) na própria luz cólica. Em indivíduos desnutridos ou imunossuprimidos, ocorre invasão maciça da parede intestinal (hiperinfecção), transportando bactérias da flora colônica para o sangue (sepse por gram-negativos e meningite secundária).",
+    "fieldPearl": "O fármaco de primeira escolha para estrongiloidíase é a Ivermectina (200 µg/kg/dia), muito superior aos benzimidólicos em termos de eficácia e tolerabilidade.",
+    "module": "nematelmintos"
+  },
+  {
+    "id": "mal_vivax_08",
+    "category": "Malária & Doenças Endêmicas",
+    "title": "Malária por Plasmodium vivax em Terras Indígenas: Hipnozoítos e Cura Radical",
+    "context": "Em uma aldeia do DSEI Yanomami, um jovem de 19 anos apresenta febre com calafrios a cada 48 horas (febre terçã), cefaleia retro-orbitária, sudorese profusa e hepatoesplenomegalia discreta. O teste rápido e a gota espessa de campo confirmam infecção por Plasmodium vivax.",
+    "question": "Qual é o esquema terapêutico padrão preconizado pelo Ministério da Saúde para o tratamento da malária por Plasmodium vivax no Brasil e por que a Primaquina é obrigatória?",
+    "options": [
+      "Apenas Cloroquina por 3 dias; a Primaquina é proibida em todas as populações indígenas.",
+      "Associação de Cloroquina (3 dias para eliminar as formas sanguíneas/esquizontes) com Primaquina (por 7 a 14 dias para eliminar os hipnozoítos latentes no fígado e prevenir recaídas).",
+      "Metronidazol e Mebendazol em dose única associados a antibiótico macrolídeo.",
+      "Vacinação de reforço com BCG e ingestão de solução salina hipertônica."
+    ],
+    "correctIndex": 1,
+    "explanation": "O Plasmodium vivax possui a capacidade biológica de formar hipnozoítos, que são formas quiescentes latentes no tecido hepático capazes de reativar meses depois, causando recaídas clínicas da malária. Enquanto a Cloroquina elimina rapidamente os trofozoítos e esquizontes que destroem as hemácias no sangue, a Primaquina atua como esquizonticida tecidual no fígado, sendo indispensável para a cura radical.",
+    "fieldPearl": "Atenção aos AIS: Garantir a adesão aos dias completos de Primaquina na aldeia é o fator decisivo para evitar que o paciente tenha recaídas repetidas da doença.",
+    "module": "protozoarios"
+  },
+  {
+    "id": "mal_falciparum_09",
+    "category": "Malária & Doenças Endêmicas",
+    "title": "Malária por Plasmodium falciparum e Risco de Malária Grave/Cerebral",
+    "context": "Durante visita domiciliar em maloca indígena, a equipe do polo-base encontra uma gestante no segundo trimestre febril, torporosa, confusa mentalmente, ictérica e oligúrica. A gota espessa acusa alta parasitemia por Plasmodium falciparum.",
+    "question": "Qual mecanismo fisiopatológico fundamenta a extrema gravidade da malária por P. falciparum comparada a outras espécies de plasmódios?",
+    "options": [
+      "A citoaderência e sequestro capilar: eritrócitos parasitados expressam proteínas adesivas (PfEMP1) e aderem ao endotélio de vênulas pós-capilares cerebrais, placentárias e renais, causando microtrombose, isquemia e edema tecidual.",
+      "A proliferação exclusiva de larvas gigantes nos vasos linfáticos periféricos das pernas.",
+      "A conversão do parasita em células de câncer metastático dentro da medula espinhal.",
+      "A absorção de todo o oxigênio atmosférico do ambiente ao redor do paciente."
+    ],
+    "correctIndex": 0,
+    "explanation": "O Plasmodium falciparum é a espécie mais letal porque induz o fenômeno de sequestro e citoaderência microvascular. Ao expressar a proteína PfEMP1 na superfície das hemácias, estas se fixam a receptores (CD36, ICAM-1) no endotélio vascular de órgãos nobres (cérebro, rins, placenta). Isso obstrui o fluxo sanguíneo microcapilar, gerando hipóxia tecidual, malária cerebral, insuficiência renal aguda e sofrimento fetal grave.",
+    "fieldPearl": "A malária por P. falciparum em gestantes indígenas é emergência médica absoluta de alto risco obstétrico, exigindo remoção rápida e terapia com derivados de artemisinina.",
+    "module": "protozoarios"
+  },
+  {
+    "id": "mal_diag_10",
+    "category": "Malária & Doenças Endêmicas",
+    "title": "Diagnóstico Laboratorial de Campo: Gota Espessa vs Testes Rápidos (TDR)",
+    "context": "Em uma comunidade indígena isolada sem microscópio ou eletricidade regular, o microscopista do DSEI está ausente em treinamento. Vários moradores procuram o posto de saúde com síndrome febril aguda.",
+    "question": "Qual é o papel dos Testes de Diagnóstico Rápido (TDR) imunocromatográficos e do exame da gota espessa no controle de malária em aldeias indígenas?",
+    "options": [
+      "Os TDRs detectam antígenos específicos do plasmódio (como HRP2 e pLDH) em minutos a partir de uma gota de sangue digital, viabilizando o diagnóstico e início imediato do tratamento no próprio polo remoto sem necessidade de microscópio.",
+      "Os TDRs são proibidos pelo Ministério da Saúde em terras indígenas por falta de confiabilidade.",
+      "A gota espessa foi totalmente abandonada no Brasil e substituída por ressonância magnética nuclear.",
+      "Nenhum teste é necessário; deve-se administrar Cloroquina empiricamente para toda a população da aldeia."
+    ],
+    "correctIndex": 0,
+    "explanation": "A gota espessa corada por Giemsa continua sendo o padrão-ouro tradicional de campo no Brasil, permitindo contagem de parasitas e diferenciação de espécies e formas sexuais (gametócitos). Contudo, em aldeias remotas ou desprovidas de microscopista capacitado, os TDRs imunocromatográficos são ferramentas vitais aprovadas pelo MS/SESAI, fornecendo resultado visual imediato em 15 minutos e possibilitando o início rápido da conduta.",
+    "fieldPearl": "Toda lâmina ou TDR positivo para malária em terra indígena deve ser compulsoriamente notificado no SIVEP-Malária em até 24 horas.",
+    "module": "protozoarios"
+  },
+  {
+    "id": "trans_cult_11",
+    "category": "Atenção Transcultural & Conduta",
+    "title": "Medicina Tradicional Indígena e Práticas Transculturais de Saúde",
+    "context": "Uma família indígena recusa inicialmente a administração de medicação antiparasitária para uma criança com diarreia persistente, afirmando que a criança foi acometida por um \"sopro\" ou \"perda de espírito\" e que o pajé/xamã da aldeia está realizando rituais de cura com rezas e fumaça de tabaco.",
+    "question": "De acordo com a Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI), qual deve ser a postura técnica e ética da equipe de saúde?",
+    "options": [
+      "Acionar a polícia militar para invadir a residência e forçar a administração dos remédios com uso de coerção.",
+      "Respeitar a autoridade espiritual do xamã e a cosmologia da comunidade, estabelecendo diálogo construtivo e articulação para que os cuidados biomédicos (hidratação oral e antiparasitário) ocorram em conjunto e em consonância com as práticas tradicionais.",
+      "Abandonar a aldeia e suspender todo o atendimento médico ao povo daquela etnia.",
+      "Desqualificar publicamente o conhecimento tradicional e proibir os rituais na aldeia."
+    ],
+    "correctIndex": 1,
+    "explanation": "A PNASPI estabelece que os saberes tradicionais indígenas sobre saúde e doença devem ser respeitados e integrados à prática do SUS. A coexistência harmoniosa entre os rituais de cura do pajé e a terapêutica biomédica fortalece o vínculo, garante a adesão ao tratamento e assegura os direitos culturais e constitucionais dos povos indígenas.",
+    "fieldPearl": "Nunca contraponha o xamã ao médico: no cuidado transcultural, a melhoria clínica do paciente ganha força quando as lideranças espirituais abençoam e concordam com os medicamentos propostos.",
+    "module": "geral"
+  },
+  {
+    "id": "campo_amostra_12",
+    "category": "Atenção Transcultural & Conduta",
+    "title": "Conservação de Amostras Fecais em Expedições e Viagens Fluviais",
+    "context": "Durante um inquérito epidemiológico de parasitoses em uma calha de rio remota, a equipe de saúde coletará amostras de fezes de 300 indígenas em 8 aldeias diferentes ao longo de uma viagem de barco de 15 dias sem energia elétrica ou refrigeração constante.",
+    "question": "Qual conservante químico coprológico é clássica e prioritariamente indicado para fixar as amostras de fezes no campo, preservando tanto cistos de protozoários quanto ovos de helmintos até a chegada ao laboratório central?",
+    "options": [
+      "Água destilada aquecida a 60 graus Celsius.",
+      "Líquido conservador MIF (Mérthiolate-Iodo-Formol) ou formol tamponado a 10%, que fixam as estruturas parasitárias sem deterioração por fermentação bacteriana.",
+      "Álcool etílico a 96% que desseca e pulveriza as amostras.",
+      "Suco gástrico artificial comercial acidificado."
+    ],
+    "correctIndex": 1,
+    "explanation": "Em trabalho de campo em regiões isoladas sem cadeia de frio, as fezes frescas sofreriam rápida putrefação e autólise celular. O conservante de MIF (Mérthiolate-Iodo-Formol) ou formalina a 10% preserva a morfologia de cistos, trofozoítos e ovos de helmintos por semanas ou meses em temperatura ambiente até o processamento no laboratório do DSEI ou da universidade.",
+    "fieldPearl": "A proporção correta de fixador de campo é de 1 parte de fezes para 3 a 5 partes de solução conservadora de formol a 10% ou MIF.",
+    "module": "geral"
+  },
+  {
+    "id": "san_hymenolepis_13",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Himenolepíase e Autoinfecção em Ambientes de Habitação Coletiva",
+    "context": "Em uma aldeia com habitações coletivas (malocas que abrigam de 30 a 60 pessoas da mesma família estendida), detectou-se alta taxa de contaminação por Hymenolepis nana entre crianças em idade pré-escolar, muitas delas com infecções maciças e queixa de desconforto abdominal e retardo de crescimento.",
+    "question": "Por que Hymenolepis nana se dissemina com tanta facilidade em ambientes coletivos e atinge cargas parasitárias elevadas mesmo sem contato contínuo com fontes externas?",
+    "options": [
+      "Porque o ovo de H. nana já é imediatamente infectante ao sair nas fezes e pode realizar o ciclo monoxênico direto e autoinfecção interna (ovos eclodem dentro do próprio intestino, gerando novos vermes sem passar pelo ambiente exterior).",
+      "Porque o parasita se transforma em inseto alado e voa entre os moradores enquanto dormem.",
+      "Porque H. nana se transmite exclusivamente pelo leite materno.",
+      "Porque o parasita se aloja apenas nos dentes de leite de crianças."
+    ],
+    "correctIndex": 0,
+    "explanation": "Diferente da maioria dos cestódeos que exige hospedeiro intermediário (como a Taenia que exige boi ou porco), Hymenolepis nana tem ciclo monoxênico: seus ovos são imediatamente infectantes ao serem expelidos nas fezes, facilitando a transmissão direta interpessoal fecal-oral em ambientes comunitários aglomerados, além de promover autoinfecção interna maciça.",
+    "fieldPearl": "Em casos de infecção por H. nana em ambientes de moradia coletiva, o tratamento profilático deve ser estendido aos contactantes próximos da habitação para evitar reinfecção imediata.",
+    "module": "platelmintos"
+  },
+  {
+    "id": "saude_ameba_14",
+    "category": "Saúde Indígena & Epidemiologia",
+    "title": "Entamoeba histolytica vs Entamoeba dispar: Diferenciação e Conduta Clínica",
+    "context": "Um paciente indígena de 32 anos apresenta febre alta em agulha, dor contínua no hipocôndrio direito irradiada para a ponta da escápula e hepatomegalia dolorosa. O exame ultrassonográfico realizado em polo de saúde com telemedicina revela lesão cística única de 8 cm com aspecto característico de abscesso hepático amebiano.",
+    "question": "Qual é o agente etiológico causal específico e por que a microscopia óptica comum de fezes não basta para diferenciar a espécie patogênica da comensal?",
+    "options": [
+      "O agente é Entamoeba histolytica; seus cistos e trofozoítos são morfologicamente idênticos à Entamoeba dispar (espécie comensal não patogênica), exigindo diferenciação por sorologia, coproantígenos (ELISA) ou PCR em amostras clínicas.",
+      "O agente é Giardia lamblia que migrou pelos nervos periféricos até os rins.",
+      "O agente é Fasciola hepatica que só parasita a bexiga urinária humana.",
+      "O agente é Necator americanus que se reproduziu dentro da vesícula biliar."
+    ],
+    "correctIndex": 0,
+    "explanation": "A distinção entre Entamoeba histolytica (invasiva, causadora de disenteria e abscesso hepático amebiano) e Entamoeba dispar (comensal inofensiva) é impossível à microscopia óptica simples porque ambas possuem núcleos e cistos com morfologia idêntica. Diante de manifestações extraintestinais como abscesso hepático, testes sorológicos com anticorpos anti-ameba e exames de imagem fecham o diagnóstico de infecção por E. histolytica.",
+    "fieldPearl": "O tratamento de escolha para abscesso hepático amebiano é o Metronidazol por 7 a 10 dias, associado a um amebicida intraluminal (como Teclozana) para erradicar cistos residuais do cólon.",
+    "module": "protozoarios"
+  },
+  {
+    "id": "dsei_saneamento_15",
+    "category": "Enteroparasitoses & Saneamento",
+    "title": "Saneamento Básico em Terras Indígenas e Prevenção Sustentável",
+    "context": "Em plenária do Conselho Local de Saúde Indígena (CLSI), discute-se a alta taxa de reinfeção por verminoses mesmo após campanhas semestrais de tratamento medicamentoso em massa com Albendazol nas crianças da aldeia.",
+    "question": "Qual conclusão sanitária e epidemiológica reflete a recomendação da Organização Mundial da Saúde (OMS) e da SESAI sobre sustentabilidade do controle das enteroparasitoses?",
+    "options": [
+      "A medicação periódica deve ser continuada para sempre como única medida, sendo desnecessário investir em saneamento.",
+      "O tratamento farmacológico isolado não impede a reinfecção se o ambiente continuar contaminado; a redução duradoura das parasitoses exige intervenções estruturais de saneamento (água tratada, sanitários adequados e destino de resíduos) combinadas com educação em saúde contextualizada à cultura indígena.",
+      "Deve-se retirar todas as crianças da aldeia e transferi-las permanentemente para orfanatos urbanos.",
+      "A cura definitiva das enteroparasitoses é obtida apenas com antibióticos injetáveis mensais."
+    ],
+    "correctIndex": 1,
+    "explanation": "A quimioterapia periódica de controle das geo-helmintíases e protozooses em populações vulneráveis é uma medida necessária de alívio rápido de carga parasitária, mas não é sustentável se mantida de forma isolada. Sem melhorias no acesso à água tratada, saneamento ecológico adaptado à realidade da aldeia e práticas de higiene construídas com os moradores, as crianças voltam a se infectar em semanas ou meses.",
+    "fieldPearl": "Saúde indígena é intersetorial: sem terra demarcada protegida, água limpa e saneamento adequado, os tratamentos medicamentosos tornam-se medidas paliativas cíclicas.",
+    "module": "geral"
+  }
+]

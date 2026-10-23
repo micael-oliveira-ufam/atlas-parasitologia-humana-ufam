@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "Atlas Digital de Parasitologia Humana",
+    "subtitle": "Laminário interativo de ensino e diagnóstico",
+    "course": "Disciplina de Parasitologia — Profa. Dra. Jaila Dias Borges Lalwani",
+    "developer": "Micael Davi Lima de Oliveira (Iniciação Científica)",
+    "references": [
+      "Neves, D. P. Parasitologia Humana. Atheneu.",
+      "Rey, L. Bases da Parasitologia Médica. Guanabara Koogan.",
+      "Ferreira, A. W. Diagnóstico Laboratorial das Principais Doenças Infecciosas.",
+      "Ministério da Saúde. Manual de Procedimentos em Coproparasitologia."
+    ]
+  },
+  "modules": [
+    {
+      "id": "nematelmintos",
+      "order": 1,
+      "title": "Nematelmintos",
+      "subtitle": "Nematódeos intestinais e de vida livre facultativa",
+      "description": "Ovos e larvas de nematódeos de importância médica em lâminas reais: ancilostomídeos, Ascaris, Enterobius, Strongyloides e Trichuris.",
+      "status": "ativo",
+      "accent": "teal",
+      "dataFile": "data/modulos/nematelmintos.json"
+    },
+    {
+      "id": "platelmintos",
+      "order": 2,
+      "title": "Platelmintos",
+      "subtitle": "Cestódeos e trematódeos",
+      "description": "Ovos de Taenia sp. e Hymenolepis nana a partir de lâminas reais, além de Schistosoma mansoni (em revisão).",
+      "status": "ativo",
+      "accent": "amber",
+      "dataFile": "data/modulos/platelmintos.json"
+    },
+    {
+      "id": "protozoarios",
+      "order": 3,
+      "title": "Protozoários",
+      "subtitle": "Amebas, flagelados e outros protozoários",
+      "description": "Módulo em construção: aguardando microfotografias próprias. Há dois registros provisórios herdados da versão anterior, sinalizados como “em revisão”.",
+      "status": "em-construcao",
+      "accent": "violet",
+      "dataFile": "data/modulos/protozoarios.json"
+    }
+  ]
+}

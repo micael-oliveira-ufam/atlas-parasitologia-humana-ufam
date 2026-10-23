@@ -1,0 +1,81 @@
+{
+  "itens": [
+    {
+      "nome": "Grãos de pólen",
+      "confundidaCom": "Ovos de helmintos, em especial o ovo fértil de Ascaris lumbricoides",
+      "comoDiferenciar": "O CDC registra que o pólen é muito comum nas fezes e pode se parecer muito com o ovo fértil de Ascaris. As fontes lidas não trazem critérios de diferenciação; compare as medidas e estruturas com a ficha de Ascaris e peça confirmação a um profissional experiente.",
+      "refs": [
+        "dpdx_art"
+      ],
+      "status": "ressalva",
+      "evidencia": "\"Pollen spores are very common in stool and may be confused for a variety of helminth eggs.\" · \"This grain looks very similar to the fertile egg of Ascaris lumbricoides\""
+    },
+    {
+      "nome": "Pelos vegetais",
+      "confundidaCom": "Larvas de ancilostomídeo ou de Strongyloides stercoralis",
+      "comoDiferenciar": "O CDC registra a confusão possível. Como critério de comparação, use as características verificadas das larvas: S. stercoralis L1 tem canal bucal curto e primórdio genital proeminente; a larva rabditoide de ancilostomídeo tem canal bucal longo e primórdio genital inconspícuo (veja as fichas).",
+      "refs": [
+        "dpdx_art",
+        "dpdx_stro",
+        "dpdx_hook"
+      ],
+      "status": "ressalva",
+      "evidencia": "\"Plant hairs can be common in stool and may be confused for the larvae of hookworm or Strongyloides stercoralis.\""
+    },
+    {
+      "nome": "Material vegetal (restos de planta)",
+      "confundidaCom": "Ovos e larvas de helmintos, por exemplo o ovo de ancilostomídeo",
+      "comoDiferenciar": "O CDC registra que o material vegetal é muito comum nas fezes e pode ser confundido com vários ovos e larvas. As fontes lidas não trazem critérios de diferenciação; compare com a ficha da espécie suspeita (ovo de ancilostomídeo: casca fina, incolor, 60–75 × 35–40 µm).",
+      "refs": [
+        "dpdx_art",
+        "dpdx_hook"
+      ],
+      "status": "ressalva",
+      "evidencia": "\"Plant material is very common in stool and may be confused for a variety of helminth eggs and larvae.\" · \"This material can be confused for a hookworm egg.\""
+    },
+    {
+      "nome": "Leveduras e outros elementos fúngicos",
+      "confundidaCom": "Giardia, em preparações a fresco",
+      "comoDiferenciar": "O CDC registra que leveduras são comuns nas fezes e, em preparações a fresco, podem ser confundidas com Giardia. As fontes lidas não trazem critérios de diferenciação; compare com as medidas e estruturas da ficha de Giardia (trofozoíto piriforme de 10–20 µm; cisto de 8–19 µm).",
+      "refs": [
+        "dpdx_art",
+        "dpdx_giar"
+      ],
+      "status": "ressalva",
+      "evidencia": "\"Yeast and other fungal elements are common in stool.\" · \"Yeast in wet mounts may be confused for Giardia.\""
+    },
+    {
+      "nome": "Esporos de fungos",
+      "confundidaCom": "Ovos de helmintos (especialmente ancilostomídeo), cistos de Entamoeba e protozoários como Giardia ou Chilomastix",
+      "comoDiferenciar": "O CDC registra as três confusões possíveis. As fontes lidas não trazem critérios de diferenciação; compare com as fichas das espécies.",
+      "refs": [
+        "dpdx_art"
+      ],
+      "status": "ressalva",
+      "evidencia": "\"Such spores may be confused for helminth eggs, especially hookworm.\" · \"Such spores may be confused for the cysts of Entamoeba spp.\" · \"Such spores may be confused for protozoa such as Giardia or Chilomastix.\""
+    }
+  ],
+  "dica": "Em caso de dúvida entre artefato e parasita, compare estruturas e medidas com as fichas verificadas do atlas e peça confirmação a um profissional experiente. Esta dica é uma orientação geral dos autores; não foi extraída de uma fonte.",
+  "removidos": [
+    {
+      "item": "Bolhas de ar",
+      "antes": "Bordas escuras espessas; mudam de foco ao menor toque; confundidas com cistos/Taenia.",
+      "motivo": "Não consta na página de artefatos do CDC (única fonte lida sobre o tema); nenhuma fonte lida sustenta a descrição."
+    },
+    {
+      "item": "Grânulos de amido",
+      "antes": "Coram-se em azul-marinho/roxo com Lugol; 'cruz de malta' sob luz polarizada.",
+      "motivo": "Não consta na página de artefatos do CDC; nenhuma fonte lida sustenta a descrição. Pode ser reincluído se houver referência."
+    },
+    {
+      "item": "Critérios de diferenciação do pólen e das fibras vegetais",
+      "antes": "Espinhos geométricos/poros de germinação; canais ocos; espessamento helicoidal.",
+      "motivo": "Detalhes sem fonte lida."
+    },
+    {
+      "item": "Dica 'gire o micrométrico: o parasita mantém a consistência das membranas internas'",
+      "antes": "Dica geral de bancada.",
+      "motivo": "Sem fonte lida; substituída por orientação geral claramente identificada como dos autores."
+    }
+  ]
+}

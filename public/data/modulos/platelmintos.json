@@ -1,0 +1,1337 @@
+{
+  "specimens": [
+    {
+      "id": "taenia_sp",
+      "commonName": "Taenia spp.",
+      "scientificName": "Taenia spp. (T. solium / T. saginata)",
+      "taxonomy": {
+        "phylum": "Platyhelminthes (subfilo Rhabditophora)",
+        "class": "Cestoda (subclasse Eucestoda)",
+        "order": "Cyclophyllidea",
+        "family": "Taeniidae",
+        "genus": "Taenia",
+        "species": "Taenia spp.",
+        "note": "NCBI Taxonomy (23/10/2026): superclasse Neodermata.",
+        "ncbi": "Taenia solium: taxid 6204 (linhagem lida); T. saginata pertence ao mesmo gênero nas páginas CDC/OMS lidas",
+        "source": "ncbi_tax"
+      },
+      "category": "Cestódeo",
+      "evolutionaryStage": "Ovo (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo: 30–35 µm de diâmetro. · Número de ramos uterinos laterais primários da proglote grávida: T. saginata 12–30; T. solium 7–13. · Comprimento dos adultos: 2–8 m (faixa geral); em geral até 5 m em T. saginata e 2–7 m em T. solium.",
+      "morphologyDescription": "Os ovos são radialmente estriados (embrióforo) e a oncosfera interna tem seis ganchos refráteis. Todos os ovos de Taenia são morfologicamente idênticos (e semelhantes aos de outros Taeniidae, inclusive Echinococcus).",
+      "keyDiagnosticFeatures": [
+        "Estriação radial do embrióforo.",
+        "Oncosfera com seis ganchos refráteis."
+      ],
+      "disease": "Teníase (verme adulto no intestino) e, por T. solium, também cisticercose.",
+      "pathogenesis": "Teníase: o ser humano se infecta ao ingerir carne crua ou malcozida infectada; o verme adulto se fixa ao intestino delgado pelo escólex; ovos ou proglotes grávidas saem com as fezes. Cisticercose: ocorre pela ingestão de ovos de T. solium eliminados nas fezes de portadores, ou de ovos do próprio verme (autoinfecção externa); a autoinfecção interna retrógrada foi postulada, mas não comprovada.",
+      "clinicalManifestations": [
+        "A teníase costuma cursar com sintomas leves e inespecíficos (dor abdominal, náusea, diarreia ou constipação).",
+        "Neurocisticercose: convulsões, sinais de hipertensão intracraniana e hidrocefalia; é a causa evitável mais frequente de epilepsia no mundo.",
+        "Cisticercos também podem infectar medula espinhal, músculos, tecido subcutâneo e olhos."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação microscópica de ovos e proglotes nas fezes é diagnóstica de teníase.",
+        "alternatives": [
+          "Neurocisticercose: imagem (TC/RM) é o padrão-ouro (OMS); testes de anticorpos não distinguem infecção ativa de inativa (MSD)."
+        ],
+        "sampleType": "Fezes ou proglotes eliminadas.",
+        "technicalObservation": "A espécie não pode ser identificada apenas pelos ovos; é necessário examinar as proglotes grávidas (ramos uterinos)."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Teníase: ingestão de carne (suína ou bovina) crua ou malcozida com cisticercos. Cisticercose: ingestão de ovos de T. solium.",
+        "infectiveForm": "Cisticerco na carne (teníase); ovo de T. solium (cisticercose).",
+        "diagnosticForm": "Ovos ou proglotes grávidas nas fezes.",
+        "habitat": "Adulto no intestino delgado; cisticercos na musculatura estriada (hospedeiro intermediário), podendo atingir também sistema nervoso e olhos na cisticercose humana.",
+        "cycleType": "Bovinos (T. saginata) e suínos (T. solium e T. asiatica) se infectam ao ingerir vegetação contaminada; o ser humano é hospedeiro do verme adulto."
+      },
+      "treatment": [
+        "Teníase: praziquantel (dose única) ou niclosamida. Neurocisticercose: albendazol parece mais eficaz que praziquantel; associam-se glicocorticoides e anticonvulsivantes, e pode ser necessária cirurgia."
+      ],
+      "prophylaxis": [
+        "Cozinhar cortes inteiros de carne suína a ≥ 63 °C (145 °F).",
+        "Identificar e tratar portadores de T. solium adulto; lavagem rigorosa das mãos de manipuladores de alimentos oriundos de áreas endêmicas.",
+        "Melhor inspeção da carne, saneamento (fim da defecação a céu aberto) e educação em saúde, incluindo higiene e segurança dos alimentos."
+      ],
+      "benchTip": "A ingestão de ovos pode causar cisticercose: manipular amostras com precaução.",
+      "differentialDiagnosis": "Os ovos de Taenia são idênticos aos de outros Taeniidae e se assemelham aos de Echinococcus; ovos de Hymenolepis nana têm filamentos polares e são menores (30–50 µm).",
+      "images": [
+        {
+          "id": "lam04_detalhe",
+          "file": "platelmintos/taenia_sp_lam04_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 4,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 4, detalhe ampliado",
+          "caption": "Três ovos esféricos de casca espessa e estriada, conteúdo com oncosfera.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104111.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam04_campo",
+          "file": "platelmintos/taenia_sp_lam04_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 4,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 4, campo geral",
+          "caption": "Campo geral da lâmina 4 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104111.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam23_detalhe",
+          "file": "platelmintos/taenia_sp_lam23_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 23,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 23, detalhe ampliado",
+          "caption": "Ovos esféricos de casca espessa e estriada, agrupados.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "taenia.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam23_campo",
+          "file": "platelmintos/taenia_sp_lam23_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 23,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 23, campo geral",
+          "caption": "Campo geral da lâmina 23 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "taenia.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam02_detalhe",
+          "file": "platelmintos/taenia_sp_lam02_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 2,
+          "confidence": "media",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 2, detalhe ampliado",
+          "caption": "Dois ovos esféricos, marrons, de casca espessa com estriação radial (embrióforo).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_113802.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam02_campo",
+          "file": "platelmintos/taenia_sp_lam02_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 2,
+          "confidence": "media",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 2, campo geral",
+          "caption": "Campo geral da lâmina 2 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_113802.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ],
+      "verification": [
+        {
+          "id": "taenia_sp#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy (T. solium): Platyhelminthes › Cestoda › Cyclophyllidea › Taeniidae › Taenia.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Platyhelminthes (phylum) · Rhabditophora (subphylum) · Neodermata (superclass) · Cestoda (class) · Eucestoda (subclass) · Cyclophyllidea (order) · Taeniidae (family) · Taenia (genus)",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo esférico de parede espessa (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas."
+        },
+        {
+          "id": "taenia_sp#03",
+          "section": "Tamanho",
+          "text": "Ovo: 30–35 µm de diâmetro.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"The eggs measure 30-35 micrometers in diameter and are radially-striated.\"",
+          "note": "Antes: 30 a 40 µm.",
+          "before": "30 a 40 µm de diâmetro"
+        },
+        {
+          "id": "taenia_sp#04",
+          "section": "Tamanho",
+          "text": "Número de ramos uterinos laterais primários da proglote grávida: T. saginata 12–30; T. solium 7–13.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"has 12-30 primary lateral uterine branches\" (T. saginata) · \"has 7-13 primary lateral uterine branches\" (T. solium)",
+          "note": "Antes: T. saginata '> 12 ramificações'; T. solium '7 a 12'.",
+          "before": "T. saginata > 12; T. solium 7 a 12"
+        },
+        {
+          "id": "taenia_sp#05",
+          "section": "Tamanho",
+          "text": "Comprimento dos adultos: 2–8 m (faixa geral); em geral até 5 m em T. saginata e 2–7 m em T. solium.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"Adults can reach a length of 2-8 meters\" · \"Length of adult worms is usually 5 m or less for T. saginata\"",
+          "note": "A página apresenta valores diferentes em seções distintas (p. ex. até 25 m para T. saginata na seção do ciclo)."
+        },
+        {
+          "id": "taenia_sp#06",
+          "section": "Morfologia",
+          "text": "Os ovos são radialmente estriados (embrióforo) e a oncosfera interna tem seis ganchos refráteis.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"The eggs measure 30-35 micrometers in diameter and are radially-striated.\" · \"The internal oncosphere contains six refractile hooks.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#07",
+          "section": "Morfologia",
+          "text": "Todos os ovos de Taenia são morfologicamente idênticos (e semelhantes aos de outros Taeniidae, inclusive Echinococcus).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"all Taenia species produce eggs that are morphologically identical\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#08",
+          "section": "Traços",
+          "text": "Estriação radial do embrióforo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"radially-striated\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#09",
+          "section": "Traços",
+          "text": "Oncosfera com seis ganchos refráteis.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"six refractile hooks\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#10",
+          "section": "Doença",
+          "text": "Teníase (verme adulto no intestino) e, por T. solium, também cisticercose.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "who_taen"
+          ],
+          "evidence": "\"Taenia solium can also cause cysticercosis.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#11",
+          "section": "Patogenia",
+          "text": "Teníase: o ser humano se infecta ao ingerir carne crua ou malcozida infectada; o verme adulto se fixa ao intestino delgado pelo escólex; ovos ou proglotes grávidas saem com as fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "who_taen"
+          ],
+          "evidence": "\"Humans become infected by ingesting raw or undercooked infected meat.\" · \"The adult tapeworms attach to the small intestine by their scolex.\" · \"Eggs or gravid proglottids are passed with feces.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#12",
+          "section": "Patogenia",
+          "text": "Cisticercose: ocorre pela ingestão de ovos de T. solium eliminados nas fezes de portadores, ou de ovos do próprio verme (autoinfecção externa); a autoinfecção interna retrógrada foi postulada, mas não comprovada.",
+          "status": "ressalva",
+          "refs": [
+            "msd_taen"
+          ],
+          "evidence": "\"Humans develop cysticercosis via ingestion of T. solium eggs in feces from infected individuals\" · \"or ingestion of eggs from their own tapeworm (external autoinfection)\"",
+          "note": "A rota retrógrada interna é apenas 'postulada' segundo a fonte."
+        },
+        {
+          "id": "taenia_sp#13",
+          "section": "Clínica",
+          "text": "A teníase costuma cursar com sintomas leves e inespecíficos (dor abdominal, náusea, diarreia ou constipação).",
+          "status": "confirmado",
+          "refs": [
+            "who_taen"
+          ],
+          "evidence": "\"Taeniasis due to T. solium, T. saginata or T. asiatica is usually characterized by mild and non-specific symptoms.\" · \"Abdominal pain, nausea, diarrhoea or constipation may arise\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#14",
+          "section": "Clínica",
+          "text": "Neurocisticercose: convulsões, sinais de hipertensão intracraniana e hidrocefalia; é a causa evitável mais frequente de epilepsia no mundo.",
+          "status": "corrigido",
+          "refs": [
+            "msd_taen",
+            "who_taen"
+          ],
+          "evidence": "\"patients with neurocysticercosis may present with seizures, signs of increased intracranial pressure, hydrocephalus\" · OMS: \"Neurocysticercosis is the most frequent preventable cause of epilepsy worldwide\"",
+          "note": "Antes: 'principal causa de epilepsia adquirida em adultos em países em desenvolvimento'.",
+          "before": "principal causa de epilepsia adquirida em adultos em países em desenvolvimento"
+        },
+        {
+          "id": "taenia_sp#15",
+          "section": "Clínica",
+          "text": "Cisticercos também podem infectar medula espinhal, músculos, tecido subcutâneo e olhos.",
+          "status": "confirmado",
+          "refs": [
+            "msd_taen"
+          ],
+          "evidence": "\"Cysticerci may also infect the spinal cord, muscles, subcutaneous tissues, and eyes.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#16",
+          "section": "Ciclo",
+          "text": "Teníase: ingestão de carne (suína ou bovina) crua ou malcozida com cisticercos. Cisticercose: ingestão de ovos de T. solium.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "msd_taen"
+          ],
+          "evidence": "\"Humans become infected by ingesting raw or undercooked infected meat.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#17",
+          "section": "Ciclo",
+          "text": "Cisticerco na carne (teníase); ovo de T. solium (cisticercose).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "msd_taen"
+          ],
+          "evidence": "\"migrate to the striated muscles, where they develop into cysticerci.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#18",
+          "section": "Ciclo",
+          "text": "Ovos ou proglotes grávidas nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"Eggs or gravid proglottids are passed with feces.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#19",
+          "section": "Ciclo",
+          "text": "Adulto no intestino delgado; cisticercos na musculatura estriada (hospedeiro intermediário), podendo atingir também sistema nervoso e olhos na cisticercose humana.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "msd_taen"
+          ],
+          "evidence": "\"The adult tapeworms attach to the small intestine by their scolex.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#20",
+          "section": "Ciclo",
+          "text": "Bovinos (T. saginata) e suínos (T. solium e T. asiatica) se infectam ao ingerir vegetação contaminada; o ser humano é hospedeiro do verme adulto.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"Cattle (T. saginata) and pigs (T. solium and T. asiatica) become infected by ingesting vegetation.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#21",
+          "section": "Diagnóstico",
+          "text": "Identificação microscópica de ovos e proglotes nas fezes é diagnóstica de teníase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"Microscopic identification of eggs and proglottids in feces is diagnostic for taeniasis.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#22",
+          "section": "Diagnóstico",
+          "text": "Neurocisticercose: imagem (TC/RM) é o padrão-ouro (OMS); testes de anticorpos não distinguem infecção ativa de inativa (MSD).",
+          "status": "confirmado",
+          "refs": [
+            "who_taen",
+            "msd_taen"
+          ],
+          "evidence": "\"The gold standard for the diagnostic of NCC is imaging.\" · \"antibody-based assays such as immunoblot do not distinguish between active and inactive infections.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#23",
+          "section": "Diagnóstico",
+          "text": "Fezes ou proglotes eliminadas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"Microscopic identification of eggs and proglottids in feces\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#24",
+          "section": "Diagnóstico",
+          "text": "A espécie não pode ser identificada apenas pelos ovos; é necessário examinar as proglotes grávidas (ramos uterinos).",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"identification of Taenia is not possible if solely based on microscopic examination of eggs\"",
+          "note": "O texto anterior apresentava contagem de ramos 7–12 / >12; os valores corretos estão em 'Tamanho'.",
+          "before": "Para diferenciar as espécies é obrigatório analisar as ramificações uterinas das proglotes grávidas (T. saginata > 12; T. solium 7 a 12)"
+        },
+        {
+          "id": "taenia_sp#25",
+          "section": "Tratamento",
+          "text": "Teníase: praziquantel (dose única) ou niclosamida. Neurocisticercose: albendazol parece mais eficaz que praziquantel; associam-se glicocorticoides e anticonvulsivantes, e pode ser necessária cirurgia.",
+          "status": "confirmado",
+          "refs": [
+            "who_taen",
+            "msd_taen"
+          ],
+          "evidence": "\"Taeniasis can be treated with single doses of praziquantel (10 mg/kg) or niclosamide\" · \"When anthelmintic treatment is used, albendazole appears to be more effective than praziquantel.\"",
+          "note": "Doses não reproduzidas."
+        },
+        {
+          "id": "taenia_sp#26",
+          "section": "Prevenção",
+          "text": "Cozinhar cortes inteiros de carne suína a ≥ 63 °C (145 °F).",
+          "status": "corrigido",
+          "refs": [
+            "msd_taen"
+          ],
+          "evidence": "\"cooking whole cuts of pork to ≥ 63° C (≥ 145° F)\"",
+          "note": "Antes: 'temperatura interna superior a 65 °C' para carnes bovina e suína; a fonte lida cita 63 °C para carne suína.",
+          "before": "temperatura interna superior a 65°C"
+        },
+        {
+          "id": "taenia_sp#27",
+          "section": "Prevenção",
+          "text": "Identificar e tratar portadores de T. solium adulto; lavagem rigorosa das mãos de manipuladores de alimentos oriundos de áreas endêmicas.",
+          "status": "confirmado",
+          "refs": [
+            "msd_taen"
+          ],
+          "evidence": "\"Identifying and treating carriers of adult T. solium is an important public health measure in preventing cysticercosis.\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#28",
+          "section": "Prevenção",
+          "text": "Melhor inspeção da carne, saneamento (fim da defecação a céu aberto) e educação em saúde, incluindo higiene e segurança dos alimentos.",
+          "status": "confirmado",
+          "refs": [
+            "who_taen"
+          ],
+          "evidence": "\"improved meat inspection and processing of meat products.\" · \"improved sanitation - ending open defecation;\" · \"community health education, including hygiene and food safety;\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#29",
+          "section": "Bancada",
+          "text": "A ingestão de ovos pode causar cisticercose: manipular amostras com precaução.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "\"INGESTION OF EGGS CAN RESULT IN CYSTICERCOSIS!\"",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#30",
+          "section": "Diferencial",
+          "text": "Os ovos de Taenia são idênticos aos de outros Taeniidae e se assemelham aos de Echinococcus; ovos de Hymenolepis nana têm filamentos polares e são menores (30–50 µm).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen",
+            "dpdx_hym"
+          ],
+          "evidence": "\"all Taenia species produce eggs that are morphologically identical\" · \"4-8 polar filaments\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "coloração âmbar; aspecto de 'roda de carroça'",
+          "reason": "Descrição sem fonte lida (a estriação radial foi mantida).",
+          "field": "morfologia"
+        },
+        {
+          "before": "verme adulto atinge 3 a 10 m",
+          "reason": "Faixa divergente da fonte lida (2–8 m, com ressalvas).",
+          "field": "patogenia"
+        },
+        {
+          "before": "cisticercos no SNC 'formando hidrocefalia' etc.; ELISA/Western Blot como alternativas",
+          "reason": "Mantido apenas o que a fonte lida afirma.",
+          "field": "clínica"
+        },
+        {
+          "before": "método de Graham/fita gomada para proglotes",
+          "reason": "Sem fonte lida para Taenia.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "tamisação fecal como padrão-ouro",
+          "reason": "Termo 'padrão-ouro' sem fonte para teníase.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "descarte em autoclave ou desinfetante",
+          "reason": "Conduta de biossegurança sem fonte lida.",
+          "field": "bancada"
+        },
+        {
+          "before": "'bolhas de ar microscópicas' como diferencial",
+          "reason": "Bolhas de ar não constam na página de artefatos do CDC.",
+          "field": "diferencial"
+        },
+        {
+          "before": "'cisticercose ocular: perda progressiva da acuidade visual e uveíte'",
+          "reason": "A fonte lida só afirma que os olhos podem ser infectados.",
+          "field": "clínica"
+        }
+      ]
+    },
+    {
+      "id": "hymenolepis_nana",
+      "commonName": "Hymenolepis nana (Rodentolepis nana)",
+      "scientificName": "Hymenolepis nana (sinônimo: Rodentolepis nana)",
+      "taxonomy": {
+        "phylum": "Platyhelminthes (subfilo Rhabditophora)",
+        "class": "Cestoda (subclasse Eucestoda)",
+        "order": "Cyclophyllidea",
+        "family": "Hymenolepididae",
+        "genus": "Rodentolepis (sinônimo de Hymenolepis)",
+        "species": "Rodentolepis nana (= Hymenolepis nana)",
+        "note": "No NCBI Taxonomy (23/10/2026) o nome aceito é Rodentolepis nana; Hymenolepis nana consta como sinônimo homotípico. O CDC e o MSD, nas páginas lidas, usam Hymenolepis nana.",
+        "ncbi": "taxid 102285",
+        "source": "ncbi_tax"
+      },
+      "category": "Cestódeo",
+      "evolutionaryStage": "Ovo (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo: 30–50 µm. Adulto: 15–40 mm.",
+      "morphologyDescription": "Ovos ovais; na membrana interna há dois polos, dos quais partem 4–8 filamentos polares entre as duas membranas; a oncosfera tem seis ganchos.",
+      "keyDiagnosticFeatures": [
+        "Filamentos polares (4–8) entre as membranas.",
+        "Oncosfera com seis ganchos."
+      ],
+      "disease": "Himenolepíase.",
+      "pathogenesis": "Os ovos são imediatamente infectantes ao saírem nas fezes; há também autoinfecção interna, sem passagem pelo ambiente externo.",
+      "clinicalManifestations": [
+        "Infecções intensas podem causar dor abdominal em cólica, diarreia, anorexia, prurido anal e sintomas sistêmicos inespecíficos."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Demonstração de ovos em amostras de fezes; técnicas de concentração e exames repetidos aumentam a chance de detectar infecções leves.",
+        "sampleType": "Fezes."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ingestão de ovos em alimento ou água contaminados ou por mãos contaminadas com fezes; humanos também podem se infectar ao ingerir insetos parasitados.",
+        "infectiveForm": "Ovo (imediatamente infectante ao sair nas fezes).",
+        "diagnosticForm": "Ovos nas fezes.",
+        "cycleType": "Ciclo com ou sem hospedeiro intermediário: besouros e pulgas podem atuar como intermediários, mas o hospedeiro artrópode é necessário para H. diminuta, não para H. nana; roedores são os principais hospedeiros definitivos."
+      },
+      "treatment": [
+        "Praziquantel por via oral; alternativas: nitazoxanida e niclosamida (esta não disponível nos EUA)."
+      ],
+      "prophylaxis": [
+        "Limitar a exposição a roedores, besouros e pulgas."
+      ],
+      "differentialDiagnosis": "H. diminuta: ovos maiores (70–85 × 60–80 µm) e sem filamentos polares. Ovos de Taenia são radialmente estriados e menores que os de H. diminuta; não têm filamentos polares.",
+      "images": [
+        {
+          "id": "lam17_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam17_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 17,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 17, detalhe ampliado",
+          "caption": "Ovo arredondado com membranas concêntricas e espaço entre elas, oncosfera central avermelhada.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113446.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam17_campo",
+          "file": "platelmintos/hymenolepis_nana_lam17_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 17,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 17, campo geral",
+          "caption": "Campo geral da lâmina 17 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113446.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam22_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam22_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 22,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 22, detalhe ampliado",
+          "caption": "Ovo subesférico com duas membranas e oncosfera central.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "hymenolepis_nana.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam22_campo",
+          "file": "platelmintos/hymenolepis_nana_lam22_campo.jpg",
+          "width": 480,
+          "height": 529,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 22,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 22, campo geral",
+          "caption": "Campo geral da lâmina 22 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "hymenolepis_nana.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam06_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam06_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 6,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana (com ovo de Taenia sp. no topo do campo), lâmina 6, detalhe ampliado",
+          "caption": "Ovo oval com duas membranas e oncosfera central (H. nana). Ovo escuro no topo do campo parece Taenia.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112256.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam06_campo",
+          "file": "platelmintos/hymenolepis_nana_lam06_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 6,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana (com ovo de Taenia sp. no topo do campo), lâmina 6, campo geral",
+          "caption": "Campo geral da lâmina 6 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112256.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam12_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam12_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 12,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 12, detalhe ampliado",
+          "caption": "Ovo subesférico com membrana externa fina e embrião interno envolto por segunda membrana, com filamentos polares.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110703.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam12_campo",
+          "file": "platelmintos/hymenolepis_nana_lam12_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 12,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 12, campo geral",
+          "caption": "Campo geral da lâmina 12 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110703.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ],
+      "verification": [
+        {
+          "id": "hymenolepis_nana#01",
+          "section": "Taxonomia",
+          "text": "NCBI Taxonomy: nome aceito Rodentolepis nana (Bilharz, 1851); Hymenolepis nana é sinônimo homotípico. Família Hymenolepididae.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Rodentolepis nana (Bilharz, 1851), rank: species · \"Hymenolepis nana (Bilharz, 1851), listed as a homotypic synonym\"",
+          "note": "Antes: gênero Hymenolepis.",
+          "before": "gênero Hymenolepis"
+        },
+        {
+          "id": "hymenolepis_nana#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo esférico a oval, de parede fina (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas."
+        },
+        {
+          "id": "hymenolepis_nana#03",
+          "section": "Tamanho",
+          "text": "Ovo: 30–50 µm. Adulto: 15–40 mm.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"These eggs are oval and smaller than those of H. diminuta, with a size range of 30 to 50 µm.\" · \"adults measuring 15 to 40 mm in length\"",
+          "note": "Antes: 35 a 45 µm de diâmetro; adulto 1 a 4 cm (equivalente).",
+          "before": "35 a 45 µm de diâmetro"
+        },
+        {
+          "id": "hymenolepis_nana#04",
+          "section": "Morfologia",
+          "text": "Ovos ovais; na membrana interna há dois polos, dos quais partem 4–8 filamentos polares entre as duas membranas; a oncosfera tem seis ganchos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"On the inner membrane are two poles, from which 4-8 polar filaments spread out between the two membranes.\" · \"The oncosphere has six hooks.\"",
+          "note": "O texto anterior mencionava 'botões polares'; a página lida não os menciona e por isso eles foram retirados."
+        },
+        {
+          "id": "hymenolepis_nana#05",
+          "section": "Traços",
+          "text": "Filamentos polares (4–8) entre as membranas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"4-8 polar filaments\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#06",
+          "section": "Traços",
+          "text": "Oncosfera com seis ganchos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"The oncosphere has six hooks.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#07",
+          "section": "Doença",
+          "text": "Himenolepíase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "Título das páginas: Hymenolepiasis",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#08",
+          "section": "Patogenia",
+          "text": "Os ovos são imediatamente infectantes ao saírem nas fezes; há também autoinfecção interna, sem passagem pelo ambiente externo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"are immediately infective when passed with the stool\" · \"An alternate mode of infection consists of internal autoinfection\" · \"Eggs hatch within the gut and initiate a second generation without ever exiting the host.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#09",
+          "section": "Clínica",
+          "text": "Infecções intensas podem causar dor abdominal em cólica, diarreia, anorexia, prurido anal e sintomas sistêmicos inespecíficos.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hym"
+          ],
+          "evidence": "\"heavy infections may cause crampy abdominal pain, diarrhea, anorexia, pruritis ani, and nonspecific systemic symptoms.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#10",
+          "section": "Ciclo",
+          "text": "Ingestão de ovos em alimento ou água contaminados ou por mãos contaminadas com fezes; humanos também podem se infectar ao ingerir insetos parasitados.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"in contaminated food or water or from hands contaminated with feces.\" · \"humans can become infected by ingesting parasitized insects.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#11",
+          "section": "Ciclo",
+          "text": "Ovo (imediatamente infectante ao sair nas fezes).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"are immediately infective when passed with the stool\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#12",
+          "section": "Ciclo",
+          "text": "Ovos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"The diagnosis depends on the demonstration of eggs in stool specimens.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#13",
+          "section": "Ciclo",
+          "text": "Ciclo com ou sem hospedeiro intermediário: besouros e pulgas podem atuar como intermediários, mas o hospedeiro artrópode é necessário para H. diminuta, não para H. nana; roedores são os principais hospedeiros definitivos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"various species of beetles and fleas may serve as intermediate hosts\" · \"The arthropod intermediate host is required for H. diminuta, but not H. nana.\" · \"Rodents are the primary definitive hosts\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#14",
+          "section": "Diagnóstico",
+          "text": "Demonstração de ovos em amostras de fezes; técnicas de concentração e exames repetidos aumentam a chance de detectar infecções leves.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym",
+            "msd_hym"
+          ],
+          "evidence": "\"The diagnosis depends on the demonstration of eggs in stool specimens.\" · \"Concentration techniques and repeated examinations will increase the likelihood of detecting light infections.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#15",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"eggs in stool specimens\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#16",
+          "section": "Tratamento",
+          "text": "Praziquantel por via oral; alternativas: nitazoxanida e niclosamida (esta não disponível nos EUA).",
+          "status": "confirmado",
+          "refs": [
+            "msd_hym"
+          ],
+          "evidence": "\"Praziquantel orally once\" · \"Alternatives include nitazoxanide and niclosamide (not available in the United States).\"",
+          "note": "Doses não reproduzidas."
+        },
+        {
+          "id": "hymenolepis_nana#17",
+          "section": "Prevenção",
+          "text": "Limitar a exposição a roedores, besouros e pulgas.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hym"
+          ],
+          "evidence": "\"Prevention includes limiting exposure to rodents, beetles, and fleas.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#18",
+          "section": "Diferencial",
+          "text": "H. diminuta: ovos maiores (70–85 × 60–80 µm) e sem filamentos polares.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "\"size 70 – 85 µm X 60 – 80 µm\" · \"There are no polar filaments extending into the space between the oncosphere and the outer shell.\"",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#19",
+          "section": "Diferencial",
+          "text": "Ovos de Taenia são radialmente estriados e menores que os de H. diminuta; não têm filamentos polares.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_taen",
+            "dpdx_hym"
+          ],
+          "evidence": "\"radially-striated\"",
+          "note": "A ausência de filamentos polares em Taenia é inferência da comparação das duas páginas, não afirmação literal."
+        }
+      ],
+      "removed": [
+        {
+          "before": "botões polares no embrióforo",
+          "reason": "A página lida menciona 'dois polos' na membrana interna, não 'botões'.",
+          "field": "morfologia"
+        },
+        {
+          "before": "carga de 'milhares de vermes'; enterite descamativa; desnutrição; urticária; perda de peso",
+          "reason": "Sem fonte lida (fonte cita sintomas de infecção intensa listados).",
+          "field": "patogenia"
+        },
+        {
+          "before": "habitat: íleo proximal e médio",
+          "reason": "Não verificado.",
+          "field": "ciclo"
+        },
+        {
+          "before": "'único cestódeo humano que não necessita de hospedeiro intermediário'",
+          "reason": "Frase absoluta sem fonte; a fonte diz que o hospedeiro artrópode não é necessário para H. nana, mas é para H. diminuta.",
+          "field": "ciclo"
+        },
+        {
+          "before": "Faust e Ritchie como métodos; diafragma parcialmente fechado",
+          "reason": "Sem fonte lida.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "Higiene das mãos e unhas; proteção de alimentos contra baratas; saneamento",
+          "reason": "A fonte lida cita apenas limitar exposição a roedores, besouros e pulgas.",
+          "field": "prevenção"
+        }
+      ]
+    },
+    {
+      "id": "schistosoma_mansoni",
+      "commonName": "Schistosoma mansoni",
+      "scientificName": "Schistosoma mansoni",
+      "taxonomy": {
+        "phylum": "Platyhelminthes (subfilo Rhabditophora)",
+        "class": "Trematoda (subclasse Digenea)",
+        "order": "Strigeidida",
+        "family": "Schistosomatidae",
+        "genus": "Schistosoma",
+        "species": "Schistosoma mansoni",
+        "note": "NCBI Taxonomy (23/10/2026): superfamília Schistosomatoidea.",
+        "ncbi": "taxid 6183",
+        "source": "ncbi_tax"
+      },
+      "category": "Trematódeo",
+      "evolutionaryStage": "Imagem externa de verme adulto (ver nota)",
+      "status": "revisar",
+      "approxSizeMicrons": "Ovo: 114–180 µm × 45–70 µm.",
+      "morphologyDescription": "Ovo grande, com espículo lateral proeminente próximo à extremidade posterior.",
+      "keyDiagnosticFeatures": [
+        "Espículo lateral proeminente."
+      ],
+      "disease": "Esquistossomose (intestinal, por S. mansoni).",
+      "pathogenesis": "A infecção crônica pode causar anemia, fibrose das veias intestinais e do fígado e aumento do baço; casos graves podem ter complicações neurológicas e morte.",
+      "clinicalManifestations": [
+        "Esquistossomose intestinal pode causar dor abdominal, diarreia e sangue nas fezes; aumento do fígado é comum em casos avançados e pode haver aumento do baço."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Exame de fezes quando há suspeita de S. mansoni ou S. japonicum; o Kato-Katz pode quantificar os ovos em inquéritos de campo.",
+        "alternatives": [
+          "Biópsia retal (para todas as espécies); detecção de anticorpos pode ser útil em viajantes."
+        ],
+        "sampleType": "Fezes."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Contato com água doce infestada (atividades domésticas, de trabalho ou lazer); formas larvárias liberadas por caramujos de água doce penetram a pele.",
+        "infectiveForm": "Cercárias infectantes (que nadam e penetram a pele).",
+        "diagnosticForm": "Ovo com espículo lateral nas fezes.",
+        "habitat": "Vênulas mesentéricas (onde os vermes adultos copulam e residem).",
+        "cycleType": "Hospedeiros intermediários: caramujos do gênero Biomphalaria; o ser humano é infectado por cercárias."
+      },
+      "treatment": [
+        "Praziquantel é o tratamento recomendado contra todas as formas de esquistossomose."
+      ],
+      "prophylaxis": [
+        "Controle baseado em tratamento em larga escala de grupos de risco, acesso a água segura, saneamento melhorado, educação em saúde, mudança de comportamento e abordagem Uma Só Saúde para os caramujos.",
+        "Nas Américas, quatro países são endêmicos: Brasil, Venezuela, Suriname e Santa Lúcia."
+      ],
+      "differentialDiagnosis": "S. haematobium: ovo com espículo terminal conspícuo, eliminado na urina. S. japonicum: ovos grandes e mais arredondados, eliminados nas fezes.",
+      "images": [
+        {
+          "id": "ext01",
+          "file": "platelmintos/schistosoma_mansoni_40x.jpeg",
+          "width": 600,
+          "height": 412,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Schistosoma mansoni - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ],
+      "reviewNote": "A única imagem desta espécie é externa, de origem e licença não documentadas, e mostra vermes adultos (micrografia eletrônica de varredura), não o ovo descrito no texto. Substituir por microfotografia própria do ovo.",
+      "verification": [
+        {
+          "id": "schistosoma_mansoni#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Platyhelminthes › Trematoda › Digenea › Strigeidida › Schistosomatidae › Schistosoma.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Trematoda (class) · Digenea (subclass) · Strigeidida (order) · Schistosomatoidea (superfamily) · Schistosomatidae (family) · Schistosoma (genus)",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#02",
+          "section": "Tamanho",
+          "text": "Ovo: 114–180 µm × 45–70 µm.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"eggs are large (114 to 180 µm long by 45-70 µm wide)\"",
+          "note": "Antes: 115 a 175 × 45 a 70 µm.",
+          "before": "115 a 175 µm de comprimento por 45 a 70 µm de largura"
+        },
+        {
+          "id": "schistosoma_mansoni#03",
+          "section": "Morfologia",
+          "text": "Ovo grande, com espículo lateral proeminente próximo à extremidade posterior.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"a prominent lateral spine near the posterior end\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#04",
+          "section": "Traços",
+          "text": "Espículo lateral proeminente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"a prominent lateral spine\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#05",
+          "section": "Doença",
+          "text": "Esquistossomose (intestinal, por S. mansoni).",
+          "status": "confirmado",
+          "refs": [
+            "who_schisto",
+            "dpdx_schi"
+          ],
+          "evidence": "Título das páginas: Schistosomiasis",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#06",
+          "section": "Patogenia",
+          "text": "A infecção crônica pode causar anemia, fibrose das veias intestinais e do fígado e aumento do baço; casos graves podem ter complicações neurológicas e morte.",
+          "status": "confirmado",
+          "refs": [
+            "paho_schisto"
+          ],
+          "evidence": "\"Chronic infection can result in anemia, fibrosis of intestinal veins and the liver, spleen enlargement\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#07",
+          "section": "Clínica",
+          "text": "Esquistossomose intestinal pode causar dor abdominal, diarreia e sangue nas fezes; aumento do fígado é comum em casos avançados e pode haver aumento do baço.",
+          "status": "confirmado",
+          "refs": [
+            "who_schisto"
+          ],
+          "evidence": "\"Intestinal schistosomiasis can result in abdominal pain, diarrhoea, and blood in the stool.\" · \"Liver enlargement is common in advanced cases\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#08",
+          "section": "Ciclo",
+          "text": "Contato com água doce infestada (atividades domésticas, de trabalho ou lazer); formas larvárias liberadas por caramujos de água doce penetram a pele.",
+          "status": "confirmado",
+          "refs": [
+            "who_schisto",
+            "paho_schisto",
+            "dpdx_schi"
+          ],
+          "evidence": "\"larval forms of the parasite – released by freshwater snails – penetrate the skin\" · \"The main risk factor for infection is exposure through household, work, or recreational activities in fresh water bodies\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#09",
+          "section": "Ciclo",
+          "text": "Cercárias infectantes (que nadam e penetram a pele).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"the infective cercariae swim, penetrate the skin of the human host\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#10",
+          "section": "Ciclo",
+          "text": "Ovo com espículo lateral nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"Stool examination should be performed when infection with S. mansoni or S. japonicum is suspected\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#11",
+          "section": "Ciclo",
+          "text": "Vênulas mesentéricas (onde os vermes adultos copulam e residem).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"Male and female adult worms copulate and reside in the mesenteric venules\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#12",
+          "section": "Ciclo",
+          "text": "Hospedeiros intermediários: caramujos do gênero Biomphalaria; o ser humano é infectado por cercárias.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"Intermediate hosts are snails of the genera Biomphalaria, (S. mansoni)\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#13",
+          "section": "Diagnóstico",
+          "text": "Exame de fezes quando há suspeita de S. mansoni ou S. japonicum; o Kato-Katz pode quantificar os ovos em inquéritos de campo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi",
+            "who_schisto"
+          ],
+          "evidence": "\"for field surveys and investigational purposes, the egg output can be quantified by using the Kato-Katz technique\" · OMS: \"known as the Kato-Katz technique\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#14",
+          "section": "Diagnóstico",
+          "text": "Biópsia retal (para todas as espécies); detecção de anticorpos pode ser útil em viajantes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"Tissue biopsy (rectal biopsy for all species and biopsy of the bladder for S. haematobium)\" · \"Antibody detection can be useful to indicate schistosome infection in patients who have traveled\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#15",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"Eggs are shed in stool.\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#16",
+          "section": "Tratamento",
+          "text": "Praziquantel é o tratamento recomendado contra todas as formas de esquistossomose.",
+          "status": "confirmado",
+          "refs": [
+            "who_schisto",
+            "paho_schisto"
+          ],
+          "evidence": "\"Praziquantel is the recommended treatment against all forms of schistosomiasis.\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#17",
+          "section": "Prevenção",
+          "text": "Controle baseado em tratamento em larga escala de grupos de risco, acesso a água segura, saneamento melhorado, educação em saúde, mudança de comportamento e abordagem Uma Só Saúde para os caramujos.",
+          "status": "confirmado",
+          "refs": [
+            "who_schisto",
+            "paho_schisto"
+          ],
+          "evidence": "\"The control of schistosomiasis is based on large-scale treatment of at-risk population groups.\" · OPAS: \"Interventions recommended by PAHO/WHO focus on improving sanitary conditions\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#18",
+          "section": "Prevenção",
+          "text": "Nas Américas, quatro países são endêmicos: Brasil, Venezuela, Suriname e Santa Lúcia.",
+          "status": "confirmado",
+          "refs": [
+            "paho_schisto"
+          ],
+          "evidence": "\"Four countries in the Americas are endemic for schistosomiasis: Brazil, Venezuela, Suriname, and Saint Lucia.\"",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#19",
+          "section": "Diferencial",
+          "text": "S. haematobium: ovo com espículo terminal conspícuo, eliminado na urina. S. japonicum: ovos grandes e mais arredondados, eliminados nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "\"bear a conspicuous terminal spine\" · \"Eggs contain a mature miracidium when shed in urine\" · \"The eggs of Schistosoma japonicum are large and more rounded than other species\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "casca sem opérculo; miracídio ciliado viável no interior; glândulas",
+          "reason": "Para S. mansoni, a fonte lida não descreve esses detalhes.",
+          "field": "morfologia"
+        },
+        {
+          "before": "granuloma por linfócitos Th2; fibrose de Symmers 'cabo de cachimbo'; hipertensão portal pré-sinusoidal; varizes esofágicas",
+          "reason": "Detalhes de patogenia sem fonte lida (a fonte lida cita fibrose hepática e aumento do baço).",
+          "field": "patogenia"
+        },
+        {
+          "before": "Febre de Katayama; dermatite cercariana 'coceira do nadador'; forma pseudotumoral",
+          "reason": "Sem fonte lida.",
+          "field": "clínica"
+        },
+        {
+          "before": "Sedimentação espontânea, eclosão de miracídios como alternativas",
+          "reason": "Sem fonte lida.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "'No Brasil, a espécie autóctone é exclusivamente S. mansoni'",
+          "reason": "Afirmação absoluta sem fonte lida (a OPAS lida confirma o Brasil como endêmico).",
+          "field": "bancada"
+        },
+        {
+          "before": "controle químico e biológico de Biomphalaria; proibição de banhos em 'lagoas de coceira'",
+          "reason": "Medidas específicas não constam nas páginas lidas (a OMS cita abordagem Uma Só Saúde).",
+          "field": "prevenção"
+        },
+        {
+          "before": "Nomes populares (barriga d'água, xistose, bilharzíase)",
+          "reason": "Sem fonte lida.",
+          "field": "doença"
+        },
+        {
+          "before": "S. japonicum 'espículo rudimentar diminuto'",
+          "reason": "Sem fonte lida; mantido apenas 'ovos mais arredondados'.",
+          "field": "diferencial"
+        }
+      ]
+    }
+  ]
+}

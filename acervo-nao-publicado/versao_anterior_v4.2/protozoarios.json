@@ -1,0 +1,155 @@
+{
+  "specimens": [
+    {
+      "id": "giardia_lamblia",
+      "commonName": "Giardia lamblia",
+      "scientificName": "Giardia lamblia (Giardia duodenalis / intestinalis)",
+      "taxonomy": {
+        "phylum": "Metamonada",
+        "class": "Fornicata",
+        "order": "Diplomonadida",
+        "family": "Hexamitidae",
+        "genus": "Giardia",
+        "species": "Giardia lamblia"
+      },
+      "category": "Protozoário",
+      "evolutionaryStage": "Trofozoíto flagelado piriforme binucleado corado com Giemsa",
+      "status": "revisar",
+      "reviewNote": "A imagem mostra vários trofozoítos corados; os marcadores originais (um único organismo central) não se aplicam e foram removidos. Origem, licença e aumento não documentados.",
+      "approxSizeMicrons": "12 a 18 µm de comprimento por 6 a 10 µm de largura",
+      "morphologyDescription": "Trofozoíto de formato piriforme achatado (\"em forma de pera ou pipa\"), com extremidade anterior ampla e arredondada e extremidade posterior afilada em cauda. Apresenta simetria bilateral perfeita. Na face ventral observa-se a depressão côncava do disco adesivo/suctorial sustentado por tubulina. Apresenta dois núcleos vesiculares idênticos dispostos lado a lado com volumosos cariossomos centrais (aspecto cômico de \"rosto\" ou \"óculos\"), axóstilo longitudinal mediano e quatro pares de flagelos motores (anterior, posterior, ventral e caudal).",
+      "keyDiagnosticFeatures": [
+        "Formato piriforme simétrico característico em \"rosto com óculos\"",
+        "Dois núcleos vesiculares idênticos com cariossomos centrais",
+        "Disco suctorial na face ventral para fixação à mucosa duodenal",
+        "Axóstilo mediano bem demarcado e 8 flagelos (4 pares)"
+      ],
+      "disease": "Giardíase (Enterite / Duodenite por Giardia)",
+      "pathogenesis": "Os trofozoítos aderem vigorosamente à borda em escova dos enterócitos no duodeno e jejuno proximal através de seu disco suctorial. Em infecções maciças, formam um tapete contínuo sobre a mucosa que causa barreira mecânica e atrofia vilositária focal, inibindo a ação de enzimas de membrana (especialmente lactase) e o transporte de nutrientes. A consequência fisiopatológica direta é a síndrome de má-absorção com esteatorreia (fezes gordurosas, fétidas, volumosas, brilhantes que boiam na água do vaso sanitário), dor epigástrica e deficiência de vitaminas lipossolúveis (A, D, E e K).",
+      "clinicalManifestations": [
+        "Diarreia crônica aquosa ou esteatorreica (fezes fétidas e gordurosas)",
+        "Distensão abdominal importante, flatulência fétida e eructações com odor sulfuroso (\"ovo podre\")",
+        "Dor epigástrica tipo queimação pós-prandial que simula úlcera péptica",
+        "Desnutrição crônica, emagrecimento e intolerância secundária à lactose em crianças"
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Pesquisa de cistos em fezes formadas (sedimentação de Hoffmann ou Faust) OU trofozoítos em fezes líquidas a fresco",
+        "alternatives": [
+          "Enterotest (cápsula com fio de náilon duodenal)",
+          "ELISA para detecção de coproantígenos (alta sensibilidade)"
+        ],
+        "sampleType": "Fezes colhidas em 3 amostras alternadas (devido à eliminação cística intermitente)",
+        "technicalObservation": "Em fezes pastosas e diarreicas frescas, observam-se os trofozoítos móveis com movimento característico em \"folha seca cadente\"."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Fecal-oral: ingestão de cistos maduros em água não tratada (resistem à cloração comum), alimentos contaminados ou contato de mãos sujas",
+        "infectiveForm": "Cisto maduro tetranucleado",
+        "diagnosticForm": "Cistos nas fezes sólidas e trofozoítos nas fezes diarreicas",
+        "habitat": "Duodeno e jejuno proximal (aderidos aos enterócitos)",
+        "cycleType": "Moneoxênico"
+      },
+      "prophylaxis": [
+        "Fervura ou filtração rigorosa da água (os cistos de Giardia são resistentes à cloração habitual da rede pública!)",
+        "Higienização cuidadosa das mãos antes de manipular alimentos e após uso do sanitário",
+        "Proteção de reservatórios de água contra dejetos humanos e de animais domésticos",
+        "Tratamento específico dos infectados com Metronidazol, Secnidazol ou Nitazoxanida"
+      ],
+      "benchTip": "Se as fezes do paciente estiverem diarreicas e frescas, procure o trofozoíto piriforme com seu movimento em folha caindo. Se as fezes forem formadas e firmes, procure os cistos ovais transparentes com 4 núcleos e axóstilo em \"S\". E lembre-se: a cloração de rotina da água não destrói os cistos de Giardia, é preciso filtrar ou ferver!",
+      "differentialDiagnosis": "Diferenciar de Trichomonas hominis (trofozoíto sem disco suctorial, com membrana ondulante) e Chilomastix mesnili.",
+      "images": [
+        {
+          "id": "ext01",
+          "file": "protozoarios/giardia_lamblia_40x.jpeg",
+          "width": 960,
+          "height": 736,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Giardia lamblia - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ]
+    },
+    {
+      "id": "entamoeba_histolytica",
+      "commonName": "Entamoeba histolytica",
+      "scientificName": "Entamoeba histolytica",
+      "taxonomy": {
+        "phylum": "Amoebozoa",
+        "class": "Archamoebae",
+        "order": "Entamoebida",
+        "family": "Entamoebidae",
+        "genus": "Entamoeba",
+        "species": "Entamoeba histolytica"
+      },
+      "category": "Protozoário",
+      "evolutionaryStage": "Cisto maduro tetranucleado com cariossomo central",
+      "status": "revisar",
+      "reviewNote": "A imagem tem coloração tipo tricrômico e um único organismo pouco nítido, enquanto o texto descreve cisto tetranucleado corado por Lugol. E. histolytica não se distingue de E. dispar/E. moshkovskii por morfologia. Marcadores removidos. Origem, licença e aumento não documentados.",
+      "approxSizeMicrons": "10 a 15 µm de diâmetro",
+      "morphologyDescription": "Cisto esférico de contorno liso e regular, delimitado por membrana cística resistente birrefringente. No estágio maduro diagnóstico apresenta exatamente quatro núcleos esféricos (visíveis em diferentes alturas ao rodar o parafuso micrométrico). Cada núcleo exibe membrana nuclear fina revestida internamente por grânulos regulares e diminutos de cromatina periférica, com um cariossomo pontiforme minúsculo e rigorosamente central. No citoplasma de cistos jovens podem ser observados corpos cromatóides cilíndricos com extremidades lisas e arredondadas em charuto.",
+      "keyDiagnosticFeatures": [
+        "Cisto esférico contendo até 4 núcleos na forma madura",
+        "Cariossomo minúsculo, pontiforme e rigorosamente central",
+        "Cromatina periférica delicada, fina e distribuída de modo uniforme",
+        "Corpos cromatóides com pontas arredondadas em formato de bastão ou charuto"
+      ],
+      "disease": "Amebíase (Disenteria Amebiana, Colite Necrosante e Abscesso Hepático Amebiano)",
+      "pathogenesis": "Os trofozoítos aderem ao muco e aos enterócitos do cólon através da lectina Gal/GalNAc e secretam amebaporos e cisteíno-proteinases que provocam citólise dos enterócitos e necrose lítica tecidual (donde deriva o nome \"histolytica\" = lise tecidual). As lesões ulceradas aprofundam-se na submucosa, expandindo-se lateralmente para formar as clássicas úlceras em \"botão de camisa\" ou \"frasco de colo estreito\". A invasão dos capilares submucosos permite a migração hematogênica de trofozoítos pelo sistema porta até o parênquima hepático, desenvolvendo o Abscesso Hepático Amebiano com necrose liquefativa acastanhada típica em \"pasta de anchova\".",
+      "clinicalManifestations": [
+        "Disenteria amebiana: evacuações frequentes com muco, pus e sangue vivo, associadas a tenesmo retal intenso",
+        "Cólicas abdominais violentas e dor em cólon descendente e sigmoide",
+        "Abscesso hepático amebiano: febre alta em agulha, dor no hipocôndrio direito irradiada para o ombro e hepatomegalia dolorosa",
+        "Ameboma: lesão granulomatosa crônica na parede do cólon que simula adenocarcinoma intestinal"
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Pesquisa microscópica de cistos em fezes formadas (Faust ou Hoffmann) OU pesquisa de trofozoítos hematófagos (com hemácias fagocitadas) em fezes diarreicas frescas",
+        "alternatives": [
+          "ELISA para detecção de antígenos específicos de E. histolytica nas fezes (diferencia de E. dispar)",
+          "PCR fecal",
+          "Sorologia para abscesso hepático"
+        ],
+        "sampleType": "Fezes frescas colhidas em frasco limpo (amostras seriadas)",
+        "technicalObservation": "ATENÇÃO CRÍTICA: Os cistos de Entamoeba histolytica e Entamoeba dispar são indistinguíveis à microscopia óptica comum! O laudo oficial deve referir \"Cistos do complexo Entamoeba histolytica / Entamoeba dispar\", a menos que sejam visualizados trofozoítos com hemácias no citoplasma (eritrofagocitose, que comprova invasão tecidual por E. histolytica)."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Fecal-oral: ingestão de cistos maduros tetranucleados em água potável contaminada, hortaliças cruas ou mãos de manipuladores de alimentos portadores assintomáticos",
+        "infectiveForm": "Cisto tetranucleado maduro",
+        "diagnosticForm": "Cistos tetranucleados nas fezes sólidas ou trofozoítos invasivos nas fezes disentéricas",
+        "habitat": "Luz e parede do intestino grosso (ceco, cólon ascendente e reto)",
+        "cycleType": "Moneoxênico (com potencial invasivo extraintestinal)"
+      },
+      "prophylaxis": [
+        "Tratamento adequado e cloração/filtração da água potável",
+        "Saneamento básico com destino seguro de esgotos domiciliares",
+        "Higiene impecável e triagem coproparasitológica de manipuladores de alimentos",
+        "Tratamento medicamentoso com derivados imidazólicos (Metronidazol, Tinidazol) seguido de amebicida luminal (Teclozan)"
+      ],
+      "benchTip": "Diferenciar Entamoeba histolytica de Entamoeba coli é o terror das provas práticas! Memorize o macete: Entamoeba histolytica tem até 4 NÚCLEOS, cariossomo rigorosamente CENTRAL e cromatina fina delicada. Entamoeba coli tem até 8 NÚCLEOS, cariossomo nitidamente EXCÊNTRICO e cromatina periférica grossa e irregular!",
+      "differentialDiagnosis": "Diferenciar de Entamoeba coli (cisto com 8 núcleos e cariossomo excêntrico), Endolimax nana (cisto com 4 núcleos sem cromatina periférica e cariossomo em bloco) e Iodamoeba bütschlii (cisto mononucleado com volumoso vacúolo de glicogênio que se cora intensamente em castanho pelo Lugol).",
+      "images": [
+        {
+          "id": "ext01",
+          "file": "protozoarios/entamoeba_histolytica_40x.jpeg",
+          "width": 800,
+          "height": 600,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Entamoeba histolytica - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ]
+    }
+  ]
+}

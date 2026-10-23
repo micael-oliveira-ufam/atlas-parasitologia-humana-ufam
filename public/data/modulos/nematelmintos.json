@@ -1,0 +1,2349 @@
+{
+  "specimens": [
+    {
+      "id": "ancilostomideo",
+      "commonName": "Ancilostomídeos (Ancylostoma / Necator)",
+      "scientificName": "Ancylostoma duodenale / Necator americanus",
+      "taxonomy": {
+        "phylum": "Nematoda",
+        "class": "Chromadorea",
+        "order": "Rhabditida (subordem Rhabditina)",
+        "family": "Ancylostomatidae",
+        "genus": "Ancylostoma (Ancylostomatinae) / Necator (Bunostominae)",
+        "species": "Ancylostoma duodenale / Necator americanus",
+        "note": "Segundo o NCBI Taxonomy (23/10/2026): superfamília Strongyloidea. O texto anterior do atlas usava classe Secernentea e ordem Strongylida, que não constam nessa linhagem.",
+        "ncbi": "Ancylostoma duodenale: taxid 51022; Necator americanus: taxid 51031",
+        "source": "ncbi_tax"
+      },
+      "category": "Nematódeo",
+      "evolutionaryStage": "Ovo com massa de blastômeros (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo: 60–75 µm × 35–40 µm.",
+      "morphologyDescription": "Os ovos têm casca fina e são incolores.",
+      "keyDiagnosticFeatures": [
+        "Casca fina e incolor.",
+        "Ovos de Ancylostoma e de Necator não se distinguem ao microscópio."
+      ],
+      "disease": "Ancilostomíase (infecção por ancilostomídeos; \"hookworm infection\" nas fontes).",
+      "pathogenesis": "A perda crônica de sangue leva à anemia ferropriva; os ancilostomídeos são uma das principais causas de anemia ferropriva em regiões endêmicas.",
+      "clinicalManifestations": [
+        "Erupção cutânea pruriginosa transitória (\"ground itch\") no ponto de penetração da larva, geralmente nos pés.",
+        "A passagem de grande número de larvas pelos pulmões pode, ocasionalmente, causar síndrome de Löffler (tosse, sibilos, eosinofilia, às vezes hemoptise).",
+        "Fase intestinal aguda: dor epigástrica em cólica, anorexia, flatulência, diarreia e perda de peso.",
+        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação microscópica de ovos nas fezes (método mais comum).",
+        "alternatives": [
+          "Kato-Katz (contagem de ovos por grama de fezes) é usado para geo-helmintos; ver protocolo."
+        ],
+        "sampleType": "Fezes.",
+        "technicalObservation": "Ovos de Ancylostoma e Necator não são diferenciáveis ao microscópio; o resultado de rotina é \"ovos de ancilostomídeos\"."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Larvas filarioides (L3) infectantes penetram ativamente na pele; a infecção ocorre principalmente andando descalço em solo contaminado.",
+        "infectiveForm": "Larva filarioide (L3).",
+        "diagnosticForm": "Ovos nas fezes.",
+        "habitat": "Jejuno (intestino delgado), onde as larvas amadurecem em adultos.",
+        "cycleType": "Ovos eliminados nas fezes → larvas filarioides infectantes → penetração pela pele → jejuno."
+      },
+      "treatment": [
+        "Albendazol, mebendazol ou pamoato de pirantel (MSD). A OMS recomenda albendazol e mebendazol. A ivermectina não é eficaz na infecção intestinal."
+      ],
+      "prophylaxis": [
+        "Usar calçados e barreiras ao sentar no solo é eficaz, mas difícil de implementar em muitas áreas endêmicas.",
+        "Evitar a defecação inadequada (saneamento).",
+        "Educação em saúde e higiene reduz a transmissão e a reinfecção; a OMS recomenda tratamento periódico em massa (quimioterapia preventiva)."
+      ],
+      "benchTip": "Se as fezes não forem refrigeradas e examinadas em poucas horas, os ovos podem eclodir e liberar larvas, que podem ser confundidas com larvas de Strongyloides stercoralis.",
+      "differentialDiagnosis": "Larva rabditoide de ancilostomídeo: canal bucal longo e primórdio genital inconspícuo; a de S. stercoralis tem canal bucal curto e primórdio genital proeminente. Material vegetal e esporos de fungos podem ser confundidos com ovos de ancilostomídeo.",
+      "images": [
+        {
+          "id": "lam03_detalhe",
+          "file": "nematelmintos/ancilostomideo_lam03_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 3,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 3, detalhe ampliado",
+          "caption": "Ovo oval grande, casca fina e transparente, com massa de blastômeros granulares ocupando o interior.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_120424.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam03_campo",
+          "file": "nematelmintos/ancilostomideo_lam03_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 3,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 3, campo geral",
+          "caption": "Campo geral da lâmina 3 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_120424.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam15_detalhe",
+          "file": "nematelmintos/ancilostomideo_lam15_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 15,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 15, detalhe ampliado",
+          "caption": "Ovo arredondado a oval, casca fina, conteúdo granular escuro, parcialmente encoberto por detritos fecais.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_111245.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam15_campo",
+          "file": "nematelmintos/ancilostomideo_lam15_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 15,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 15, campo geral",
+          "caption": "Campo geral da lâmina 15 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_111245.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam16_detalhe",
+          "file": "nematelmintos/ancilostomideo_lam16_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 16,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 16, detalhe ampliado",
+          "caption": "Ovo oval com casca fina e transparente, espaço claro entre casca e conteúdo, massa em início de segmentação (poucos blastômeros).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_112956.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam16_campo",
+          "file": "nematelmintos/ancilostomideo_lam16_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 16,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de ancilostomídeo, lâmina 16, campo geral",
+          "caption": "Campo geral da lâmina 16 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_112956.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ],
+      "verification": [
+        {
+          "id": "ancilostomideo#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Nematoda › Chromadorea › Rhabditida › Strongyloidea › Ancylostomatidae.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Nematoda (phylum) · Chromadorea (class) · Rhabditida (order) · Strongyloidea (superfamily) · Ancylostomatidae (family)",
+          "note": "Antes: classe Secernentea; ordem Strongylida.",
+          "before": "Secernentea / Strongylida"
+        },
+        {
+          "id": "ancilostomideo#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo oval grande, de casca fina e transparente, com massa de blastômeros granulares no interior.",
+          "status": "observacao",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas (legenda das microfotografias). Compatível com \"thin-shelled, colorless\" (CDC DPDx), mas não é citação de literatura."
+        },
+        {
+          "id": "ancilostomideo#03",
+          "section": "Tamanho",
+          "text": "Ovo: 60–75 µm × 35–40 µm.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"The eggs are thin-shelled, colorless and measure 60-75 µm by 35-40 µm.\"",
+          "note": "Antes: 60 a 70 × 40 µm.",
+          "before": "60 a 70 x 40 µm"
+        },
+        {
+          "id": "ancilostomideo#04",
+          "section": "Morfologia",
+          "text": "Os ovos têm casca fina e são incolores.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"The eggs are thin-shelled, colorless and measure 60-75 µm by 35-40 µm.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#05",
+          "section": "Traços",
+          "text": "Casca fina e incolor.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"thin-shelled, colorless\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#06",
+          "section": "Traços",
+          "text": "Ovos de Ancylostoma e de Necator não se distinguem ao microscópio.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook",
+            "msd_hook"
+          ],
+          "evidence": "\"The eggs of Ancylostoma and Necator cannot be differentiated microscopically.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#07",
+          "section": "Doença",
+          "text": "Ancilostomíase (infecção por ancilostomídeos; \"hookworm infection\" nas fontes).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook",
+            "msd_hook"
+          ],
+          "evidence": "Título das páginas: Hookworm",
+          "note": "Tradução do termo; nomes populares do texto anterior foram retirados (sem fonte lida)."
+        },
+        {
+          "id": "ancilostomideo#08",
+          "section": "Patogenia",
+          "text": "A perda crônica de sangue leva à anemia ferropriva; os ancilostomídeos são uma das principais causas de anemia ferropriva em regiões endêmicas.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook",
+            "who_sth"
+          ],
+          "evidence": "\"Chronic blood loss leads to iron deficiency anemia.\" · \"Hookworms are a major cause of iron deficiency anemia in endemic regions.\" · OMS: \"chronic intestinal blood loss that can result in anaemia\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#09",
+          "section": "Clínica",
+          "text": "Erupção cutânea pruriginosa transitória (\"ground itch\") no ponto de penetração da larva, geralmente nos pés.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook"
+          ],
+          "evidence": "\"a transient pruritic papulovesicular rash (ground itch) may develop at the site of larval penetration, usually on the feet.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#10",
+          "section": "Clínica",
+          "text": "A passagem de grande número de larvas pelos pulmões pode, ocasionalmente, causar síndrome de Löffler (tosse, sibilos, eosinofilia, às vezes hemoptise).",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook"
+          ],
+          "evidence": "\"Migration of large numbers of larvae through the lungs occasionally causes\" Löffler syndrome, with \"cough, wheezing, eosinophilia, and sometimes hemoptysis.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#11",
+          "section": "Clínica",
+          "text": "Fase intestinal aguda: dor epigástrica em cólica, anorexia, flatulência, diarreia e perda de peso.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook"
+          ],
+          "evidence": "\"may cause colicky epigastric pain, anorexia, flatulence, diarrhea, and weight loss\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#12",
+          "section": "Clínica",
+          "text": "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico.",
+          "status": "confirmado",
+          "refs": [
+            "who_sth"
+          ],
+          "evidence": "\"impaired growth and physical development\"",
+          "note": "Afirmação da OMS para o conjunto das geo-helmintíases."
+        },
+        {
+          "id": "ancilostomideo#13",
+          "section": "Ciclo",
+          "text": "Larvas filarioides (L3) infectantes penetram ativamente na pele; a infecção ocorre principalmente andando descalço em solo contaminado.",
+          "status": "confirmado",
+          "refs": [
+            "who_sth",
+            "dpdx_hook"
+          ],
+          "evidence": "\"People become infected with hookworm primarily by walking barefoot on the contaminated soil.\" · larvae \"mature into a form that can actively penetrate the skin\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#14",
+          "section": "Ciclo",
+          "text": "Larva filarioide (L3).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"become filariform (third-stage) larvae that are infective\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#15",
+          "section": "Ciclo",
+          "text": "Ovos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"Eggs are passed in the stool\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#16",
+          "section": "Ciclo",
+          "text": "Jejuno (intestino delgado), onde as larvas amadurecem em adultos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"The larvae reach the jejunum of the small intestine, where they reside and mature into adults.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#17",
+          "section": "Ciclo",
+          "text": "Ovos eliminados nas fezes → larvas filarioides infectantes → penetração pela pele → jejuno.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook",
+            "who_sth"
+          ],
+          "evidence": "Ver evidências das linhas anteriores.",
+          "note": "Sem uso de classificações (p. ex. \"monoxênico\") que não constam nas fontes lidas."
+        },
+        {
+          "id": "ancilostomideo#18",
+          "section": "Diagnóstico",
+          "text": "Identificação microscópica de ovos nas fezes (método mais comum).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"Microscopic identification of eggs in the stool is the most common method for diagnosing hookworm infection.\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#19",
+          "section": "Diagnóstico",
+          "text": "Kato-Katz (contagem de ovos por grama de fezes) é usado para geo-helmintos; ver protocolo.",
+          "status": "confirmado",
+          "refs": [
+            "levecke2011"
+          ],
+          "evidence": "Título do artigo (lido na íntegra em 17/10/2026): \"A comparison of the sensitivity and fecal egg counts of the McMaster egg counting and Kato-Katz thick smear methods for soil-transmitted helminths\"",
+          "note": "Conferido na revisão de 17/10/2026; ver protocolos."
+        },
+        {
+          "id": "ancilostomideo#20",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "\"Microscopic identification of eggs in the stool\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#21",
+          "section": "Diagnóstico",
+          "text": "Ovos de Ancylostoma e Necator não são diferenciáveis ao microscópio; o resultado de rotina é \"ovos de ancilostomídeos\".",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_hook",
+            "msd_hook"
+          ],
+          "evidence": "\"The eggs of Ancylostoma and Necator cannot be differentiated microscopically.\"",
+          "note": "A primeira parte é literal; a forma de laudar (\"ovos de ancilostomídeos\") é prática de rotina e não consta nas fontes."
+        },
+        {
+          "id": "ancilostomideo#22",
+          "section": "Tratamento",
+          "text": "Albendazol, mebendazol ou pamoato de pirantel (MSD). A OMS recomenda albendazol e mebendazol. A ivermectina não é eficaz na infecção intestinal.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook",
+            "who_sth"
+          ],
+          "evidence": "\"Albendazole, mebendazole, or pyrantel pamoate may be used.\" · OMS: \"The WHO recommended medicines – albendazole (400 mg) and mebendazole (500 mg)\"",
+          "note": "Doses e esquemas não são reproduzidos no atlas: consultar diretriz vigente."
+        },
+        {
+          "id": "ancilostomideo#23",
+          "section": "Prevenção",
+          "text": "Usar calçados e barreiras ao sentar no solo é eficaz, mas difícil de implementar em muitas áreas endêmicas.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook"
+          ],
+          "evidence": "\"wearing shoes, using barriers when seated on the ground\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#24",
+          "section": "Prevenção",
+          "text": "Evitar a defecação inadequada (saneamento).",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook",
+            "who_sth"
+          ],
+          "evidence": "\"Preventing unhygienic defecation\" · OMS: sanitation \"is also important but not always possible in resource-poor settings\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#25",
+          "section": "Prevenção",
+          "text": "Educação em saúde e higiene reduz a transmissão e a reinfecção; a OMS recomenda tratamento periódico em massa (quimioterapia preventiva).",
+          "status": "confirmado",
+          "refs": [
+            "who_sth"
+          ],
+          "evidence": "\"health and hygiene education reduces transmission and reinfection\" · \"WHO recommends periodic medicinal treatment (deworming or preventive chemotherapy)\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#26",
+          "section": "Bancada",
+          "text": "Se as fezes não forem refrigeradas e examinadas em poucas horas, os ovos podem eclodir e liberar larvas, que podem ser confundidas com larvas de Strongyloides stercoralis.",
+          "status": "confirmado",
+          "refs": [
+            "msd_hook"
+          ],
+          "evidence": "\"the eggs may hatch and release larvae\" (fezes não refrigeradas/examinadas \"within several hours\")",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#27",
+          "section": "Diferencial",
+          "text": "Larva rabditoide de ancilostomídeo: canal bucal longo e primórdio genital inconspícuo; a de S. stercoralis tem canal bucal curto e primórdio genital proeminente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook",
+            "dpdx_stro"
+          ],
+          "evidence": "\"They have a long buccal canal and an inconspicuous genital primordium.\" · \"a short buccal canal\" · \"a prominent genital primordium\"",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#28",
+          "section": "Diferencial",
+          "text": "Material vegetal e esporos de fungos podem ser confundidos com ovos de ancilostomídeo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_art"
+          ],
+          "evidence": "\"This material can be confused for a hookworm egg.\" · \"Such spores may be confused for helminth eggs, especially hookworm.\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "espaço subcapsular translúcido; mórula de 4 a 16 células; coloração castanho-dourada pelo iodo/lugol",
+          "reason": "Detalhes de aspecto da lâmina não constam nas fontes; permanecem apenas como observação genérica (casca fina, blastômeros).",
+          "field": "morfologia"
+        },
+        {
+          "before": "espolia 0,03 a 0,2 mL de sangue por dia",
+          "reason": "Valor numérico sem fonte lida.",
+          "field": "patogenia"
+        },
+        {
+          "before": "dentes (A. duodenale) / lâminas cortantes (N. americanus); anticoagulantes; anemia microcítica e hipocrômica; hipoalbuminemia e anasarca",
+          "reason": "Sem fonte lida.",
+          "field": "patogenia"
+        },
+        {
+          "before": "Pica (geofagia); retardo ponderoestatural",
+          "reason": "Sem fonte lida (a OMS cita crescimento prejudicado, mantido).",
+          "field": "clínica"
+        },
+        {
+          "before": "Faust/Hoffmann como padrão-ouro; fezes frescas para evitar eclosão em 24 h",
+          "reason": "Sem fonte lida para 'padrão-ouro'; a fonte fala em poucas horas, não 24 h.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "ovos de Trichostrongylus mais pontiagudos e maiores",
+          "reason": "Sem fonte lida.",
+          "field": "diferencial"
+        },
+        {
+          "before": "Nomes populares (amarelão, opilação, coceira dos mineiros)",
+          "reason": "Sem fonte lida nesta revisão.",
+          "field": "doença"
+        }
+      ]
+    },
+    {
+      "id": "ascaris_lumbricoides",
+      "commonName": "Ascaris lumbricoides",
+      "scientificName": "Ascaris lumbricoides",
+      "taxonomy": {
+        "phylum": "Nematoda",
+        "class": "Chromadorea",
+        "order": "Rhabditida (subordem Spirurina)",
+        "family": "Ascarididae",
+        "genus": "Ascaris",
+        "species": "Ascaris lumbricoides",
+        "note": "NCBI Taxonomy (23/10/2026): superfamília Ascaridoidea. Antes: classe Secernentea; ordem Ascaridida.",
+        "ncbi": "taxid 6252",
+        "source": "ncbi_tax"
+      },
+      "category": "Nematódeo",
+      "evolutionaryStage": "Ovo fértil (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo fértil: 45–75 µm de comprimento. Ovo infértil: alongado e maior, até 90 µm. · Vermes adultos: fêmeas 20–35 cm; machos 15–31 cm.",
+      "morphologyDescription": "Ovos decorticados são aqueles em que a camada externa está ausente.",
+      "keyDiagnosticFeatures": [
+        "Ovo infértil: alongado e maior que o fértil."
+      ],
+      "disease": "Ascaridíase.",
+      "pathogenesis": "As larvas se desenvolvem até a infectividade dentro de ovos férteis em 18 dias a várias semanas; após ingeridos, os ovos liberam larvas que migram pelos pulmões antes de alcançar o intestino delgado, onde se tornam adultos. Uma massa emaranhada de vermes (infecção intensa) pode obstruir o intestino, sobretudo em crianças; um verme adulto migrando pode, ocasionalmente, obstruir ductos biliares ou pancreáticos.",
+      "clinicalManifestations": [
+        "Na fase pulmonar, o raio X pode mostrar infiltrados; infiltrados pulmonares com eosinofilia caracterizam a síndrome de Löffler.",
+        "A eliminação de um verme adulto pela boca ou pelo reto pode levar um paciente, até então assintomático, ao atendimento.",
+        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação microscópica de ovos nas fezes (método mais comum) ou visualização de vermes adultos.",
+        "alternatives": [
+          "Concentração por sedimentação formalina–acetato de etila e exame do sedimento; o exame direto a fresco é adequado para infecções moderadas a intensas.",
+          "Kato-Katz (contagem de ovos por grama) é usado para geo-helmintos; ver protocolo."
+        ],
+        "sampleType": "Fezes; na fase pulmonar, larvas podem ser identificadas em escarro ou aspirado gástrico."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ovos eliminados nas fezes chegam à boca por alimentos, água ou mãos contaminados; não há transmissão direta de pessoa a pessoa, pois os ovos precisam de cerca de 3 semanas no solo para amadurecer.",
+        "infectiveForm": "Ovo fértil contendo larva (infectante após o desenvolvimento no ambiente).",
+        "diagnosticForm": "Ovos nas fezes (férteis ou inférteis).",
+        "habitat": "Intestino delgado.",
+        "cycleType": "Entre 2 e 3 meses entre a ingestão dos ovos infectantes e a postura pela fêmea adulta; passagem larval pelos pulmões."
+      },
+      "treatment": [
+        "Albendazol, mebendazol ou ivermectina; em gestantes, pamoato de pirantel (MSD). A OMS recomenda albendazol e mebendazol."
+      ],
+      "prophylaxis": [
+        "A prevenção requer saneamento adequado; educação em saúde e higiene reduz transmissão e reinfecção."
+      ],
+      "differentialDiagnosis": "Grãos de pólen são comuns nas fezes e podem se parecer muito com o ovo fértil de Ascaris.",
+      "images": [
+        {
+          "id": "lam08_detalhe",
+          "file": "nematelmintos/ascaris_lumbricoides_lam08_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 8,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 8, detalhe ampliado",
+          "caption": "Ovo arredondado, laranja-avermelhado, com bordas em camadas concêntricas (camada albuminosa em outro plano de foco). Massa celular central.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_113308.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam08_campo",
+          "file": "nematelmintos/ascaris_lumbricoides_lam08_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 8,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 8, campo geral",
+          "caption": "Campo geral da lâmina 8 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_113308.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam11_detalhe",
+          "file": "nematelmintos/ascaris_lumbricoides_lam11_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 11,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 11, detalhe ampliado",
+          "caption": "Ovo arredondado de superfície rugosa/mamilonada, bem corado de vermelho, com massa celular interna.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110435.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam11_campo",
+          "file": "nematelmintos/ascaris_lumbricoides_lam11_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 11,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 11, campo geral",
+          "caption": "Campo geral da lâmina 11 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110435.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam05_detalhe",
+          "file": "nematelmintos/ascaris_lumbricoides_lam05_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 5,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 5, detalhe ampliado",
+          "caption": "Ovo oval, marrom-alaranjado, com casca externa mamilonada (camada albuminosa irregular). Interior com massa celular.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104935.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam05_campo",
+          "file": "nematelmintos/ascaris_lumbricoides_lam05_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 5,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 5, campo geral",
+          "caption": "Campo geral da lâmina 5 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104935.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam13_detalhe",
+          "file": "nematelmintos/ascaris_lumbricoides_lam13_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 13,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 13, detalhe ampliado",
+          "caption": "Ovo arredondado, laranja, borda mamilonada típica (camada albuminosa). Massa celular central.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_111006.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam13_campo",
+          "file": "nematelmintos/ascaris_lumbricoides_lam13_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 13,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 13, campo geral",
+          "caption": "Campo geral da lâmina 13 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_111006.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam19_detalhe",
+          "file": "nematelmintos/ascaris_lumbricoides_lam19_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 19,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 19, detalhe ampliado",
+          "caption": "Ovo oval alaranjado com casca mamilonada bem evidente.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_114152.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam19_campo",
+          "file": "nematelmintos/ascaris_lumbricoides_lam19_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 19,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Ascaris lumbricoides, lâmina 19, campo geral",
+          "caption": "Campo geral da lâmina 19 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_114152.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ],
+      "verification": [
+        {
+          "id": "ascaris_lumbricoides#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Nematoda › Chromadorea › Rhabditida › Ascarididae › Ascaris.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Nematoda (phylum) · Chromadorea (class) · Rhabditida (order) · Ascarididae (family) · Ascaris (genus)",
+          "note": "Antes: classe Secernentea; ordem Ascaridida.",
+          "before": "Secernentea / Ascaridida"
+        },
+        {
+          "id": "ascaris_lumbricoides#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo de contorno ovalado com a superfície externa irregular (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas, não de literatura. As legendas individuais constam em cada imagem."
+        },
+        {
+          "id": "ascaris_lumbricoides#03",
+          "section": "Tamanho",
+          "text": "Ovo fértil: 45–75 µm de comprimento. Ovo infértil: alongado e maior, até 90 µm.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Fertile eggs range from 45 to 75 µm in length.\" · \"Unfertilized eggs are elongated and larger than fertile eggs (up to 90 µm in length).\"",
+          "note": "Antes: 45–75 × 35–50 µm; a largura não consta na fonte lida.",
+          "before": "45 a 75 µm de comprimento por 35 a 50 µm de largura"
+        },
+        {
+          "id": "ascaris_lumbricoides#04",
+          "section": "Tamanho",
+          "text": "Vermes adultos: fêmeas 20–35 cm; machos 15–31 cm.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Females measure 20–35 cm long with straight tails; males are smaller at 15–31 cm\"",
+          "note": "A mesma página dá 15–30 cm para machos na seção 'Causal Agents'."
+        },
+        {
+          "id": "ascaris_lumbricoides#05",
+          "section": "Morfologia",
+          "text": "Ovos decorticados são aqueles em que a camada externa está ausente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "A página define ovo decorticado como aquele em que \"the outer layer is absent\".",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#06",
+          "section": "Traços",
+          "text": "Ovo infértil: alongado e maior que o fértil.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Unfertilized eggs are elongated and larger than fertile eggs\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#07",
+          "section": "Doença",
+          "text": "Ascaridíase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc",
+            "msd_asc"
+          ],
+          "evidence": "Título das páginas: Ascariasis",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#08",
+          "section": "Patogenia",
+          "text": "As larvas se desenvolvem até a infectividade dentro de ovos férteis em 18 dias a várias semanas; após ingeridos, os ovos liberam larvas que migram pelos pulmões antes de alcançar o intestino delgado, onde se tornam adultos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Larvae develop to infectivity within fertile eggs after 18 days to several weeks\" · \"Upon reaching the small intestine, they develop into adult worms.\" · \"Larvae can be identified in sputum or gastric aspirate during the pulmonary migration phase\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#09",
+          "section": "Patogenia",
+          "text": "Uma massa emaranhada de vermes (infecção intensa) pode obstruir o intestino, sobretudo em crianças; um verme adulto migrando pode, ocasionalmente, obstruir ductos biliares ou pancreáticos.",
+          "status": "confirmado",
+          "refs": [
+            "msd_asc",
+            "who_sth"
+          ],
+          "evidence": "\"A tangled mass of worms resulting from heavy infection can obstruct the bowel, particularly in children.\" · \"occasionally obstruct the biliary or pancreatic ducts.\" · OMS: \"Infections of very high intensity can cause intestinal obstruction that should be treated surgically.\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#10",
+          "section": "Clínica",
+          "text": "Na fase pulmonar, o raio X pode mostrar infiltrados; infiltrados pulmonares com eosinofilia caracterizam a síndrome de Löffler.",
+          "status": "confirmado",
+          "refs": [
+            "msd_asc"
+          ],
+          "evidence": "\"Chest radiograph during the pulmonary phase may show infiltrates\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#11",
+          "section": "Clínica",
+          "text": "A eliminação de um verme adulto pela boca ou pelo reto pode levar um paciente, até então assintomático, ao atendimento.",
+          "status": "confirmado",
+          "refs": [
+            "msd_asc"
+          ],
+          "evidence": "\"passage of an adult worm by mouth or rectum may bring an otherwise asymptomatic patient to medical attention\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#12",
+          "section": "Clínica",
+          "text": "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico.",
+          "status": "confirmado",
+          "refs": [
+            "who_sth"
+          ],
+          "evidence": "\"impaired growth and physical development\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#13",
+          "section": "Ciclo",
+          "text": "Ovos eliminados nas fezes chegam à boca por alimentos, água ou mãos contaminados; não há transmissão direta de pessoa a pessoa, pois os ovos precisam de cerca de 3 semanas no solo para amadurecer.",
+          "status": "confirmado",
+          "refs": [
+            "who_sth"
+          ],
+          "evidence": "\"Soil-transmitted helminths are transmitted by eggs that are passed in the faeces of infected people.\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#14",
+          "section": "Ciclo",
+          "text": "Ovo fértil contendo larva (infectante após o desenvolvimento no ambiente).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Larvae develop to infectivity within fertile eggs after 18 days to several weeks\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#15",
+          "section": "Ciclo",
+          "text": "Ovos nas fezes (férteis ou inférteis).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Microscopic identification of eggs in the stool is the most common method for diagnosing intestinal ascariasis.\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#16",
+          "section": "Ciclo",
+          "text": "Intestino delgado.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Upon reaching the small intestine, they develop into adult worms.\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#17",
+          "section": "Ciclo",
+          "text": "Entre 2 e 3 meses entre a ingestão dos ovos infectantes e a postura pela fêmea adulta; passagem larval pelos pulmões.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Between 2 and 3 months are required from ingestion of the infective eggs to oviposition by the adult female.\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#18",
+          "section": "Diagnóstico",
+          "text": "Identificação microscópica de ovos nas fezes (método mais comum) ou visualização de vermes adultos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc",
+            "msd_asc"
+          ],
+          "evidence": "\"Microscopic identification of eggs in the stool is the most common method for diagnosing intestinal ascariasis.\" · \"gross visualization of adult worms\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#19",
+          "section": "Diagnóstico",
+          "text": "Concentração por sedimentação formalina–acetato de etila e exame do sedimento; o exame direto a fresco é adequado para infecções moderadas a intensas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"a direct wet mount examination of the specimen is adequate for detecting moderate to heavy infections\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#20",
+          "section": "Diagnóstico",
+          "text": "Kato-Katz (contagem de ovos por grama) é usado para geo-helmintos; ver protocolo.",
+          "status": "confirmado",
+          "refs": [
+            "levecke2011"
+          ],
+          "evidence": "Título do artigo (lido na íntegra em 17/10/2026): \"A comparison of the sensitivity and fecal egg counts of the McMaster egg counting and Kato-Katz thick smear methods for soil-transmitted helminths\"",
+          "note": "Conferido na revisão de 17/10/2026."
+        },
+        {
+          "id": "ascaris_lumbricoides#21",
+          "section": "Diagnóstico",
+          "text": "Fezes; na fase pulmonar, larvas podem ser identificadas em escarro ou aspirado gástrico.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "\"Larvae can be identified in sputum or gastric aspirate during the pulmonary migration phase\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#22",
+          "section": "Tratamento",
+          "text": "Albendazol, mebendazol ou ivermectina; em gestantes, pamoato de pirantel (MSD). A OMS recomenda albendazol e mebendazol.",
+          "status": "confirmado",
+          "refs": [
+            "msd_asc",
+            "who_sth"
+          ],
+          "evidence": "\"Albendazole, mebendazole, or ivermectin\" · \"For pregnant women, pyrantel pamoate\"",
+          "note": "Doses não reproduzidas."
+        },
+        {
+          "id": "ascaris_lumbricoides#23",
+          "section": "Prevenção",
+          "text": "A prevenção requer saneamento adequado; educação em saúde e higiene reduz transmissão e reinfecção.",
+          "status": "confirmado",
+          "refs": [
+            "msd_asc",
+            "who_sth"
+          ],
+          "evidence": "\"Prevention of ascariasis requires adequate sanitation.\" · \"health and hygiene education reduces transmission and reinfection\"",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#24",
+          "section": "Diferencial",
+          "text": "Grãos de pólen são comuns nas fezes e podem se parecer muito com o ovo fértil de Ascaris.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_art"
+          ],
+          "evidence": "\"Pollen spores are very common in stool and may be confused for a variety of helminth eggs.\" · \"This grain looks very similar to the fertile egg of Ascaris lumbricoides\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "camadas da casca (albuminoide mamelonada, quitinosa, lipídica); coloração por bilirrubina",
+          "reason": "Descrição das camadas não consta nas fontes lidas.",
+          "field": "morfologia"
+        },
+        {
+          "before": "espoliação de proteínas, carboidratos e vitaminas A e C; déficit cognitivo",
+          "reason": "Sem fonte lida (a OMS lida cita crescimento, não cognição).",
+          "field": "patogenia"
+        },
+        {
+          "before": "'> 100 a centenas de vermes' para oclusão; volvo; intussuscepção; colangite; apêndice",
+          "reason": "Valores e complicações adicionais sem fonte lida.",
+          "field": "patogenia"
+        },
+        {
+          "before": "Ultrassonografia abdominal como alternativa; Faust",
+          "reason": "Sem fonte lida.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "Lavagem de hortaliças com água clorada; fervura da água; sanitários",
+          "reason": "Medidas específicas não constam nas fontes lidas (mantido apenas saneamento e higiene).",
+          "field": "prevenção"
+        },
+        {
+          "before": "'Ciclo de Loss'",
+          "reason": "Termo não encontrado nas fontes lidas.",
+          "field": "ciclo"
+        },
+        {
+          "before": "Nome popular 'lombriga'",
+          "reason": "Sem fonte lida.",
+          "field": "doença"
+        }
+      ]
+    },
+    {
+      "id": "enterobius_vermicularis",
+      "commonName": "Enterobius vermicularis",
+      "scientificName": "Enterobius vermicularis",
+      "taxonomy": {
+        "phylum": "Nematoda",
+        "class": "Chromadorea",
+        "order": "Rhabditida (subordem Spirurina)",
+        "family": "Oxyuridae",
+        "genus": "Enterobius",
+        "species": "Enterobius vermicularis",
+        "note": "NCBI Taxonomy (23/10/2026): superfamília Oxyuroidea. Antes: classe Secernentea; ordem Oxyurida.",
+        "ncbi": "taxid 51028",
+        "source": "ncbi_tax"
+      },
+      "category": "Nematódeo",
+      "evolutionaryStage": "Ovo embrionado (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo: 50–60 µm × 20–30 µm. Fêmea adulta: 8–13 mm × 0,3–0,5 mm; macho: até 2,5 mm × 0,1–0,2 mm.",
+      "morphologyDescription": "Ovos transparentes, de alongados a ovais, ligeiramente achatados de um lado.",
+      "keyDiagnosticFeatures": [
+        "Achatamento de um dos lados do ovo."
+      ],
+      "disease": "Enterobíase (infecção por Enterobius vermicularis; \"pinworm\" nas fontes).",
+      "pathogenesis": "Os vermes adultos se estabelecem no cólon, geralmente no ceco; as fêmeas grávidas migram à noite para fora do ânus e põem os ovos enquanto se movem sobre a pele perianal.",
+      "clinicalManifestations": [
+        "Coceira, tipicamente na região perianal.",
+        "A invasão do trato genital feminino pode causar inflamação da vulva e da vagina."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Teste da fita adesiva transparente (\"Scotch test\") pressionada sobre a pele perianal; é o teste diagnóstico mais comum.",
+        "alternatives": [
+          "Ovos também podem ser encontrados nas fezes, mas com menos frequência; amostras de fezes costumam não conter vermes ou ovos suficientes."
+        ],
+        "sampleType": "Material da região perianal; coletar pela manhã, antes de evacuar e de lavar a região.",
+        "technicalObservation": "O protocolo do atlas (fita adesiva) segue as fontes citadas na revisão de 17/10/2026."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Autoinoculação: ovos levados à boca por mãos que coçaram a região perianal.",
+        "infectiveForm": "Ovo com larva (torna-se infectante em 4 a 6 horas em condições ótimas).",
+        "diagnosticForm": "Ovos na pele perianal (fita adesiva); menos frequentemente nas fezes.",
+        "habitat": "Cólon, geralmente o ceco.",
+        "cycleType": "Retroinfecção (larvas recém-eclodidas voltando da pele anal ao reto) pode ocorrer, mas sua frequência é desconhecida."
+      },
+      "treatment": [
+        "Mebendazol, pamoato de pirantel ou albendazol; tratamento em duas doses, a segunda após duas semanas."
+      ],
+      "prophylaxis": [
+        "A adesão estrita à higiene das mãos é a forma mais efetiva de prevenir a infecção; os contatos domiciliares devem ser orientados a seguir boas práticas de higiene."
+      ],
+      "benchTip": "Coletar pela manhã, antes de evacuar e de lavar a região perianal.",
+      "images": [
+        {
+          "id": "lam07_detalhe",
+          "file": "nematelmintos/enterobius_vermicularis_lam07_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 7,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Enterobius vermicularis, lâmina 7, detalhe ampliado",
+          "caption": "Ovo alongado e assimétrico (um lado mais achatado, forma de “D”), casca lisa e dupla, com larva dentro.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112615.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam07_campo",
+          "file": "nematelmintos/enterobius_vermicularis_lam07_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 7,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Enterobius vermicularis, lâmina 7, campo geral",
+          "caption": "Campo geral da lâmina 7 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112615.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam21_detalhe",
+          "file": "nematelmintos/enterobius_vermicularis_lam21_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 21,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Enterobius vermicularis, lâmina 21, detalhe ampliado",
+          "caption": "Ovo oval alongado, assimétrico, casca lisa e dupla, com larva no interior, ao lado de detritos.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "enterobius_vermiculares.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam21_campo",
+          "file": "nematelmintos/enterobius_vermicularis_lam21_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 21,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Enterobius vermicularis, lâmina 21, campo geral",
+          "caption": "Campo geral da lâmina 21 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "enterobius_vermiculares.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        }
+      ],
+      "verification": [
+        {
+          "id": "enterobius_vermicularis#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Nematoda › Chromadorea › Rhabditida › Oxyuridae › Enterobius.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Nematoda (phylum) · Chromadorea (class) · Rhabditida (order) · Oxyuroidea (superfamily) · Oxyuridae (family) · Enterobius (genus)",
+          "note": "Antes: classe Secernentea; ordem Oxyurida.",
+          "before": "Secernentea / Oxyurida"
+        },
+        {
+          "id": "enterobius_vermicularis#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo com um lado retilíneo e outro convexo (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas."
+        },
+        {
+          "id": "enterobius_vermicularis#03",
+          "section": "Tamanho",
+          "text": "Ovo: 50–60 µm × 20–30 µm. Fêmea adulta: 8–13 mm × 0,3–0,5 mm; macho: até 2,5 mm × 0,1–0,2 mm.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"The eggs of Enterobius vermicularis measure 50—60 µm by 20—30 µm.\" · \"adult females measure 8-13 mm long by 0.3-0.5 mm wide\" · \"measure up to 2.5 mm long by 0.1-0.2 mm wide\"",
+          "note": "A seção do ciclo da mesma página dá 2–5 mm para o macho; a página não reconcilia os valores."
+        },
+        {
+          "id": "enterobius_vermicularis#04",
+          "section": "Morfologia",
+          "text": "Ovos transparentes, de alongados a ovais, ligeiramente achatados de um lado.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"They are transparent, elongate to oval in shape, and slightly flattened on one side.\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#05",
+          "section": "Traços",
+          "text": "Achatamento de um dos lados do ovo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"slightly flattened on one side\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#06",
+          "section": "Doença",
+          "text": "Enterobíase (infecção por Enterobius vermicularis; \"pinworm\" nas fontes).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent",
+            "cdc_pin_hcp"
+          ],
+          "evidence": "Título das páginas: Enterobiasis / Pinworm",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#07",
+          "section": "Patogenia",
+          "text": "Os vermes adultos se estabelecem no cólon, geralmente no ceco; as fêmeas grávidas migram à noite para fora do ânus e põem os ovos enquanto se movem sobre a pele perianal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"the adults establish themselves in the colon, usually in the cecum\" · \"Gravid females migrate nocturnally outside the anus and oviposit while crawling on the skin of the perianal area\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#08",
+          "section": "Clínica",
+          "text": "Coceira, tipicamente na região perianal.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_pin_hcp"
+          ],
+          "evidence": "\"typically itching in the perianal region\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#09",
+          "section": "Clínica",
+          "text": "A invasão do trato genital feminino pode causar inflamação da vulva e da vagina.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_pin_hcp"
+          ],
+          "evidence": "A página descreve \"inflammation of the vulva and vagina\" por invasão do trato genital feminino.",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#10",
+          "section": "Ciclo",
+          "text": "Autoinoculação: ovos levados à boca por mãos que coçaram a região perianal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"Infection occurs via self-inoculation (transferring eggs to the mouth with hands that have scratched the perianal area).\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#11",
+          "section": "Ciclo",
+          "text": "Ovo com larva (torna-se infectante em 4 a 6 horas em condições ótimas).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"The larvae contained inside the eggs develop (the eggs become infective) in 4 to 6 hours under optimal conditions\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#12",
+          "section": "Ciclo",
+          "text": "Ovos na pele perianal (fita adesiva); menos frequentemente nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"Eggs can also be found, but less frequently, in the stool\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#13",
+          "section": "Ciclo",
+          "text": "Cólon, geralmente o ceco.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"the adults establish themselves in the colon, usually in the cecum\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#14",
+          "section": "Ciclo",
+          "text": "Retroinfecção (larvas recém-eclodidas voltando da pele anal ao reto) pode ocorrer, mas sua frequência é desconhecida.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"Retroinfection, or the migration of newly hatched larvae from the anal skin back into the rectum, may occur but the frequency with which this happens is unknown.\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#15",
+          "section": "Diagnóstico",
+          "text": "Teste da fita adesiva transparente (\"Scotch test\") pressionada sobre a pele perianal; é o teste diagnóstico mais comum.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent",
+            "cdc_pin_hcp"
+          ],
+          "evidence": "\"pressing transparent cellulose tape (“Scotch test”, cellulose tape slide test) on the perianal skin.\" · \"the most common diagnostic test for pinworm infection is the 'tape test'\"",
+          "note": "O nome 'método de Graham' é atribuição histórica usada na literatura em português; as páginas lidas não o utilizam."
+        },
+        {
+          "id": "enterobius_vermicularis#16",
+          "section": "Diagnóstico",
+          "text": "Ovos também podem ser encontrados nas fezes, mas com menos frequência; amostras de fezes costumam não conter vermes ou ovos suficientes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent",
+            "cdc_pin_hcp"
+          ],
+          "evidence": "\"Eggs can also be found, but less frequently, in the stool\" · \"these types of samples usually don't contain enough worms or eggs to easily detect\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#17",
+          "section": "Diagnóstico",
+          "text": "Material da região perianal; coletar pela manhã, antes de evacuar e de lavar a região.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"collection should be done in the morning, before defecation and washing\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#18",
+          "section": "Diagnóstico",
+          "text": "O protocolo do atlas (fita adesiva) segue as fontes citadas na revisão de 17/10/2026.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_pinworm",
+            "pho_enterobius"
+          ],
+          "evidence": "Ver seção de protocolos.",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#19",
+          "section": "Tratamento",
+          "text": "Mebendazol, pamoato de pirantel ou albendazol; tratamento em duas doses, a segunda após duas semanas.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_pin_hcp"
+          ],
+          "evidence": "\"The medications used for the treatment of pinworm are either mebendazole, pyrantel pamoate, or albendazole.\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#20",
+          "section": "Prevenção",
+          "text": "A adesão estrita à higiene das mãos é a forma mais efetiva de prevenir a infecção; os contatos domiciliares devem ser orientados a seguir boas práticas de higiene.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_pin_hcp"
+          ],
+          "evidence": "\"strict adherence to proper hand hygiene is the most effective way to prevent pinworm infection\" · \"Advise household members and other contacts (school and playmates) to also follow good hygiene practices\"",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#21",
+          "section": "Bancada",
+          "text": "Coletar pela manhã, antes de evacuar e de lavar a região perianal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "\"collection should be done in the morning, before defecation and washing\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "casca de parede dupla (albuminoide e lipídica); embrião giriniforme dobrado",
+          "reason": "Detalhes da casca não constam nas fontes lidas.",
+          "field": "morfologia"
+        },
+        {
+          "before": "sensibilidade <5% do exame parasitológico de fezes",
+          "reason": "Valor numérico sem fonte lida (as fontes dizem apenas 'menos frequentemente').",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "prurido predominantemente noturno; insônia; bruxismo; irritabilidade; déficit de atenção; disúria; leucorreia; salpingite; peritonite",
+          "reason": "Sem fonte lida (a fonte cita coceira perianal e inflamação de vulva/vagina).",
+          "field": "clínica"
+        },
+        {
+          "before": "heteroinfecção por poeira com ovos suspensos no ar; retroinfecção como rotina",
+          "reason": "Não consta nas fontes lidas; a retroinfecção consta com ressalva.",
+          "field": "ciclo"
+        },
+        {
+          "before": "tratar toda a família; cortar unhas; não sacudir roupas de cama; lavar a quente / sol forte",
+          "reason": "A fonte lida cita apenas higiene de mãos e orientar contatos; as demais medidas não constam nas páginas lidas.",
+          "field": "prevenção"
+        },
+        {
+          "before": "Nome popular 'oxiuríase'",
+          "reason": "Sem fonte lida.",
+          "field": "doença"
+        },
+        {
+          "before": "'ovos têm carga eletrostática'",
+          "reason": "Sem fonte lida.",
+          "field": "bancada"
+        }
+      ]
+    },
+    {
+      "id": "strongyloides_stercoralis",
+      "commonName": "Strongyloides stercoralis",
+      "scientificName": "Strongyloides stercoralis",
+      "taxonomy": {
+        "phylum": "Nematoda",
+        "class": "Chromadorea",
+        "order": "Rhabditida (subordem Tylenchina)",
+        "family": "Strongyloididae",
+        "genus": "Strongyloides",
+        "species": "Strongyloides stercoralis",
+        "note": "NCBI Taxonomy (23/10/2026): superfamília Strongyloidoidea. Antes: classe Secernentea.",
+        "ncbi": "taxid 6248",
+        "source": "ncbi_tax"
+      },
+      "category": "Nematódeo",
+      "evolutionaryStage": "Larva rabditoide (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Larva rabditoide de 1º estádio (L1): 180–380 µm de comprimento. Larva filarioide (L3): até 600 µm.",
+      "morphologyDescription": "A larva L1 tem canal bucal curto e primórdio genital proeminente. A larva filarioide (L3) tem cauda entalhada e razão esôfago:intestino de 1:1.",
+      "keyDiagnosticFeatures": [
+        "Canal bucal curto.",
+        "Primórdio genital proeminente."
+      ],
+      "disease": "Estrongiloidíase.",
+      "pathogenesis": "Na autoinfecção, larvas podem penetrar a mucosa intestinal ou a pele perianal; isso pode contribuir para a síndrome de hiperinfecção. A hiperinfecção ocorre tipicamente em pessoas com imunidade celular tipo Th2 prejudicada e está associada, também, a alcoolismo e desnutrição; é frequentemente fatal em imunocomprometidos, mesmo com tratamento. A hiperinfecção está mais frequentemente associada à infecção subclínica em pacientes que recebem corticosteroides em dose alta, com autoinfecção acelerada.",
+      "clinicalManifestations": [
+        "Lesão cutânea pruriginosa intensa que começa na região perianal (larva currens, que avança com rapidez).",
+        "Sintomas gastrointestinais: dor abdominal e diarreia e constipação intermitentes.",
+        "Sintomas pulmonares são incomuns; infecções intensas podem causar síndrome de Löffler (tosse, sibilos, eosinofilia)."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação microscópica de larvas nas fezes; as larvas são mais bem visualizadas após recuperação pela técnica de Baermann; a cultura em placa de ágar é o método coprológico mais sensível.",
+        "alternatives": [
+          "O exame microscópico de fezes tem baixa sensibilidade: uma única amostra detecta larvas em cerca de 25% dos casos; recomendam-se amostras repetidas e concentradas (mínimo de 3 e até 7).",
+          "O método de Rugai (técnica parasitológica específica para Strongyloides) teve sua sensibilidade aumentada por modificações."
+        ],
+        "sampleType": "Fezes frescas; a concentração com formalina–acetato de etila pode remover larvas e reduzir a sensibilidade.",
+        "technicalObservation": "Em caso de suspeita clínica, não basta uma única amostra pelo método de rotina: usar técnica específica e amostras seriadas."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Larvas filarioides no solo contaminado penetram a pele; também há autoinfecção.",
+        "infectiveForm": "Larva filarioide (L3).",
+        "diagnosticForm": "Larvas rabditoides nas fezes.",
+        "cycleType": "Larvas rabditoides eliminadas nas fezes → larvas filarioides no solo → penetração pela pele; autoinfecção pela mucosa intestinal ou pele perianal."
+      },
+      "treatment": [
+        "Ivermectina é usada na infecção não complicada e, em doses diárias, na hiperinfecção; avaliar coinfecção por Loa loa antes da ivermectina em regiões relevantes."
+      ],
+      "prophylaxis": [
+        "Evitar a defecação inadequada (latrinas, sanitários) e o contato direto da pele com o solo (calçados, barreiras ao sentar).",
+        "Considerar Strongyloides (triagem) em pacientes que usam ou vão iniciar corticosteroides ou outros imunossupressores, com infecção por HTLV-1, neoplasias hematológicas, transplantados, com eosinofilia persistente ou viagem a áreas endêmicas."
+      ],
+      "benchTip": "A concentração por formalina–acetato de etila pode reduzir a sensibilidade; uma única amostra tem baixa sensibilidade.",
+      "differentialDiagnosis": "Larva rabditoide de ancilostomídeo: canal bucal longo e primórdio genital inconspícuo (S. stercoralis: canal bucal curto, primórdio genital proeminente). Pelos vegetais são comuns nas fezes e podem ser confundidos com larvas de ancilostomídeo ou de Strongyloides.",
+      "images": [
+        {
+          "id": "lam09_detalhe",
+          "file": "nematelmintos/strongyloides_stercoralis_lam09_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 9,
+          "confidence": "alta",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 9, detalhe ampliado",
+          "caption": "Larva delgada, curva, com extremidade posterior afilada.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_114310.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam09_campo",
+          "file": "nematelmintos/strongyloides_stercoralis_lam09_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 9,
+          "confidence": "alta",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 9, campo geral",
+          "caption": "Campo geral da lâmina 9 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_114310.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam10_detalhe",
+          "file": "nematelmintos/strongyloides_stercoralis_lam10_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 10,
+          "confidence": "media",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 10, detalhe ampliado",
+          "caption": "Larva em “S” com cauda pontiaguda. Larvas rabditoides de ancilostomídeos são parecidas: diferenciar pelo vestíbulo bucal (longo nos ancilostomídeos) e pelo primórdio genital.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_105757.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam10_campo",
+          "file": "nematelmintos/strongyloides_stercoralis_lam10_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 10,
+          "confidence": "media",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 10, campo geral",
+          "caption": "Campo geral da lâmina 10 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_105757.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam18_detalhe",
+          "file": "nematelmintos/strongyloides_stercoralis_lam18_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 18,
+          "confidence": "media",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 18, detalhe ampliado",
+          "caption": "Larva longa com cutícula finamente estriada e cauda afilada.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113603.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam18_campo",
+          "file": "nematelmintos/strongyloides_stercoralis_lam18_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 18,
+          "confidence": "media",
+          "alt": "Microfotografia de larva rabditoide de Strongyloides stercoralis, lâmina 18, campo geral",
+          "caption": "Campo geral da lâmina 18 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113603.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ],
+      "verification": [
+        {
+          "id": "strongyloides_stercoralis#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Nematoda › Chromadorea › Rhabditida › Strongyloididae › Strongyloides.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Nematoda (phylum) · Chromadorea (class) · Rhabditida (order) · Strongyloidoidea (superfamily) · Strongyloididae (family)",
+          "note": "Antes: classe Secernentea.",
+          "before": "Secernentea"
+        },
+        {
+          "id": "strongyloides_stercoralis#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: larva vermiforme (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas."
+        },
+        {
+          "id": "strongyloides_stercoralis#03",
+          "section": "Tamanho",
+          "text": "Larva rabditoide de 1º estádio (L1): 180–380 µm de comprimento. Larva filarioide (L3): até 600 µm.",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"The first-stage rhabditiform larvae (L1) of Strongyloides stercoralis are 180—380 µm long\" · \"Infective, third-stage filariform larvae (L3) of Strongyloides stercoralis are up to 600 µm long.\"",
+          "note": "Antes: 200–300 × 15–18 µm; a largura não consta na fonte lida.",
+          "before": "200 a 300 µm de comprimento por 15 a 18 µm de largura"
+        },
+        {
+          "id": "strongyloides_stercoralis#04",
+          "section": "Morfologia",
+          "text": "A larva L1 tem canal bucal curto e primórdio genital proeminente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"a short buccal canal\" · \"a prominent genital primordium\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#05",
+          "section": "Morfologia",
+          "text": "A larva filarioide (L3) tem cauda entalhada e razão esôfago:intestino de 1:1.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"The tail is notched and the esophagus to intestine ratio is 1:1\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#06",
+          "section": "Traços",
+          "text": "Canal bucal curto.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"a short buccal canal\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#07",
+          "section": "Traços",
+          "text": "Primórdio genital proeminente.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"a prominent genital primordium\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#08",
+          "section": "Doença",
+          "text": "Estrongiloidíase.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro",
+            "msd_stro"
+          ],
+          "evidence": "Título das páginas: Strongyloidiasis",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#09",
+          "section": "Patogenia",
+          "text": "Na autoinfecção, larvas podem penetrar a mucosa intestinal ou a pele perianal; isso pode contribuir para a síndrome de hiperinfecção.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"can penetrate either the intestinal mucosa or the skin of the perianal area\" · \"may contribute to the development of hyperinfection syndrome\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#10",
+          "section": "Patogenia",
+          "text": "A hiperinfecção ocorre tipicamente em pessoas com imunidade celular tipo Th2 prejudicada e está associada, também, a alcoolismo e desnutrição; é frequentemente fatal em imunocomprometidos, mesmo com tratamento.",
+          "status": "confirmado",
+          "refs": [
+            "msd_stro"
+          ],
+          "evidence": "\"Hyperinfection typically occurs in people who have impaired Th2 type cell-mediated immunity\" · \"Hyperinfection has also been associated with alcohol use disorder and malnutrition.\" · \"often fatal in immunocompromised patients even with treatment\"",
+          "note": "A fonte NÃO fornece percentual de letalidade."
+        },
+        {
+          "id": "strongyloides_stercoralis#11",
+          "section": "Patogenia",
+          "text": "A hiperinfecção está mais frequentemente associada à infecção subclínica em pacientes que recebem corticosteroides em dose alta, com autoinfecção acelerada.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"are most frequently associated with subclinical infection in patients receiving high-dose corticosteroids\" · \"Subsequent impaired host immunity leads to accelerated autoinfection and an overwhelming number of migrating larvae.\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#12",
+          "section": "Clínica",
+          "text": "Lesão cutânea pruriginosa intensa que começa na região perianal (larva currens, que avança com rapidez).",
+          "status": "ressalva",
+          "refs": [
+            "msd_stro"
+          ],
+          "evidence": "\"The eruption usually begins in the perianal region and is accompanied by intense pruritus.\"",
+          "note": "A velocidade de avanço (até 10 cm/h) veio do resumo do leitor automático e por isso NÃO é reproduzida."
+        },
+        {
+          "id": "strongyloides_stercoralis#13",
+          "section": "Clínica",
+          "text": "Sintomas gastrointestinais: dor abdominal e diarreia e constipação intermitentes.",
+          "status": "confirmado",
+          "refs": [
+            "msd_stro"
+          ],
+          "evidence": "\"Gastrointestinal symptoms include abdominal pain and intermittent diarrhea and constipation.\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#14",
+          "section": "Clínica",
+          "text": "Sintomas pulmonares são incomuns; infecções intensas podem causar síndrome de Löffler (tosse, sibilos, eosinofilia).",
+          "status": "confirmado",
+          "refs": [
+            "msd_stro"
+          ],
+          "evidence": "\"Pulmonary symptoms are uncommon, although heavy infections may cause\" Löffler syndrome",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#15",
+          "section": "Ciclo",
+          "text": "Larvas filarioides no solo contaminado penetram a pele; também há autoinfecção.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"Filariform larvae in contaminated soil penetrate human skin when skin contacts soil\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#16",
+          "section": "Ciclo",
+          "text": "Larva filarioide (L3).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"Infective, third-stage filariform larvae (L3)\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#17",
+          "section": "Ciclo",
+          "text": "Larvas rabditoides nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"Rhabditiform larvae are passed in the stool of an infected definitive host\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#18",
+          "section": "Ciclo",
+          "text": "Larvas rabditoides eliminadas nas fezes → larvas filarioides no solo → penetração pela pele; autoinfecção pela mucosa intestinal ou pele perianal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Ver evidências das linhas anteriores.",
+          "note": "O local de residência dos adultos não foi verificado e por isso não é informado."
+        },
+        {
+          "id": "strongyloides_stercoralis#19",
+          "section": "Diagnóstico",
+          "text": "Identificação microscópica de larvas nas fezes; as larvas são mais bem visualizadas após recuperação pela técnica de Baermann; a cultura em placa de ágar é o método coprológico mais sensível.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"Larvae are best visualized following recovery by the Baermann funnel sedimentation technique\" · \"the most sensitive coprological method for the detection of Strongyloides larvae\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#20",
+          "section": "Diagnóstico",
+          "text": "O exame microscópico de fezes tem baixa sensibilidade: uma única amostra detecta larvas em cerca de 25% dos casos; recomendam-se amostras repetidas e concentradas (mínimo de 3 e até 7).",
+          "status": "corrigido",
+          "refs": [
+            "dpdx_stro",
+            "msd_stro"
+          ],
+          "evidence": "\"microscopic examination of stool has low sensitivity\" · \"Microscopic examination of a single stool sample detects larvae in approximately 25%\"",
+          "note": "Antes: 'Hoffmann detecta menos de 30%'. O número 30% não consta nas fontes lidas.",
+          "before": "o método de Hoffmann detecta menos de 30% das infecções"
+        },
+        {
+          "id": "strongyloides_stercoralis#21",
+          "section": "Diagnóstico",
+          "text": "O método de Rugai (técnica parasitológica específica para Strongyloides) teve sua sensibilidade aumentada por modificações.",
+          "status": "confirmado",
+          "refs": [
+            "rodrigues2024"
+          ],
+          "evidence": "Título: \"Modifications to the parasitological technique of Rugai increase the diagnostic sensitivity for strongyloidiasis\"",
+          "note": "Resumo lido em 17/10/2026."
+        },
+        {
+          "id": "strongyloides_stercoralis#22",
+          "section": "Diagnóstico",
+          "text": "Fezes frescas; a concentração com formalina–acetato de etila pode remover larvas e reduzir a sensibilidade.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "\"formalin-ethyl acetate concentration may remove larvae and reduce sensitivity\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#23",
+          "section": "Diagnóstico",
+          "text": "Em caso de suspeita clínica, não basta uma única amostra pelo método de rotina: usar técnica específica e amostras seriadas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro",
+            "msd_stro",
+            "goncalves2023"
+          ],
+          "evidence": "\"Examination of serial samples may be necessary, and not always sufficient\" · título (resumo lido em 17/10/2026): \"Multiple stool sampling and specific parasitological technique are crucial to diagnose strongyloidiasis in alcoholic patients\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#24",
+          "section": "Tratamento",
+          "text": "Ivermectina é usada na infecção não complicada e, em doses diárias, na hiperinfecção; avaliar coinfecção por Loa loa antes da ivermectina em regiões relevantes.",
+          "status": "confirmado",
+          "refs": [
+            "msd_stro",
+            "cdc_stro_hcp"
+          ],
+          "evidence": "\"Ivermectin is used for uncomplicated infection and is generally well-tolerated.\"",
+          "note": "Doses não reproduzidas: consultar diretriz."
+        },
+        {
+          "id": "strongyloides_stercoralis#25",
+          "section": "Prevenção",
+          "text": "Evitar a defecação inadequada (latrinas, sanitários) e o contato direto da pele com o solo (calçados, barreiras ao sentar).",
+          "status": "confirmado",
+          "refs": [
+            "msd_stro"
+          ],
+          "evidence": "\"Preventing unhygienic defecation (eg, by using latrines or toilets)\" · \"Avoiding direct skin contact with the soil\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#26",
+          "section": "Prevenção",
+          "text": "Considerar Strongyloides (triagem) em pacientes que usam ou vão iniciar corticosteroides ou outros imunossupressores, com infecção por HTLV-1, neoplasias hematológicas, transplantados, com eosinofilia persistente ou viagem a áreas endêmicas.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_stro_hcp"
+          ],
+          "evidence": "\"Who are on or about to begin corticosteroid therapy or other immunosuppressants\" · \"Known to have HTLV-1 infection\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#27",
+          "section": "Bancada",
+          "text": "A concentração por formalina–acetato de etila pode reduzir a sensibilidade; uma única amostra tem baixa sensibilidade.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro",
+            "msd_stro"
+          ],
+          "evidence": "\"formalin-ethyl acetate concentration may remove larvae and reduce sensitivity\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#28",
+          "section": "Diferencial",
+          "text": "Larva rabditoide de ancilostomídeo: canal bucal longo e primórdio genital inconspícuo (S. stercoralis: canal bucal curto, primórdio genital proeminente).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook",
+            "dpdx_stro"
+          ],
+          "evidence": "\"They have a long buccal canal and an inconspicuous genital primordium.\"",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#29",
+          "section": "Diferencial",
+          "text": "Pelos vegetais são comuns nas fezes e podem ser confundidos com larvas de ancilostomídeo ou de Strongyloides.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_art"
+          ],
+          "evidence": "\"Plant hairs can be common in stool and may be confused for the larvae of hookworm or Strongyloides stercoralis.\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "letalidade de 60 a 85%",
+          "reason": "Percentual sem fonte lida; as fontes dizem apenas 'frequentemente fatal' em imunocomprometidos.",
+          "field": "patogenia"
+        },
+        {
+          "before": "esôfago rabditoide trilobado (corpo, istmo, bulbo); vestíbulo < 1/3 da largura; cauda pontiaguda sem chanfradura; medidas de 200–300 × 15–18 µm",
+          "reason": "Detalhes e medidas não constam na fonte lida (DPDx: 180–380 µm; canal bucal curto).",
+          "field": "morfologia"
+        },
+        {
+          "before": "fêmea partenogenética nas criptas do duodeno e jejuno; ovos eclodem no epitélio",
+          "reason": "Não verificado nas fontes lidas.",
+          "field": "patogenia"
+        },
+        {
+          "before": "dor epigástrica simulando úlcera; esteatorreia; hemoptise; meningite; sepse por gram-negativos",
+          "reason": "Sem fonte lida.",
+          "field": "clínica"
+        },
+        {
+          "before": "Rugai/Baermann-Moraes como padrão-ouro",
+          "reason": "'Padrão-ouro' não consta nas fontes; o DPDx cita Baermann e cultura em ágar como mais sensíveis.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "'hidro-termotropismo positivo'",
+          "reason": "Termo não consta nas fontes lidas.",
+          "field": "diagnóstico"
+        },
+        {
+          "before": "habitat: mucosa do duodeno e jejuno proximal",
+          "reason": "Não verificado.",
+          "field": "ciclo"
+        }
+      ]
+    },
+    {
+      "id": "trichuris_trichiura",
+      "commonName": "Trichuris trichiura",
+      "scientificName": "Trichuris trichiura",
+      "taxonomy": {
+        "phylum": "Nematoda",
+        "class": "Enoplea (subclasse Dorylaimia)",
+        "order": "Trichinellida",
+        "family": "Trichuridae",
+        "genus": "Trichuris",
+        "species": "Trichuris trichiura",
+        "note": "NCBI Taxonomy (23/10/2026). Antes: ordem Trichocephalida.",
+        "ncbi": "taxid 36087",
+        "source": "ncbi_tax"
+      },
+      "category": "Nematódeo",
+      "evolutionaryStage": "Ovo embrionado (observação da lâmina)",
+      "status": "publicado",
+      "approxSizeMicrons": "Ovo: 50–55 µm × 20–25 µm. Adultos: macho 30–45 mm (extremidade posterior enrolada); fêmea 35–50 mm (posterior reta).",
+      "morphologyDescription": "Ovos em forma de barril (ou limão), de casca espessa, com um par de tampões polares, um em cada extremidade (opérculos claros nas duas pontas).",
+      "keyDiagnosticFeatures": [
+        "Forma de barril ou limão.",
+        "Tampões polares em ambas as extremidades."
+      ],
+      "disease": "Tricuríase (infecção por Trichuris trichiura; \"whipworm\" nas fontes).",
+      "pathogenesis": "Ovos não embrionados saem nas fezes e se tornam infectantes em 15 a 30 dias; os ovos eclodem no intestino delgado e liberam larvas.",
+      "clinicalManifestations": [
+        "Infecções leves costumam ser assintomáticas; infecções intensas podem causar dor abdominal, anorexia e diarreia, e levar a perda de peso, anemia e prolapso retal, particularmente em crianças."
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Identificação microscópica de ovos nas fezes; recomenda-se procedimento de concentração.",
+        "alternatives": [
+          "Kato-Katz (contagem de ovos por grama) é usado para geo-helmintos; ver protocolo."
+        ],
+        "sampleType": "Fezes."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Ovos eliminados nas fezes chegam à boca por alimentos, água ou mãos contaminados (geo-helmintíase).",
+        "infectiveForm": "Ovo embrionado (infectante após 15 a 30 dias).",
+        "diagnosticForm": "Ovos nas fezes."
+      },
+      "treatment": [
+        "Mebendazol, albendazol ou ivermectina; o mebendazol em dose única tem baixa eficácia. A OMS recomenda albendazol e mebendazol."
+      ],
+      "prophylaxis": [
+        "Sistemas eficazes de esgoto, preparo sanitário de alimentos, evitar água potencialmente contaminada e higiene pessoal, incluindo lavar as mãos."
+      ],
+      "benchTip": "O ovo é reconhecível sob microscopia óptica comum pelo formato e pelos tampões/opérculos polares.",
+      "images": [
+        {
+          "id": "lam20_detalhe",
+          "file": "nematelmintos/trichuris_trichiura_lam20_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 20,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Trichuris trichiura, lâmina 20, detalhe ampliado",
+          "caption": "Ovo em barril/limão, casca espessa marrom, tampão polar hialino visível no ápice, conteúdo granular.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "Captura_de_Tela_2026-10-02_às_07_12_08.png",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam20_campo",
+          "file": "nematelmintos/trichuris_trichiura_lam20_campo.jpg",
+          "width": 480,
+          "height": 423,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 20,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Trichuris trichiura, lâmina 20, campo geral",
+          "caption": "Campo geral da lâmina 20 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "Captura_de_Tela_2026-10-02_às_07_12_08.png",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        }
+      ],
+      "verification": [
+        {
+          "id": "trichuris_trichiura#01",
+          "section": "Taxonomia",
+          "text": "Linhagem conforme NCBI Taxonomy: Nematoda › Enoplea › Dorylaimia › Trichinellida › Trichuridae › Trichuris.",
+          "status": "corrigido",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Nematoda (phylum) · Enoplea (class) · Dorylaimia (subclass) · Trichinellida (order) · Trichuridae (family) · Trichuris (genus)",
+          "note": "Antes: ordem Trichocephalida.",
+          "before": "Enoplea / Trichocephalida"
+        },
+        {
+          "id": "trichuris_trichiura#02",
+          "section": "Lâmina",
+          "text": "Na lâmina: ovo em forma de barril com dois tampões polares (ver legendas das microfotografias).",
+          "status": "observacao",
+          "refs": [],
+          "evidence": "",
+          "note": "Descrição dos autores do atlas."
+        },
+        {
+          "id": "trichuris_trichiura#03",
+          "section": "Tamanho",
+          "text": "Ovo: 50–55 µm × 20–25 µm. Adultos: macho 30–45 mm (extremidade posterior enrolada); fêmea 35–50 mm (posterior reta).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"Trichuris trichiura eggs are 50-55 micrometers by 20-25 micrometers.\" · \"Adult males ... are 30-45 millimeters long, with a coiled posterior end.\" · \"Adult females are 35-50 millimeters with a straight posterior end.\"",
+          "note": "Antes: 22–25 µm de largura (pequena diferença).",
+          "before": "50 a 55 µm de comprimento por 22 a 25 µm de largura"
+        },
+        {
+          "id": "trichuris_trichiura#04",
+          "section": "Morfologia",
+          "text": "Ovos em forma de barril (ou limão), de casca espessa, com um par de tampões polares, um em cada extremidade (opérculos claros nas duas pontas).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri",
+            "msd_tri"
+          ],
+          "evidence": "\"They are barrel-shaped, thick-shelled and possess a pair of polar 'plugs' at each end.\" · \"the characteristic lemon-shaped eggs with clear opercula at both ends\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#05",
+          "section": "Traços",
+          "text": "Forma de barril ou limão.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri",
+            "msd_tri"
+          ],
+          "evidence": "\"barrel-shaped\" · \"lemon-shaped\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#06",
+          "section": "Traços",
+          "text": "Tampões polares em ambas as extremidades.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"a pair of polar 'plugs' at each end\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#07",
+          "section": "Doença",
+          "text": "Tricuríase (infecção por Trichuris trichiura; \"whipworm\" nas fontes).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri",
+            "msd_tri"
+          ],
+          "evidence": "Título das páginas: Trichuriasis",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#08",
+          "section": "Patogenia",
+          "text": "Ovos não embrionados saem nas fezes e se tornam infectantes em 15 a 30 dias; os ovos eclodem no intestino delgado e liberam larvas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"The unembryonated eggs are passed with the stool\" · \"eggs become infective in 15 to 30 days\" · \"the eggs hatch in the small intestine, and release larvae\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#09",
+          "section": "Clínica",
+          "text": "Infecções leves costumam ser assintomáticas; infecções intensas podem causar dor abdominal, anorexia e diarreia, e levar a perda de peso, anemia e prolapso retal, particularmente em crianças.",
+          "status": "confirmado",
+          "refs": [
+            "msd_tri"
+          ],
+          "evidence": "\"Patients with heavy infections may have abdominal pain, anorexia, and diarrhea\" · \"weight loss, anemia, and rectal prolapse may result, particularly in children\"",
+          "note": "A fonte não define 'infecção intensa' por número de vermes."
+        },
+        {
+          "id": "trichuris_trichiura#10",
+          "section": "Ciclo",
+          "text": "Ovos eliminados nas fezes chegam à boca por alimentos, água ou mãos contaminados (geo-helmintíase).",
+          "status": "confirmado",
+          "refs": [
+            "who_sth"
+          ],
+          "evidence": "\"Soil-transmitted helminths are transmitted by eggs that are passed in the faeces of infected people.\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#11",
+          "section": "Ciclo",
+          "text": "Ovo embrionado (infectante após 15 a 30 dias).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"eggs become infective in 15 to 30 days\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#12",
+          "section": "Ciclo",
+          "text": "Ovos nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"Microscopic identification of whipworm eggs in feces is evidence of infection.\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#13",
+          "section": "Diagnóstico",
+          "text": "Identificação microscópica de ovos nas fezes; recomenda-se procedimento de concentração.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri",
+            "msd_tri"
+          ],
+          "evidence": "\"Microscopic identification of whipworm eggs in feces is evidence of infection.\" · \"a concentration procedure is recommended.\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#14",
+          "section": "Diagnóstico",
+          "text": "Kato-Katz (contagem de ovos por grama) é usado para geo-helmintos; ver protocolo.",
+          "status": "confirmado",
+          "refs": [
+            "levecke2011"
+          ],
+          "evidence": "Título do artigo (lido na íntegra em 17/10/2026): \"A comparison of the sensitivity and fecal egg counts of the McMaster egg counting and Kato-Katz thick smear methods for soil-transmitted helminths\"",
+          "note": "Conferido na revisão de 17/10/2026."
+        },
+        {
+          "id": "trichuris_trichiura#15",
+          "section": "Diagnóstico",
+          "text": "Fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "\"Microscopic identification of whipworm eggs in feces\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#16",
+          "section": "Tratamento",
+          "text": "Mebendazol, albendazol ou ivermectina; o mebendazol em dose única tem baixa eficácia. A OMS recomenda albendazol e mebendazol.",
+          "status": "confirmado",
+          "refs": [
+            "msd_tri",
+            "who_sth"
+          ],
+          "evidence": "\"Treat with mebendazole, albendazole, or ivermectin.\"",
+          "note": "Doses não reproduzidas."
+        },
+        {
+          "id": "trichuris_trichiura#17",
+          "section": "Prevenção",
+          "text": "Sistemas eficazes de esgoto, preparo sanitário de alimentos, evitar água potencialmente contaminada e higiene pessoal, incluindo lavar as mãos.",
+          "status": "confirmado",
+          "refs": [
+            "msd_tri"
+          ],
+          "evidence": "\"effective sewage disposal systems, sanitary food preparation, avoidance of potentially contaminated water\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#18",
+          "section": "Bancada",
+          "text": "O ovo é reconhecível sob microscopia óptica comum pelo formato e pelos tampões/opérculos polares.",
+          "status": "confirmado",
+          "refs": [
+            "msd_tri",
+            "dpdx_tri"
+          ],
+          "evidence": "\"the characteristic lemon-shaped eggs with clear opercula at both ends are readily apparent\"",
+          "note": ""
+        }
+      ],
+      "removed": [
+        {
+          "before": "coloração castanho-dourada por bilirrubina; casca de três camadas; massa germinativa 'não segmentada'",
+          "reason": "Não consta nas fontes lidas.",
+          "field": "morfologia"
+        },
+        {
+          "before": "> 800 vermes em crianças desnutridas para prolapso retal",
+          "reason": "Valor numérico sem fonte lida; a fonte não define limiar.",
+          "field": "patogenia"
+        },
+        {
+          "before": "'disenteria tricuriana'; tenesmo; hipotonia dos esfíncteres",
+          "reason": "Termos não constam nas fontes lidas.",
+          "field": "clínica"
+        },
+        {
+          "before": "habitat: ceco e cólon ascendente; 'sem migração pulmonar'; larva L1",
+          "reason": "Não verificado nas fontes lidas.",
+          "field": "ciclo"
+        },
+        {
+          "before": "Trichuris vulpis e Capillaria hepatica no diagnóstico diferencial",
+          "reason": "Sem fonte lida.",
+          "field": "diferencial"
+        },
+        {
+          "before": "Nome popular 'verme chicote'",
+          "reason": "A fonte usa 'whipworm'; a versão popular em português não foi verificada.",
+          "field": "doença"
+        }
+      ]
+    }
+  ]
+}

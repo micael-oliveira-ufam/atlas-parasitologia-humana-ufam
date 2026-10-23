@@ -1,0 +1,1167 @@
+[
+  {
+    "id": "ancilostomideo_40x",
+    "commonName": "Ancilostomídeo - 40x",
+    "scientificName": "Ancylostoma duodenale / Necator americanus",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Strongylida",
+      "family": "Ancylostomatidae",
+      "genus": "Ancylostoma / Necator",
+      "species": "A. duodenale / N. americanus"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo embrionado em estágio de mórula (blastômeros)",
+    "magnification": "40x",
+    "imageFileName": "ancilostomideo_40x.jpeg",
+    "fieldNotes": "Lâmina de sedimento fecal corada com solução de Lugol fraco. Presença de detritos fecais amorfos ao fundo e ovo em plano focal nítido.",
+    "approxSizeMicrons": "60 x 40 µm (comprimento x largura)",
+    "morphologyDescription": "Ovo de formato elipsoidal ou ovalado, delimitado por uma casca hialina extremamente delgada, lisa, incolor e transparente. Nota-se um espaço subcapsular translúcido evidente entre a casca e o conteúdo interno celular. O interior apresenta uma massa de blastômeros em divisão celular ativa (mórula de 4 a 16 células), corada em tonalidade castanho-dourada pela impregnação de iodo/lugol.",
+    "keyDiagnosticFeatures": [
+      "Casca hialina delgada, lisa e birrefringente",
+      "Espaço claro translúcido entre a casca e os blastômeros",
+      "Massa germinativa central segmentada em blastômeros (mórula)",
+      "Formato elipsoide uniforme com polos ligeiramente arredondados"
+    ],
+    "hotspots": [
+      {
+        "id": "hs1",
+        "x": 58,
+        "y": 46,
+        "title": "Casca Hialina Delgada",
+        "description": "Envoltório externo extremamente fino e transparente, uma das principais características que o diferencia dos ovos espessos de Ascaris e Taenia.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs2",
+        "x": 57,
+        "y": 53,
+        "title": "Mórula de Blastômeros",
+        "description": "Massa interna de células embrionárias em clivagem ativa. Se as fezes demorarem a ser processadas, esta massa evolui para uma larva já formada dentro do ovo.",
+        "labelPosition": "left"
+      },
+      {
+        "id": "hs3",
+        "x": 63,
+        "y": 50,
+        "title": "Espaço Subcapsular Translúcido",
+        "description": "Espaço vazio e nítido entre a membrana externa e o aglomerado de blastômeros, clássico do gênero Ancylostoma e Necator.",
+        "labelPosition": "right"
+      }
+    ],
+    "disease": "Ancilostomíase ou Necatoríase (\"Doença do Amarelão\" / Opilação)",
+    "pathogenesis": "Os vermes adultos fixam-se vigorosamente à mucosa duodenal e jejunal através de seus dentes (A. duodenale) ou lâminas cortantes (N. americanus), secretando anticoagulantes e enzimas proteolíticas. Cada verme espolia ativamente entre 0,03 a 0,2 mL de sangue do hospedeiro por dia, causando anemia ferropriva microcítica e hipocrômica grave, hipoalbuminemia e anasarca em infecções maciças. A migração pulmonar das larvas pode desencadear tosse seca e eosinofilia (Síndrome de Löeffler), e a penetração cutânea causa a \"coceira dos mineiros\".",
+    "clinicalManifestations": [
+      "Anemia ferropriva acentuada, palidez cutâneo-mucosa extrema e astenia",
+      "Pica (geofagia: desejo compulsivo de comer terra ou barro)",
+      "Dermatite pruriginosa no local de penetração cutânea da larva L3",
+      "Desconforto epigástrico, náuseas, diarreia e retardo ponderoestatural em crianças"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Faust e cols. (centrífugo-flutuação)",
+      "alternatives": [
+        "Método de Kato-Katz (para quantificação de ovos por grama de fezes - OPG)"
+      ],
+      "sampleType": "Fezes frescas (para evitar a eclosão larval em temperatura ambiente)",
+      "technicalObservation": "Morfologicamente não é possível diferenciar ovos de Ancylostoma duodenale de Necator americanus sob microscopia óptica padrão. Emite-se laudo laboratorial como \"Ovos de Ancilostomídeos\"."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Penetração ativa das larvas filarioides (L3) através da pele desprotegida (geralmente pés e pernas em contato com solo contaminado)",
+      "infectiveForm": "Larva Filarioide (L3)",
+      "diagnosticForm": "Ovos nas fezes (raramente larvas se amostra velha)",
+      "habitat": "Intestino delgado (duodeno e jejuno)",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Uso sistemático de calçados fechados em áreas rurais ou arenosas",
+      "Saneamento básico adequado e tratamento de esgoto para evitar contaminação do solo",
+      "Tratamento farmacológico em massa das populações endêmicas com anti-helmínticos",
+      "Educação sanitária e conscientização comunitária"
+    ],
+    "jailaLabPearls": "Atenção redobrada na bancada: se as fezes ficarem mais de 24 horas em temperatura ambiente no laboratório, os ovos de ancilostomídeos eclodem, liberando larvas rabditóides. Nesse caso, é fundamental medir o vestíbulo bucal (que nos ancilostomídeos é longo) para não confundir com a larva de Strongyloides stercoralis!",
+    "differentialDiagnosis": "Diferenciar de ovos de Enterobius vermicularis (que são achatados em um lado - formato em D) e de Trichostrongylus (que são mais pontiagudos nos polos e maiores).",
+    "photographerName": "Profa. Dra. Jaila Dias Borges Lalwani",
+    "photographerRole": "Docente Titular de Parasitologia",
+    "photoDate": "2024",
+    "votesCount": 48,
+    "featuredBadge": "🏆 Padrão Ouro de Foco"
+  },
+  {
+    "id": "ascaris_lumbricoides_40x",
+    "commonName": "Ascaris lumbricoides - 40x",
+    "scientificName": "Ascaris lumbricoides",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Ascaridida",
+      "family": "Ascarididae",
+      "genus": "Ascaris",
+      "species": "Ascaris lumbricoides"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo fértil corticado",
+    "magnification": "40x",
+    "imageFileName": "ascaris_lumbricoides_40x.jpeg",
+    "fieldNotes": "Sedimento coproparasitológico obtido por sedimentação espontânea. Ovo marrom-amarelado típico, com contorno rugoso em campo limpo.",
+    "approxSizeMicrons": "45 a 75 µm de comprimento por 35 a 50 µm de largura",
+    "morphologyDescription": "Ovo de contorno ovalado ou sub-esférico, com coloração castanho-dourada característica resultante da absorção de bilirrubina/pigmentos biliares nas fezes. Apresenta cápsula espessa e estratificada constituída por três camadas: a externa albuminoide mamelonada (com protuberâncias onduladas e rugosas visíveis na superfície), a média quitinosa transparente e a interna lipídica semipermeável. No interior observa-se uma massa de células germinativas esférica, homogênea e granulosa não clivada.",
+    "keyDiagnosticFeatures": [
+      "Camada externa albuminoide densamente mamelonada (\"aspecto rugoso\")",
+      "Coloração castanho-acastanhada dourada intensa devido à impregnação biliar",
+      "Parede espessa trilaminar e resistente",
+      "Massa germinativa central única e não segmentada"
+    ],
+    "hotspots": [
+      {
+        "id": "hs1_asc",
+        "x": 45,
+        "y": 45,
+        "title": "Casca Mamelonada Rugosa",
+        "description": "Camada externa albuminoide irregular com mamelões pronunciados que fixam os pigmentos biliares das fezes.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs2_asc",
+        "x": 45,
+        "y": 47,
+        "title": "Massa Germinativa Central",
+        "description": "Célula-ovo única e homogênea. O embrião só se desenvolverá no meio ambiente úmido e aerado.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Ascaridíase (\"Infecção por Lombriga\")",
+    "pathogenesis": "A gravidade depende diretamente da carga parasitária. Na fase larval, a migração através dos alvéolos pulmonares desencadeia a Síndrome de Löeffler (febre, tosse espasmódica, broncoespasmo, infiltrado pulmonar migratório e eosinofilia sanguínea marcante). Na fase adulta, os vermes intestinais provocam espoliação de proteínas, carboidratos e vitaminas A e C, gerando desnutrição e déficit cognitivo infantil. Cargas maciças (> 100 a centenas de vermes) causam a perigosa suboclusão e oclusão intestinal mecânica (\"bolo de áscaris\"), volvo intestinal, intussuscepção e migração errática para colédoco (obstrução biliar com icterícia e colangite supurativa) ou apêndice.",
+    "clinicalManifestations": [
+      "Dor abdominal em cólica periumbilical recorrente e distensão",
+      "Eliminação espontânea de vermes adultos pela boca, narinas ou fezes",
+      "Suboclusão/oclusão intestinal mecânica com vômitos fecalóides em crianças pequenas",
+      "Tosse seca e dispneia (fase pulmonar - Löeffler)"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Método de Kato-Katz",
+      "alternatives": [
+        "Método de Faust",
+        "Ultrassonografia abdominal (para diagnóstico de bolo de áscaris ou áscaris biliar)"
+      ],
+      "sampleType": "Fezes frescas",
+      "technicalObservation": "Fêmeas não fecundadas eliminam ovos inférteis (mais alongados, com casca irregular e sem massa central organizada). Ocasionalmente observam-se ovos férteis decorticados (sem a membrana mamelonada externa)."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral: ingestão de água, hortaliças cruas ou terra contaminada por ovos embrionados com larva L3",
+      "infectiveForm": "Ovo embrionado contendo larva L3",
+      "diagnosticForm": "Ovos férteis ou inférteis eliminados nas fezes",
+      "habitat": "Luz do intestino delgado (jejuno e íleo)",
+      "cycleType": "Moneoxênico com ciclo pulmonar obrigatório (Ciclo de Loss)"
+    },
+    "prophylaxis": [
+      "Lavagem rigorosa e desinfecção de hortaliças e vegetais consumidos crus com água clorada",
+      "Filtragem e fervura da água de consumo humano",
+      "Rede de esgoto canalizada e sanitários adequados",
+      "Higiene meticulosa das mãos antes das refeições e após evacuar"
+    ],
+    "jailaLabPearls": "Dica de prova da Dra. Jaila: não confunda ovo de Ascaris fértil decorticado (que perdeu a casca mamelonada) com ovos de ancilostomídeos! O ovo decorticado possui parede lisa, porém muito mais espessa, e massa germinativa única não clivada, enquanto o de ancilostomídeo possui casca finíssima e mórula segmentada.",
+    "differentialDiagnosis": "Ovos decorticados de Ascaris vs ovos de ancilostomídeos; ovos inférteis vs resíduos vegetais ou grãos de pólen.",
+    "photographerName": "Carlos Eduardo Lima",
+    "photographerRole": "Monitor de Parasitologia Humana",
+    "photoDate": "2024",
+    "votesCount": 42,
+    "featuredBadge": "🌟 Destaque Didático"
+  },
+  {
+    "id": "enterobius_vermiculares_40x",
+    "commonName": "Enterobius vermiculares - 40x",
+    "scientificName": "Enterobius vermicularis",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Oxyurida",
+      "family": "Oxyuridae",
+      "genus": "Enterobius",
+      "species": "Enterobius vermicularis"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo embrionado assimétrico (formato em \"D\")",
+    "magnification": "40x",
+    "imageFileName": "enterobius_vermiculares_40x.jpeg",
+    "fieldNotes": "Lâmina obtida por fita gomada ou esfregaço de sedimento fecal. Ovo exibindo a assimetria clássica com face achatada e larva interna em formação.",
+    "approxSizeMicrons": "50 a 60 µm de comprimento por 20 a 30 µm de largura",
+    "morphologyDescription": "Ovo translúcido, incolor e assimétrico, apresentando um dos lados visivelmente retilíneo/achatado (face plana) e o outro acentuadamente arqueado (face convexa), conferindo a clássica morfologia da letra \"D\". A casca é constituída por parede dupla espessa, lisa e límpida, composta por camada albuminoide externa adesiva e camada lipídica interna. Em seu interior visualiza-se o embrião vermiforme/giriniforme dobrado.",
+    "keyDiagnosticFeatures": [
+      "Formato plano-convexo assimétrico patognomônico (letra \"D\")",
+      "Casca transparente, lisa e incolor de contorno duplo",
+      "Presença de embrião/larva já formado no momento da postura",
+      "Alta aderência à superfície da lâmina/fita adesiva"
+    ],
+    "hotspots": [
+      {
+        "id": "hs1_ent",
+        "x": 37,
+        "y": 25,
+        "title": "Face Achatada (Plana)",
+        "description": "Lado plano característico que gera o contorno assimétrico em formato de \"D\". Característica principal para identificação microscópica imediata.",
+        "labelPosition": "left"
+      },
+      {
+        "id": "hs2_ent",
+        "x": 42,
+        "y": 26,
+        "title": "Face Convexa e Casca Dupla",
+        "description": "Parede birrefringente lisa e transparente, altamente resistente ao meio externo.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs3_ent",
+        "x": 39,
+        "y": 27,
+        "title": "Embrião Vermiforme Interno",
+        "description": "A fêmea realiza a postura de ovos já embrionados que se tornam infectantes em poucas horas na região perianal.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Enterobíase ou Oxiuríase",
+    "pathogenesis": "As fêmeas grávidas migram ativamente do ceco e cólon até a margem perianal e perineal durante a noite para realizar a ovoposição. A movimentação dos vermes na pele e a substância gelatinosa pruriginosa liberada causam prurido perianal noturno intenso, escoriações por coçadura e infecção bacteriana secundária. Em meninas pequenas, a migração errática para a fenda vulvar e vagina causa vulvovaginite, disúria, leucorreia e, raramente, salpingite ou peritonite pélvica.",
+    "clinicalManifestations": [
+      "Prurido anal e perianal predominantemente noturno, causando insônia e bruxismo",
+      "Irritabilidade, alterações de humor e déficit de atenção diurno em escolares",
+      "Vulvovaginite e queixas urinárias em meninas",
+      "Escoriações perianais com fissuras e risco de piodermite secundária"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método da Fita Gomada de Graham (fita adesiva de celofane aplicada na borda perianal)",
+      "alternatives": [
+        "Swab anal com ponta embebida em solução fisiológica",
+        "Visualização direta de fêmeas na margem anal ou nas fezes"
+      ],
+      "sampleType": "Raspado / impressão perianal pela manhã, ANTES do banho e antes da evacuação",
+      "technicalObservation": "O exame coproparasitológico convencional (Hoffmann) possui sensibilidade baixíssima (<5%) para Enterobius, pois as fêmeas depositam os ovos na margem anal externa e não na luz fecal!"
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral: autoinfecção direta (ânus-mão-boca ao coçar a região perianal), heteroinfecção (fômites, roupas de cama, poeira domiciliar com ovos leves suspensos no ar) e retroinfecção",
+      "infectiveForm": "Ovo embrionado com larva L3 (torna-se infectante em 4 a 6 horas após a postura)",
+      "diagnosticForm": "Ovos com formato em D na fita gomada de Graham",
+      "habitat": "Ceco, apêndice e cólon ascendente",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Tratamento simultâneo de TODA a família ou contactantes domiciliares",
+      "Corte rente das unhas de crianças e lavagem rigorosa das mãos ao acordar",
+      "Troca diária de roupas íntimas e de cama SEM sacudi-las para não dispersar ovos no ar",
+      "Lavagem de roupas em água quente ou secagem sob sol forte"
+    ],
+    "jailaLabPearls": "Dica de bancada da Dra. Jaila Lalwani: se um médico solicitar exame de fezes comum para suspeita de oxiuríase, o biomédico deve orientar a coleta pelo método de Graham com fita adesiva. Os ovos têm carga eletrostática e ficam aderidos na pele perianal, raramente misturando-se com o bolo fecal.",
+    "differentialDiagnosis": "Diferenciar de ovos de ancilostomídeos (que possuem casca muito mais fina, contorno elíptico simétrico e blastômeros) e de grãos de pólen com uma face reta.",
+    "photographerName": "Amanda Souza",
+    "photographerRole": "Biomédica Sanitarista - DSEI Alto Rio Negro",
+    "photoDate": "2024",
+    "votesCount": 56,
+    "featuredBadge": "🥇 1º Lugar - Hall da Fama"
+  },
+  {
+    "id": "hymenolepis_nana_10x",
+    "commonName": "Hymenolepis nana - 10x",
+    "scientificName": "Hymenolepis nana",
+    "taxonomy": {
+      "phylum": "Platyhelminthes",
+      "class": "Cestoda",
+      "order": "Cyclophyllidea",
+      "family": "Hymenolepididae",
+      "genus": "Hymenolepis",
+      "species": "Hymenolepis nana"
+    },
+    "category": "Cestódeo",
+    "evolutionaryStage": "Ovo maduro esférico com oncosfera em aumento panorâmico",
+    "magnification": "10x",
+    "imageFileName": "hymenolepis_nana_10x.jpeg",
+    "fieldNotes": "Objetiva de 10x (panorâmica). Permite o treinamento de varredura microscópica para localização de pequenos ovos de cestódeos entre debris.",
+    "approxSizeMicrons": "35 a 45 µm de diâmetro",
+    "morphologyDescription": "Na objetiva panorâmica de 10x, o ovo de Hymenolepis nana aparece como uma pequena estrutura esférica ou ligeiramente ovalada, perfeitamente delimitada, destacando-se pela birrefringência de suas membranas e pelo espaço límpido interno que circunda a massa da oncosfera.",
+    "keyDiagnosticFeatures": [
+      "Formato globoso a sub-esférico",
+      "Dupla membrana visível mesmo em menor aumento",
+      "Diferença nítida de refringência em relação aos debris fecais"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_hn10_1",
+        "x": 54,
+        "y": 52,
+        "title": "Ovo de H. nana em 10x",
+        "description": "Localização do espécime durante a varredura sistemática da lâmina de fezes.",
+        "labelPosition": "top"
+      }
+    ],
+    "disease": "Himenolepíase",
+    "pathogenesis": "Destruição das vilosidades intestinais pelas larvas cisticercoides durante o desenvolvimento na mucosa e irritação mecânica pelas ventosas e ganchos dos escóleces dos vermes adultos no íleo.",
+    "clinicalManifestations": [
+      "Dor abdominal difusa ou em cólica periumbilical",
+      "Diarreia crônica, anorexia e emagrecimento",
+      "Cefaleia, tonturas e eosinofilia moderada"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (sedimentação espontânea)",
+      "alternatives": [
+        "Método de Faust (centrífugo-flutuação)"
+      ],
+      "sampleType": "Fezes frescas ou conservadas",
+      "technicalObservation": "Geralmente os ovos são eliminados em grande quantidade devido à autoinfecção interna."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Ingestão de ovos em água ou alimentos (ciclo direto) ou ingestão acidental de artrópodes com cisticercoide (ciclo indireto)",
+      "infectiveForm": "Ovo embrionado (ciclo direto monoxênico)",
+      "diagnosticForm": "Ovo esférico com oncosfera nas fezes",
+      "habitat": "Íleo do intestino delgado",
+      "cycleType": "Moneoxênico (pode atuar facultativamente como Heteroxênico)"
+    },
+    "prophylaxis": [
+      "Higiene pessoal e das mãos",
+      "Combate a insetos de cereais (besouros/pulgas)",
+      "Saneamento básico"
+    ],
+    "jailaLabPearls": "Nunca termine o diagnóstico coproparasitológico na objetiva de 10x! Ao avistar esta estrutura esférica límpida, passe imediatamente para a objetiva de 40x para confirmar a presença dos filamentos polares e dos ganchos.",
+    "differentialDiagnosis": "Diferenciar de ovos de Hymenolepis diminuta (que são maiores e NÃO possuem filamentos polares).",
+    "photographerName": "Lucas Martins & Equipe de Bancada",
+    "photographerRole": "Acadêmico de Biomedicina",
+    "photoDate": "2023",
+    "votesCount": 29,
+    "featuredBadge": "🔬 Campo Amplo 10x"
+  },
+  {
+    "id": "hymenolepis_nana_40x",
+    "commonName": "Hymenolpeis nana - 40x",
+    "scientificName": "Hymenolepis nana",
+    "taxonomy": {
+      "phylum": "Platyhelminthes",
+      "class": "Cestoda",
+      "order": "Cyclophyllidea",
+      "family": "Hymenolepididae",
+      "genus": "Hymenolepis",
+      "species": "Hymenolepis nana"
+    },
+    "category": "Cestódeo",
+    "evolutionaryStage": "Ovo maduro com filamentos polares e embrião hexacanto",
+    "magnification": "40x",
+    "imageFileName": "hymenolepis_nana_40x.jpeg",
+    "fieldNotes": "Foco perfeito em 40x evidenciando o embrióforo interno, mamelões polares e os delicados filamentos que emergem no espaço intermediário.",
+    "approxSizeMicrons": "35 a 45 µm de diâmetro",
+    "morphologyDescription": "Ovo esférico ou subsférico, delimitado por uma membrana externa delgada, lisa e translúcida. Separado por um espaço límpido situa-se o embrióforo interno membranoso, que possui duas proeminências ou botões polares. De cada um desses botões partem de 4 a 8 filamentos polares sinuosos e refringentes que se projetam no espaço entre as duas membranas. No centro repousa a oncosfera contendo três pares de acúleos quitinosos refráteis (embrião hexacanto).",
+    "keyDiagnosticFeatures": [
+      "Dupla membrana com espaço límpido intermediário",
+      "Tampões ou mamelões polares no embrióforo interno",
+      "Filamentos polares sinuosos característicos (4 a 8 filamentos por polo)",
+      "Oncosfera interna com 6 acúleos (embrião hexacanto)"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_hn40_1",
+        "x": 58,
+        "y": 18,
+        "title": "Membrana Externa e Espaço Límpido",
+        "description": "Envoltório externo translúcido que delimita o diâmetro total do ovo.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_hn40_2",
+        "x": 59,
+        "y": 20,
+        "title": "Filamentos Polares e Botões",
+        "description": "Tufos de 4 a 8 filamentos ondulados que brotam dos polos do embrióforo. Marcador diagnóstico patognomônico de Hymenolepis nana!",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_hn40_3",
+        "x": 58,
+        "y": 22,
+        "title": "Oncosfera / Embrião Hexacanto",
+        "description": "Massa embrionária esférica interna portando 6 ganchos (3 pares) refráteis.",
+        "labelPosition": "left"
+      }
+    ],
+    "disease": "Himenolepíase",
+    "pathogenesis": "É o menor cestódeo que parasita o ser humano (1 a 4 cm). Devido à autoinfecção interna contínua (na qual ovos eclodem na própria mucosa do intestino delgado sem passar pelo meio externo), a carga parasitária pode atingir milhares de vermes em crianças, levando a diarreia severa, enterite descamativa e desnutrição.",
+    "clinicalManifestations": [
+      "Diarreia crônica aquosa ou mucóide",
+      "Dor abdominal em cólica periumbilical",
+      "Perda de peso, irritabilidade e sintomas alérgicos (urticária)"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Faust e colaboradores",
+      "alternatives": [
+        "Método de Ritchie"
+      ],
+      "sampleType": "Fezes frescas",
+      "technicalObservation": "Os filamentos polares são melhor observados com o diafragma do microscópio parcialmente fechado para aumentar o contraste de bordas."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral (ingestão de ovos em água, alimentos ou mãos sujas) e autoinfecção endógena",
+      "infectiveForm": "Ovo embrionado",
+      "diagnosticForm": "Ovos característicos nas fezes",
+      "habitat": "Íleo proximal e médio",
+      "cycleType": "Moneoxênico (único cestódeo humano que não necessita obrigatoriamente de hospedeiro intermediário)"
+    },
+    "prophylaxis": [
+      "Lavagem rigorosa das mãos e higiene das unhas",
+      "Proteção de alimentos contra baratas e insetos domésticos",
+      "Tratamento com praziquantel ou niclosamida",
+      "Saneamento básico eficiente"
+    ],
+    "jailaLabPearls": "Dica de ouro da Profa. Dra. Jaila: o grande diagnóstico diferencial de Hymenolepis nana é Hymenolepis diminuta. Como diferenciar na bancada? Hymenolepis diminuta é significativamente maior (60 a 80 µm) e NÃO tem filamentos polares saindo dos botões!",
+    "differentialDiagnosis": "Hymenolepis diminuta (maior e sem filamentos polares) e ovos de Taenia (que possuem estrias radiais espessas e ausência de filamentos).",
+    "photographerName": "Profa. Dra. Jaila Dias Borges Lalwani",
+    "photographerRole": "Docente Titular de Parasitologia",
+    "photoDate": "2024",
+    "votesCount": 51,
+    "featuredBadge": "🥈 2º Lugar - Alta Nitidez"
+  },
+  {
+    "id": "img2_enterobius_vermiculares_40x",
+    "commonName": "Enterobius vermiculares - 40x (Campo 2)",
+    "scientificName": "Enterobius vermicularis",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Oxyurida",
+      "family": "Oxyuridae",
+      "genus": "Enterobius",
+      "species": "Enterobius vermicularis"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo embrionado com parede refringente (Campo 2)",
+    "magnification": "40x",
+    "imageFileName": "img2_enterobius_vermiculares_40x.jpeg",
+    "fieldNotes": "Esfregaço microscópico com coloração de fundo, exibindo ovo de E. vermicularis com excelente contraste da parede lipídica.",
+    "approxSizeMicrons": "55 x 25 µm",
+    "morphologyDescription": "Ovo assimétrico em forma de letra D, com casca dupla espessa altamente birrefringente. O embrião interno encontra-se em estágio avançado de diferenciação morfológica, demonstrando o aspecto translúcido típico do táxon.",
+    "keyDiagnosticFeatures": [
+      "Aspecto clássico em letra D",
+      "Dupla membrana bem demarcada",
+      "Larva quiescente interna",
+      "Superfície lisa e incolor"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_ent2_1",
+        "x": 47,
+        "y": 33,
+        "title": "Parede Birrefringente",
+        "description": "Contorno duplo evidente que confere resistência osmótica ao ovo no ambiente seco da cama e vestimentas.",
+        "labelPosition": "top"
+      }
+    ],
+    "disease": "Enterobíase / Oxiuríase",
+    "pathogenesis": "Ação irritativa mecânica e alérgica local das fêmeas na região perianal, associada à espoliação celular mucosa e autoinfecção contínua.",
+    "clinicalManifestations": [
+      "Prurido anal com piora noturna",
+      "Sono entrecortado e irritabilidade",
+      "Microtraumatismos e dermatite perianal"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Graham (fita adesiva perianal)",
+      "alternatives": [
+        "Swab anal com vaselina líquida"
+      ],
+      "sampleType": "Região perianal matinal",
+      "technicalObservation": "A amostra deve ser montada em lâmina com gota de xilol ou tolueno para clarear os cristais e bolhas da fita adesiva."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral, transmissão por fômites e inalação de poeira domiciliar com posterior deglutição",
+      "infectiveForm": "Ovo embrionado",
+      "diagnosticForm": "Ovo assimétrico",
+      "habitat": "Intestino grosso",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Tratamento de todos os membros do domicílio",
+      "Higiene ungueal",
+      "Lavar roupas de cama com água quente"
+    ],
+    "jailaLabPearls": "Ao examinar a lâmina de fita gomada no microscópio, use o condensador ligeiramente abaixado para aumentar o contraste de fase, pois os ovos de Enterobius são completamente hialinos e incolores.",
+    "differentialDiagnosis": "Ovos de ancilostomídeos, artefatos de fita e pelos sintéticos.",
+    "photographerName": "Amanda Souza",
+    "photographerRole": "Biomédica Sanitarista - DSEI Alto Rio Negro",
+    "photoDate": "2024",
+    "votesCount": 37,
+    "featuredBadge": "✨ Contraste Lipídico"
+  },
+  {
+    "id": "img2_hymenolepis_nana_10x",
+    "commonName": "Hymenolepis nana - 10x (Artefato de Bancada)",
+    "scientificName": "Hymenolepis nana + Bolha de Ar",
+    "taxonomy": {
+      "phylum": "Platyhelminthes / Artefato",
+      "class": "Cestoda",
+      "order": "Cyclophyllidea",
+      "family": "Hymenolepididae",
+      "genus": "Hymenolepis",
+      "species": "H. nana + Bolha de ar"
+    },
+    "category": "Artefato",
+    "evolutionaryStage": "Ovo de Cestódeo versus Artefato Laboratorial (Bolha de Ar)",
+    "magnification": "10x",
+    "imageFileName": "img2_hymenolepis_nana_10x.jpeg",
+    "fieldNotes": "Lâmina de alta importância pedagógica! Campo contendo um ovo genuíno de Hymenolepis nana e uma bolha de ar microscópica clássica com espessas margens escuras.",
+    "approxSizeMicrons": "Ovo: 40 µm | Bolha de ar: ~120 µm",
+    "morphologyDescription": "Lâmina de extrema relevância didática mostrando o contraste entre uma estrutura biológica parasitária real e um artefato laboratorial frequente. Abaixo visualiza-se o ovo genuíno de Hymenolepis nana (com dupla parede límpida e oncosfera). Imediatamente acima nota-se uma bolha de ar perfeitamente esférica, caracterizada por um anel periférico escuro e espesso altamente refringente e centro luminoso.",
+    "keyDiagnosticFeatures": [
+      "Bolha de ar: anel periférico negro espesso e centro oco hiperbrilhante",
+      "Ovo de parasita: membranas biológicas delgadas, estruturas internas definidas e ausência do anel negro de difração",
+      "Artefato não possui conteúdo celular, ganchos ou simetria anatômica biológica"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_art_1",
+        "x": 39,
+        "y": 35,
+        "title": "ARTEFATO: Bolha de Ar",
+        "description": "Borda negra grossa e altamente refratária decorrente da difração da luz entre a fase gasosa e líquida. NÃO é um parasita!",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_art_2",
+        "x": 44,
+        "y": 53,
+        "title": "PARASITA REAL: Ovo de H. nana",
+        "description": "Estrutura biológica com embrióforo interno, membrana externa delicada e oncosfera.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Diagnóstico Diferencial de Artefatos em Coproparasitologia",
+    "pathogenesis": "Erros laboratoriais de interpretação geram laudos falso-positivos ou falso-negativos, levando a tratamentos desnecessários com anti-helmínticos ou falha terapêutica no paciente.",
+    "clinicalManifestations": [
+      "Insegurança diagnóstica e emissão de laudo impreciso",
+      "Necessidade de treinamento prático de microscopia para acadêmicos de Biomedicina, Medicina e Farmácia"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Ajuste do micrométrico e observação cuidadosa da espessura dos bordos ópticos",
+      "alternatives": [
+        "Montagem correta da lamínula em ângulo de 45° para evitar bolhas de ar"
+      ],
+      "sampleType": "Preparo coproscópico com lamínula",
+      "technicalObservation": "Para evitar a formação de bolhas de ar, apoie uma das bordas da lamínula sobre a lâmina e abaixe-a lentamente em 45 graus sobre a gota de sedimento."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Falha técnica de pipetagem ou colocação inadequada da lamínula",
+      "infectiveForm": "Não se aplica (Artefato)",
+      "diagnosticForm": "Bolhas de ar, grãos de pólen, cristais e fibras vegetais",
+      "habitat": "Lâmina de vidro do laboratório",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Técnica correta de aposição de lamínula em 45 graus",
+      "Filtração cuidadosa do material fecal através de gaze dobrada",
+      "Uso de reagentes límpidos e ponteiras sem aspiração de ar"
+    ],
+    "jailaLabPearls": "Dica enfática da Dra. Jaila: artefatos como bolhas de ar, grãos de amido e pólen são a maior armadilha de bancada para quem está começando! Lembre-se: bolhas de ar têm uma borda preta grossa inconfundível causada pelo índice de refração do ar. O parasita real tem conteúdo interno organizado e membranas celulares finas.",
+    "differentialDiagnosis": "Bolha de ar vs ovo de Taenia ou cisto de Entamoeba; grãos de pólen vs ovos de Ascaris; fibras vegetais vs larvas de nematódeos.",
+    "photographerName": "Profa. Dra. Jaila Dias Borges Lalwani",
+    "photographerRole": "Docente Titular de Parasitologia",
+    "photoDate": "2024",
+    "votesCount": 34,
+    "featuredBadge": "🎓 Masterclass Anti-Artefato"
+  },
+  {
+    "id": "img3_enterobius_vermiculares_40x",
+    "commonName": "Enterobius vermiculares - 40x (Campo 3)",
+    "scientificName": "Enterobius vermicularis",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Oxyurida",
+      "family": "Oxyuridae",
+      "genus": "Enterobius",
+      "species": "Enterobius vermicularis"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo embrionado isolado de alta definição (Campo 3)",
+    "magnification": "40x",
+    "imageFileName": "img3_enterobius_vermiculares_40x.jpeg",
+    "fieldNotes": "Campo de alta pureza com visualização nítida de ovo individualizado de Enterobius vermicularis.",
+    "approxSizeMicrons": "58 x 26 µm",
+    "morphologyDescription": "Visão exemplar de ovo isolado de E. vermicularis com iluminação balanceada. Observa-se a assimetria bilateral perfeita, com a curvatura uniforme da face convexa e o alinhamento reto da face plana dorsal.",
+    "keyDiagnosticFeatures": [
+      "Visualização ideal da face reta dorsal e convexa ventral",
+      "Envoltório capsular translúcido",
+      "Embrião dobrado sobre si mesmo"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_ent3_1",
+        "x": 56,
+        "y": 42,
+        "title": "Morfologia Perfeita em D",
+        "description": "Espécime de referência para aulas práticas e avaliação morfológica de bancada.",
+        "labelPosition": "right"
+      }
+    ],
+    "disease": "Enterobíase",
+    "pathogenesis": "Colonização cecal e migração das fêmeas com liberação de cerca de 10.000 ovos por postura na fenda perianal.",
+    "clinicalManifestations": [
+      "Prurido perianal intenso",
+      "Escoriações",
+      "Insônia infantil"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Graham",
+      "alternatives": [
+        "Pesquisa de vermes nas fezes ou vestes íntimas"
+      ],
+      "sampleType": "Fita adesiva em borda anal",
+      "technicalObservation": "Repetir a coleta por 3 a 5 dias consecutivos aumenta a sensibilidade diagnóstica para mais de 95%."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Ciclo ânus-boca direto ou indireto via fômites",
+      "infectiveForm": "Ovo embrionado",
+      "diagnosticForm": "Ovo assimétrico em D",
+      "habitat": "Região ileocecal",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Higiene coletiva",
+      "Tratamento em família",
+      "Evitar sacudir roupas de cama"
+    ],
+    "jailaLabPearls": "Espécime didático ideal! Destaque para a curvatura perfeita da face convexa comparada com a face retilínea.",
+    "differentialDiagnosis": "Diferenciar de ovos de Giardia (que são cistos ovais menores e multinucleados) e fibras vegetais.",
+    "photographerName": "Carlos Eduardo Lima",
+    "photographerRole": "Monitor de Parasitologia Humana",
+    "photoDate": "2024",
+    "votesCount": 36,
+    "featuredBadge": "⭐ Campo Limpo 40x"
+  },
+  {
+    "id": "strongyloides_stercoralis_40x",
+    "commonName": "Strongyloides stercoralis - 40x",
+    "scientificName": "Strongyloides stercoralis",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Secernentea",
+      "order": "Rhabditida",
+      "family": "Strongyloididae",
+      "genus": "Strongyloides",
+      "species": "Strongyloides stercoralis"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Larva Rabditóide de 1º Estágio (L1)",
+    "magnification": "40x",
+    "imageFileName": "strongyloides_stercoralis_40x.jpeg",
+    "fieldNotes": "Lâmina obtida preferencialmente pelo método de Rugai ou Baermann-Moraes. Larva rabditóide curva em forma de arco (C) em meio a detritos fecais.",
+    "approxSizeMicrons": "200 a 300 µm de comprimento por 15 a 18 µm de largura",
+    "morphologyDescription": "Larva vermiforme delgada, cilíndrica e alongada, frequentemente assumindo curvatura arciforme suave no sedimento. Extremidade anterior arredondada com vestíbulo bucal distintamente curto (comprimento menor que 1/3 da largura do corpo da larva). Esôfago do tipo rabditóide típico, composto por três porções: corpo anterior, istmo estreito intermediário e bulbo posterior globoso. Na metade posterior do corpo observa-se um primórdio genital volumoso e proeminente. Cauda afilada terminando em extremidade pontiaguda.",
+    "keyDiagnosticFeatures": [
+      "Vestíbulo bucal curto (< 1/3 do diâmetro transversal da cabeça)",
+      "Esôfago rabditóide trilobado clássico (corpo, istmo e bulbo)",
+      "Primórdio genital volumoso e proeminente no terço médio/posterior",
+      "Cauda pontiaguda sem chanfradura",
+      "Morfologia em arco/curvatura suave"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_ss_1",
+        "x": 40,
+        "y": 29,
+        "title": "Vestíbulo Bucal Curto",
+        "description": "Estrutura chave para diferenciação: curto em Strongyloides (< 1/3 do diâmetro cefálico), ao contrário de Ancilostomídeos onde é longo.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_ss_2",
+        "x": 48,
+        "y": 43,
+        "title": "Esôfago Rabditóide",
+        "description": "Esôfago com porção anterior longa, estreitamento (istmo) e dilatação bulbosa posterior característica da larva L1.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_ss_3",
+        "x": 52,
+        "y": 60,
+        "title": "Primórdio Genital Proeminente",
+        "description": "Grupo celular saliente situado no terço médio do corpo da larva, facilmente visível em objetiva de 40x.",
+        "labelPosition": "left"
+      },
+      {
+        "id": "hs_ss_4",
+        "x": 37,
+        "y": 73,
+        "title": "Cauda Afilada Pontiaguda",
+        "description": "Extremidade caudal afilada e cônica sem incisões, terminando em ponta fina.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Estrongiloidíase (com risco de Síndrome de Hiperinfecção e Disseminação)",
+    "pathogenesis": "A fêmea partenogenética habita as criptas do duodeno e jejuno, onde realiza a postura de ovos que eclodem no próprio epitélio intestinal, liberando larvas rabditóides L1 nas fezes. A capacidade única de autoinfecção interna (onde larvas L1 transformam-se em larvas filarioides L3 infectantes ainda no lúmen do cólon ou períneo e penetram a mucosa ou pele perianal) perpetua a infecção por décadas. Em pacientes sob corticoterapia, portadores de HTLV-1, oncológicos ou transplantados, ocorre proliferação descontrolada: larvas L3 invadem todos os órgãos (pulmões, cérebro, fígado), carreadas de bactérias entéricas, provocando sepse por gram-negativos, meningite bacteriana e choque com letalidade de 60 a 85%!",
+    "clinicalManifestations": [
+      "Larva currens: dermatite serpiginosa linear pruriginosa de avanço rápido no tronco e nádegas",
+      "Dor epigástrica que simula úlcera péptica, associada a diarreia aquosa e esteatorreia",
+      "Tosse, broncoespasmo e hemoptise na migração pulmonar",
+      "Quadro fulminante de sepse bacteriana e meningite em imunossuprimidos"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Rugai, Mattos e Brizola OU Método de Baermann-Moraes (técnicas de hidro-termotropismo positivo)",
+      "alternatives": [
+        "Cultura de fezes em placa de ágar (rastros bacterianos)",
+        "Sedimentação espontânea (baixa sensibilidade)"
+      ],
+      "sampleType": "Fezes frescas ou líquido duodenal",
+      "technicalObservation": "Atenção crítica: o método convencional de Hoffmann detecta menos de 30% das infecções por Strongyloides! Se houver suspeita clínica, o biomédico DEVE realizar o método de Rugai ou Baermann."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Penetração ativa transcutânea de larva filarioide (L3) a partir de solo contaminado e autoinfecção interna/externa",
+      "infectiveForm": "Larva Filarioide (L3)",
+      "diagnosticForm": "Larva Rabditóide (L1) eliminada nas fezes frescas",
+      "habitat": "Mucosa do duodeno e jejuno proximal",
+      "cycleType": "Moneoxênico com ciclo de vida livre facultativo no solo"
+    },
+    "prophylaxis": [
+      "Uso de calçados para impedir o contato direto com a terra",
+      "Saneamento básico, esgotamento sanitário e tratamento da água",
+      "TRIAGEM OBRIGATÓRIA para estrongiloidíase ANTES de iniciar corticoterapia em altas doses ou imunossupressores",
+      "Tratamento específico com Ivermectina"
+    ],
+    "jailaLabPearls": "Atenção máxima dos alunos da Dra. Jaila: diferenciar Larva Rabditóide de Strongyloides de Larva de Ancilostomídeo é clássico de prova prática! Strongyloides: vestíbulo bucal CURTO e primórdio genital GRANDE/PROEMINENTE. Ancilostomídeo: vestíbulo bucal LONGO e primórdio genital PEQUENO/INCONSPÍCUO!",
+    "differentialDiagnosis": "Diferenciar de larvas de ancilostomídeos recém-eclodidas e de nematoides de vida livre ou pelos vegetais.",
+    "photographerName": "Enf. Rodrigo P. Santos",
+    "photographerRole": "Enfermeiro de Saúde Coletiva - DSEI Yanomami",
+    "photoDate": "2024",
+    "votesCount": 46,
+    "featuredBadge": "🥉 3º Lugar - Relevância Epidemiológica"
+  },
+  {
+    "id": "taenia_40x",
+    "commonName": "Taenia spp. - 40x",
+    "scientificName": "Taenia spp. (Taenia solium / Taenia saginata)",
+    "taxonomy": {
+      "phylum": "Platyhelminthes",
+      "class": "Cestoda",
+      "order": "Cyclophyllidea",
+      "family": "Taeniidae",
+      "genus": "Taenia",
+      "species": "Taenia spp."
+    },
+    "category": "Cestódeo",
+    "evolutionaryStage": "Ovos esféricos com embrióforo estriado radialmente",
+    "magnification": "40x",
+    "imageFileName": "taenia_40x.jpeg",
+    "fieldNotes": "Lâmina de sedimento fecal em 40x exibindo dois ovos geminados de Taenia sp. com excelente definição das estriações radiais do embrióforo.",
+    "approxSizeMicrons": "30 a 40 µm de diâmetro",
+    "morphologyDescription": "Ovo estritamente esférico ou ligeiramente sub-esférico, corado em tom âmbar ou castanho-dourado. Envolvido por uma espessa camada quitinosa protetora e refringente denominada embrióforo, caracterizada por inúmeras estriações transversais radiais densas que conferem o clássico aspecto em \"roda de carroça\". No interior do embrióforo aloja-se a oncosfera protegida, munida de seis ganchos quitinosos dispostos em pares (embrião hexacanto).",
+    "keyDiagnosticFeatures": [
+      "Embrióforo muito espesso com estriações radiais características (\"roda de carroça\")",
+      "Formato rigorosamente esférico com parede birrefringente",
+      "Coloração amarelo-acastanhada intensa",
+      "Oncosfera central contendo 6 acúleos (embrião hexacanto)"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_t1",
+        "x": 46,
+        "y": 40,
+        "title": "Embrióforo Estriado (\"Roda de Carroça\")",
+        "description": "Camada envoltória espessa e resistente repleta de estriações radiais microscópicas. Diagnóstico patognomônico da família Taeniidae!",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_t2",
+        "x": 49,
+        "y": 46,
+        "title": "Oncosfera com Ganchos Hexacantos",
+        "description": "Massa interna embrionária munida de 6 espículos curvos usados para perfurar a parede intestinal do hospedeiro.",
+        "labelPosition": "bottom"
+      },
+      {
+        "id": "hs_t3",
+        "x": 48,
+        "y": 45,
+        "title": "Dois Ovos em Campo Único",
+        "description": "Presença concomitante de múltiplos ovos em plano focal idêntico, auxiliando na verificação de repetibilidade morfológica.",
+        "labelPosition": "right"
+      }
+    ],
+    "disease": "Teníase (infecção pelo verme adulto) e Cisticercose (infecção pela forma larval de Taenia solium)",
+    "pathogenesis": "TENÍASE: O homem adquire ingerindo carne crua ou malcozida de porco (T. solium com Cysticercus cellulosae) ou boi (T. saginata com Cysticercus bovis). O verme adulto atinge de 3 a 10 metros no intestino delgado, causando espoliação nutricional e sintomas dispépticos. CISTICERCOSE: Ocorre exclusivamente quando o ser humano atua como hospedeiro intermediário acidental ao ingerir OVOS de Taenia solium (água/alimentos contaminados ou autoinfecção fecal-oral). As oncosferas eclodem, penetram os vasos e alojam-se nos tecidos, especialmente no sistema nervoso central (NEUROCISTICERCOSE), olhos e músculos, formando cisticercos que provocam convulsões, hipertensão intracraniana e hidrocefalia.",
+    "clinicalManifestations": [
+      "Teníase: eliminação incômoda de proglotes nas fezes ou vestes íntimas, prurido anal, fome excessiva ou anorexia, dor abdominal",
+      "Neurocisticercose: crises epilépticas focais ou generalizadas (principal causa de epilepsia adquirida em adultos em países em desenvolvimento)",
+      "Hipertensão intracraniana: cefaleia intensa, vômitos em jato, papiledema e alteração visual",
+      "Cisticercose ocular: perda progressiva da acuidade visual e uveíte"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Faust / Tamisação fecal com contagem de ramificações uterinas de proglotes grávidas",
+      "alternatives": [
+        "Método da fita gomada de Graham (proglotes migram para a margem anal)",
+        "Neurocisticercose: Tomografia Computadorizada (TC) ou Ressonância Magnética (RM) de crânio e ELISA/Western Blot"
+      ],
+      "sampleType": "Fezes frescas ou proglotes eliminadas espontaneamente pelo paciente",
+      "technicalObservation": "Morfologicamente os ovos de Taenia solium e Taenia saginata são IDÊNTICOS sob microscopia óptica! O laudo laboratorial deve citar \"Ovos de Taenia sp.\". Para diferenciar as espécies é obrigatório analisar as ramificações uterinas das proglotes grávidas: T. saginata possui mais de 12 ramificações dicotômicas finas, enquanto T. solium possui de 7 a 12 ramificações dendríticas grossas."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Teníase: ingestão de carne suína/bovina crua ou malcozida com cisticercos. Cisticercose: ingestão de água ou alimentos contaminados com ovos de Taenia solium ou autoinfecção fecal-oral.",
+      "infectiveForm": "Teníase: Cisticerco (larva na carne) | Cisticercose: Ovo de Taenia solium",
+      "diagnosticForm": "Ovos com embrióforo radiado e proglotes eliminadas nas fezes",
+      "habitat": "Verme adulto no jejuno e íleo | Cisticercos no cérebro, músculos e olhos",
+      "cycleType": "Heteroxênico (Homem = hospedeiro definitivo; Suíno/Bovino = intermediários)"
+    },
+    "prophylaxis": [
+      "Cozimento completo de carnes bovinas e suínas (temperatura interna superior a 65°C)",
+      "Inspeção sanitária rigorosa em matadouros e frigoríficos",
+      "Tratamento adequado de pacientes com teníase para interromper a disseminação de ovos",
+      "Higiene impecável das mãos e alimentos crus para prevenir a perigosa neurocisticercose"
+    ],
+    "jailaLabPearls": "Aviso crucial de biossegurança da Profa. Dra. Jaila: o ovo de Taenia sp. já sai infectante nas fezes e, caso pertença a Taenia solium, pode desencadear Neurocisticercose no próprio manipulador de bancada! Manipule amostras positivas sempre com luvas, máscara e proceda com descarte adequado em autoclave ou solução desinfetante.",
+    "differentialDiagnosis": "Diferenciar de ovos de Hymenolepis nana (que têm parede externa delgada e filamentos polares) e de bolhas de ar microscópicas.",
+    "photographerName": "Mariana Albuquerque",
+    "photographerRole": "Monitora de Laboratório",
+    "photoDate": "2024",
+    "votesCount": 38,
+    "featuredBadge": "💎 Embrióforo Radiado"
+  },
+  {
+    "id": "trichuris_trichiura_40x",
+    "commonName": "Trichuris trichiura - 40x",
+    "scientificName": "Trichuris trichiura",
+    "taxonomy": {
+      "phylum": "Nematoda",
+      "class": "Enoplea",
+      "order": "Trichocephalida",
+      "family": "Trichuridae",
+      "genus": "Trichuris",
+      "species": "Trichuris trichiura"
+    },
+    "category": "Nematódeo",
+    "evolutionaryStage": "Ovo embrionado em formato de barril com tampões mucosos polares",
+    "magnification": "40x",
+    "imageFileName": "trichuris_trichiura_40x.jpeg",
+    "fieldNotes": "Sedimento fecal obtido por sedimentação espontânea. Ovo de Trichuris trichiura em plano focal límpido evidenciando os dois tampões mucosos polares brilhantes.",
+    "approxSizeMicrons": "50 a 55 µm de comprimento por 22 a 25 µm de largura",
+    "morphologyDescription": "Ovo de formato altamente característico em barril ou limão, perfeitamente simétrico, com coloração castanho-dourada decorrente da impregnação de bilirrubina/bile fecal. Possui casca espessa constituída por três camadas distintas e dois tampões mucosos ou opérculos hialinos translúcidos salientes, um em cada polo (\"rolha de champanhe\"). A massa germinativa interna é homogênea, esférica e não segmentada no momento da eliminação fecal.",
+    "keyDiagnosticFeatures": [
+      "Formato patognomônico em barril ou limão com polos afilados",
+      "Tampões mucosos polares hialinos proeminentes e birrefringentes em ambas as pontas",
+      "Casca espessa lisa com coloração castanho-amarelada biliar",
+      "Massa embrionária celular única e homogênea"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_tt_1",
+        "x": 48,
+        "y": 28,
+        "title": "Tampão Mucoso Polar Superior",
+        "description": "Opérculo hialino transparente em forma de rolha, saliente no polo do ovo.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_tt_2",
+        "x": 52,
+        "y": 50,
+        "title": "Casca Espessa Trilaminar",
+        "description": "Parede capsular lisa resistente impregnada de pigmentos biliares.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_tt_3",
+        "x": 49,
+        "y": 72,
+        "title": "Tampão Mucoso Polar Inferior",
+        "description": "Segundo opérculo mucoso completando a perfeita simetria em barril.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Tricuríase (\"Infecção pelo Verme Chicote\")",
+    "pathogenesis": "Os vermes adultos habitam o ceco e cólon ascendente, introduzindo sua delgada porção anterior filiforme profundamente na mucosa intestinal como um estilete. Em infecções maciças (>800 vermes em crianças desnutridas), a irritação mecânica contínua, o tenesmo intenso e a hipotonia dos esfíncteres anais levam ao prolapso retal, acompanhado de disenteria crônica mucossanguinolenta, anemia ferropriva microcítica e déficit de crescimento.",
+    "clinicalManifestations": [
+      "Prolapso retal clássico em crianças desnutridas com alta carga parasitária",
+      "Diarreia crônica com muco e raias de sangue (disenteria tricuriana)",
+      "Tenesmo, dor em fossa ilíaca direita e cólicas abdominais",
+      "Anemia ferropriva grave e retardo do desenvolvimento ponderoestatual"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Método de Kato-Katz (quantitativo para contagem de OPG)",
+      "alternatives": [
+        "Método de Faust (flutuação)"
+      ],
+      "sampleType": "Fezes frescas",
+      "technicalObservation": "Ovos facilmente reconhecíveis sob microscopia óptica comum devido aos tampões polares brilhantes."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral: ingestão de água, frutas ou verduras contaminadas com ovos embrionados maduros contendo larva",
+      "infectiveForm": "Ovo embrionado com larva L1",
+      "diagnosticForm": "Ovos com opérculos polares nas fezes",
+      "habitat": "Ceco e cólon ascendente",
+      "cycleType": "Moneoxênico (sem migração pulmonar)"
+    },
+    "prophylaxis": [
+      "Lavagem criteriosa e desinfecção de hortaliças consumidas cruas",
+      "Filtragem e fervura de água de consumo",
+      "Saneamento básico com esgotamento sanitário adequado",
+      "Tratamento farmacológico com Mebendazol ou Albendazol"
+    ],
+    "jailaLabPearls": "Dica de ouro da Dra. Jaila: o ovo de Trichuris trichiura é o mais fácil de gabaritar na bancada devido aos seus tampões polares mucosos brilhantes em formato de \"rolha de champanhe\" ou \"barril\". Se o caso clínico relatar criança com desnutrição, dor no baixo ventre e prolapso retal, o diagnóstico é tricuríase maciça!",
+    "differentialDiagnosis": "Diferenciar de Trichuris vulpis (parasita canino que pode infectar o homem acidentalmente, porém seus ovos são bem maiores) e de ovos de Capillaria hepatica.",
+    "photographerName": "Profa. Dra. Jaila Dias Borges Lalwani",
+    "photographerRole": "Docente Titular de Parasitologia",
+    "photoDate": "2024",
+    "votesCount": 44,
+    "featuredBadge": "🎯 Simetria em Barril"
+  },
+  {
+    "id": "schistosoma_mansoni_40x",
+    "commonName": "Schistosoma mansoni - 40x",
+    "scientificName": "Schistosoma mansoni",
+    "taxonomy": {
+      "phylum": "Platyhelminthes",
+      "class": "Trematoda",
+      "order": "Strigeidida",
+      "family": "Schistosomatidae",
+      "genus": "Schistosoma",
+      "species": "Schistosoma mansoni"
+    },
+    "category": "Trematódeo",
+    "evolutionaryStage": "Ovo maduro gigante transparente com espículo lateral proeminente",
+    "magnification": "40x",
+    "imageFileName": "schistosoma_mansoni_40x.jpeg",
+    "fieldNotes": "Lâmina de sedimento fecal corado ou método de Kato-Katz. Ovo volumoso elipsoidal com espículo lateral característico voltado para trás.",
+    "approxSizeMicrons": "115 a 175 µm de comprimento por 45 a 70 µm de largura",
+    "morphologyDescription": "Ovo de grandes dimensões (um dos maiores da parasitologia humana), de contorno elipsoidal alongado, com extremidades arredondadas. Casca hialina, delgada e lisa, sem opérculo. Apresenta como marca registrada inconfundível um espículo lateral pontiagudo, rígido e robusto, voltado para a extremidade posterior do ovo. No interior observa-se o miracídio maduro formado e viável com cílios e corpúsculos glandulares.",
+    "keyDiagnosticFeatures": [
+      "Espículo lateral agudo e pronunciado voltado para trás",
+      "Dimensões volumosas (115 a 175 µm), facilmente identificável em varredura",
+      "Casca transparente, delgada e contínua sem opérculo",
+      "Miracídio ciliado viável contido em seu interior"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_sm_1",
+        "x": 62,
+        "y": 48,
+        "title": "Espículo Lateral Proeminente",
+        "description": "Estrutura pontiaguda lateral patognomônica da espécie S. mansoni. Rasga vênulas e tecidos para alcançar o lúmen fecal.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_sm_2",
+        "x": 44,
+        "y": 50,
+        "title": "Miracídio Ciliado Interno",
+        "description": "Larva ciliada que eclodirá imediatamente se o ovo alcançar água doce para infectar caramujos Biomphalaria.",
+        "labelPosition": "left"
+      }
+    ],
+    "disease": "Esquistossomose Mansônica (\"Barriga d'Água\" / Bilharzíase / Xistose)",
+    "pathogenesis": "Os vermes adultos acasalados vivem nas vênulas mesentéricas inferiores. Os ovos retidos na parede intestinal e carreados pelo fluxo portal até o fígado desencadeiam uma intensa reação inflamatória granulomatosa ao redor de cada ovo mediada por linfócitos Th2. A coalescência de granulomas resulta em fibrose periportal densa (Fibrose de Symmers em \"cabo de cachimbo\"), causando hipertensão portal pré-sinusoidal severa, esplenomegalia gigante, ascite volumosa (\"barriga d'água\") e varizes esofágicas com risco de hemorragia digestiva fatal.",
+    "clinicalManifestations": [
+      "Dermatite cercariana (\"coceira do nadador\") na penetração transcutânea",
+      "Fase aguda / Febre de Katayama: febre, calafrios, tosse, hepatoesplenomegalia e eosinofilia maciça",
+      "Fase crônica hepatoesplênica: ascite (\"barriga d'água\"), circulação colateral superficial e hematêmese por ruptura de varizes de esôfago",
+      "Forma pseudotumoral intestinal com pólipos e diarreia crônica"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Método quantitativo de Kato-Katz (padronizado pela OMS e Ministério da Saúde para contagem de OPG)",
+      "alternatives": [
+        "Método de sedimentação espontânea de Lutz/Hoffmann",
+        "Biópsia retal da mucosa (para casos de baixa carga)",
+        "Eclosão de miracídios"
+      ],
+      "sampleType": "Fezes frescas",
+      "technicalObservation": "A identificação de ovos com miracídios viáveis confirma infecção ativa e orienta o tratamento imediato."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Penetração ativa de cercárias móveis liberadas por caramujos do gênero Biomphalaria na pele durante banhos em lagoas contaminadas (\"lagoas de coceira\")",
+      "infectiveForm": "Cercária flagelada bifurcada (furcocercária)",
+      "diagnosticForm": "Ovo com espículo lateral nas fezes",
+      "habitat": "Plexo venoso mesentérico inferior e sistema porta intra-hepático",
+      "cycleType": "Heteroxênico (Homem = definitivo; Caramujo Biomphalaria = intermediário)"
+    },
+    "prophylaxis": [
+      "Saneamento básico rigoroso para impedir que fezes alcancem coleções de água doce",
+      "Controle biológico e químico de caramujos vetores (Biomphalaria)",
+      "Educação sanitária e proibição de banhos em \"lagoas de coceira\" em áreas endêmicas",
+      "Tratamento quimioterápico em massa com Praziquantel"
+    ],
+    "jailaLabPearls": "Dica de prova prática da Dra. Jaila: o ovo de Schistosoma mansoni tem um espículo LATERAL pontiagudo inconfundível! Não confunda com Schistosoma haematobium (cujo espículo é terminal e que sai na urina, causando hematúria). No Brasil, a espécie autóctone de importância médica é exclusivamente o Schistosoma mansoni!",
+    "differentialDiagnosis": "Diferenciar de Schistosoma haematobium (espículo terminal na urina) e Schistosoma japonicum (espículo rudimentar diminuto).",
+    "photographerName": "Equipe de Vigilância de Endemias / EMSI",
+    "photographerRole": "Laboratório de Malacologia & Parasitologia",
+    "photoDate": "2023",
+    "votesCount": 39,
+    "featuredBadge": "🛡️ Espículo Lateral em Destaque"
+  },
+  {
+    "id": "giardia_lamblia_40x",
+    "commonName": "Giardia lamblia - 40x",
+    "scientificName": "Giardia lamblia (Giardia duodenalis / intestinalis)",
+    "taxonomy": {
+      "phylum": "Metamonada",
+      "class": "Fornicata",
+      "order": "Diplomonadida",
+      "family": "Hexamitidae",
+      "genus": "Giardia",
+      "species": "Giardia lamblia"
+    },
+    "category": "Protozoário",
+    "evolutionaryStage": "Trofozoíto flagelado piriforme binucleado corado com Giemsa",
+    "magnification": "40x",
+    "imageFileName": "giardia_lamblia_40x.jpeg",
+    "fieldNotes": "Esfregaço de secreção duodenal ou fezes diarreicas corado pelo método de Giemsa. Trofozoítos piriformes com visualização exemplar dos dois núcleos simétricos e flagelos.",
+    "approxSizeMicrons": "12 a 18 µm de comprimento por 6 a 10 µm de largura",
+    "morphologyDescription": "Trofozoíto de formato piriforme achatado (\"em forma de pera ou pipa\"), com extremidade anterior ampla e arredondada e extremidade posterior afilada em cauda. Apresenta simetria bilateral perfeita. Na face ventral observa-se a depressão côncava do disco adesivo/suctorial sustentado por tubulina. Apresenta dois núcleos vesiculares idênticos dispostos lado a lado com volumosos cariossomos centrais (aspecto cômico de \"rosto\" ou \"óculos\"), axóstilo longitudinal mediano e quatro pares de flagelos motores (anterior, posterior, ventral e caudal).",
+    "keyDiagnosticFeatures": [
+      "Formato piriforme simétrico característico em \"rosto com óculos\"",
+      "Dois núcleos vesiculares idênticos com cariossomos centrais",
+      "Disco suctorial na face ventral para fixação à mucosa duodenal",
+      "Axóstilo mediano bem demarcado e 8 flagelos (4 pares)"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_gl_1",
+        "x": 46,
+        "y": 38,
+        "title": "Núcleos Vesiculares Gêmeos",
+        "description": "Dois núcleos ovais simétricos com cariossomo central, conferindo o aspecto de \"olhos\" do trofozoíto.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_gl_2",
+        "x": 52,
+        "y": 52,
+        "title": "Disco Suctorial Ventral",
+        "description": "Estrutura rígida côncava formada por microtúbulos que permite a fixação por sucção nos enterócitos.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_gl_3",
+        "x": 48,
+        "y": 70,
+        "title": "Axóstilo Mediano e Flagelos",
+        "description": "Eixo microtubular esquelético que divide o protozoário em duas metades simétricas e orienta os flagelos.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Giardíase (Enterite / Duodenite por Giardia)",
+    "pathogenesis": "Os trofozoítos aderem vigorosamente à borda em escova dos enterócitos no duodeno e jejuno proximal através de seu disco suctorial. Em infecções maciças, formam um tapete contínuo sobre a mucosa que causa barreira mecânica e atrofia vilositária focal, inibindo a ação de enzimas de membrana (especialmente lactase) e o transporte de nutrientes. A consequência fisiopatológica direta é a síndrome de má-absorção com esteatorreia (fezes gordurosas, fétidas, volumosas, brilhantes que boiam na água do vaso sanitário), dor epigástrica e deficiência de vitaminas lipossolúveis (A, D, E e K).",
+    "clinicalManifestations": [
+      "Diarreia crônica aquosa ou esteatorreica (fezes fétidas e gordurosas)",
+      "Distensão abdominal importante, flatulência fétida e eructações com odor sulfuroso (\"ovo podre\")",
+      "Dor epigástrica tipo queimação pós-prandial que simula úlcera péptica",
+      "Desnutrição crônica, emagrecimento e intolerância secundária à lactose em crianças"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Pesquisa de cistos em fezes formadas (sedimentação de Hoffmann ou Faust) OU trofozoítos em fezes líquidas a fresco",
+      "alternatives": [
+        "Enterotest (cápsula com fio de náilon duodenal)",
+        "ELISA para detecção de coproantígenos (alta sensibilidade)"
+      ],
+      "sampleType": "Fezes colhidas em 3 amostras alternadas (devido à eliminação cística intermitente)",
+      "technicalObservation": "Em fezes pastosas e diarreicas frescas, observam-se os trofozoítos móveis com movimento característico em \"folha seca cadente\"."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral: ingestão de cistos maduros em água não tratada (resistem à cloração comum), alimentos contaminados ou contato de mãos sujas",
+      "infectiveForm": "Cisto maduro tetranucleado",
+      "diagnosticForm": "Cistos nas fezes sólidas e trofozoítos nas fezes diarreicas",
+      "habitat": "Duodeno e jejuno proximal (aderidos aos enterócitos)",
+      "cycleType": "Moneoxênico"
+    },
+    "prophylaxis": [
+      "Fervura ou filtração rigorosa da água (os cistos de Giardia são resistentes à cloração habitual da rede pública!)",
+      "Higienização cuidadosa das mãos antes de manipular alimentos e após uso do sanitário",
+      "Proteção de reservatórios de água contra dejetos humanos e de animais domésticos",
+      "Tratamento específico dos infectados com Metronidazol, Secnidazol ou Nitazoxanida"
+    ],
+    "jailaLabPearls": "Pérola fundamental da Dra. Jaila Lalwani: se as fezes do paciente estiverem diarreicas e frescas, procure o trofozoíto piriforme com seu movimento em folha caindo. Se as fezes forem formadas e firmes, procure os cistos ovais transparentes com 4 núcleos e axóstilo em \"S\". E lembre-se: a cloração de rotina da água não destrói os cistos de Giardia, é preciso filtrar ou ferver!",
+    "differentialDiagnosis": "Diferenciar de Trichomonas hominis (trofozoíto sem disco suctorial, com membrana ondulante) e Chilomastix mesnili.",
+    "photographerName": "Amanda Souza",
+    "photographerRole": "Biomédica Sanitarista - DSEI Alto Rio Negro",
+    "photoDate": "2024",
+    "votesCount": 47,
+    "featuredBadge": "⭐ Excelente Cromatismo"
+  },
+  {
+    "id": "entamoeba_histolytica_40x",
+    "commonName": "Entamoeba histolytica - 40x",
+    "scientificName": "Entamoeba histolytica",
+    "taxonomy": {
+      "phylum": "Amoebozoa",
+      "class": "Archamoebae",
+      "order": "Entamoebida",
+      "family": "Entamoebidae",
+      "genus": "Entamoeba",
+      "species": "Entamoeba histolytica"
+    },
+    "category": "Protozoário",
+    "evolutionaryStage": "Cisto maduro tetranucleado com cariossomo central",
+    "magnification": "40x",
+    "imageFileName": "entamoeba_histolytica_40x.jpeg",
+    "fieldNotes": "Sedimento fecal corado com solução de Lugol em 40x. Cisto esférico límpido com visualização de núcleos característicos contendo cariossomo central delicado.",
+    "approxSizeMicrons": "10 a 15 µm de diâmetro",
+    "morphologyDescription": "Cisto esférico de contorno liso e regular, delimitado por membrana cística resistente birrefringente. No estágio maduro diagnóstico apresenta exatamente quatro núcleos esféricos (visíveis em diferentes alturas ao rodar o parafuso micrométrico). Cada núcleo exibe membrana nuclear fina revestida internamente por grânulos regulares e diminutos de cromatina periférica, com um cariossomo pontiforme minúsculo e rigorosamente central. No citoplasma de cistos jovens podem ser observados corpos cromatóides cilíndricos com extremidades lisas e arredondadas em charuto.",
+    "keyDiagnosticFeatures": [
+      "Cisto esférico contendo até 4 núcleos na forma madura",
+      "Cariossomo minúsculo, pontiforme e rigorosamente central",
+      "Cromatina periférica delicada, fina e distribuída de modo uniforme",
+      "Corpos cromatóides com pontas arredondadas em formato de bastão ou charuto"
+    ],
+    "hotspots": [
+      {
+        "id": "hs_eh_1",
+        "x": 45,
+        "y": 40,
+        "title": "Núcleo com Cariossomo Central",
+        "description": "Núcleo esférico com cariossomo pontiforme central e cromatina periférica fina regular.",
+        "labelPosition": "top"
+      },
+      {
+        "id": "hs_eh_2",
+        "x": 55,
+        "y": 48,
+        "title": "Parede Cística Esférica",
+        "description": "Membrana protetora que confere resistência ao suco gástrico e ao meio externo.",
+        "labelPosition": "right"
+      },
+      {
+        "id": "hs_eh_3",
+        "x": 48,
+        "y": 60,
+        "title": "Tétrada Nuclear em Foco",
+        "description": "Quatro núcleos caracterizam o cisto maduro infectante de E. histolytica / E. dispar.",
+        "labelPosition": "bottom"
+      }
+    ],
+    "disease": "Amebíase (Disenteria Amebiana, Colite Necrosante e Abscesso Hepático Amebiano)",
+    "pathogenesis": "Os trofozoítos aderem ao muco e aos enterócitos do cólon através da lectina Gal/GalNAc e secretam amebaporos e cisteíno-proteinases que provocam citólise dos enterócitos e necrose lítica tecidual (donde deriva o nome \"histolytica\" = lise tecidual). As lesões ulceradas aprofundam-se na submucosa, expandindo-se lateralmente para formar as clássicas úlceras em \"botão de camisa\" ou \"frasco de colo estreito\". A invasão dos capilares submucosos permite a migração hematogênica de trofozoítos pelo sistema porta até o parênquima hepático, desenvolvendo o Abscesso Hepático Amebiano com necrose liquefativa acastanhada típica em \"pasta de anchova\".",
+    "clinicalManifestations": [
+      "Disenteria amebiana: evacuações frequentes com muco, pus e sangue vivo, associadas a tenesmo retal intenso",
+      "Cólicas abdominais violentas e dor em cólon descendente e sigmoide",
+      "Abscesso hepático amebiano: febre alta em agulha, dor no hipocôndrio direito irradiada para o ombro e hepatomegalia dolorosa",
+      "Ameboma: lesão granulomatosa crônica na parede do cólon que simula adenocarcinoma intestinal"
+    ],
+    "diagnosticMethods": {
+      "goldStandard": "Pesquisa microscópica de cistos em fezes formadas (Faust ou Hoffmann) OU pesquisa de trofozoítos hematófagos (com hemácias fagocitadas) em fezes diarreicas frescas",
+      "alternatives": [
+        "ELISA para detecção de antígenos específicos de E. histolytica nas fezes (diferencia de E. dispar)",
+        "PCR fecal",
+        "Sorologia para abscesso hepático"
+      ],
+      "sampleType": "Fezes frescas colhidas em frasco limpo (amostras seriadas)",
+      "technicalObservation": "ATENÇÃO CRÍTICA: Os cistos de Entamoeba histolytica e Entamoeba dispar são indistinguíveis à microscopia óptica comum! O laudo oficial deve referir \"Cistos do complexo Entamoeba histolytica / Entamoeba dispar\", a menos que sejam visualizados trofozoítos com hemácias no citoplasma (eritrofagocitose, que comprova invasão tecidual por E. histolytica)."
+    },
+    "transmissionAndCycle": {
+      "transmissionRoute": "Fecal-oral: ingestão de cistos maduros tetranucleados em água potável contaminada, hortaliças cruas ou mãos de manipuladores de alimentos portadores assintomáticos",
+      "infectiveForm": "Cisto tetranucleado maduro",
+      "diagnosticForm": "Cistos tetranucleados nas fezes sólidas ou trofozoítos invasivos nas fezes disentéricas",
+      "habitat": "Luz e parede do intestino grosso (ceco, cólon ascendente e reto)",
+      "cycleType": "Moneoxênico (com potencial invasivo extraintestinal)"
+    },
+    "prophylaxis": [
+      "Tratamento adequado e cloração/filtração da água potável",
+      "Saneamento básico com destino seguro de esgotos domiciliares",
+      "Higiene impecável e triagem coproparasitológica de manipuladores de alimentos",
+      "Tratamento medicamentoso com derivados imidazólicos (Metronidazol, Tinidazol) seguido de amebicida luminal (Teclozan)"
+    ],
+    "jailaLabPearls": "Dica de bancada da Profa. Dra. Jaila: diferenciar Entamoeba histolytica de Entamoeba coli é o terror das provas práticas! Memorize o macete: Entamoeba histolytica tem até 4 NÚCLEOS, cariossomo rigorosamente CENTRAL e cromatina fina delicada. Entamoeba coli tem até 8 NÚCLEOS, cariossomo nitidamente EXCÊNTRICO e cromatina periférica grossa e irregular!",
+    "differentialDiagnosis": "Diferenciar de Entamoeba coli (cisto com 8 núcleos e cariossomo excêntrico), Endolimax nana (cisto com 4 núcleos sem cromatina periférica e cariossomo em bloco) e Iodamoeba bütschlii (cisto mononucleado com volumoso vacúolo de glicogênio que se cora intensamente em castanho pelo Lugol).",
+    "photographerName": "Profa. Dra. Jaila Dias Borges Lalwani",
+    "photographerRole": "Docente Titular de Parasitologia",
+    "photoDate": "2024",
+    "votesCount": 43,
+    "featuredBadge": "🏆 Padrão Morfológico de Referência"
+  }
+]

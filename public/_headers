@@ -1,0 +1,14 @@
+# Cloudflare Pages: cabeçalhos de segurança e cache.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+/data/*
+  Cache-Control: no-cache
+/assets/img/*
+  Cache-Control: public, max-age=3600, must-revalidate
+/assets/css/*
+  Cache-Control: no-cache
+/assets/js/*
+  Cache-Control: no-cache

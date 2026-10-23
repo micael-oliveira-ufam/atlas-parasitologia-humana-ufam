@@ -1,0 +1,31 @@
+name: atlas_parasitologia
+description: "Atlas Digital de Parasitologia Humana — versão Android (offline)."
+publish_to: "none"
+version: 2.0.0+2
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+# Sem pacotes de terceiros em tempo de execução (só o SDK do Flutter): menos superfície de
+# erro de compatibilidade e o app funciona 100% offline, sem permissão de internet.
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/data/modulos/
+    - assets/img/nematelmintos/
+    - assets/img/platelmintos/
+    - assets/img/protozoarios/
+    - brand/logo_mark.png
+    - brand/logo_tile.png
+    - brand/ufam_logo.png
+    - brand/ufam_brasao.png

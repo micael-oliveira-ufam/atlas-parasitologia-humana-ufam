@@ -1,0 +1,25 @@
+{
+  "itens": [
+    {
+      "nome": "Bolhas de ar",
+      "confundidaCom": "Cistos / Taenia",
+      "comoDiferenciar": "Bordas escuras extremamente espessas e pretas. Mudam drasticamente de foco ao menor toque no parafuso micrométrico. Sem ganchos ou cariossomos."
+    },
+    {
+      "nome": "Grãos de pólen vegetal",
+      "confundidaCom": "Ovos de Ascaris",
+      "comoDiferenciar": "Superfície com espinhos geométricos regulares ou poros de germinação simétricos. Geralmente não têm a assimetria orgânica dos mamelões biliares de Ascaris e não contêm massa germinativa esférica."
+    },
+    {
+      "nome": "Pelos e fibras vegetais",
+      "confundidaCom": "Larvas de nematódeos",
+      "comoDiferenciar": "Fibras vegetais possuem canais internos ocos ou paredes com espessamento helicoidal e pontas fraturadas ou retas. NÃO possuem vestíbulo bucal, esôfago rabditóide nem primórdio genital."
+    },
+    {
+      "nome": "Grânulos de amido",
+      "confundidaCom": "Cistos de protozoários",
+      "comoDiferenciar": "Coram-se em azul-marinho ou roxo intenso quando expostos ao Lugol e apresentam uma “cruz de malta” sob luz polarizada."
+    }
+  ],
+  "dica": "Na dúvida entre um artefato e um ovo/cisto, gire o micrométrico para cima e para baixo. O parasita real mantém a consistência de suas membranas internas no plano focal, enquanto o artefato perde a forma ou “estoura” a luz."
+}

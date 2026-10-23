@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ancilostomideo_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "ascaris_lumbricoides_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de prova da Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "ascaris_lumbricoides_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "enterobius_vermiculares_40x",
+    "change": "commonName corrigido: \"Enterobius vermiculares - 40x\" -> \"Enterobius vermicularis - 40x\""
+  },
+  {
+    "id": "enterobius_vermiculares_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de bancada da Dra. Jaila Lalwani:\") — texto preservado"
+  },
+  {
+    "id": "enterobius_vermiculares_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "hymenolepis_nana_10x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "hymenolepis_nana_40x",
+    "change": "commonName corrigido: \"Hymenolpeis nana - 40x\" -> \"Hymenolepis nana - 40x\""
+  },
+  {
+    "id": "hymenolepis_nana_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de ouro da Profa. Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "hymenolepis_nana_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "img2_enterobius_vermiculares_40x",
+    "change": "commonName corrigido: \"Enterobius vermiculares - 40x (Campo 2)\" -> \"Enterobius vermicularis - 40x (Campo 2)\""
+  },
+  {
+    "id": "img2_enterobius_vermiculares_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "img2_hymenolepis_nana_10x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica enfática da Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "img2_hymenolepis_nana_10x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "img3_enterobius_vermiculares_40x",
+    "change": "commonName corrigido: \"Enterobius vermiculares - 40x (Campo 3)\" -> \"Enterobius vermicularis - 40x (Campo 3)\""
+  },
+  {
+    "id": "img3_enterobius_vermiculares_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "strongyloides_stercoralis_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Atenção máxima dos alunos da Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "strongyloides_stercoralis_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "taenia_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Aviso crucial de biossegurança da Profa. Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "taenia_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "trichuris_trichiura_40x",
+    "change": "magnification \"40x\" removida (aumento não documentado para imagem externa)"
+  },
+  {
+    "id": "trichuris_trichiura_40x",
+    "change": "3 hotspots removidos (não correspondem à imagem); originais em legacy/"
+  },
+  {
+    "id": "trichuris_trichiura_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de ouro da Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "trichuris_trichiura_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "schistosoma_mansoni_40x",
+    "change": "magnification \"40x\" removida (aumento não documentado para imagem externa)"
+  },
+  {
+    "id": "schistosoma_mansoni_40x",
+    "change": "2 hotspots removidos (não correspondem à imagem); originais em legacy/"
+  },
+  {
+    "id": "schistosoma_mansoni_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de prova prática da Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "schistosoma_mansoni_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "giardia_lamblia_40x",
+    "change": "magnification \"40x\" removida (aumento não documentado para imagem externa)"
+  },
+  {
+    "id": "giardia_lamblia_40x",
+    "change": "3 hotspots removidos (não correspondem à imagem); originais em legacy/"
+  },
+  {
+    "id": "giardia_lamblia_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Pérola fundamental da Dra. Jaila Lalwani:\") — texto preservado"
+  },
+  {
+    "id": "giardia_lamblia_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "entamoeba_histolytica_40x",
+    "change": "magnification \"40x\" removida (aumento não documentado para imagem externa)"
+  },
+  {
+    "id": "entamoeba_histolytica_40x",
+    "change": "3 hotspots removidos (não correspondem à imagem); originais em legacy/"
+  },
+  {
+    "id": "entamoeba_histolytica_40x",
+    "change": "jailaLabPearls->benchTip: removida atribuição nominal (\"Dica de bancada da Profa. Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "entamoeba_histolytica_40x",
+    "change": "removidos: fieldNotes, photographerName, photographerRole, photoDate, votesCount, featuredBadge (ver legacy/)"
+  },
+  {
+    "id": "quiz:dsei_ais_02",
+    "change": "fieldPearl: removida atribuição nominal (\"Dica da Profa. Dra. Jaila:\") — texto preservado"
+  },
+  {
+    "id": "quiz:campo_amostra_12",
+    "change": "fieldPearl: removida atribuição nominal (\"Dica de bancada da Profa. Dra. Jaila:\") — texto preservado"
+  }
+]

@@ -1,0 +1,388 @@
+{
+  "review": {
+    "reviewedOn": "2026-10-23",
+    "status": "conferido-na-literatura",
+    "scope": "Todas as afirmações científicas das fichas de espécie (morfologia, tamanhos, ciclo, patogenia, clínica, diagnóstico, tratamento, prevenção, taxonomia), o banco de questões e o guia de artefatos foram refeitos a partir de fontes lidas em 23/10/2026; os protocolos foram conferidos em 17/10/2026. Cada afirmação traz status (confirmado, corrigido, ressalva ou observação), referências e o trecho-evidência. O que não pôde ser sustentado foi retirado e consta na lista de removidos.",
+    "notValidation": "Isto é uma conferência bibliográfica, não uma validação analítica nem aconselhamento clínico. As citações literais em inglês são as devolvidas por um leitor automático de páginas (que extrai trechos): recomenda-se conferir na fonte antes de citar. Doses e esquemas terapêuticos não são reproduzidos. Antes de uso em rotina ou diagnóstico, o procedimento precisa ser adotado e validado no POP do laboratório.",
+    "notReviewed": [
+      "Livros-texto da bibliografia geral da disciplina (listados em Informações) — não consultados",
+      "Identificação das espécies nas fotografias das lâminas — feita pelos autores; não foi confirmada de forma independente",
+      "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados"
+    ],
+    "sourceAccessNote": "Fontes lidas por ferramentas automáticas (leitor de páginas e PubMed). Onde só o resumo ou trechos foram lidos, isso consta em 'acesso nesta revisão' de cada referência. Documento da OMS (Bench Aids) com acesso indisponível."
+  },
+  "items": [
+    {
+      "id": "levecke2011",
+      "short": "Levecke et al., 2011",
+      "citation": "Levecke B, Behnke JM, Ajjampur SSR, Albonico M, Ame SM, Charlier J, et al. A comparison of the sensitivity and fecal egg counts of the McMaster egg counting and Kato-Katz thick smear methods for soil-transmitted helminths. PLoS Negl Trop Dis. 2011;5(6):e1201.",
+      "doi": "10.1371/journal.pntd.0001201",
+      "pmid": "21695104",
+      "access": "texto completo lido"
+    },
+    {
+      "id": "requena2013",
+      "short": "Requena-Méndez et al., 2013",
+      "citation": "Requena-Méndez A, Chiodini P, Bisoffi Z, Buonfrate D, Gotuzzo E, Muñoz J. The laboratory diagnosis and follow up of strongyloidiasis: a systematic review. PLoS Negl Trop Dis. 2013;7(1):e2002.",
+      "doi": "10.1371/journal.pntd.0002002",
+      "pmid": "23350004",
+      "access": "texto completo lido"
+    },
+    {
+      "id": "rodrigues2024",
+      "short": "Rodrigues et al., 2024",
+      "citation": "Rodrigues JGM, Miranda GS, Camelo GMA, Rodrigues VF, Silva JKAO, Gouveia CBG, et al. Modifications to the parasitological technique of Rugai increase the diagnostic sensitivity for strongyloidiasis. Parasitol Res. 2024;123(1):101.",
+      "doi": "10.1007/s00436-023-08111-y",
+      "pmid": "38233532",
+      "access": "resumo lido"
+    },
+    {
+      "id": "goncalves2023",
+      "short": "Gonçalves et al., 2023",
+      "citation": "Gonçalves AAS, Lopes CA, Levenhagen MA, Gonzaga HT, Oliveira LCM, Costa-Cruz JM. Multiple stool sampling and specific parasitological technique are crucial to diagnose strongyloidiasis in alcoholic patients. Acta Parasitol. 2023;68(3):718-722.",
+      "doi": "10.1007/s11686-023-00700-2",
+      "pmid": "37531007",
+      "access": "resumo lido"
+    },
+    {
+      "id": "ines2016",
+      "short": "Inês et al., 2016",
+      "citation": "Inês EJ, et al. Concordance between the zinc sulphate flotation and centrifugal sedimentation methods for the diagnosis of intestinal parasites. Biomédica. 2016;36(4):519-524.",
+      "url": "https://www.redalyc.org/pdf/843/84348515005.pdf",
+      "access": "texto lido via leitor automático (trechos de métodos e resultados)"
+    },
+    {
+      "id": "barretto1962",
+      "short": "Barretto, 1962",
+      "citation": "Barretto MP. Diagnóstico da amebíase crônica. II. Estudo comparativo da eficiência do método da centrífugo-flutuação no sulfato de zinco, em amostras sucessivas de fezes normalmente emitidas, e do exame de fezes obtidas mediante catártico, usados sós ou combinadamente. Rev Inst Med Trop São Paulo. 1962;4:1-11.",
+      "pmid": "13865253",
+      "url": "https://revistas.usp.br/rimtsp/article/download/202337/186388/578731",
+      "access": "texto lido via leitor automático (trechos de métodos e resultados)"
+    },
+    {
+      "id": "katz1972",
+      "short": "Katz et al., 1972",
+      "citation": "Katz N, Chaves A, Pellegrino J. A simple device for quantitative stool thick-smear technique in Schistosomiasis mansoni. Rev Inst Med Trop São Paulo. 1972;14(6):397-400.",
+      "pmid": "4675644",
+      "access": "registro conferido no PubMed (resumo indisponível; texto não lido)"
+    },
+    {
+      "id": "santos2010",
+      "short": "Santos et al., 2010",
+      "citation": "Santos HLC, Bandea R, Martins LAF, de Macedo HW, Peralta RHS, Peralta JM, et al. Differential identification of Entamoeba spp. based on the analysis of 18S rRNA. Parasitol Res. 2010;106(4):883-888.",
+      "doi": "10.1007/s00436-010-1728-y",
+      "pmid": "20169364",
+      "access": "resumo lido"
+    },
+    {
+      "id": "roshdy2017",
+      "short": "Roshdy et al., 2017",
+      "citation": "Roshdy MH, Abd El-Kader NM, Ali-Tammam M, Fuentes I, Mohamed MM, El-Sheikh NA, Rubio JM. Molecular diagnosis of Entamoeba spp. versus microscopy in the Great Cairo. Acta Parasitol. 2017;62(1):188-191.",
+      "doi": "10.1515/ap-2017-0022",
+      "pmid": "28030342",
+      "access": "resumo lido"
+    },
+    {
+      "id": "cdc_pinworm",
+      "short": "CDC DPDx (oxiúro)",
+      "citation": "CDC. DPDx — Laboratory Identification of Parasites of Public Health Concern: Pinworm (diagnostic procedure). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/diagnosticProcedures/other/pinworm.html",
+      "access": "página lida em 17/10/2026"
+    },
+    {
+      "id": "cdc_concentration",
+      "short": "CDC DPDx (concentração)",
+      "citation": "CDC. DPDx — Stool specimens: concentration procedures (centrifugal flotation). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/diagnosticprocedures/stool/specimen_cf.html",
+      "access": "página lida em 17/10/2026"
+    },
+    {
+      "id": "pho_enterobius",
+      "short": "Saúde Pública de Ontário (Enterobius)",
+      "citation": "Public Health Ontario. Enterobius (Pinworm) — Microscopy. Test Information Index.",
+      "url": "https://www.publichealthontario.ca/en/Laboratory-Services/Test-Information-Index/Enterobius",
+      "access": "página lida em 17/10/2026"
+    },
+    {
+      "id": "pop_ufgd",
+      "short": "POP.UACAP.049 (2025)",
+      "citation": "Hospital Universitário (UACAP). POP.UACAP.049 — Parasitologia: exame parasitológico de fezes (EPF), versão 03, 04/11/2025. EBSERH/Gov.br.",
+      "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-centro-oeste/hu-ufgd/acesso-a-informacao/pops-protocolos-e-processos/gad/pop-uacap-049-parasitologia-exame-parasitologico-de-fezes-epf-v-3.pdf",
+      "access": "documento lido via leitor automático (apenas a seção de sedimentação foi extraída)"
+    },
+    {
+      "id": "chaves2014",
+      "short": "Chaves, 2014",
+      "citation": "Chaves LA. Comparação dos métodos parasitológico, imunológico e molecular em amostras de fezes de ratos (Rattus norvegicus Wistar) imunossuprimidos experimentalmente infectados por Strongyloides venezuelensis. Dissertação (Mestrado), Universidade Federal de Uberlândia; 2014.",
+      "url": "https://repositorio.ufu.br/bitstream/123456789/16707/1/ComparacaoMetodosParasitologico.pdf",
+      "access": "trecho de métodos lido via leitor automático"
+    },
+    {
+      "id": "sop_katzkatz",
+      "short": "SOP Kato-Katz",
+      "citation": "SOP on Kato-Katz technique (procedimento operacional institucional). Disponível em med.uwu.ac.lk.",
+      "url": "https://med.uwu.ac.lk/wp-content/uploads/2026/06/SOP-on-kato-katz-technique.pdf",
+      "access": "documento lido via leitor automático"
+    },
+    {
+      "id": "who_bench2019",
+      "short": "OMS, 2019",
+      "citation": "Genchi M, Potters I, Kaminsky RG, Montresor A, Magnino S. Bench aids for the diagnosis of intestinal parasites, 2nd ed. Genebra: Organização Mundial da Saúde; 2019. ISBN 9789241515344.",
+      "url": "https://research.itg.be/en/publications/bench-aids-for-the-diagnosis-of-intestinal-parasites-2nd-ed/",
+      "access": "apenas o registro bibliográfico foi conferido; o conteúdo do documento NÃO foi lido"
+    },
+    {
+      "id": "classicos",
+      "short": "Métodos clássicos (não conferidos)",
+      "citation": "Referências históricas dos métodos (Lutz; Hoffman, Pons e Janer; Faust et al.; Graham; Rugai, Mattos e Brizola, Rev Inst Adolfo Lutz 14:5-8, 1954). Citadas apenas como atribuição de autoria: os artigos originais NÃO foram localizados nem lidos nesta revisão (a referência de Rugai et al. foi vista na lista bibliográfica de um artigo secundário).",
+      "access": "atribuição histórica; não conferida"
+    },
+    {
+      "id": "dpdx_asc",
+      "short": "CDC DPDx — Ascaridíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Laboratory Identification of Parasites of Public Health Concern: Ascariasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_tri",
+      "short": "CDC DPDx — Tricuríase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Trichuriasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_hook",
+      "short": "CDC DPDx — Ancilostomíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Hookworm (intestinal). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/hookworm/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_ent",
+      "short": "CDC DPDx — Enterobíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Enterobiasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_stro",
+      "short": "CDC DPDx — Estrongiloidíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Strongyloidiasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_taen",
+      "short": "CDC DPDx — Teníase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Taeniasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_hym",
+      "short": "CDC DPDx — Himenolepíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Hymenolepiasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_schi",
+      "short": "CDC DPDx — Esquistossomose",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Schistosomiasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_giar",
+      "short": "CDC DPDx — Giardíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Giardiasis. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_giar_tx",
+      "short": "CDC DPDx — Giardíase (tratamento)",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Giardiasis: treatment information. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/giardiasis/tx.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_amoeb",
+      "short": "CDC DPDx — Amebíase",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Amebiasis. Centers for Disease Control and Prevention. (Página marcada como revisada em 15/10/2019.)",
+      "url": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_intam",
+      "short": "CDC DPDx — Amebas intestinais comensais",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Intestinal amebae (Entamoeba coli, Endolimax nana e outras). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/intestinalAmebae/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_chilo",
+      "short": "CDC DPDx — Chilomastix mesnili",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Chilomastix mesnili. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/chilomastix/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "dpdx_art",
+      "short": "CDC DPDx — Artefatos",
+      "group": "CDC DPDx",
+      "citation": "CDC. DPDx — Artifacts (pseudoparasitas). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/dpdx/artifacts/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "cdc_nonpath",
+      "short": "CDC — Protozoários não patogênicos",
+      "group": "CDC",
+      "citation": "CDC. Nonpathogenic intestinal protozoa — biology. Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/parasites/nonpathprotozoa/biology.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "cdc_stro_hcp",
+      "short": "CDC — Strongyloides (profissionais de saúde)",
+      "group": "CDC",
+      "citation": "CDC. Strongyloidiasis — clinical care (health care providers). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/strongyloides/hcp/clinical-care/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "cdc_pin_hcp",
+      "short": "CDC — Oxiúro (profissionais de saúde)",
+      "group": "CDC",
+      "citation": "CDC. Pinworm infection — clinical overview (health care providers). Centers for Disease Control and Prevention.",
+      "url": "https://www.cdc.gov/pinworm/hcp/clinical-overview/index.html",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "who_sth",
+      "short": "OMS — Geo-helmintíases",
+      "group": "OMS/OPAS",
+      "citation": "World Health Organization. Soil-transmitted helminth infections (nota informativa).",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "who_schisto",
+      "short": "OMS — Esquistossomose",
+      "group": "OMS/OPAS",
+      "citation": "World Health Organization. Schistosomiasis (nota informativa).",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "who_taen",
+      "short": "OMS — Teníase/cisticercose",
+      "group": "OMS/OPAS",
+      "citation": "World Health Organization. Taeniasis/cysticercosis (nota informativa).",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "paho_schisto",
+      "short": "OPAS — Esquistossomose (ficha)",
+      "group": "OMS/OPAS",
+      "citation": "Pan American Health Organization. Schistosomiasis — fact sheet (Dia Mundial da Saúde 2014, whd14-factsheet-schistosomiasis).",
+      "url": "https://www.paho.org/sites/default/files/2022-03/whd14-factsheet-schistosomiasis.pdf",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_hook",
+      "short": "MSD Manual — Ancilostomíase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Hookworm infection.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/nematodes-roundworms/hookworm-infection",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_asc",
+      "short": "MSD Manual — Ascaridíase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Ascariasis.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/nematodes-roundworms/ascariasis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_tri",
+      "short": "MSD Manual — Tricuríase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Trichuriasis.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/nematodes-roundworms/trichuriasis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_stro",
+      "short": "MSD Manual — Estrongiloidíase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Strongyloidiasis.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/nematodes-roundworms/strongyloidiasis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_taen",
+      "short": "MSD Manual — T. solium e cisticercose",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Taenia solium (pork tapeworm) infection and cysticercosis.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/cestodes-tapeworms/taenia-solium-pork-tapeworm-infection-and-cysticercosis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_hym",
+      "short": "MSD Manual — Himenolepíase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Hymenolepis nana (dwarf tapeworm) infection.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/cestodes-tapeworms/hymenolepis-nana-dwarf-tapeworm-infection",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "msd_giar",
+      "short": "MSD Manual — Giardíase",
+      "group": "MSD Manual",
+      "citation": "MSD Manual, versão profissional. Giardiasis.",
+      "url": "https://www.msdmanuals.com/professional/infectious-diseases/intestinal-protozoa-and-microsporidia/giardiasis",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "statpearls_amoeb",
+      "short": "StatPearls — Amebíase",
+      "group": "Outras",
+      "citation": "StatPearls. Amebiasis. Bookshelf NCBI, NBK519535. (A página traz aviso de que é fornecida apenas como referência histórica e pode estar desatualizada.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519535/",
+      "access": "página lida em 23/10/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "ncbi_tax",
+      "short": "NCBI Taxonomy",
+      "group": "Taxonomia",
+      "citation": "NCBI Taxonomy Browser (National Center for Biotechnology Information). Linhagens consultadas em 23/10/2026 pelos identificadores listados em cada espécie. O próprio NCBI informa que a base não é fonte autoritativa de nomenclatura e classificação.",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi",
+      "access": "linhagens lidas em 23/10/2026, uma espécie por vez"
+    },
+    {
+      "id": "docx_protoz",
+      "short": "Documento de lâminas de Protozoários",
+      "group": "Origem das lâminas",
+      "citation": "Laminas_de_Protozoarios.docx (documento enviado pelos desenvolvedores em 23/10/2026; metadado de autor do arquivo: Micael Davi Lima de Oliveira). Contém 6 fotografias com legendas. SHA-256: c90a7ab9e6a488f8e11b4b1eba0bc87a093bd8cf4dc6812c3f2acddc0501b5f0.",
+      "access": "documento recebido; legendas transcritas sem alteração em tools/protozoarios_import.json. Os rótulos de espécie são os do documento e NÃO foram confirmados de forma independente."
+    }
+  ]
+}

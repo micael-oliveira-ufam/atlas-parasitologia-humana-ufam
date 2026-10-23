@@ -1,0 +1,452 @@
+{
+  "specimens": [
+    {
+      "id": "taenia_sp",
+      "commonName": "Taenia sp.",
+      "scientificName": "Taenia spp. (Taenia solium / Taenia saginata)",
+      "taxonomy": {
+        "phylum": "Platyhelminthes",
+        "class": "Cestoda",
+        "order": "Cyclophyllidea",
+        "family": "Taeniidae",
+        "genus": "Taenia",
+        "species": "Taenia spp."
+      },
+      "category": "Cestódeo",
+      "evolutionaryStage": "Ovos esféricos com embrióforo estriado radialmente",
+      "status": "publicado",
+      "approxSizeMicrons": "30 a 40 µm de diâmetro",
+      "morphologyDescription": "Ovo estritamente esférico ou ligeiramente sub-esférico, corado em tom âmbar ou castanho-dourado. Envolvido por uma espessa camada quitinosa protetora e refringente denominada embrióforo, caracterizada por inúmeras estriações transversais radiais densas que conferem o clássico aspecto em \"roda de carroça\". No interior do embrióforo aloja-se a oncosfera protegida, munida de seis ganchos quitinosos dispostos em pares (embrião hexacanto).",
+      "keyDiagnosticFeatures": [
+        "Embrióforo muito espesso com estriações radiais características (\"roda de carroça\")",
+        "Formato rigorosamente esférico com parede birrefringente",
+        "Coloração amarelo-acastanhada intensa",
+        "Oncosfera central contendo 6 acúleos (embrião hexacanto)"
+      ],
+      "disease": "Teníase (infecção pelo verme adulto) e Cisticercose (infecção pela forma larval de Taenia solium)",
+      "pathogenesis": "TENÍASE: O homem adquire ingerindo carne crua ou malcozida de porco (T. solium com Cysticercus cellulosae) ou boi (T. saginata com Cysticercus bovis). O verme adulto atinge de 3 a 10 metros no intestino delgado, causando espoliação nutricional e sintomas dispépticos. CISTICERCOSE: Ocorre exclusivamente quando o ser humano atua como hospedeiro intermediário acidental ao ingerir OVOS de Taenia solium (água/alimentos contaminados ou autoinfecção fecal-oral). As oncosferas eclodem, penetram os vasos e alojam-se nos tecidos, especialmente no sistema nervoso central (NEUROCISTICERCOSE), olhos e músculos, formando cisticercos que provocam convulsões, hipertensão intracraniana e hidrocefalia.",
+      "clinicalManifestations": [
+        "Teníase: eliminação incômoda de proglotes nas fezes ou vestes íntimas, prurido anal, fome excessiva ou anorexia, dor abdominal",
+        "Neurocisticercose: crises epilépticas focais ou generalizadas (principal causa de epilepsia adquirida em adultos em países em desenvolvimento)",
+        "Hipertensão intracraniana: cefaleia intensa, vômitos em jato, papiledema e alteração visual",
+        "Cisticercose ocular: perda progressiva da acuidade visual e uveíte"
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Faust / Tamisação fecal com contagem de ramificações uterinas de proglotes grávidas",
+        "alternatives": [
+          "Método da fita gomada de Graham (proglotes migram para a margem anal)",
+          "Neurocisticercose: Tomografia Computadorizada (TC) ou Ressonância Magnética (RM) de crânio e ELISA/Western Blot"
+        ],
+        "sampleType": "Fezes frescas ou proglotes eliminadas espontaneamente pelo paciente",
+        "technicalObservation": "Morfologicamente os ovos de Taenia solium e Taenia saginata são IDÊNTICOS sob microscopia óptica! O laudo laboratorial deve citar \"Ovos de Taenia sp.\". Para diferenciar as espécies é obrigatório analisar as ramificações uterinas das proglotes grávidas: T. saginata possui mais de 12 ramificações dicotômicas finas, enquanto T. solium possui de 7 a 12 ramificações dendríticas grossas."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Teníase: ingestão de carne suína/bovina crua ou malcozida com cisticercos. Cisticercose: ingestão de água ou alimentos contaminados com ovos de Taenia solium ou autoinfecção fecal-oral.",
+        "infectiveForm": "Teníase: Cisticerco (larva na carne) | Cisticercose: Ovo de Taenia solium",
+        "diagnosticForm": "Ovos com embrióforo radiado e proglotes eliminadas nas fezes",
+        "habitat": "Verme adulto no jejuno e íleo | Cisticercos no cérebro, músculos e olhos",
+        "cycleType": "Heteroxênico (Homem = hospedeiro definitivo; Suíno/Bovino = intermediários)"
+      },
+      "prophylaxis": [
+        "Cozimento completo de carnes bovinas e suínas (temperatura interna superior a 65°C)",
+        "Inspeção sanitária rigorosa em matadouros e frigoríficos",
+        "Tratamento adequado de pacientes com teníase para interromper a disseminação de ovos",
+        "Higiene impecável das mãos e alimentos crus para prevenir a perigosa neurocisticercose"
+      ],
+      "benchTip": "O ovo de Taenia sp. já sai infectante nas fezes e, caso pertença a Taenia solium, pode desencadear Neurocisticercose no próprio manipulador de bancada! Manipule amostras positivas sempre com luvas, máscara e proceda com descarte adequado em autoclave ou solução desinfetante.",
+      "differentialDiagnosis": "Diferenciar de ovos de Hymenolepis nana (que têm parede externa delgada e filamentos polares) e de bolhas de ar microscópicas.",
+      "images": [
+        {
+          "id": "lam04_detalhe",
+          "file": "platelmintos/taenia_sp_lam04_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 4,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 4, detalhe ampliado",
+          "caption": "Três ovos esféricos de casca espessa e estriada, conteúdo com oncosfera.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104111.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam04_campo",
+          "file": "platelmintos/taenia_sp_lam04_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 4,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 4, campo geral",
+          "caption": "Campo geral da lâmina 4 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_104111.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam23_detalhe",
+          "file": "platelmintos/taenia_sp_lam23_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 23,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 23, detalhe ampliado",
+          "caption": "Ovos esféricos de casca espessa e estriada, agrupados.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "taenia.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam23_campo",
+          "file": "platelmintos/taenia_sp_lam23_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 23,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 23, campo geral",
+          "caption": "Campo geral da lâmina 23 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "taenia.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam02_detalhe",
+          "file": "platelmintos/taenia_sp_lam02_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 2,
+          "confidence": "media",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 2, detalhe ampliado",
+          "caption": "Dois ovos esféricos, marrons, de casca espessa com estriação radial (embrióforo).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_113802.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam02_campo",
+          "file": "platelmintos/taenia_sp_lam02_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 2,
+          "confidence": "media",
+          "alt": "Microfotografia de ovos de Taenia sp., lâmina 2, campo geral",
+          "caption": "Campo geral da lâmina 2 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260904_113802.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-04",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ]
+    },
+    {
+      "id": "hymenolepis_nana",
+      "commonName": "Hymenolepis nana",
+      "scientificName": "Hymenolepis nana",
+      "taxonomy": {
+        "phylum": "Platyhelminthes",
+        "class": "Cestoda",
+        "order": "Cyclophyllidea",
+        "family": "Hymenolepididae",
+        "genus": "Hymenolepis",
+        "species": "Hymenolepis nana"
+      },
+      "category": "Cestódeo",
+      "evolutionaryStage": "Ovo maduro com filamentos polares e embrião hexacanto",
+      "status": "publicado",
+      "approxSizeMicrons": "35 a 45 µm de diâmetro",
+      "morphologyDescription": "Ovo esférico ou subsférico, delimitado por uma membrana externa delgada, lisa e translúcida. Separado por um espaço límpido situa-se o embrióforo interno membranoso, que possui duas proeminências ou botões polares. De cada um desses botões partem de 4 a 8 filamentos polares sinuosos e refringentes que se projetam no espaço entre as duas membranas. No centro repousa a oncosfera contendo três pares de acúleos quitinosos refráteis (embrião hexacanto).",
+      "keyDiagnosticFeatures": [
+        "Dupla membrana com espaço límpido intermediário",
+        "Tampões ou mamelões polares no embrióforo interno",
+        "Filamentos polares sinuosos característicos (4 a 8 filamentos por polo)",
+        "Oncosfera interna com 6 acúleos (embrião hexacanto)"
+      ],
+      "disease": "Himenolepíase",
+      "pathogenesis": "É o menor cestódeo que parasita o ser humano (1 a 4 cm). Devido à autoinfecção interna contínua (na qual ovos eclodem na própria mucosa do intestino delgado sem passar pelo meio externo), a carga parasitária pode atingir milhares de vermes em crianças, levando a diarreia severa, enterite descamativa e desnutrição.",
+      "clinicalManifestations": [
+        "Diarreia crônica aquosa ou mucóide",
+        "Dor abdominal em cólica periumbilical",
+        "Perda de peso, irritabilidade e sintomas alérgicos (urticária)"
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Método de Hoffmann, Pons e Janer (Lutz) ou Faust e colaboradores",
+        "alternatives": [
+          "Método de Ritchie"
+        ],
+        "sampleType": "Fezes frescas",
+        "technicalObservation": "Os filamentos polares são melhor observados com o diafragma do microscópio parcialmente fechado para aumentar o contraste de bordas."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Fecal-oral (ingestão de ovos em água, alimentos ou mãos sujas) e autoinfecção endógena",
+        "infectiveForm": "Ovo embrionado",
+        "diagnosticForm": "Ovos característicos nas fezes",
+        "habitat": "Íleo proximal e médio",
+        "cycleType": "Moneoxênico (único cestódeo humano que não necessita obrigatoriamente de hospedeiro intermediário)"
+      },
+      "prophylaxis": [
+        "Lavagem rigorosa das mãos e higiene das unhas",
+        "Proteção de alimentos contra baratas e insetos domésticos",
+        "Tratamento com praziquantel ou niclosamida",
+        "Saneamento básico eficiente"
+      ],
+      "benchTip": "O grande diagnóstico diferencial de Hymenolepis nana é Hymenolepis diminuta. Como diferenciar na bancada? Hymenolepis diminuta é significativamente maior (60 a 80 µm) e NÃO tem filamentos polares saindo dos botões!",
+      "differentialDiagnosis": "Hymenolepis diminuta (maior e sem filamentos polares) e ovos de Taenia (que possuem estrias radiais espessas e ausência de filamentos).",
+      "images": [
+        {
+          "id": "lam17_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam17_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 17,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 17, detalhe ampliado",
+          "caption": "Ovo arredondado com membranas concêntricas e espaço entre elas, oncosfera central avermelhada.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113446.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam17_campo",
+          "file": "platelmintos/hymenolepis_nana_lam17_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 17,
+          "confidence": "confirmada",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 17, campo geral",
+          "caption": "Campo geral da lâmina 17 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_113446.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam22_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam22_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 22,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 22, detalhe ampliado",
+          "caption": "Ovo subesférico com duas membranas e oncosfera central.",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "hymenolepis_nana.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam22_campo",
+          "file": "platelmintos/hymenolepis_nana_lam22_campo.jpg",
+          "width": 480,
+          "height": 529,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 22,
+          "confidence": "alta",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 22, campo geral",
+          "caption": "Campo geral da lâmina 22 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — imagem do post “Prática de Parasitologia” (Instagram)",
+          "license": null,
+          "sourceFile": "hymenolepis_nana.jpeg",
+          "hotspots": [],
+          "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "lam06_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam06_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 6,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana (com ovo de Taenia sp. no topo do campo), lâmina 6, detalhe ampliado",
+          "caption": "Ovo oval com duas membranas e oncosfera central (H. nana). Ovo escuro no topo do campo parece Taenia.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112256.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam06_campo",
+          "file": "platelmintos/hymenolepis_nana_lam06_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 6,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana (com ovo de Taenia sp. no topo do campo), lâmina 6, campo geral",
+          "caption": "Campo geral da lâmina 6 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260918_112256.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-18",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam12_detalhe",
+          "file": "platelmintos/hymenolepis_nana_lam12_detalhe.jpg",
+          "width": 360,
+          "height": 360,
+          "type": "microfotografia",
+          "kind": "detalhe",
+          "lamina": 12,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 12, detalhe ampliado",
+          "caption": "Ovo subesférico com membrana externa fina e embrião interno envolto por segunda membrana, com filamentos polares.",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110703.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "lam12_campo",
+          "file": "platelmintos/hymenolepis_nana_lam12_campo.jpg",
+          "width": 480,
+          "height": 640,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": 12,
+          "confidence": "media",
+          "alt": "Microfotografia de ovo de Hymenolepis nana, lâmina 12, campo geral",
+          "caption": "Campo geral da lâmina 12 (objetiva e aumento não registrados).",
+          "credit": "Micael Davi Lima de Oliveira — prática de Parasitologia",
+          "license": null,
+          "sourceFile": "20260925_110703.jpg",
+          "hotspots": [],
+          "creditStatus": "informado",
+          "date": "2026-09-25",
+          "dateBasis": "data no nome do arquivo da câmera"
+        }
+      ]
+    },
+    {
+      "id": "schistosoma_mansoni",
+      "commonName": "Schistosoma mansoni",
+      "scientificName": "Schistosoma mansoni",
+      "taxonomy": {
+        "phylum": "Platyhelminthes",
+        "class": "Trematoda",
+        "order": "Strigeidida",
+        "family": "Schistosomatidae",
+        "genus": "Schistosoma",
+        "species": "Schistosoma mansoni"
+      },
+      "category": "Trematódeo",
+      "evolutionaryStage": "Ovo maduro gigante transparente com espículo lateral proeminente",
+      "status": "revisar",
+      "reviewNote": "A imagem é uma micrografia eletrônica de varredura (MEV) de vermes adultos, mas o texto descreve o OVO (espículo lateral, miracídio). Substitua por microfotografia de ovo ou revise o texto. Origem e licença da imagem não documentadas.",
+      "approxSizeMicrons": "115 a 175 µm de comprimento por 45 a 70 µm de largura",
+      "morphologyDescription": "Ovo de grandes dimensões (um dos maiores da parasitologia humana), de contorno elipsoidal alongado, com extremidades arredondadas. Casca hialina, delgada e lisa, sem opérculo. Apresenta como marca registrada inconfundível um espículo lateral pontiagudo, rígido e robusto, voltado para a extremidade posterior do ovo. No interior observa-se o miracídio maduro formado e viável com cílios e corpúsculos glandulares.",
+      "keyDiagnosticFeatures": [
+        "Espículo lateral agudo e pronunciado voltado para trás",
+        "Dimensões volumosas (115 a 175 µm), facilmente identificável em varredura",
+        "Casca transparente, delgada e contínua sem opérculo",
+        "Miracídio ciliado viável contido em seu interior"
+      ],
+      "disease": "Esquistossomose Mansônica (\"Barriga d'Água\" / Bilharzíase / Xistose)",
+      "pathogenesis": "Os vermes adultos vivem nas vênulas mesentéricas inferiores. Os ovos retidos na parede intestinal e carreados pelo fluxo portal até o fígado desencadeiam uma intensa reação inflamatória granulomatosa ao redor de cada ovo mediada por linfócitos Th2. A coalescência de granulomas resulta em fibrose periportal densa (Fibrose de Symmers em \"cabo de cachimbo\"), causando hipertensão portal pré-sinusoidal severa, esplenomegalia gigante, ascite volumosa (\"barriga d'água\") e varizes esofágicas com risco de hemorragia digestiva fatal.",
+      "clinicalManifestations": [
+        "Dermatite cercariana (\"coceira do nadador\") na penetração transcutânea",
+        "Fase aguda / Febre de Katayama: febre, calafrios, tosse, hepatoesplenomegalia e eosinofilia maciça",
+        "Fase crônica hepatoesplênica: ascite (\"barriga d'água\"), circulação colateral superficial e hematêmese por ruptura de varizes de esôfago",
+        "Forma pseudotumoral intestinal com pólipos e diarreia crônica"
+      ],
+      "diagnosticMethods": {
+        "goldStandard": "Método quantitativo de Kato-Katz (padronizado pela OMS e Ministério da Saúde para contagem de OPG)",
+        "alternatives": [
+          "Método de sedimentação espontânea de Lutz/Hoffmann",
+          "Biópsia retal da mucosa (para casos de baixa carga)",
+          "Eclosão de miracídios"
+        ],
+        "sampleType": "Fezes frescas",
+        "technicalObservation": "A identificação de ovos com miracídios viáveis confirma infecção ativa e orienta o tratamento imediato."
+      },
+      "transmissionAndCycle": {
+        "transmissionRoute": "Penetração ativa de cercárias móveis liberadas por caramujos do gênero Biomphalaria na pele durante banhos em lagoas contaminadas (\"lagoas de coceira\")",
+        "infectiveForm": "Cercária flagelada bifurcada (furcocercária)",
+        "diagnosticForm": "Ovo com espículo lateral nas fezes",
+        "habitat": "Plexo venoso mesentérico inferior e sistema porta intra-hepático",
+        "cycleType": "Heteroxênico (Homem = definitivo; Caramujo Biomphalaria = intermediário)"
+      },
+      "prophylaxis": [
+        "Saneamento básico rigoroso para impedir que fezes alcancem coleções de água doce",
+        "Controle biológico e químico de caramujos vetores (Biomphalaria)",
+        "Educação sanitária e proibição de banhos em \"lagoas de coceira\" em áreas endêmicas",
+        "Tratamento quimioterápico em massa com Praziquantel"
+      ],
+      "benchTip": "O ovo de Schistosoma mansoni tem um espículo LATERAL pontiagudo inconfundível! Não confunda com Schistosoma haematobium (cujo espículo é terminal e que sai na urina, causando hematúria). No Brasil, a espécie autóctone de importância médica é exclusivamente o Schistosoma mansoni!",
+      "differentialDiagnosis": "Diferenciar de Schistosoma haematobium (espículo terminal na urina) e Schistosoma japonicum (espículo rudimentar diminuto).",
+      "images": [
+        {
+          "id": "ext01",
+          "file": "platelmintos/schistosoma_mansoni_40x.jpeg",
+          "width": 600,
+          "height": 412,
+          "type": "externa",
+          "kind": "externa",
+          "lamina": null,
+          "confidence": null,
+          "alt": "Imagem de referência: Schistosoma mansoni - 40x",
+          "caption": "Imagem externa de origem não documentada.",
+          "credit": null,
+          "license": null,
+          "sourceFile": null,
+          "hotspots": []
+        }
+      ]
+    }
+  ]
+}
