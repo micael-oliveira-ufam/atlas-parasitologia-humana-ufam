@@ -149,3 +149,6 @@ dialog.lb::backdrop{background:rgba(5,10,10,.8)}
 details{margin:.6rem 0} summary{cursor:pointer;font-weight:700;color:var(--accent)}
 .small{font-size:.84rem}
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+
+.dl-card{background:linear-gradient(135deg,#00923f1f,var(--teal-bg));border:1px solid var(--line);border-radius:16px;padding:1rem 1.2rem;margin:.5rem 0 1rem}
+.dl-card p{margin:.4rem 0}

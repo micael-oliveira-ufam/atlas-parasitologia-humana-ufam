@@ -6,7 +6,7 @@ Universidade Federal do Amazonas (UFAM) · Desenvolvimento: Micael Davi Lima de 
 
 ## 📱 Baixar o aplicativo (somente Android)
 
-**[⬇️ Atlas-Parasitologia-v2.0.0.apk](https://github.com/micael-oliveira-ufam/atlas-parasitologia-humana-ufam/releases/download/v2.0.0/Atlas-Parasitologia-v2.0.0.apk)** · [todas as versões](https://github.com/micael-oliveira-ufam/atlas-parasitologia-humana-ufam/releases)
+**[⬇️ Atlas-Parasitologia-v2.0.0.apk](https://github.com/micael-oliveira-ufam/atlas-parasitologia-humana-ufam/releases/download/Atlas-Parasitologia-v2.0.0/Atlas-Parasitologia-v2.0.0.apk)** · [todas as versões](https://github.com/micael-oliveira-ufam/atlas-parasitologia-humana-ufam/releases)
 
 > ⚠️ O aplicativo é **apenas para Android** (não existe versão para iPhone/iOS). No iPhone ou no computador, use o site.
 > Instalação: baixe o APK no celular, abra o arquivo e permita a instalação de fontes desconhecidas quando o Android pedir.

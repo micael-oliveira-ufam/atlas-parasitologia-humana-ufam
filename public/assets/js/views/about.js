@@ -1,6 +1,7 @@
 import { h } from '../dom.js';
 import { store } from '../store.js';
 import { page, STLABEL } from './common.js';
+import { downloadCard } from './download.js';
 import { fmtDate } from '../meta.js';
 
 function creditRows() {
@@ -38,6 +39,7 @@ export function aboutPage() {
     h('h2', null, 'Limitações'),
     h('p', null, 'As imagens foram reduzidas para a web (miniaturas), então a ampliação máxima mostra pixels. O visualizador não simula troca de objetivas nem corantes; o aumento da objetiva não foi registrado nas fotos. As dimensões são valores de referência de livros-texto, não medidas feitas sobre as imagens.'),
     h('div', { class: 'ufam-box' }, h('img', { src: 'assets/img/brand/ufam_brasao.png', alt: 'Brasão da Universidade Federal do Amazonas', width: 96, height: 96 }), h('div', null, h('strong', null, s.institution), h('div', null, s.course))),
+    h('h2', null, 'Aplicativo Android'), downloadCard(),
     h('h2', null, 'Equipe'),
     h('ul', { class: 'list' }, (s.developers || []).map(p => h('li', null, h('strong', null, p.name), ' — ', p.role)), s.advisor ? h('li', null, h('strong', null, s.advisor.name), ' — ', s.advisor.role) : null),
     verificationSummary(),
