@@ -21,7 +21,7 @@ class AboutTab extends StatelessWidget {
     final named = allImages.where((i) => !i.creditPending).length;
     final r = data.review;
     final claims = [for (final s in specs) ...s.verification];
-    final count = (String st) => claims.where((c) => c.status == st).length;
+    int count(String st) => claims.where((c) => c.status == st).length;
     final removed = specs.fold<int>(0, (a, s) => a + s.removed.length);
     return ListView(
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
@@ -150,7 +150,7 @@ class AboutTab extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              LabeledText('Versão do app', appVersion),
+              const LabeledText('Versão do app', appVersion),
               LabeledText('Arquivos de dados e imagens', '${data.manifest.fileCount}'),
               LabeledText('SHA-256 combinado (início)', data.manifest.shortHash),
               Text(

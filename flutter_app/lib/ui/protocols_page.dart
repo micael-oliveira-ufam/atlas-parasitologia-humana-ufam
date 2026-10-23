@@ -89,7 +89,7 @@ class ProtocolPage extends StatelessWidget {
         children: [
           if (p.popularName.isNotEmpty) Text(p.popularName, style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
-          Notice(
+          const Notice(
             'Texto didático baseado nas fontes listadas abaixo. Não é um procedimento operacional padrão: '
             'siga o POP e as normas de biossegurança do seu laboratório.',
             title: 'Aviso',

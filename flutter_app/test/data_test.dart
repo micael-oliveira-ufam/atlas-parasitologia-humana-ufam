@@ -92,12 +92,12 @@ void main() {
     });
 
     test('encontra por doença sem acento', () {
-      final r = searchSpecimens(data, 'amarelao');
+      final r = searchSpecimens(data, 'ancilostomiase');
       expect(r.map((s) => s.id), contains('ancilostomideo'));
     });
 
     test('termos são combinados com AND', () {
-      expect(searchSpecimens(data, 'ascaris lombriga').map((s) => s.id), ['ascaris_lumbricoides']);
+      expect(searchSpecimens(data, 'ascaris ascaridiase').map((s) => s.id), ['ascaris_lumbricoides']);
       expect(searchSpecimens(data, 'ascaris giardia'), isEmpty);
     });
 

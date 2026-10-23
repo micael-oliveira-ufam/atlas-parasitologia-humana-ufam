@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
         selectedIndex: _tab,
         labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
         onDestinationSelected: (i) => setState(() => _tab = i),
-        destinations: [
+        destinations: const [
           NavigationDestination(icon: Icon(Icons.biotech_outlined), selectedIcon: Icon(Icons.biotech, color: kTeal), label: 'Atlas'),
           NavigationDestination(icon: Icon(Icons.science_outlined), selectedIcon: Icon(Icons.science, color: kViolet), label: 'Protocolos'),
           NavigationDestination(icon: Icon(Icons.quiz_outlined), selectedIcon: Icon(Icons.quiz, color: kAmber), label: 'Quiz'),

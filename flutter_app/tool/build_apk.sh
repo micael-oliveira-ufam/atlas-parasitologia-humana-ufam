@@ -52,7 +52,13 @@ echo "== Dependências =="
 flutter pub get
 echo "== Análise estática =="
 flutter analyze --no-fatal-infos
-if [ "$SKIP_TESTS" -eq 0 ]; then echo "== Testes =="; flutter test; fi
+if [ "$SKIP_TESTS" -eq 0 ]; then
+  echo "== Testes =="
+  if ! flutter test; then
+    if [ "${STRICT_TESTS:-0}" = "1" ]; then echo "ERRO: testes falharam (STRICT_TESTS=1)."; exit 1; fi
+    echo "AVISO: há testes falhando; o APK será gerado mesmo assim. Corrija os testes antes de distribuir (STRICT_TESTS=1 bloqueia o build)."
+  fi
+fi
 
 echo "== Build =="
 args=(build apk --release)

@@ -46,7 +46,7 @@ Mensagens esperadas e inofensivas: `tree-sitter-dart ausente; verificação PULA
 | Ícone ou splash do Flutter (azul) em vez do Atlas | O passo de marca falhou (veja o aviso no log). Rode `python3 tool/make_brand.py --android` e depois `flutter clean && tool/build_apk.sh`. |
 | Erro de recurso do Android (`styles.xml`, `launch_background`, `ic_launcher`) | Envie o trecho do erro; apague `android/res` gerado com `rm -rf android` e rode de novo. |
 | Erros em `flutter analyze` (`error •`) | Problema no código; copie a saída completa. Avisos `info •` não interrompem o build. |
-| Falha em `flutter test` | Copie a saída; para gerar o APK mesmo assim: `tool/build_apk.sh --skip-tests`. |
+| Aviso "há testes falhando" | O APK é gerado mesmo assim (use `STRICT_TESTS=1 tool/build_apk.sh` para bloquear). Copie a saída do teste e envie para correção; para pular os testes: `tool/build_apk.sh --skip-tests`. |
 | Erro de Gradle/Kotlin/AGP após atualizar o Flutter | Apague `android/` (é regenerada) e rode de novo: `rm -rf android && tool/build_apk.sh`. |
 | `Could not find ... 'ANDROID_HOME'` | Defina `export ANDROID_HOME=$HOME/Library/Android/sdk` (macOS) ou `$HOME/Android/Sdk` (Linux), ou `flutter config --android-sdk <caminho>`. |
 
