@@ -1,10 +1,14 @@
 {
  "docx": "Laminas_de_Protozoarios.docx",
- "docx_sha256": "c90a7ab9e6a488f8e11b4b1eba0bc87a093bd8cf4dc6812c3f2acddc0501b5f0",
+ "docx_sha256": "c1f615f116dc72bf21afaeff4208dabb16df1ca7e5f3fb4a3f2593aba3e3d5dd",
+ "n_imagens": 25,
  "imagens": [
   {
    "ordem": 1,
    "especie": "entamoeba_histolytica",
+   "especies": [
+    "entamoeba_histolytica"
+   ],
    "arquivo": "protozoarios/entamoeba_histolytica_pz01.jpg",
    "legenda_docx": "Figura 1. Entamoeba histolytica.",
    "autoria_na_legenda": null,
@@ -28,6 +32,9 @@
   {
    "ordem": 2,
    "especie": "giardia_lamblia",
+   "especies": [
+    "giardia_lamblia"
+   ],
    "arquivo": "protozoarios/giardia_lamblia_pz01.jpg",
    "legenda_docx": "Figura 2. Giardia duodenalis.",
    "autoria_na_legenda": null,
@@ -51,6 +58,9 @@
   {
    "ordem": 3,
    "especie": "endolimax_nana",
+   "especies": [
+    "endolimax_nana"
+   ],
    "arquivo": "protozoarios/endolimax_nana_pz01.jpg",
    "legenda_docx": "Figura. Endolimax nana",
    "autoria_na_legenda": null,
@@ -74,6 +84,9 @@
   {
    "ordem": 4,
    "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
    "arquivo": "protozoarios/entamoeba_coli_pz01.jpg",
    "legenda_docx": "Figura. Entamoeba coli",
    "autoria_na_legenda": null,
@@ -97,6 +110,9 @@
   {
    "ordem": 5,
    "especie": "chilomastix_mesnili",
+   "especies": [
+    "chilomastix_mesnili"
+   ],
    "arquivo": "protozoarios/chilomastix_mesnili_pz01.jpg",
    "legenda_docx": "Figura. Chilomastix mesnili (Autora da foto: Júlia)",
    "autoria_na_legenda": "Júlia",
@@ -120,6 +136,9 @@
   {
    "ordem": 6,
    "especie": "chilomastix_mesnili",
+   "especies": [
+    "chilomastix_mesnili"
+   ],
    "arquivo": "protozoarios/chilomastix_mesnili_pz02.jpg",
    "legenda_docx": "Figura. Chilomastix mesnili (Autora da foto: Maria Luiza)",
    "autoria_na_legenda": "Maria Luiza",
@@ -138,6 +157,502 @@
    "tamanho_final": [
     1600,
     849
+   ]
+  },
+  {
+   "ordem": 7,
+   "especie": "blastocystis_sp",
+   "especies": [
+    "blastocystis_sp"
+   ],
+   "arquivo": "protozoarios/blastocystis_sp_pz01.jpg",
+   "legenda_docx": "Figura. Blastocystes spp (Autoria: Maria Eduarda)",
+   "autoria_na_legenda": "Maria Eduarda",
+   "midia_origem": "media/image7.png",
+   "tamanho_origem": [
+    1200,
+    1600
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1200,
+    1600
+   ]
+  },
+  {
+   "ordem": 8,
+   "especie": "blastocystis_sp",
+   "especies": [
+    "blastocystis_sp"
+   ],
+   "arquivo": "protozoarios/blastocystis_sp_pz02.jpg",
+   "legenda_docx": "Figura. Blastocystes spp. (Autoria: Maria Eduarda)",
+   "autoria_na_legenda": "Maria Eduarda",
+   "midia_origem": "media/image8.png",
+   "tamanho_origem": [
+    979,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    979,
+    1280
+   ]
+  },
+  {
+   "ordem": 9,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz02.jpg",
+   "legenda_docx": "Figura. Entamoeba coli (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image9.png",
+   "tamanho_origem": [
+    960,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    960,
+    1280
+   ]
+  },
+  {
+   "ordem": 10,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz03.jpg",
+   "legenda_docx": "Figura. Entamoeba coli (Autoria: Indira)",
+   "autoria_na_legenda": "Indira",
+   "midia_origem": "media/image10.png",
+   "tamanho_origem": [
+    913,
+    887
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    913,
+    887
+   ]
+  },
+  {
+   "ordem": 11,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz04.jpg",
+   "legenda_docx": "Figura. Entamoeba coli (Autoria: Maria Eduarda)",
+   "autoria_na_legenda": "Maria Eduarda",
+   "midia_origem": "media/image11.png",
+   "tamanho_origem": [
+    960,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    960,
+    1280
+   ]
+  },
+  {
+   "ordem": 12,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz05.jpg",
+   "legenda_docx": "Figura. Entamoeba coli (Autoria: Elias)",
+   "autoria_na_legenda": "Elias",
+   "midia_origem": "media/image12.png",
+   "tamanho_origem": [
+    1280,
+    1270
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1280,
+    1270
+   ]
+  },
+  {
+   "ordem": 13,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz06.jpg",
+   "legenda_docx": "Figura. Entamoeba coli. Visualiza-se em torno de 7 núcleos (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image13.png",
+   "tamanho_origem": [
+    960,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    960,
+    1280
+   ]
+  },
+  {
+   "ordem": 14,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli"
+   ],
+   "arquivo": "protozoarios/entamoeba_coli_pz07.jpg",
+   "legenda_docx": "Figura. Entamoeba coli (Autora: Sthefany)",
+   "autoria_na_legenda": "Sthefany",
+   "midia_origem": "media/image14.png",
+   "tamanho_origem": [
+    1076,
+    917
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1076,
+    917
+   ]
+  },
+  {
+   "ordem": 15,
+   "especie": "giardia_lamblia",
+   "especies": [
+    "giardia_lamblia"
+   ],
+   "arquivo": "protozoarios/giardia_lamblia_pz02.jpg",
+   "legenda_docx": "Figura. Giardia duodenalis (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image15.png",
+   "tamanho_origem": [
+    960,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    960,
+    1280
+   ]
+  },
+  {
+   "ordem": 16,
+   "especie": "iodamoeba_buetschlii",
+   "especies": [
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/iodamoeba_buetschlii_pz01.jpg",
+   "legenda_docx": "Figura. Iodamoeba butschlii (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image16.png",
+   "tamanho_origem": [
+    1280,
+    1016
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1280,
+    1016
+   ]
+  },
+  {
+   "ordem": 17,
+   "especie": "blastocystis_sp",
+   "especies": [
+    "blastocystis_sp"
+   ],
+   "arquivo": "protozoarios/blastocystis_sp_pz03.jpg",
+   "legenda_docx": "Figura. Blastocystes spp. (Autoria: Elias Barros)",
+   "autoria_na_legenda": "Elias Barros",
+   "midia_origem": "media/image17.png",
+   "tamanho_origem": [
+    1189,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1189,
+    1280
+   ]
+  },
+  {
+   "ordem": 18,
+   "especie": "iodamoeba_buetschlii",
+   "especies": [
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/iodamoeba_buetschlii_pz02.jpg",
+   "legenda_docx": "Figura. Iodamoeba butschlii (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image18.png",
+   "tamanho_origem": [
+    1280,
+    1026
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1280,
+    1026
+   ]
+  },
+  {
+   "ordem": 19,
+   "especie": "chilomastix_mesnili",
+   "especies": [
+    "chilomastix_mesnili"
+   ],
+   "arquivo": "protozoarios/chilomastix_mesnili_pz03.jpg",
+   "legenda_docx": "Figura. Chilomastix (Autoria: Mayra)",
+   "autoria_na_legenda": "Mayra",
+   "midia_origem": "media/image19.png",
+   "tamanho_origem": [
+    720,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 24882,
+    "r": 0,
+    "b": 20023
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    720,
+    706
+   ]
+  },
+  {
+   "ordem": 20,
+   "especie": "entamoeba_histolytica",
+   "especies": [
+    "entamoeba_histolytica"
+   ],
+   "arquivo": "protozoarios/entamoeba_histolytica_pz02.jpg",
+   "legenda_docx": "Figura. Entamoeba hystolitica / E. díspar. (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image20.png",
+   "tamanho_origem": [
+    1280,
+    1177
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1280,
+    1177
+   ]
+  },
+  {
+   "ordem": 21,
+   "especie": "iodamoeba_buetschlii",
+   "especies": [
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/iodamoeba_buetschlii_pz03.jpg",
+   "legenda_docx": "Figura. Iodamoeba butschlii (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image21.png",
+   "tamanho_origem": [
+    1280,
+    845
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1280,
+    845
+   ]
+  },
+  {
+   "ordem": 22,
+   "especie": "iodamoeba_buetschlii",
+   "especies": [
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/iodamoeba_buetschlii_pz04.jpg",
+   "legenda_docx": "Figura. Iodamoeba butschlii (Autoria: Indira)",
+   "autoria_na_legenda": "Indira",
+   "midia_origem": "media/image22.png",
+   "tamanho_origem": [
+    738,
+    1600
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 21582,
+    "r": 27598,
+    "b": 37415
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    534,
+    656
+   ]
+  },
+  {
+   "ordem": 23,
+   "especie": "entamoeba_coli",
+   "especies": [
+    "entamoeba_coli",
+    "endolimax_nana",
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/composto_pz23.jpg",
+   "legenda_docx": "Figura. De cima para baixo (Entamoeba coli, Endolimax nana, Iodamoeba butschlii) (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image23.png",
+   "tamanho_origem": [
+    568,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    568,
+    1280
+   ]
+  },
+  {
+   "ordem": 24,
+   "especie": "blastocystis_sp",
+   "especies": [
+    "blastocystis_sp"
+   ],
+   "arquivo": "protozoarios/blastocystis_sp_pz04.jpg",
+   "legenda_docx": "Figura. Blastocystes spp. (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image24.png",
+   "tamanho_origem": [
+    1209,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1209,
+    1280
+   ]
+  },
+  {
+   "ordem": 25,
+   "especie": "iodamoeba_buetschlii",
+   "especies": [
+    "iodamoeba_buetschlii"
+   ],
+   "arquivo": "protozoarios/iodamoeba_buetschlii_pz05.jpg",
+   "legenda_docx": "Figura. Iodamoeba butschlii (Autoria: Micael Oliveira)",
+   "autoria_na_legenda": "Micael Oliveira",
+   "midia_origem": "media/image25.png",
+   "tamanho_origem": [
+    1267,
+    1280
+   ],
+   "srcRect_docx_1e5": {
+    "l": 0,
+    "t": 0,
+    "r": 0,
+    "b": 0
+   },
+   "recorte_extra": null,
+   "tamanho_final": [
+    1267,
+    1280
    ]
   }
  ]

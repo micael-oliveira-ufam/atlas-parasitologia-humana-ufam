@@ -62,7 +62,7 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Entamoeba histolytica (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura 1. Entamoeba histolytica. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "caption": "1. Entamoeba histolytica. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
           "credit": "Autoria não informada no documento de origem (a confirmar)",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image1.jpeg)",
@@ -70,20 +70,21 @@
           "creditStatus": "a-confirmar"
         },
         {
-          "id": "ext01",
-          "file": "protozoarios/entamoeba_histolytica_40x.jpeg",
-          "width": 800,
-          "height": 600,
-          "type": "externa",
-          "kind": "externa",
+          "id": "pz02",
+          "file": "protozoarios/entamoeba_histolytica_pz02.jpg",
+          "width": 1280,
+          "height": 1177,
+          "type": "microfotografia",
+          "kind": "campo",
           "lamina": null,
-          "confidence": null,
-          "alt": "Imagem de referência: Entamoeba histolytica - 40x",
-          "caption": "Imagem externa de origem não documentada.",
-          "credit": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba histolytica (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba hystolitica / E. díspar. (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. A legenda reúne E. histolytica e E. díspar, que a microscopia não distingue.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
           "license": null,
-          "sourceFile": null,
-          "hotspots": []
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image20.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
         }
       ],
       "verification": [
@@ -102,7 +103,7 @@
         {
           "id": "entamoeba_histolytica#02",
           "section": "Lâmina",
-          "text": "Imagem: Figura 1 do documento enviado, legenda \"Entamoeba histolytica\".",
+          "text": "Duas imagens no documento de lâminas: Figura 1, legenda \"Entamoeba histolytica\"; e outra legendada \"Entamoeba hystolitica / E. díspar\" (autoria de Micael Oliveira). A própria legenda reúne as duas espécies, que a microscopia não distingue (ver Diagnóstico).",
           "status": "observacao",
           "refs": [
             "docx_protoz"
@@ -343,7 +344,7 @@
         },
         {
           "before": "Imagem externa 'entamoeba_histolytica_40x.jpeg' (origem não documentada)",
-          "reason": "Mantida no fim da galeria com aviso 'sem crédito'; recomenda-se substituí-la.",
+          "reason": "Removida em 06/11/2026: substituída pelas fotografias do documento de lâminas (arquivo mantido em acervo-nao-publicado/imagens_externas_removidas_v5/).",
           "field": "imagem"
         }
       ]
@@ -395,12 +396,131 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura. Entamoeba coli Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "caption": "Entamoeba coli Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
           "credit": "Autoria não informada no documento de origem (a confirmar)",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image4.jpeg)",
           "hotspots": [],
           "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "pz02",
+          "file": "protozoarios/entamoeba_coli_pz02.jpg",
+          "width": 960,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image9.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz03",
+          "file": "protozoarios/entamoeba_coli_pz03.jpg",
+          "width": 913,
+          "height": 887,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli (Autoria: Indira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Indira (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image10.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz04",
+          "file": "protozoarios/entamoeba_coli_pz04.jpg",
+          "width": 960,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli (Autoria: Maria Eduarda) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Maria Eduarda (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image11.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz05",
+          "file": "protozoarios/entamoeba_coli_pz05.jpg",
+          "width": 1280,
+          "height": 1270,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli (Autoria: Elias) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Elias (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image12.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz06",
+          "file": "protozoarios/entamoeba_coli_pz06.jpg",
+          "width": 960,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli. Visualiza-se em torno de 7 núcleos (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image13.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz07",
+          "file": "protozoarios/entamoeba_coli_pz07.jpg",
+          "width": 1076,
+          "height": 917,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "Entamoeba coli (Autora: Sthefany) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Sthefany (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image14.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz08",
+          "file": "protozoarios/composto_pz23.jpg",
+          "width": 568,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Entamoeba coli (legenda do documento de lâminas de protozoários)",
+          "caption": "De cima para baixo (Entamoeba coli, Endolimax nana, Iodamoeba butschlii) (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. Imagem única com três espécies: a mesma foto aparece em cada ficha.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image23.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
         }
       ],
       "verification": [
@@ -418,7 +538,7 @@
         {
           "id": "entamoeba_coli#02",
           "section": "Lâmina",
-          "text": "Imagem: documento enviado, legenda \"Entamoeba coli\".",
+          "text": "Sete imagens legendadas \"Entamoeba coli\" no documento de lâminas (06/11/2026), mais uma imagem composta com E. nana e I. buetschlii; a legenda de uma delas registra \"em torno de 7 núcleos\" (observação dos autores).",
           "status": "observacao",
           "refs": [
             "docx_protoz"
@@ -588,12 +708,29 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Endolimax nana (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura. Endolimax nana Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "caption": "Endolimax nana Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
           "credit": "Autoria não informada no documento de origem (a confirmar)",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image3.jpeg)",
           "hotspots": [],
           "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "pz02",
+          "file": "protozoarios/composto_pz23.jpg",
+          "width": 568,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Endolimax nana (legenda do documento de lâminas de protozoários)",
+          "caption": "De cima para baixo (Entamoeba coli, Endolimax nana, Iodamoeba butschlii) (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. Imagem única com três espécies: a mesma foto aparece em cada ficha.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image23.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
         }
       ],
       "verification": [
@@ -611,7 +748,7 @@
         {
           "id": "endolimax_nana#02",
           "section": "Lâmina",
-          "text": "Imagem: documento enviado, legenda \"Endolimax nana\".",
+          "text": "Uma imagem legendada \"Endolimax nana\" no documento de lâminas (06/11/2026), mais a imagem composta com E. coli e I. buetschlii.",
           "status": "observacao",
           "refs": [
             "docx_protoz"
@@ -795,7 +932,7 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Giardia duodenalis (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura 2. Giardia duodenalis. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "caption": "2. Giardia duodenalis. Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
           "credit": "Autoria não informada no documento de origem (a confirmar)",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image2.jpeg)",
@@ -803,20 +940,21 @@
           "creditStatus": "a-confirmar"
         },
         {
-          "id": "ext01",
-          "file": "protozoarios/giardia_lamblia_40x.jpeg",
+          "id": "pz02",
+          "file": "protozoarios/giardia_lamblia_pz02.jpg",
           "width": 960,
-          "height": 736,
-          "type": "externa",
-          "kind": "externa",
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
           "lamina": null,
-          "confidence": null,
-          "alt": "Imagem de referência: Giardia lamblia - 40x",
-          "caption": "Imagem externa de origem não documentada.",
-          "credit": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Giardia duodenalis (legenda do documento de lâminas de protozoários)",
+          "caption": "Giardia duodenalis (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
           "license": null,
-          "sourceFile": null,
-          "hotspots": []
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image15.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
         }
       ],
       "verification": [
@@ -846,7 +984,7 @@
         {
           "id": "giardia_lamblia#03",
           "section": "Lâmina",
-          "text": "Imagem: Figura 2 do documento enviado, legenda \"Giardia duodenalis\".",
+          "text": "Duas imagens no documento de lâminas (06/11/2026): Figura 2, legenda \"Giardia duodenalis\", e uma legendada \"Giardia duodenalis\" com autoria de Micael Oliveira.",
           "status": "observacao",
           "refs": [
             "docx_protoz"
@@ -1150,8 +1288,8 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Chilomastix mesnili (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura. Chilomastix mesnili (Autora da foto: Júlia) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
-          "credit": "Júlia (autora da foto; sobrenome a confirmar) — documento de lâminas de Protozoários",
+          "caption": "Chilomastix mesnili (Autora da foto: Júlia) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Júlia (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image5.jpeg)",
           "hotspots": [],
@@ -1167,10 +1305,27 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Chilomastix mesnili (legenda do documento de lâminas de protozoários)",
-          "caption": "Figura. Chilomastix mesnili (Autora da foto: Maria Luiza) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
-          "credit": "Maria Luiza (autora da foto; sobrenome a confirmar) — documento de lâminas de Protozoários",
+          "caption": "Chilomastix mesnili (Autora da foto: Maria Luiza) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Maria Luiza (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image6.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz03",
+          "file": "protozoarios/chilomastix_mesnili_pz03.jpg",
+          "width": 720,
+          "height": 706,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Chilomastix mesnili (legenda do documento de lâminas de protozoários)",
+          "caption": "Chilomastix (Autoria: Mayra) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. A legenda indica apenas o gênero Chilomastix.",
+          "credit": "Mayra (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image19.png)",
           "hotspots": [],
           "creditStatus": "informado"
         }
@@ -1190,7 +1345,7 @@
         {
           "id": "chilomastix_mesnili#02",
           "section": "Lâmina",
-          "text": "Imagens: duas fotografias do documento enviado, legenda \"Chilomastix mesnili\" (autoras: Júlia e Maria Luiza).",
+          "text": "Três fotografias no documento de lâminas (06/11/2026): duas legendadas \"Chilomastix mesnili\" (autoras: Júlia e Maria Luiza) e uma legendada apenas \"Chilomastix\" (autora: Mayra), sem epíteto específico.",
           "status": "observacao",
           "refs": [
             "docx_protoz"
@@ -1341,6 +1496,304 @@
           "before": "Morfologia do cisto (formato de limão, 'botão hialino')",
           "reason": "Não encontrada em nenhuma fonte lida; deliberadamente NÃO afirmada.",
           "field": "morfologia"
+        }
+      ]
+    },
+    {
+      "id": "blastocystis_sp",
+      "commonName": "Blastocystis sp.",
+      "scientificName": "Blastocystis sp.",
+      "taxonomy": {
+        "order": "Opalinata",
+        "family": "Blastocystidae",
+        "genus": "Blastocystis",
+        "species": "Blastocystis sp.",
+        "note": "NCBI Taxonomy (06/11/2026): gênero Blastocystis, taxid 12967; linhagem Stramenopiles › Bigyra › Opalozoa › Opalinata › Blastocystidae. A linhagem do NCBI não rotula todos os níveis; por isso só ordem e família são indicadas.",
+        "ncbi": "taxid 12967 (gênero)",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário unicelular (intestinal)",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: \"Blastocystes spp\" (grafia corrigida para Blastocystis)",
+      "status": "revisar",
+      "morphologyDescription": "",
+      "keyDiagnosticFeatures": [],
+      "disease": "Parasito unicelular geneticamente diverso, de potencial patogênico incerto.",
+      "clinicalManifestations": [],
+      "diagnosticMethods": {},
+      "transmissionAndCycle": {},
+      "treatment": [],
+      "prophylaxis": [],
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/blastocystis_sp_pz01.jpg",
+          "width": 1200,
+          "height": 1600,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Blastocystis sp. (legenda do documento de lâminas de protozoários)",
+          "caption": "Blastocystes spp (Autoria: Maria Eduarda) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Maria Eduarda (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image7.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz02",
+          "file": "protozoarios/blastocystis_sp_pz02.jpg",
+          "width": 979,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Blastocystis sp. (legenda do documento de lâminas de protozoários)",
+          "caption": "Blastocystes spp. (Autoria: Maria Eduarda) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Maria Eduarda (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image8.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz03",
+          "file": "protozoarios/blastocystis_sp_pz03.jpg",
+          "width": 1189,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Blastocystis sp. (legenda do documento de lâminas de protozoários)",
+          "caption": "Blastocystes spp. (Autoria: Elias Barros) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Elias Barros (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image17.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz04",
+          "file": "protozoarios/blastocystis_sp_pz04.jpg",
+          "width": 1209,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Blastocystis sp. (legenda do documento de lâminas de protozoários)",
+          "caption": "Blastocystes spp. (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image24.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        }
+      ],
+      "reviewNote": "Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia, a designação e a frase do CDC sobre patogenicidade. Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e por isso não são exibidos.",
+      "verification": [
+        {
+          "id": "blastocystis_sp#01",
+          "section": "Taxonomia",
+          "text": "Gênero Blastocystis (NCBI Taxonomy, taxid 12967), família Blastocystidae, na linhagem Opalinata do NCBI.",
+          "status": "confirmado",
+          "refs": [
+            "ncbi_tax"
+          ],
+          "evidence": "Blastocystis: taxid 12967, rank genus · linhagem: ... > Opalozoa > Opalinata > Blastocystidae",
+          "note": ""
+        },
+        {
+          "id": "blastocystis_sp#02",
+          "section": "Taxonomia",
+          "text": "O CDC considera mais adequada a designação Blastocystis sp.; o título histórico da página ainda usa B. hominis.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "\"the designation Blastocystis sp. is considered more appropriate\"",
+          "note": ""
+        },
+        {
+          "id": "blastocystis_sp#03",
+          "section": "Doença",
+          "text": "Parasito unicelular geneticamente diverso, de potencial patogênico incerto.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "\"Blastocystis is a genetically diverse unicellular parasite of unclear pathogenic potential\"",
+          "note": "O CDC descreve a patogenicidade como incerta; o atlas não afirma doença."
+        }
+      ],
+      "removed": [
+        {
+          "before": "(espécie nova nesta versão)",
+          "reason": "Sem texto anterior.",
+          "field": "geral"
+        }
+      ]
+    },
+    {
+      "id": "iodamoeba_buetschlii",
+      "commonName": "Iodamoeba buetschlii",
+      "scientificName": "Iodamoeba buetschlii (sinônimo: Iodamoeba butschlii)",
+      "taxonomy": {
+        "order": "Amoebida",
+        "family": "Entamoebidae",
+        "genus": "Iodamoeba",
+        "species": "Iodamoeba buetschlii",
+        "note": "Linhagem segundo worldspecies (06/11/2026): Protozoa › Amoebozoa › Lobosa › Amoebida › Entamoebidae › Iodamoeba › Iodamoeba buetschlii. A página não rotula os níveis.",
+        "ncbi": "taxid a confirmar (NCBI bloqueou a consulta em 06/11/2026)",
+        "source": "ncbi_tax"
+      },
+      "category": "Protozoário ameboide (comensal)",
+      "evolutionaryStage": "Forma da imagem conforme legenda do documento: \"Iodamoeba butschlii\" (grafia do documento; ver taxonomia)",
+      "status": "revisar",
+      "morphologyDescription": "",
+      "keyDiagnosticFeatures": [],
+      "clinicalManifestations": [],
+      "diagnosticMethods": {},
+      "transmissionAndCycle": {},
+      "treatment": [],
+      "prophylaxis": [],
+      "images": [
+        {
+          "id": "pz01",
+          "file": "protozoarios/iodamoeba_buetschlii_pz01.jpg",
+          "width": 1280,
+          "height": 1016,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "Iodamoeba butschlii (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image16.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz02",
+          "file": "protozoarios/iodamoeba_buetschlii_pz02.jpg",
+          "width": 1280,
+          "height": 1026,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "Iodamoeba butschlii (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image18.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz03",
+          "file": "protozoarios/iodamoeba_buetschlii_pz03.jpg",
+          "width": 1280,
+          "height": 845,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "Iodamoeba butschlii (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image21.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz04",
+          "file": "protozoarios/iodamoeba_buetschlii_pz04.jpg",
+          "width": 534,
+          "height": 656,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "Iodamoeba butschlii (Autoria: Indira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Indira (autoria indicada na legenda do documento de lâminas); sobrenome a confirmar",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image22.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz05",
+          "file": "protozoarios/composto_pz23.jpg",
+          "width": 568,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "De cima para baixo (Entamoeba coli, Endolimax nana, Iodamoeba butschlii) (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. Imagem única com três espécies: a mesma foto aparece em cada ficha.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image23.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        },
+        {
+          "id": "pz06",
+          "file": "protozoarios/iodamoeba_buetschlii_pz05.jpg",
+          "width": 1267,
+          "height": 1280,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina de Iodamoeba buetschlii (legenda do documento de lâminas de protozoários)",
+          "caption": "Iodamoeba butschlii (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
+          "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
+          "license": null,
+          "sourceFile": "Laminas_de_Protozoarios.docx (media/image25.png)",
+          "hotspots": [],
+          "creditStatus": "informado"
+        }
+      ],
+      "reviewNote": "Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia e a grafia. O taxid do NCBI NÃO foi confirmado (consulta bloqueada). Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e não são exibidos.",
+      "verification": [
+        {
+          "id": "iodamoeba_buetschlii#01",
+          "section": "Taxonomia",
+          "text": "Gênero Iodamoeba, família Entamoebidae, ordem Amoebida, na linhagem do worldspecies.",
+          "status": "confirmado",
+          "refs": [
+            "worldspecies_iod"
+          ],
+          "evidence": "\"Protozoa > Amoebozoa > Lobosa > Amoebida > Entamoebidae > Iodamoeba > Iodamoeba buetschlii\"",
+          "note": ""
+        },
+        {
+          "id": "iodamoeba_buetschlii#02",
+          "section": "Taxonomia",
+          "text": "Nome aceito: Iodamoeba buetschlii; Iodamoeba butschlii aparece como sinônimo (grafia usada no documento de lâminas).",
+          "status": "confirmado",
+          "refs": [
+            "worldspecies_iod"
+          ],
+          "evidence": "Sinônimos listados: \"Entamoeba buetschlii (homotypic); Entamoeba butschlii; Iodamoeba butschlii\"",
+          "note": "A página não traz autor e ano do nome aceito; não foram afirmados."
+        }
+      ],
+      "removed": [
+        {
+          "before": "(espécie nova nesta versão)",
+          "reason": "Sem texto anterior.",
+          "field": "geral"
         }
       ]
     }

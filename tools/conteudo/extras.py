@@ -177,5 +177,5 @@ SITE = dict(
 MODULES = {
     "nematelmintos": dict(description="Ovos e larvas de nematódeos de importância médica em lâminas reais: ancilostomídeos, Ascaris, Enterobius, Strongyloides e Trichuris."),
     "platelmintos": dict(description="Ovos de Taenia sp. e Hymenolepis nana em lâminas reais, além de Schistosoma mansoni (imagem em revisão)."),
-    "protozoarios": dict(status="ativo", description="Amebas e flagelados intestinais: Entamoeba histolytica, E. coli, Endolimax nana, Giardia duodenalis e Chilomastix mesnili, com fotografias e autoria das imagens."),
+    "protozoarios": dict(status="ativo", description="Amebas e flagelados intestinais: Entamoeba histolytica, E. coli, Endolimax nana, Giardia duodenalis, Chilomastix mesnili, Blastocystis sp. e Iodamoeba buetschlii, com fotografias e autoria das imagens. Blastocystis e Iodamoeba: texto descritivo ainda em revisão."),
 }

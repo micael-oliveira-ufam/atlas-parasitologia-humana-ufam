@@ -20,7 +20,9 @@ for (const m of reg.modules) {
     total++; const t = `${m.id}/${s.id}`;
     if (!/^[a-z0-9_\-]+$/.test(s.id)) E(`${t}: id inválido (use a-z, 0-9, _ e -)`);
     if (ids.has(m.id + s.id)) E(`${t}: id duplicado`); ids.add(m.id + s.id);
-    for (const k of ['commonName', 'scientificName', 'category', 'morphologyDescription']) if (!s[k]) E(`${t}: campo obrigatório ausente: ${k}`);
+    // morfologia pode ficar vazia apenas em espécie 'revisar' (texto ainda não validado, com reviewNote)
+    const obrig = ['commonName', 'scientificName', 'category'].concat(s.status === 'revisar' ? [] : ['morphologyDescription']);
+    for (const k of obrig) if (!s[k]) E(`${t}: campo obrigatório ausente: ${k}`);
     if (!STATUS.includes(s.status)) E(`${t}: status inválido "${s.status}"`);
     if (s.status === 'revisar' && !s.reviewNote) E(`${t}: status "revisar" exige reviewNote`);
     if (!Array.isArray(s.images) || !s.images.length) { E(`${t}: images[] ausente ou vazio`); continue; }

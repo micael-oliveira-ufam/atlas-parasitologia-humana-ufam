@@ -18,9 +18,16 @@ NS = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
       'rel': 'http://schemas.openxmlformats.org/package/2006/relationships'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'public', 'assets', 'img', 'protozoarios')
-SPECIES = {  # trecho da legenda -> id da espécie no atlas
+SPECIES = {  # trecho da legenda -> id da espécie no atlas (ordem importa: mais específico primeiro)
     'Entamoeba histolytica': 'entamoeba_histolytica', 'Giardia duodenalis': 'giardia_lamblia',
-    'Endolimax nana': 'endolimax_nana', 'Entamoeba coli': 'entamoeba_coli', 'Chilomastix mesnili': 'chilomastix_mesnili'}
+    'Endolimax nana': 'endolimax_nana', 'Entamoeba coli': 'entamoeba_coli', 'Chilomastix mesnili': 'chilomastix_mesnili',
+    'Blastocystes spp': 'blastocystis_sp', 'Blastocystis spp': 'blastocystis_sp',
+    'Iodamoeba butschlii': 'iodamoeba_buetschlii', 'Iodamoeba buetschlii': 'iodamoeba_buetschlii',
+    'Entamoeba hystolitica': 'entamoeba_histolytica',
+    # legenda só com o gênero (sem epíteto): atribuída à espécie do atlas, com a ressalva registrada no JSON
+    'Chilomastix (': 'chilomastix_mesnili'}
+# Imagem com mais de uma espécie (legenda "De cima para baixo (...)"): um arquivo, referenciado por cada espécie.
+COMPOSTO = ('De cima para baixo', ['entamoeba_coli', 'endolimax_nana', 'iodamoeba_buetschlii'])
 # Recorte adicional MANUAL (px do arquivo original), além do srcRect do docx. Vazio: o recorte do
 # próprio docx já exclui a barra do QuickTime Player visível na mídia original da foto 6.
 EXTRA_CROP = {}
@@ -45,10 +52,16 @@ def main(path):
     meta = []
     os.makedirs(OUT, exist_ok=True)
     for n, ((media, crop), caption) in enumerate(items, 1):
-        sp = next((v for k, v in SPECIES.items() if k.lower() in caption.lower()), None)
-        if sp is None:
-            raise SystemExit(f'legenda sem espécie reconhecida: {caption!r}')
-        counter[sp] = counter.get(sp, 0) + 1
+        if COMPOSTO[0] in caption:
+            especies = COMPOSTO[1]
+            sp = 'composto_' + '_'.join(e.split('_')[0] for e in especies)
+            counter[sp] = counter.get(sp, 0) + 1
+        else:
+            sp = next((v for k, v in SPECIES.items() if k.lower() in caption.lower()), None)
+            if sp is None:
+                raise SystemExit(f'legenda sem espécie reconhecida: {caption!r}')
+            especies = [sp]
+            counter[sp] = counter.get(sp, 0) + 1
         im = Image.open(io.BytesIO(z.read('word/' + media))).convert('RGB')
         W, H = im.size
         l, t, r, b = (round(W * crop['l'] / 100000), round(H * crop['t'] / 100000),
@@ -60,15 +73,17 @@ def main(path):
         if max(im.size) > MAX_SIDE:
             k = MAX_SIDE / max(im.size); im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
         name = f'{sp}_pz{counter[sp]:02d}.jpg'
+        if len(especies) > 1:
+            name = f'composto_pz{n:02d}.jpg'
         im.save(os.path.join(OUT, name), 'JPEG', quality=88, optimize=True)
-        m = re.search(r'Autora? da foto:\s*([^)]+)\)', caption, re.I)
-        meta.append({'ordem': n, 'especie': sp, 'arquivo': 'protozoarios/' + name, 'legenda_docx': caption,
+        m = re.search(r'\((?:Autora? da foto|Autoria|Autora):\s*([^)]+)\)', caption, re.I)
+        meta.append({'ordem': n, 'especie': especies[0], 'especies': especies, 'arquivo': 'protozoarios/' + name, 'legenda_docx': caption,
                      'autoria_na_legenda': m.group(1).strip() if m else None,
                      'midia_origem': media, 'tamanho_origem': [W, H], 'srcRect_docx_1e5': crop,
                      'recorte_extra': extra, 'tamanho_final': list(im.size)})
-        print(name, im.size, '| autoria:', meta[-1]['autoria_na_legenda'])
+        print(name, im.size, '| espécies:', especies, '| autoria:', meta[-1]['autoria_na_legenda'])
     sha = hashlib.sha256(open(path, 'rb').read()).hexdigest()
-    json.dump({'docx': os.path.basename(path), 'docx_sha256': sha, 'imagens': meta},
+    json.dump({'docx': os.path.basename(path), 'docx_sha256': sha, 'n_imagens': len(meta), 'imagens': meta},
               open(os.path.join(ROOT, 'tools', 'protozoarios_import.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('docx sha256', sha)
 

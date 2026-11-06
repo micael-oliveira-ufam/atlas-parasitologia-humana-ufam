@@ -106,40 +106,67 @@ def build_specimen(sp, old_images):
     return out
 
 
+SOBRENOME_CONFIRMADO = {"Micael Oliveira", "Elias Barros"}  # nomes completos informados no próprio documento
+
+
 def proto_images():
+    """Lê tools/protozoarios_import.json (gerado de docs/fontes/Laminas_de_Protozoarios.docx).
+
+    Cada imagem vira um registro por espécie. Imagem composta (legenda "De cima para baixo (...)") é um
+    único arquivo referenciado por cada espécie que mostra. Crédito: só o que a legenda diz; quando o nome
+    não traz sobrenome, o texto avisa "sobrenome a confirmar". Sem autoria na legenda -> "a confirmar".
+    """
     imp = json.loads((ROOT / "tools" / "protozoarios_import.json").read_text(encoding="utf-8"))
     nomes = {"entamoeba_histolytica": "Entamoeba histolytica", "giardia_lamblia": "Giardia duodenalis",
-             "endolimax_nana": "Endolimax nana", "entamoeba_coli": "Entamoeba coli", "chilomastix_mesnili": "Chilomastix mesnili"}
+             "endolimax_nana": "Endolimax nana", "entamoeba_coli": "Entamoeba coli",
+             "chilomastix_mesnili": "Chilomastix mesnili", "blastocystis_sp": "Blastocystis sp.",
+             "iodamoeba_buetschlii": "Iodamoeba buetschlii"}
     res = {}
     for im in imp["imagens"]:
-        sp = im["especie"]
-        n = len(res.setdefault(sp, [])) + 1
         autor = im["autoria_na_legenda"]
-        entry = {
-            "id": f"pz{n:02d}",
-            "file": im["arquivo"],
-            "width": im["tamanho_final"][0],
-            "height": im["tamanho_final"][1],
-            "type": "microfotografia",
-            "kind": "campo",
-            "lamina": None,
-            "confidence": "documento",
-            "alt": f"Fotografia de lâmina de {nomes[sp]} (legenda do documento de lâminas de protozoários)",
-            "caption": f"{im['legenda_docx']} Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados.",
-            "credit": (f"{autor} (autora da foto; sobrenome a confirmar) — documento de lâminas de Protozoários"
-                       if autor else "Autoria não informada no documento de origem (a confirmar)"),
-            "license": None,
-            "sourceFile": f"Laminas_de_Protozoarios.docx ({im['midia_origem']})",
-            "hotspots": [],
-            "creditStatus": "informado" if autor else "a-confirmar",
-        }
-        res[sp].append(entry)
+        especies = im.get("especies", [im["especie"]])
+        composta = len(especies) > 1
+        for sp in especies:
+            n = len(res.setdefault(sp, [])) + 1
+            if autor:
+                credit = f"{autor} (autoria indicada na legenda do documento de lâminas)"
+                if autor not in SOBRENOME_CONFIRMADO:
+                    credit += "; sobrenome a confirmar"
+            else:
+                credit = "Autoria não informada no documento de origem (a confirmar)"
+            cap = f"{im['legenda_docx'].removeprefix('Figura. ').removeprefix('Figura ')}"
+            cap += " Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados."
+            if composta:
+                cap += " Imagem única com três espécies: a mesma foto aparece em cada ficha."
+            if "mesnili" not in im["legenda_docx"] and "Chilomastix" in im["legenda_docx"]:
+                cap += " A legenda indica apenas o gênero Chilomastix."
+            if "hystolitica" in im["legenda_docx"]:
+                cap += " A legenda reúne E. histolytica e E. díspar, que a microscopia não distingue."
+            res.setdefault(sp, [])
+            res[sp].append({
+                "id": f"pz{n:02d}",
+                "file": im["arquivo"],
+                "width": im["tamanho_final"][0],
+                "height": im["tamanho_final"][1],
+                "type": "microfotografia",
+                "kind": "campo",
+                "lamina": None,
+                "confidence": "documento",
+                "alt": f"Fotografia de lâmina de {nomes[sp]} (legenda do documento de lâminas de protozoários)",
+                "caption": cap,
+                "credit": credit,
+                "license": None,
+                "sourceFile": f"Laminas_de_Protozoarios.docx ({im['midia_origem']})",
+                "hotspots": [],
+                "creditStatus": "informado" if autor else "a-confirmar",
+            })
     return res
 
 
 def main():
     modulos = json.loads((DATA / "modulos.json").read_text(encoding="utf-8"))
-    ordem_proto = ["entamoeba_histolytica", "entamoeba_coli", "endolimax_nana", "giardia_lamblia", "chilomastix_mesnili"]
+    ordem_proto = ["entamoeba_histolytica", "entamoeba_coli", "endolimax_nana", "giardia_lamblia", "chilomastix_mesnili",
+                   "blastocystis_sp", "iodamoeba_buetschlii"]
     sp_proto = sorted(proto.SPECIES, key=lambda s: ordem_proto.index(s["id"]))
     all_sp = {"nematelmintos": nema.SPECIES, "platelmintos": list(plat.SPECIES), "protozoarios": sp_proto}
     pimgs = proto_images()
@@ -151,9 +178,8 @@ def main():
         out = []
         for sp in species:
             if mod == "protozoarios":
+                # só as fotografias do documento de lâminas; as externas sem crédito foram removidas em 06/11/2026
                 imgs = list(pimgs.get(sp["id"], []))
-                # mantém imagens externas herdadas (sem crédito) ao final
-                imgs += [i for i in cur_imgs.get(sp["id"], []) if i.get("type") == "externa"]
             else:
                 imgs = cur_imgs[sp["id"]]
             s = build_specimen(sp, imgs)
@@ -191,6 +217,9 @@ def main():
             "Livros-texto da bibliografia geral da disciplina (listados em Informações) — não consultados",
             "Identificação das espécies nas fotografias das lâminas — feita pelos autores; não foi confirmada de forma independente",
             "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados",
+            "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): só taxonomia e uma frase do CDC foram verificadas; morfologia, tamanho, ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
+            "taxid da Iodamoeba buetschlii no NCBI: não confirmado (consulta bloqueada)",
+            "Lâminas de protozoários atualizadas em 06/11/2026 a partir do documento de 25 imagens; a identificação das espécies segue as legendas do documento",
         ],
         "sourceAccessNote": ("Fontes lidas por ferramentas automáticas (leitor de páginas e PubMed). Onde só o resumo ou trechos foram lidos, isso consta em "
                              "'acesso nesta revisão' de cada referência. Documento da OMS (Bench Aids) com acesso indisponível."),

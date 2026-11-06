@@ -5,7 +5,9 @@ import { openLightbox } from '../lightbox.js';
 import { page, badges, list, CONF, STLABEL, refName, IMGTYPE, creditText, creditPending } from './common.js';
 
 const row = (k, v) => v ? h('div', { class: 'kv' }, h('dt', null, k), h('dd', null, v)) : null;
-const section = (id, title, ...kids) => { const c = kids.flat().filter(Boolean); return c.length ? h('section', { class: 'sec', id }, h('h2', null, title), ...c) : null; };
+// Uma seção só aparece se algum filho tiver conteúdo visível (texto, imagem, SVG ou controle).
+const hasContent = n => n && (n.nodeType !== 1 || (n.textContent || '').trim() !== '' || n.matches?.('img,svg,canvas,input,button,a') || n.querySelector?.('img,svg,canvas,input,button,a'));
+const section = (id, title, ...kids) => { const c = kids.flat().filter(hasContent); return c.length ? h('section', { class: 'sec', id }, h('h2', null, title), ...c) : null; };
 
 export function specimenPage(modId, id) {
   const m = getModule(modId), s = m && getSpecimen(modId, id); if (!s) return null;

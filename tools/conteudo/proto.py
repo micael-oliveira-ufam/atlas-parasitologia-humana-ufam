@@ -21,7 +21,7 @@ SPECIES.append(dict(
           "Fornicata (phylum) · Diplomonadida (order) · Hexamitidae (family) · Giardiinae (subfamily) · Giardia (genus)", "Antes: filo Metamonada; classe Fornicata.", antes="Metamonada / Fornicata"),
         C("Taxonomia", "Nomenclatura: o CDC usa Giardia duodenalis, com G. lamblia e G. intestinalis como sinônimos.", "confirmado", ["dpdx_giar"],
           "\"Giardia duodenalis (syn. G. lamblia, G. intestinalis)\"", "O NCBI, na entrada lida, usa G. duodenalis; G. lamblia aparece só como nome de linhagens."),
-        C("Lâmina", "Imagem: Figura 2 do documento enviado, legenda \"Giardia duodenalis\".", "observacao", ["docx_protoz"], "", ID_RESSALVA),
+        C("Lâmina", "Duas imagens no documento de lâminas (06/11/2026): Figura 2, legenda \"Giardia duodenalis\", e uma legendada \"Giardia duodenalis\" com autoria de Micael Oliveira.", "observacao", ["docx_protoz"], "", ID_RESSALVA),
         C("Tamanho", "Cistos: 8–19 µm (média 10–14 µm). Trofozoítos: 10–20 µm de comprimento.", "confirmado", ["dpdx_giar"],
           "\"Giardia duodenalis cysts are oval to ellipsoid and measure 8-19 µm (average 10-14 µm).\" · \"trophozoites are pear-shaped and measure 10-20 micrometers in length.\""),
         C("Morfologia", "Cistos ovais a elipsoides; cistos maduros têm 4 núcleos e os imaturos, 2.", "confirmado", ["dpdx_giar"], "\"Mature cysts have 4 nuclei, while immature cysts have two.\""),
@@ -75,7 +75,7 @@ SPECIES.append(dict(
     claims=[
         C("Taxonomia", "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Entamoeba.", "corrigido", ["ncbi_tax"],
           "Evosea (phylum) · Archamoebae (no rank) · Mastigamoebida (order) · Endamoebidae (family) · Entamoeba (genus)", "Antes: ordem Entamoebida; família Entamoebidae; classe Archamoebae.", antes="Archamoebae / Entamoebida / Entamoebidae"),
-        C("Lâmina", "Imagem: Figura 1 do documento enviado, legenda \"Entamoeba histolytica\".", "observacao", ["docx_protoz"], "",
+        C("Lâmina", "Duas imagens no documento de lâminas: Figura 1, legenda \"Entamoeba histolytica\"; e outra legendada \"Entamoeba hystolitica / E. díspar\" (autoria de Micael Oliveira). A própria legenda reúne as duas espécies, que a microscopia não distingue (ver Diagnóstico).", "observacao", ["docx_protoz"], "",
           ID_RESSALVA + " Além disso, E. histolytica, E. dispar e E. moshkovskii não se distinguem pela morfologia."),
         C("Tamanho", "Cistos: geralmente 12–15 µm. Trofozoítos: geralmente 15–20 µm (faixa 10–60 µm).", "confirmado", ["dpdx_amoeb"],
           "\"Cysts usually measure 12 to 15 µm.\" · \"Trophozoites usually measure 15 to 20 µm (range 10 to 60 µm)\""),
@@ -114,7 +114,7 @@ SPECIES.append(dict(
     ],
     removidos=[
         R("Todo o texto anterior do registro (cisto tetranucleado etc.)", "Registro herdado ('revisar'); texto refeito a partir das fontes lidas. Texto antigo arquivado em acervo-nao-publicado/versao_anterior_v4.2/.", "geral"),
-        R("Imagem externa 'entamoeba_histolytica_40x.jpeg' (origem não documentada)", "Mantida no fim da galeria com aviso 'sem crédito'; recomenda-se substituí-la.", "imagem"),
+        R("Imagem externa 'entamoeba_histolytica_40x.jpeg' (origem não documentada)", "Removida em 06/11/2026: substituída pelas fotografias do documento de lâminas (arquivo mantido em acervo-nao-publicado/imagens_externas_removidas_v5/).", "imagem"),
     ],
 ))
 
@@ -129,7 +129,7 @@ SPECIES.append(dict(
     claims=[
         C("Taxonomia", "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Entamoeba.", "confirmado", ["ncbi_tax"],
           "Evosea (phylum) · Mastigamoebida (order) · Endamoebidae (family) · Entamoeba (genus)"),
-        C("Lâmina", "Imagem: documento enviado, legenda \"Entamoeba coli\".", "observacao", ["docx_protoz"], "", ID_RESSALVA),
+        C("Lâmina", "Sete imagens legendadas \"Entamoeba coli\" no documento de lâminas (06/11/2026), mais uma imagem composta com E. nana e I. buetschlii; a legenda de uma delas registra \"em torno de 7 núcleos\" (observação dos autores).", "observacao", ["docx_protoz"], "", ID_RESSALVA),
         C("Tamanho", "Cistos: 10–35 µm (geralmente esféricos, podendo ser alongados). Trofozoítos: geralmente 15–50 µm.", "confirmado", ["dpdx_intam"],
           "\"Cysts of Entamoeba coli are usually spherical but may be elongated and measure 10–35 µm.\" · \"Trophozoites of Entamoeba coli usually measure 15–50 µm.\""),
         C("Morfologia", "Cistos maduros costumam ter 8 núcleos, mas podem ter 16 ou mais.", "confirmado", ["dpdx_intam"],
@@ -163,7 +163,7 @@ SPECIES.append(dict(
     claims=[
         C("Taxonomia", "NCBI Taxonomy: Amoebozoa › Evosea › Archamoebae › Mastigamoebida › Endamoebidae › Endolimax.", "confirmado", ["ncbi_tax"],
           "Evosea (phylum) · Mastigamoebida (order) · Endamoebidae (family) · Endolimax (genus)"),
-        C("Lâmina", "Imagem: documento enviado, legenda \"Endolimax nana\".", "observacao", ["docx_protoz"], "", ID_RESSALVA),
+        C("Lâmina", "Uma imagem legendada \"Endolimax nana\" no documento de lâminas (06/11/2026), mais a imagem composta com E. coli e I. buetschlii.", "observacao", ["docx_protoz"], "", ID_RESSALVA),
         C("Tamanho", "Cistos: 5–10 µm (esféricos a elipsoides). Trofozoítos: 6–12 µm, com um único núcleo.", "confirmado", ["dpdx_intam"],
           "\"Cysts of Endolimax nana vary from spherical to ellipsoidal in shape and measure 5–10 µm.\" · \"Endolimax nana trophozoites measure 6–12 µm and have a single nucleus\""),
         C("Morfologia", "Cistos maduros com quatro pequenos núcleos de cariossomos grandes, em geral centrais.", "confirmado", ["dpdx_intam"],
@@ -196,7 +196,7 @@ SPECIES.append(dict(
     claims=[
         C("Taxonomia", "NCBI Taxonomy: Metamonada › Fornicata › Retortamonadidae › Chilomastix.", "confirmado", ["ncbi_tax"],
           "Fornicata (phylum) · Retortamonadidae (family) · Chilomastix (genus)"),
-        C("Lâmina", "Imagens: duas fotografias do documento enviado, legenda \"Chilomastix mesnili\" (autoras: Júlia e Maria Luiza).", "observacao", ["docx_protoz"], "", ID_RESSALVA),
+        C("Lâmina", "Três fotografias no documento de lâminas (06/11/2026): duas legendadas \"Chilomastix mesnili\" (autoras: Júlia e Maria Luiza) e uma legendada apenas \"Chilomastix\" (autora: Mayra), sem epíteto específico.", "observacao", ["docx_protoz"], "", ID_RESSALVA),
         C("Tamanho", "Trofozoítos: em geral 6–24 µm de comprimento.", "confirmado", ["dpdx_chilo"], "\"Trophozoites are pear-shaped and usually measure 6–24 µm in length.\""),
         C("Morfologia", "Trofozoíto piriforme; extremidade anterior arredondada com um único núcleo de cariossomo excêntrico; extremidade posterior afilada.", "confirmado", ["dpdx_chilo"],
           "\"The anterior end is rounded and contains a single nucleus with an eccentric karyosome.\" · \"The posterior end tapers off to a point.\"",
@@ -221,4 +221,48 @@ SPECIES.append(dict(
         R("(espécie nova nesta versão)", "Sem texto anterior.", "geral"),
         R("Morfologia do cisto (formato de limão, 'botão hialino')", "Não encontrada em nenhuma fonte lida; deliberadamente NÃO afirmada.", "morfologia"),
     ],
+))
+
+# ------------------------------------------------------------------ BLASTOCYSTIS (espécie nova em 06/11/2026)
+SPECIES.append(dict(
+    id="blastocystis_sp", module="protozoarios",
+    commonName="Blastocystis sp.", scientificName="Blastocystis sp.",
+    category="Protozoário unicelular (intestinal)",
+    stage="Forma da imagem conforme legenda do documento: \"Blastocystes spp\" (grafia corrigida para Blastocystis)",
+    tax=dict(order="Opalinata", family="Blastocystidae", genus="Blastocystis", species="Blastocystis sp.",
+             ncbi="taxid 12967 (gênero)",
+             nota="NCBI Taxonomy (06/11/2026): gênero Blastocystis, taxid 12967; linhagem Stramenopiles › Bigyra › Opalozoa › Opalinata › Blastocystidae. A linhagem do NCBI não rotula todos os níveis; por isso só ordem e família são indicadas."),
+    claims=[
+        C("Taxonomia", "Gênero Blastocystis (NCBI Taxonomy, taxid 12967), família Blastocystidae, na linhagem Opalinata do NCBI.", "confirmado", ["ncbi_tax"],
+          "Blastocystis: taxid 12967, rank genus · linhagem: ... > Opalozoa > Opalinata > Blastocystidae"),
+        C("Taxonomia", "O CDC considera mais adequada a designação Blastocystis sp.; o título histórico da página ainda usa B. hominis.", "confirmado", ["dpdx_blasto"],
+          "\"the designation Blastocystis sp. is considered more appropriate\""),
+        C("Doença", "Parasito unicelular geneticamente diverso, de potencial patogênico incerto.", "confirmado", ["dpdx_blasto"],
+          "\"Blastocystis is a genetically diverse unicellular parasite of unclear pathogenic potential\"",
+          "O CDC descreve a patogenicidade como incerta; o atlas não afirma doença."),
+    ],
+    removidos=[R("(espécie nova nesta versão)", "Sem texto anterior.", "geral")],
+    revisao=("Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia, a designação e a frase do CDC sobre "
+             "patogenicidade. Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e por isso não são exibidos."),
+))
+
+# ------------------------------------------------------------------ IODAMOEBA (espécie nova em 06/11/2026)
+SPECIES.append(dict(
+    id="iodamoeba_buetschlii", module="protozoarios",
+    commonName="Iodamoeba buetschlii", scientificName="Iodamoeba buetschlii (sinônimo: Iodamoeba butschlii)",
+    category="Protozoário ameboide (comensal)",
+    stage="Forma da imagem conforme legenda do documento: \"Iodamoeba butschlii\" (grafia do documento; ver taxonomia)",
+    tax=dict(order="Amoebida", family="Entamoebidae", genus="Iodamoeba", species="Iodamoeba buetschlii",
+             ncbi="taxid a confirmar (NCBI bloqueou a consulta em 06/11/2026)",
+             nota="Linhagem segundo worldspecies (06/11/2026): Protozoa › Amoebozoa › Lobosa › Amoebida › Entamoebidae › Iodamoeba › Iodamoeba buetschlii. A página não rotula os níveis."),
+    claims=[
+        C("Taxonomia", "Gênero Iodamoeba, família Entamoebidae, ordem Amoebida, na linhagem do worldspecies.", "confirmado", ["worldspecies_iod"],
+          "\"Protozoa > Amoebozoa > Lobosa > Amoebida > Entamoebidae > Iodamoeba > Iodamoeba buetschlii\""),
+        C("Taxonomia", "Nome aceito: Iodamoeba buetschlii; Iodamoeba butschlii aparece como sinônimo (grafia usada no documento de lâminas).", "confirmado", ["worldspecies_iod"],
+          "Sinônimos listados: \"Entamoeba buetschlii (homotypic); Entamoeba butschlii; Iodamoeba butschlii\"",
+          "A página não traz autor e ano do nome aceito; não foram afirmados."),
+    ],
+    removidos=[R("(espécie nova nesta versão)", "Sem texto anterior.", "geral")],
+    revisao=("Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia e a grafia. O taxid do NCBI NÃO foi confirmado "
+             "(consulta bloqueada). Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e não são exibidos."),
 ))

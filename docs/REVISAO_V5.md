@@ -24,6 +24,14 @@ python3 tools/gerar-documento.py
 python3 tools/conferir-documento.py     # falha se o documento não contiver todo o conteúdo dos JSON ou se app ≠ site
 ```
 
+## Atualização de 06/11/2026 — lâminas de protozoários
+- Documento-fonte substituído por `Laminas_de_Protozoarios.docx` (25 imagens). Versão anterior arquivada em `acervo-nao-publicado/versao_anterior_laminas_v5/`.
+- Imagens extraídas por `tools/importar-docx-protozoarios.py` (recorte pelo srcRect do docx, máximo 1600 px); 27 registros em 25 arquivos; a lâmina composta (De cima para baixo: E. coli, Endolimax, Iodamoeba) é compartilhada.
+- Novas espécies **em revisão** (sem morfologia exibida): *Blastocystis* sp. (CDC DPDx lido em 06/11/2026) e *Iodamoeba buetschlii* (worldspecies, lido em 06/11/2026; grafia “butschlii” tratada como sinônimo). Taxid NCBI da Iodamoeba **não confirmado**.
+- Fotos externas de *E. histolytica* e *Giardia* removidas do módulo (arquivadas em `acervo-nao-publicado/imagens_externas_removidas_v5/`).
+- Autoria: somente o que a legenda informa; sem sobrenome, “sobrenome a confirmar”; sem autoria, “Autoria não informada (a confirmar)”.
+- Site: seções sem conteúdo deixam de aparecer nas espécies em revisão (correção em `specimen.js`).
+
 ## Status das afirmações
 confirmado · corrigido (guarda o texto anterior) · ressalva · observação da lâmina. O que não foi sustentado por fonte lida foi **retirado**
 e listado (por espécie, no app, e na seção 9 do documento). A versão anterior completa está em `acervo-nao-publicado/versao_anterior_v4.2/`.

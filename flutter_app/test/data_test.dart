@@ -20,13 +20,13 @@ void main() {
     test('espécies por módulo', () {
       expect(data.moduleById('nematelmintos')!.specimens.length, 5);
       expect(data.moduleById('platelmintos')!.specimens.length, 3);
-      expect(data.moduleById('protozoarios')!.specimens.length, 5);
-      expect(data.specimens.length, 13);
+      expect(data.moduleById('protozoarios')!.specimens.length, 7);
+      expect(data.specimens.length, 15);
     });
 
     test('protocolos, referências e quiz', () {
       expect(data.protocols.length, 5);
-      expect(data.refs.length, 48);
+      expect(data.refs.length, 50);
       expect(data.quiz.length, 30);
     });
 
@@ -43,6 +43,23 @@ void main() {
         for (final im in s.images) {
           expect(File(im.assetPath).existsSync(), isTrue, reason: im.assetPath);
         }
+      }
+    });
+
+    test('lâminas de protozoários: 27 registros em 25 arquivos; composta compartilhada', () {
+      final prot = data.moduleById('protozoarios')!.specimens;
+      final entries = [for (final s in prot) ...s.images];
+      expect(entries.length, 27);
+      expect(entries.map((i) => i.file).toSet().length, 25);
+      expect(entries.where((i) => i.file == 'protozoarios/composto_pz23.jpg').length, 3);
+    });
+
+    test('Blastocystis e Iodamoeba: em revisão, sem morfologia exibida', () {
+      for (final id in ['blastocystis_sp', 'iodamoeba_buetschlii']) {
+        final sp = data.specimens.firstWhere((s) => s.id == id);
+        expect(sp.inReview, isTrue, reason: id);
+        expect(sp.morphologyDescription, isEmpty, reason: id);
+        expect(sp.reviewNote, isNotNull, reason: id);
       }
     });
 

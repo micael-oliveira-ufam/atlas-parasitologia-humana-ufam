@@ -53,7 +53,7 @@
       "order": 3,
       "title": "Protozoários",
       "subtitle": "Amebas, flagelados e outros protozoários",
-      "description": "Amebas e flagelados intestinais: Entamoeba histolytica, E. coli, Endolimax nana, Giardia duodenalis e Chilomastix mesnili, com fotografias e autoria das imagens.",
+      "description": "Amebas e flagelados intestinais: Entamoeba histolytica, E. coli, Endolimax nana, Giardia duodenalis, Chilomastix mesnili, Blastocystis sp. e Iodamoeba buetschlii, com fotografias e autoria das imagens. Blastocystis e Iodamoeba: texto descritivo ainda em revisão.",
       "status": "ativo",
       "accent": "violet",
       "dataFile": "data/modulos/protozoarios.json"

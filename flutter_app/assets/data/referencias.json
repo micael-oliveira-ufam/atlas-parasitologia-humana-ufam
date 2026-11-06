@@ -7,7 +7,10 @@
     "notReviewed": [
       "Livros-texto da bibliografia geral da disciplina (listados em Informações) — não consultados",
       "Identificação das espécies nas fotografias das lâminas — feita pelos autores; não foi confirmada de forma independente",
-      "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados"
+      "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados",
+      "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): só taxonomia e uma frase do CDC foram verificadas; morfologia, tamanho, ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
+      "taxid da Iodamoeba buetschlii no NCBI: não confirmado (consulta bloqueada)",
+      "Lâminas de protozoários atualizadas em 06/11/2026 a partir do documento de 25 imagens; a identificação das espécies segue as legendas do documento"
     ],
     "sourceAccessNote": "Fontes lidas por ferramentas automáticas (leitor de páginas e PubMed). Onde só o resumo ou trechos foram lidos, isso consta em 'acesso nesta revisão' de cada referência. Documento da OMS (Bench Aids) com acesso indisponível."
   },
@@ -381,8 +384,24 @@
       "id": "docx_protoz",
       "short": "Documento de lâminas de Protozoários",
       "group": "Origem das lâminas",
-      "citation": "Laminas_de_Protozoarios.docx (documento enviado pelos desenvolvedores em 23/10/2026; metadado de autor do arquivo: Micael Davi Lima de Oliveira). Contém 6 fotografias com legendas. SHA-256: c90a7ab9e6a488f8e11b4b1eba0bc87a093bd8cf4dc6812c3f2acddc0501b5f0.",
-      "access": "documento recebido; legendas transcritas sem alteração em tools/protozoarios_import.json. Os rótulos de espécie são os do documento e NÃO foram confirmados de forma independente."
+      "citation": "Laminas_de_Protozoarios.docx — versão de 06/11/2026 (25 imagens com legendas; SHA-256 c1f615f116dc72bf21afaeff4208dabb16df1ca7e5f3fb4a3f2593aba3e3d5dd). Versão anterior (6 imagens; SHA-256 c90a7ab9e6a488f8e11b4b1eba0bc87a093bd8cf4dc6812c3f2acddc0501b5f0) arquivada. Metadado de autor do arquivo: Micael Davi Lima de Oliveira (compilador do documento, não autor das fotos).",
+      "access": "documento recebido; legendas transcritas sem alteração em tools/protozoarios_import.json. Os rótulos de espécie e autoria são os do documento e NÃO foram confirmados de forma independente."
+    },
+    {
+      "id": "dpdx_blasto",
+      "short": "CDC DPDx — Blastocystis",
+      "group": "CDC DPDx",
+      "citation": "Centers for Disease Control and Prevention (CDC). DPDx — Blastocystis hominis (página em uso com a designação Blastocystis sp.). https://www.cdc.gov/dpdx/blastocystis/index.html",
+      "url": "https://www.cdc.gov/dpdx/blastocystis/index.html",
+      "access": "página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "worldspecies_iod",
+      "short": "worldspecies — Iodamoeba buetschlii",
+      "group": "Taxonomia",
+      "citation": "World Species (worldspecies.org). Iodamoeba buetschlii, página ntaxa/864231 (linhagem e sinônimos). Autor e ano do nome aceito não aparecem na página.",
+      "url": "https://worldspecies.org/ntaxa/864231",
+      "access": "página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos). O NCBI não pôde ser consultado (bloqueio)."
     }
   ]
 }
