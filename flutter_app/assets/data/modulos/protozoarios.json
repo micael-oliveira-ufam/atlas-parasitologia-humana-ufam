@@ -19,7 +19,7 @@
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: Entamoeba histolytica",
       "status": "publicado",
       "approxSizeMicrons": "Cistos: geralmente 12–15 µm. Trofozoítos: geralmente 15–20 µm (faixa 10–60 µm).",
-      "morphologyDescription": "Cistos com 4 núcleos de cariossomos caracteristicamente centrais; corpos cromatoides de extremidades arredondadas/rombas. Trofozoítos podem conter hemácias fagocitadas (eritrofagocitose), clássica de E. histolytica, mas que raramente pode ocorrer com E. dispar: não é critério confiável.",
+      "morphologyDescription": "Cistos com 4 núcleos de cariossomos caracteristicamente centrais; corpos cromatoides de extremidades arredondadas/rombas. Trofozoítos podem conter hemácias fagocitadas (eritrofagocitose), clássica de E. histolytica, mas que raramente pode ocorrer com E. dispar: não é critério confiável. Trofozoíto: citoplasma granular (aspecto 'ground-glass'), núcleo único com cariossomo central e cromatina periférica uniformemente distribuída. Trofozoítos de fezes diarreicas tendem a ser mais alongados.",
       "keyDiagnosticFeatures": [
         "Cisto com 4 núcleos e cariossomo central.",
         "E. histolytica, E. dispar e E. moshkovskii não são distinguíveis pela morfologia."
@@ -27,7 +27,10 @@
       "disease": "Amebíase.",
       "pathogenesis": "Os trofozoítos podem permanecer no lúmen intestinal (infecção não invasiva), invadir a mucosa intestinal ou os vasos e atingir locais extraintestinais, como fígado, cérebro e pulmões.",
       "clinicalManifestations": [
-        "Sintomas variam de cólicas leves e diarreia aquosa a colite grave com diarreia sanguinolenta e muco; abscesso hepático: dor no hipocôndrio direito, febre e dor à palpação."
+        "Sintomas variam de cólicas leves e diarreia aquosa a colite grave com diarreia sanguinolenta e muco; abscesso hepático: dor no hipocôndrio direito, febre e dor à palpação.",
+        "Amebíase intestinal: a maioria das infecções restritas ao lúmen é assintomática. Na colite invasiva, há disenteria grave. Infecções crônicas graves podem levar a peritonite, perfurações e granulomas amebianos (ameboma).",
+        "Amebíase extraintestinal: o abscesso hepático amebiano é a manifestação mais comum. Também foram observados abscessos pleuropulmonares e cerebrais e lesões necróticas na pele perianal e genital.",
+        "Sinais e sintomas específicos (como febre e dor abdominal) não constam na página do CDC consultada."
       ],
       "diagnosticMethods": {
         "goldStandard": "Microscopia de fezes (cistos e trofozoítos): a sensibilidade é baixa com uma amostra; três amostras consecutivas em dez dias aumentam a chance de detecção.",
@@ -334,6 +337,50 @@
           ],
           "evidence": "\"(Entamoeba coli, E. hartmanni, E. gingivalis, Endolimax nana, Iodamoeba buetschlii)\" · \"Such spores may be confused for the cysts of Entamoeba spp.\"",
           "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#23",
+          "section": "Morfologia",
+          "text": "Trofozoíto: citoplasma granular (aspecto 'ground-glass'), núcleo único com cariossomo central e cromatina periférica uniformemente distribuída. Trofozoítos de fezes diarreicas tendem a ser mais alongados.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#24",
+          "section": "Clínica",
+          "text": "Amebíase intestinal: a maioria das infecções restritas ao lúmen é assintomática. Na colite invasiva, há disenteria grave. Infecções crônicas graves podem levar a peritonite, perfurações e granulomas amebianos (ameboma).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#25",
+          "section": "Clínica",
+          "text": "Amebíase extraintestinal: o abscesso hepático amebiano é a manifestação mais comum. Também foram observados abscessos pleuropulmonares e cerebrais e lesões necróticas na pele perianal e genital.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_histolytica#26",
+          "section": "Clínica",
+          "text": "Sinais e sintomas específicos (como febre e dor abdominal) não constam na página do CDC consultada.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_amoeb"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Sinais específicos não constam na página do CDC consultada; os sintomas listados no atlas vêm de fontes complementares."
         }
       ],
       "removed": [
@@ -368,11 +415,11 @@
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: Entamoeba coli",
       "status": "publicado",
       "approxSizeMicrons": "Cistos: 10–35 µm (geralmente esféricos, podendo ser alongados). Trofozoítos: geralmente 15–50 µm.",
-      "morphologyDescription": "Cistos maduros costumam ter 8 núcleos, mas podem ter 16 ou mais.",
+      "morphologyDescription": "Cistos maduros costumam ter 8 núcleos, mas podem ter 16 ou mais. Cisto: 10–35 µm, geralmente esférico, podendo ser alongado; geralmente 8 núcleos, podendo ter 16 ou mais. É a única espécie de Entamoeba em humanos com mais de quatro núcleos no estágio de cisto. Corpos cromatoides, quando presentes, têm forma de lasca com extremidades pontiagudas. Trofozoíto: 15–50 µm, com um núcleo, cariossomo grande e excêntrico e cromatina periférica grossa e irregular. Citoplasma granular e vacuolizado; pseudópodes curtos e rombudos e movimento não direcional.",
       "keyDiagnosticFeatures": [
         "Cisto maduro tipicamente com 8 núcleos."
       ],
-      "disease": "Ameba considerada não patogênica: nenhuma das amebas comensais causa doença sintomática; a colonização é não invasiva.",
+      "disease": "Ameba considerada não patogênica: nenhuma das amebas comensais causa doença sintomática; a colonização é não invasiva. Não causa doença sintomática: a colonização é não invasiva. Trofozoítos ou cistos nas fezes indicam exposição fecal da pessoa.",
       "clinicalManifestations": [],
       "diagnosticMethods": {
         "goldStandard": "Identificação morfológica de cistos ou trofozoítos característicos."
@@ -646,6 +693,39 @@
           ],
           "evidence": "Lista de amebas não patogênicas a diferenciar das Entamoeba patogênicas.",
           "note": ""
+        },
+        {
+          "id": "entamoeba_coli#12",
+          "section": "Morfologia",
+          "text": "Cisto: 10–35 µm, geralmente esférico, podendo ser alongado; geralmente 8 núcleos, podendo ter 16 ou mais. É a única espécie de Entamoeba em humanos com mais de quatro núcleos no estágio de cisto. Corpos cromatoides, quando presentes, têm forma de lasca com extremidades pontiagudas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#13",
+          "section": "Morfologia",
+          "text": "Trofozoíto: 15–50 µm, com um núcleo, cariossomo grande e excêntrico e cromatina periférica grossa e irregular. Citoplasma granular e vacuolizado; pseudópodes curtos e rombudos e movimento não direcional.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "entamoeba_coli#14",
+          "section": "Doença",
+          "text": "Não causa doença sintomática: a colonização é não invasiva. Trofozoítos ou cistos nas fezes indicam exposição fecal da pessoa.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -680,11 +760,11 @@
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: Endolimax nana",
       "status": "publicado",
       "approxSizeMicrons": "Cistos: 5–10 µm (esféricos a elipsoides). Trofozoítos: 6–12 µm, com um único núcleo.",
-      "morphologyDescription": "Cistos maduros com quatro pequenos núcleos de cariossomos grandes, em geral centrais.",
+      "morphologyDescription": "Cistos maduros com quatro pequenos núcleos de cariossomos grandes, em geral centrais. Cisto: 5–10 µm, de esférico a elipsoidal, com quatro núcleos pequenos, de cariossomo grande, geralmente central, e sem cromatina periférica. Os núcleos não são visíveis em preparações úmidas não coradas; não há corpos cromatoides. Trofozoíto: 6–12 µm, com um núcleo cujo cariossomo é grande, irregular e em forma de mancha, sem cromatina periférica. Citoplasma granular, muitas vezes vacuolizado.",
       "keyDiagnosticFeatures": [
         "Cisto com 4 núcleos pequenos."
       ],
-      "disease": "Ameba considerada não patogênica; colonização não invasiva.",
+      "disease": "Ameba considerada não patogênica; colonização não invasiva. Não causa doença sintomática. Pode ser difícil de diferenciar de Iodamoeba buetschlii.",
       "clinicalManifestations": [],
       "diagnosticMethods": {
         "goldStandard": "Identificação morfológica de cistos ou trofozoítos característicos."
@@ -855,6 +935,39 @@
           ],
           "evidence": "Lista de amebas não patogênicas a diferenciar das Entamoeba patogênicas.",
           "note": ""
+        },
+        {
+          "id": "endolimax_nana#12",
+          "section": "Morfologia",
+          "text": "Cisto: 5–10 µm, de esférico a elipsoidal, com quatro núcleos pequenos, de cariossomo grande, geralmente central, e sem cromatina periférica. Os núcleos não são visíveis em preparações úmidas não coradas; não há corpos cromatoides.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#13",
+          "section": "Morfologia",
+          "text": "Trofozoíto: 6–12 µm, com um núcleo cujo cariossomo é grande, irregular e em forma de mancha, sem cromatina periférica. Citoplasma granular, muitas vezes vacuolizado.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "endolimax_nana#14",
+          "section": "Doença",
+          "text": "Não causa doença sintomática. Pode ser difícil de diferenciar de Iodamoeba buetschlii.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -889,7 +1002,7 @@
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: Giardia duodenalis",
       "status": "publicado",
       "approxSizeMicrons": "Cistos: 8–19 µm (média 10–14 µm). Trofozoítos: 10–20 µm de comprimento.",
-      "morphologyDescription": "Cistos ovais a elipsoides; cistos maduros têm 4 núcleos e os imaturos, 2. Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) e flagelos (8) podem ser vistos.",
+      "morphologyDescription": "Cistos ovais a elipsoides; cistos maduros têm 4 núcleos e os imaturos, 2. Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) podem ser vistos. Número de flagelos: a página lida não informa; o valor citado no atlas em outra fonte (8) não foi confirmado nesta leitura.",
       "keyDiagnosticFeatures": [
         "Trofozoíto piriforme com 2 núcleos.",
         "Cisto com 4 núcleos quando maduro."
@@ -898,7 +1011,10 @@
       "pathogenesis": "Cada cisto libera dois trofozoítos no intestino delgado; os trofozoítos se multiplicam por fissão binária longitudinal no lúmen do intestino delgado proximal e encistam durante o trânsito para o cólon.",
       "clinicalManifestations": [
         "Diarreia aquosa e fétida na fase aguda e fezes fétidas na doença crônica; a má absorção de gorduras e açúcares pode causar perda de peso importante.",
-        "Muitos casos são assintomáticos, mas pessoas assintomáticas podem eliminar cistos infectantes."
+        "Muitos casos são assintomáticos, mas pessoas assintomáticas podem eliminar cistos infectantes.",
+        "Incubação de 1 a 14 dias (média de 7). A doença aguda costuma durar de 1 a 3 semanas.",
+        "Sintomas: diarreia, dor abdominal, distensão abdominal, náusea e vômito. Na forma crônica, os sintomas são recorrentes, podendo haver má absorção e debilitação. O quadro varia de portador assintomático a diarreia grave com má absorção.",
+        "Transmissão: ingestão de cistos presentes em água ou alimentos contaminados, ou via fecal-oral pelas mãos ou por fômites. Como os cistos são infecciosos já ao serem eliminados, a transmissão pessoa a pessoa é possível. O papel de animais como reservatórios não está claro."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação de cistos ou trofozoítos nas fezes: cistos costumam ser vistos em preparações a fresco e trofozoítos em preparações permanentes (tricrômico); amostragens repetidas podem ser necessárias.",
@@ -1017,13 +1133,13 @@
         {
           "id": "giardia_lamblia#06",
           "section": "Morfologia",
-          "text": "Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) e flagelos (8) podem ser vistos.",
+          "text": "Trofozoítos piriformes; em preparações permanentes coradas, 2 núcleos grandes costumam ser visíveis; discos de sucção (fixação à mucosa) podem ser vistos.",
           "status": "confirmado",
           "refs": [
             "dpdx_giar"
           ],
-          "evidence": "\"In permanent, stained specimens, 2 large nuclei are usually visible.\" · \"The sucking disks (used for attaching to the host's mucosal epithelium)\" · \"flagella (8) may also be seen\"",
-          "note": ""
+          "evidence": "\"In permanent, stained specimens, 2 large nuclei are usually visible.\" · \"The sucking disks (used for attaching to the host's mucosal epithelium)\"",
+          "note": "Leitura de 06/11/2026: o número de flagelos não consta na página do CDC; a citação \"flagella (8)\" de 23/10/2026 não foi reconfirmada e foi retirada."
         },
         {
           "id": "giardia_lamblia#07",
@@ -1214,6 +1330,50 @@
           ],
           "evidence": "\"Yeast in wet mounts may be confused for Giardia.\" · \"Such spores may be confused for protozoa such as Giardia or Chilomastix.\"",
           "note": ""
+        },
+        {
+          "id": "giardia_lamblia#24",
+          "section": "Morfologia",
+          "text": "Número de flagelos: a página lida não informa; o valor citado no atlas em outra fonte (8) não foi confirmado nesta leitura.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Número de flagelos não consta na página do CDC consultada."
+        },
+        {
+          "id": "giardia_lamblia#25",
+          "section": "Clínica",
+          "text": "Incubação de 1 a 14 dias (média de 7). A doença aguda costuma durar de 1 a 3 semanas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#26",
+          "section": "Clínica",
+          "text": "Sintomas: diarreia, dor abdominal, distensão abdominal, náusea e vômito. Na forma crônica, os sintomas são recorrentes, podendo haver má absorção e debilitação. O quadro varia de portador assintomático a diarreia grave com má absorção.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "giardia_lamblia#27",
+          "section": "Clínica",
+          "text": "Transmissão: ingestão de cistos presentes em água ou alimentos contaminados, ou via fecal-oral pelas mãos ou por fômites. Como os cistos são infecciosos já ao serem eliminados, a transmissão pessoa a pessoa é possível. O papel de animais como reservatórios não está claro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -1258,11 +1418,11 @@
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: Chilomastix mesnili",
       "status": "publicado",
       "approxSizeMicrons": "Trofozoítos: em geral 6–24 µm de comprimento.",
-      "morphologyDescription": "Trofozoíto piriforme; extremidade anterior arredondada com um único núcleo de cariossomo excêntrico; extremidade posterior afilada.",
+      "morphologyDescription": "Trofozoíto piriforme; extremidade anterior arredondada com um único núcleo de cariossomo excêntrico; extremidade posterior afilada. Trofozoíto de 6–24 µm, 'pear-shaped' (em forma de pera), com extremidade anterior arredondada e posterior afilada e um único núcleo com cariossomo excêntrico. Número de flagelos, dimensões e forma do cisto não constam na página do CDC consultada (há apenas legendas de figuras).",
       "keyDiagnosticFeatures": [
         "Trofozoíto piriforme com um núcleo de cariossomo excêntrico."
       ],
-      "disease": "Considerada não patogênica; é um flagelado comensal cujo papel em doença é incerto. Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimentos ou água e não excluem outras parasitoses.",
+      "disease": "Considerada não patogênica. Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimentos ou água e não excluem outras parasitoses. Considerado não patogênico; sinais e sintomas não constam na página. Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimento ou água e não excluem outras parasitoses.",
       "clinicalManifestations": [],
       "diagnosticMethods": {
         "goldStandard": "Detecção de cistos e/ou trofozoítos nas fezes, em preparações a fresco concentradas e em esfregaços corados permanentes (tricrômico).",
@@ -1389,7 +1549,7 @@
         {
           "id": "chilomastix_mesnili#06",
           "section": "Doença",
-          "text": "Considerada não patogênica; é um flagelado comensal cujo papel em doença é incerto.",
+          "text": "Considerada não patogênica.",
           "status": "confirmado",
           "refs": [
             "dpdx_chilo"
@@ -1484,6 +1644,50 @@
           ],
           "evidence": "\"Such spores may be confused for protozoa such as Giardia or Chilomastix.\"",
           "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#15",
+          "section": "Morfologia",
+          "text": "Trofozoíto de 6–24 µm, 'pear-shaped' (em forma de pera), com extremidade anterior arredondada e posterior afilada e um único núcleo com cariossomo excêntrico.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#16",
+          "section": "Morfologia",
+          "text": "Número de flagelos, dimensões e forma do cisto não constam na página do CDC consultada (há apenas legendas de figuras).",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "A página não traz texto descritivo sobre o cisto nem o número de flagelos."
+        },
+        {
+          "id": "chilomastix_mesnili#17",
+          "section": "Doença",
+          "text": "Considerado não patogênico; sinais e sintomas não constam na página.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "chilomastix_mesnili#18",
+          "section": "Doença",
+          "text": "Cistos ou trofozoítos nas fezes podem indicar contaminação fecal de alimento ou água e não excluem outras parasitoses.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_chilo"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -1515,9 +1719,9 @@
       "category": "Protozoário unicelular (intestinal)",
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: \"Blastocystes spp\" (grafia corrigida para Blastocystis)",
       "status": "revisar",
-      "morphologyDescription": "",
+      "morphologyDescription": "Forma vacuolar: é a forma predominante nas fezes humanas. Tem tamanho de 5 a 40 µm, com faixa usual de 8 a 10 µm nas fezes humanas; é esférica a oval, com um vacúolo central cercado por fina borda de citoplasma com até seis núcleos. Cora de vermelho a azul pelo tricrômico. Forma cística: de 3 a 5 µm. É postulada como forma infectante, hipótese ainda não confirmada. Formas granular e amebóide: observadas em fezes e/ou cultura, sem descrição de tamanho ou características na página; seu papel biológico requer mais investigação.",
       "keyDiagnosticFeatures": [],
-      "disease": "Parasito unicelular geneticamente diverso, de potencial patogênico incerto.",
+      "disease": "Parasito unicelular geneticamente diverso, de potencial patogênico incerto. Potencial patogênico em debate: a página afirma que a capacidade de causar doença gastrointestinal em humanos 'continues to be debated and investigated'. Foi detectado tanto em pessoas sintomáticas quanto assintomáticas.",
       "clinicalManifestations": [],
       "diagnosticMethods": {},
       "transmissionAndCycle": {},
@@ -1627,6 +1831,50 @@
           ],
           "evidence": "\"Blastocystis is a genetically diverse unicellular parasite of unclear pathogenic potential\"",
           "note": "O CDC descreve a patogenicidade como incerta; o atlas não afirma doença."
+        },
+        {
+          "id": "blastocystis_sp#04",
+          "section": "Morfologia",
+          "text": "Forma vacuolar: é a forma predominante nas fezes humanas. Tem tamanho de 5 a 40 µm, com faixa usual de 8 a 10 µm nas fezes humanas; é esférica a oval, com um vacúolo central cercado por fina borda de citoplasma com até seis núcleos. Cora de vermelho a azul pelo tricrômico.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "blastocystis_sp#05",
+          "section": "Morfologia",
+          "text": "Forma cística: de 3 a 5 µm. É postulada como forma infectante, hipótese ainda não confirmada.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "blastocystis_sp#06",
+          "section": "Morfologia",
+          "text": "Formas granular e amebóide: observadas em fezes e/ou cultura, sem descrição de tamanho ou características na página; seu papel biológico requer mais investigação.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "A página não descreve tamanho nem características das formas granular e amebóide."
+        },
+        {
+          "id": "blastocystis_sp#07",
+          "section": "Doença",
+          "text": "Potencial patogênico em debate: a página afirma que a capacidade de causar doença gastrointestinal em humanos 'continues to be debated and investigated'. Foi detectado tanto em pessoas sintomáticas quanto assintomáticas.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Sintomas atribuídos ao Blastocystis não constam na página do CDC consultada."
         }
       ],
       "removed": [
@@ -1653,8 +1901,9 @@
       "category": "Protozoário ameboide (comensal)",
       "evolutionaryStage": "Forma da imagem conforme legenda do documento: \"Iodamoeba butschlii\" (grafia do documento; ver taxonomia)",
       "status": "revisar",
-      "morphologyDescription": "",
+      "morphologyDescription": "Cisto: 5–20 µm, de quase esférico a elipsoidal, com um núcleo que não é visível em preparações não coradas nem com iodo. Característica diagnóstica principal: uma grande massa compacta de glicogênio, que aparece marrom-avermelhada com iodo e não cora com tricrômico. Trofozoíto: 8–20 µm, com um núcleo de cariossomo grande, geralmente central, cercado por grânulos acromáticos refringentes. Citoplasma grosseiramente granular e vacuolizado, podendo conter bactérias, leveduras ou outros materiais. Movimento lento e não progressivo.",
       "keyDiagnosticFeatures": [],
+      "disease": "Não causa doença sintomática, pois a colonização é não invasiva. Pode ser difícil de diferenciar de Endolimax nana.",
       "clinicalManifestations": [],
       "diagnosticMethods": {},
       "transmissionAndCycle": {},
@@ -1787,6 +2036,39 @@
           ],
           "evidence": "Sinônimos listados: \"Entamoeba buetschlii (homotypic); Entamoeba butschlii; Iodamoeba butschlii\"",
           "note": "A página não traz autor e ano do nome aceito; não foram afirmados."
+        },
+        {
+          "id": "iodamoeba_buetschlii#03",
+          "section": "Morfologia",
+          "text": "Cisto: 5–20 µm, de quase esférico a elipsoidal, com um núcleo que não é visível em preparações não coradas nem com iodo. Característica diagnóstica principal: uma grande massa compacta de glicogênio, que aparece marrom-avermelhada com iodo e não cora com tricrômico.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Grafia 'buetschlii' conforme worldspecies (nome aceito) e a página do CDC; a página do CDC também usa o sinônimo 'bütschlii'."
+        },
+        {
+          "id": "iodamoeba_buetschlii#04",
+          "section": "Morfologia",
+          "text": "Trofozoíto: 8–20 µm, com um núcleo de cariossomo grande, geralmente central, cercado por grânulos acromáticos refringentes. Citoplasma grosseiramente granular e vacuolizado, podendo conter bactérias, leveduras ou outros materiais. Movimento lento e não progressivo.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "iodamoeba_buetschlii#05",
+          "section": "Doença",
+          "text": "Não causa doença sintomática, pois a colonização é não invasiva. Pode ser difícil de diferenciar de Endolimax nana.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [

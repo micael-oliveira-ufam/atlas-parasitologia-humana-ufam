@@ -402,6 +402,14 @@
       "citation": "World Species (worldspecies.org). Iodamoeba buetschlii, página ntaxa/864231 (linhagem e sinônimos). Autor e ano do nome aceito não aparecem na página.",
       "url": "https://worldspecies.org/ntaxa/864231",
       "access": "página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos). O NCBI não pôde ser consultado (bloqueio)."
+    },
+    {
+      "id": "cdc_cysti",
+      "short": "CDC — Cisticercose",
+      "group": "CDC",
+      "citation": "Centers for Disease Control and Prevention (CDC). Cysticercosis — about (larvas de Taenia solium). https://www.cdc.gov/cysticercosis/about/index.html (última atualização indicada na página: 04/09/2024).",
+      "url": "https://www.cdc.gov/cysticercosis/about/index.html",
+      "access": "página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos)"
     }
   ]
 }

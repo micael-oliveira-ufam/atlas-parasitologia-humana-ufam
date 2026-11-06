@@ -26,7 +26,7 @@ void main() {
 
     test('protocolos, referências e quiz', () {
       expect(data.protocols.length, 5);
-      expect(data.refs.length, 50);
+      expect(data.refs.length, 51);
       expect(data.quiz.length, 30);
     });
 
@@ -54,11 +54,11 @@ void main() {
       expect(entries.where((i) => i.file == 'protozoarios/composto_pz23.jpg').length, 3);
     });
 
-    test('Blastocystis e Iodamoeba: em revisão, sem morfologia exibida', () {
+    test('Blastocystis e Iodamoeba: em revisão, com morfologia da página do CDC', () {
       for (final id in ['blastocystis_sp', 'iodamoeba_buetschlii']) {
         final sp = data.specimens.firstWhere((s) => s.id == id);
         expect(sp.inReview, isTrue, reason: id);
-        expect(sp.morphologyDescription, isEmpty, reason: id);
+        expect(sp.morphologyDescription, isNotEmpty, reason: id);
         expect(sp.reviewNote, isNotNull, reason: id);
       }
     });

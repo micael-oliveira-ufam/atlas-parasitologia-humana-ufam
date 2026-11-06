@@ -18,8 +18,8 @@
       "category": "Nematódeo",
       "evolutionaryStage": "Ovo com massa de blastômeros (observação da lâmina)",
       "status": "publicado",
-      "approxSizeMicrons": "Ovo: 60–75 µm × 35–40 µm.",
-      "morphologyDescription": "Os ovos têm casca fina e são incolores.",
+      "approxSizeMicrons": "Ovo: 60–75 µm × 35–40 µm. · Adultos: A. duodenale, machos 8–12 mm e fêmeas 10–15 mm; N. americanus, machos 5–9 mm e fêmeas 9–11 mm.",
+      "morphologyDescription": "Os ovos têm casca fina e são incolores. Ovos: casca fina e incolores, com cerca de 60–75 µm por 35–40 µm; ao microscópio não se distinguem os ovos de Ancylostoma e de Necator. Larva rabditoide (L1): cerca de 250–300 µm por 15–20 µm, com canal bucal longo e primórdio genital pouco evidente. Em geral não aparece nas fezes, a menos que a amostra demore a ser processada; deve ser diferenciada da L1 de Strongyloides stercoralis. Larva filarioide (L3, infectante): 500–700 µm, com cauda pontiaguda, envolta por bainha e razão aproximada de 1:2 entre esôfago e intestino. Há diferenças sutis entre as L3 de A. duodenale e de N. americanus. Vermes adultos são bursados (machos). Cápsula bucal com dentes afiados em Ancylostoma e com placas cortantes em Necator; nos machos de Necator, as duas espículas são fundidas na extremidade distal, o que não ocorre em Ancylostoma.",
       "keyDiagnosticFeatures": [
         "Casca fina e incolor.",
         "Ovos de Ancylostoma e de Necator não se distinguem ao microscópio."
@@ -30,7 +30,10 @@
         "Erupção cutânea pruriginosa transitória (\"ground itch\") no ponto de penetração da larva, geralmente nos pés.",
         "A passagem de grande número de larvas pelos pulmões pode, ocasionalmente, causar síndrome de Löffler (tosse, sibilos, eosinofilia, às vezes hemoptise).",
         "Fase intestinal aguda: dor epigástrica em cólica, anorexia, flatulência, diarreia e perda de peso.",
-        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico."
+        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico.",
+        "A infecção intestinal é frequentemente assintomática. A fixação dos vermes à parede intestinal pode causar dor abdominal, náusea e anorexia; em infecções intensas, pode haver sangue oculto nas fezes.",
+        "Anemia ferropriva por perda sanguínea no local de fixação dos vermes adultos, sobretudo em infecções intensas; em casos graves, desnutrição proteica por perda crônica de proteínas plasmáticas.",
+        "Durante a migração larvar pelos pulmões, pode ocorrer pneumonia eosinofílica; após a penetração das L3, pode surgir erupção urticariforme (ground itch) e, depois, uma segunda erupção. Após infecção oral, podem ocorrer sintomas gastrointestinais vagos e eosinofilia (síndrome de Wakana)."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação microscópica de ovos nas fezes (método mais comum).",
@@ -492,6 +495,94 @@
           ],
           "evidence": "\"This material can be confused for a hookworm egg.\" · \"Such spores may be confused for helminth eggs, especially hookworm.\"",
           "note": ""
+        },
+        {
+          "id": "ancilostomideo#29",
+          "section": "Morfologia",
+          "text": "Ovos: casca fina e incolores, com cerca de 60–75 µm por 35–40 µm; ao microscópio não se distinguem os ovos de Ancylostoma e de Necator.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#30",
+          "section": "Morfologia",
+          "text": "Larva rabditoide (L1): cerca de 250–300 µm por 15–20 µm, com canal bucal longo e primórdio genital pouco evidente. Em geral não aparece nas fezes, a menos que a amostra demore a ser processada; deve ser diferenciada da L1 de Strongyloides stercoralis.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#31",
+          "section": "Morfologia",
+          "text": "Larva filarioide (L3, infectante): 500–700 µm, com cauda pontiaguda, envolta por bainha e razão aproximada de 1:2 entre esôfago e intestino. Há diferenças sutis entre as L3 de A. duodenale e de N. americanus.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#32",
+          "section": "Morfologia",
+          "text": "Vermes adultos são bursados (machos). Cápsula bucal com dentes afiados em Ancylostoma e com placas cortantes em Necator; nos machos de Necator, as duas espículas são fundidas na extremidade distal, o que não ocorre em Ancylostoma.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#33",
+          "section": "Tamanho",
+          "text": "Adultos: A. duodenale, machos 8–12 mm e fêmeas 10–15 mm; N. americanus, machos 5–9 mm e fêmeas 9–11 mm.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#34",
+          "section": "Clínica",
+          "text": "A infecção intestinal é frequentemente assintomática. A fixação dos vermes à parede intestinal pode causar dor abdominal, náusea e anorexia; em infecções intensas, pode haver sangue oculto nas fezes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#35",
+          "section": "Clínica",
+          "text": "Anemia ferropriva por perda sanguínea no local de fixação dos vermes adultos, sobretudo em infecções intensas; em casos graves, desnutrição proteica por perda crônica de proteínas plasmáticas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ancilostomideo#36",
+          "section": "Clínica",
+          "text": "Durante a migração larvar pelos pulmões, pode ocorrer pneumonia eosinofílica; após a penetração das L3, pode surgir erupção urticariforme (ground itch) e, depois, uma segunda erupção. Após infecção oral, podem ocorrer sintomas gastrointestinais vagos e eosinofilia (síndrome de Wakana).",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hook"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -551,7 +642,7 @@
       "evolutionaryStage": "Ovo fértil (observação da lâmina)",
       "status": "publicado",
       "approxSizeMicrons": "Ovo fértil: 45–75 µm de comprimento. Ovo infértil: alongado e maior, até 90 µm. · Vermes adultos: fêmeas 20–35 cm; machos 15–31 cm.",
-      "morphologyDescription": "Ovos decorticados são aqueles em que a camada externa está ausente.",
+      "morphologyDescription": "Ovos decorticados são aqueles em que a camada externa está ausente. Ovos férteis: arredondados, de casca grossa e camada externa mamilada, muitas vezes corada em marrom pela bile; podem estar decorticados, isto é, sem a camada externa. Ovos inférteis: alongados e maiores que os férteis, com casca mais fina, camada mamilada variável e interior com massa de grânulos refráteis. Vermes adultos têm três lábios na extremidade anterior, em ambos os sexos. A fêmea tem cauda reta; o macho, cauda curvada.",
       "keyDiagnosticFeatures": [
         "Ovo infértil: alongado e maior que o fértil."
       ],
@@ -560,7 +651,11 @@
       "clinicalManifestations": [
         "Na fase pulmonar, o raio X pode mostrar infiltrados; infiltrados pulmonares com eosinofilia caracterizam a síndrome de Löffler.",
         "A eliminação de um verme adulto pela boca ou pelo reto pode levar um paciente, até então assintomático, ao atendimento.",
-        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico."
+        "Em crianças, as geo-helmintíases podem prejudicar o crescimento e o desenvolvimento físico.",
+        "Em infecções intensas, sobretudo em crianças, podem ocorrer desnutrição e crescimento atrofiado.",
+        "Cargas elevadas de vermes podem causar dor abdominal e obstrução intestinal; em infecções de intensidade muito alta, pode ocorrer perfuração intestinal.",
+        "Vermes migrantes podem causar oclusão sintomática das vias biliares, apendicite, ou expulsão pelo nariz ou pela garganta, sobretudo quando há uma única fêmea.",
+        "Os adultos geralmente não causam sintomas agudos."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação microscópica de ovos nas fezes (método mais comum) ou visualização de vermes adultos.",
@@ -1045,6 +1140,83 @@
           ],
           "evidence": "\"Pollen spores are very common in stool and may be confused for a variety of helminth eggs.\" · \"This grain looks very similar to the fertile egg of Ascaris lumbricoides\"",
           "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#25",
+          "section": "Morfologia",
+          "text": "Ovos férteis: arredondados, de casca grossa e camada externa mamilada, muitas vezes corada em marrom pela bile; podem estar decorticados, isto é, sem a camada externa.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#26",
+          "section": "Morfologia",
+          "text": "Ovos inférteis: alongados e maiores que os férteis, com casca mais fina, camada mamilada variável e interior com massa de grânulos refráteis.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#27",
+          "section": "Morfologia",
+          "text": "Vermes adultos têm três lábios na extremidade anterior, em ambos os sexos. A fêmea tem cauda reta; o macho, cauda curvada.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#28",
+          "section": "Clínica",
+          "text": "Em infecções intensas, sobretudo em crianças, podem ocorrer desnutrição e crescimento atrofiado.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#29",
+          "section": "Clínica",
+          "text": "Cargas elevadas de vermes podem causar dor abdominal e obstrução intestinal; em infecções de intensidade muito alta, pode ocorrer perfuração intestinal.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#30",
+          "section": "Clínica",
+          "text": "Vermes migrantes podem causar oclusão sintomática das vias biliares, apendicite, ou expulsão pelo nariz ou pela garganta, sobretudo quando há uma única fêmea.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "ascaris_lumbricoides#31",
+          "section": "Clínica",
+          "text": "Os adultos geralmente não causam sintomas agudos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -1104,7 +1276,7 @@
       "evolutionaryStage": "Ovo embrionado (observação da lâmina)",
       "status": "publicado",
       "approxSizeMicrons": "Ovo: 50–60 µm × 20–30 µm. Fêmea adulta: 8–13 mm × 0,3–0,5 mm; macho: até 2,5 mm × 0,1–0,2 mm.",
-      "morphologyDescription": "Ovos transparentes, de alongados a ovais, ligeiramente achatados de um lado.",
+      "morphologyDescription": "Ovos transparentes, de alongados a ovais, ligeiramente achatados de um lado. Fêmea adulta com cauda longa e pontiaguda; macho com extremidade posterior arredondada e um espículo. Os ovos geralmente são eliminados parcialmente embrionados.",
       "keyDiagnosticFeatures": [
         "Achatamento de um dos lados do ovo."
       ],
@@ -1112,7 +1284,10 @@
       "pathogenesis": "Os vermes adultos se estabelecem no cólon, geralmente no ceco; as fêmeas grávidas migram à noite para fora do ânus e põem os ovos enquanto se movem sobre a pele perianal.",
       "clinicalManifestations": [
         "Coceira, tipicamente na região perianal.",
-        "A invasão do trato genital feminino pode causar inflamação da vulva e da vagina."
+        "A invasão do trato genital feminino pode causar inflamação da vulva e da vagina.",
+        "A infecção é frequentemente assintomática. O sintoma mais típico é prurido perianal, sobretudo à noite, que pode levar a escoriações e superinfecção bacteriana.",
+        "Ocasionalmente ocorrem vulvovaginite e granulomas pélvicos ou peritoneais. Outros sintomas citados são bruxismo, enurese, insônia, anorexia, irritabilidade e dor abdominal, que pode imitar apendicite. A colite eosinofílica é rara.",
+        "Transmissão: autoinoculação (ovos levados à boca após coçar a região perianal), exposição a ovos em superfícies, roupas e roupas de cama contaminadas e, raramente, inalação de ovos suspensos no ar. A retroinfecção pode ocorrer; sua frequência é desconhecida."
       ],
       "diagnosticMethods": {
         "goldStandard": "Teste da fita adesiva transparente (\"Scotch test\") pressionada sobre a pele perianal; é o teste diagnóstico mais comum.",
@@ -1444,6 +1619,50 @@
           ],
           "evidence": "\"collection should be done in the morning, before defecation and washing\"",
           "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#22",
+          "section": "Morfologia",
+          "text": "Fêmea adulta com cauda longa e pontiaguda; macho com extremidade posterior arredondada e um espículo. Os ovos geralmente são eliminados parcialmente embrionados.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#23",
+          "section": "Clínica",
+          "text": "A infecção é frequentemente assintomática. O sintoma mais típico é prurido perianal, sobretudo à noite, que pode levar a escoriações e superinfecção bacteriana.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#24",
+          "section": "Clínica",
+          "text": "Ocasionalmente ocorrem vulvovaginite e granulomas pélvicos ou peritoneais. Outros sintomas citados são bruxismo, enurese, insônia, anorexia, irritabilidade e dor abdominal, que pode imitar apendicite. A colite eosinofílica é rara.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "enterobius_vermicularis#25",
+          "section": "Clínica",
+          "text": "Transmissão: autoinoculação (ovos levados à boca após coçar a região perianal), exposição a ovos em superfícies, roupas e roupas de cama contaminadas e, raramente, inalação de ovos suspensos no ar. A retroinfecção pode ocorrer; sua frequência é desconhecida.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_ent"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -1503,7 +1722,7 @@
       "evolutionaryStage": "Larva rabditoide (observação da lâmina)",
       "status": "publicado",
       "approxSizeMicrons": "Larva rabditoide de 1º estádio (L1): 180–380 µm de comprimento. Larva filarioide (L3): até 600 µm.",
-      "morphologyDescription": "A larva L1 tem canal bucal curto e primórdio genital proeminente. A larva filarioide (L3) tem cauda entalhada e razão esôfago:intestino de 1:1.",
+      "morphologyDescription": "A larva L1 tem canal bucal curto e primórdio genital proeminente. A larva filarioide (L3) tem cauda entalhada e razão esôfago:intestino de 1:1. Larva rabditoide (L1) de 180–380 µm: esôfago rabditoide dividido em três seções, ocupando cerca de um terço do corpo; a L2 é mais longa e tem razão esôfago:intestino menor. Fêmea parasita longa e delgada, de 2,0–3,0 mm. Não há machos parasitas; os machos de vida livre medem até 0,75 mm e as fêmeas de vida livre, até 1,0 mm. Ovos: a página não informa as dimensões dos ovos de S. stercoralis; os ovos eclodem na mucosa do intestino delgado.",
       "keyDiagnosticFeatures": [
         "Canal bucal curto.",
         "Primórdio genital proeminente."
@@ -1513,7 +1732,11 @@
       "clinicalManifestations": [
         "Lesão cutânea pruriginosa intensa que começa na região perianal (larva currens, que avança com rapidez).",
         "Sintomas gastrointestinais: dor abdominal e diarreia e constipação intermitentes.",
-        "Sintomas pulmonares são incomuns; infecções intensas podem causar síndrome de Löffler (tosse, sibilos, eosinofilia)."
+        "Sintomas pulmonares são incomuns; infecções intensas podem causar síndrome de Löffler (tosse, sibilos, eosinofilia).",
+        "Forma aguda: rash pruriginoso e eritematoso no local de penetração da pele e tosse seca com irritação traqueal. Após deglutição das larvas, podem ocorrer diarreia, constipação, dor abdominal e anorexia.",
+        "Forma crônica: geralmente assintomática. Podem ocorrer manifestações gastrointestinais e cutâneas e, raramente, artrite, arritmias, má absorção crônica, obstrução duodenal, síndrome nefrótica e asma recorrente. Até 75% dos pacientes têm eosinofilia leve ou IgE elevada.",
+        "Síndrome de hiperinfecção: associada, sobretudo, a infecção subclínica em pacientes que recebem corticosteroides em altas doses; a imunidade prejudicada acelera a autoinfecção, e as larvas ficam limitadas ao trato gastrointestinal e aos pulmões. Sem tratamento, a mortalidade pode chegar a cerca de 90%.",
+        "Estrongiloidíase disseminada: as larvas invadem vários órgãos, com complicações potencialmente graves. Pacientes imunocomprometidos com doença disseminada geralmente têm IgG detectável, embora possam ocorrer falsos negativos."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação microscópica de larvas nas fezes; as larvas são mais bem visualizadas após recuperação pela técnica de Baermann; a cultura em placa de ágar é o método coprológico mais sensível.",
@@ -1982,6 +2205,83 @@
           ],
           "evidence": "\"Plant hairs can be common in stool and may be confused for the larvae of hookworm or Strongyloides stercoralis.\"",
           "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#30",
+          "section": "Morfologia",
+          "text": "Larva rabditoide (L1) de 180–380 µm: esôfago rabditoide dividido em três seções, ocupando cerca de um terço do corpo; a L2 é mais longa e tem razão esôfago:intestino menor.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#31",
+          "section": "Morfologia",
+          "text": "Fêmea parasita longa e delgada, de 2,0–3,0 mm. Não há machos parasitas; os machos de vida livre medem até 0,75 mm e as fêmeas de vida livre, até 1,0 mm.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#32",
+          "section": "Morfologia",
+          "text": "Ovos: a página não informa as dimensões dos ovos de S. stercoralis; os ovos eclodem na mucosa do intestino delgado.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Dimensões dos ovos de S. stercoralis não constam na página. Para S. fuelleborni, a seção de morfologia dá 50–60 × 30–40 µm e a de diagnóstico, 45–55 × 30–35 µm: valores discrepantes dentro da própria página."
+        },
+        {
+          "id": "strongyloides_stercoralis#33",
+          "section": "Clínica",
+          "text": "Forma aguda: rash pruriginoso e eritematoso no local de penetração da pele e tosse seca com irritação traqueal. Após deglutição das larvas, podem ocorrer diarreia, constipação, dor abdominal e anorexia.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#34",
+          "section": "Clínica",
+          "text": "Forma crônica: geralmente assintomática. Podem ocorrer manifestações gastrointestinais e cutâneas e, raramente, artrite, arritmias, má absorção crônica, obstrução duodenal, síndrome nefrótica e asma recorrente. Até 75% dos pacientes têm eosinofilia leve ou IgE elevada.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#35",
+          "section": "Clínica",
+          "text": "Síndrome de hiperinfecção: associada, sobretudo, a infecção subclínica em pacientes que recebem corticosteroides em altas doses; a imunidade prejudicada acelera a autoinfecção, e as larvas ficam limitadas ao trato gastrointestinal e aos pulmões. Sem tratamento, a mortalidade pode chegar a cerca de 90%.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "strongyloides_stercoralis#36",
+          "section": "Clínica",
+          "text": "Estrongiloidíase disseminada: as larvas invadem vários órgãos, com complicações potencialmente graves. Pacientes imunocomprometidos com doença disseminada geralmente têm IgG detectável, embora possam ocorrer falsos negativos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -2041,7 +2341,7 @@
       "evolutionaryStage": "Ovo embrionado (observação da lâmina)",
       "status": "publicado",
       "approxSizeMicrons": "Ovo: 50–55 µm × 20–25 µm. Adultos: macho 30–45 mm (extremidade posterior enrolada); fêmea 35–50 mm (posterior reta).",
-      "morphologyDescription": "Ovos em forma de barril (ou limão), de casca espessa, com um par de tampões polares, um em cada extremidade (opérculos claros nas duas pontas).",
+      "morphologyDescription": "Ovos em forma de barril (ou limão), de casca espessa, com um par de tampões polares, um em cada extremidade (opérculos claros nas duas pontas). Adultos com extremidade anterior longa, em forma de chicote, em ambos os sexos. A região posterior é enrolada nos machos e reta nas fêmeas.",
       "keyDiagnosticFeatures": [
         "Forma de barril ou limão.",
         "Tampões polares em ambas as extremidades."
@@ -2049,7 +2349,9 @@
       "disease": "Tricuríase (infecção por Trichuris trichiura; \"whipworm\" nas fontes).",
       "pathogenesis": "Ovos não embrionados saem nas fezes e se tornam infectantes em 15 a 30 dias; os ovos eclodem no intestino delgado e liberam larvas.",
       "clinicalManifestations": [
-        "Infecções leves costumam ser assintomáticas; infecções intensas podem causar dor abdominal, anorexia e diarreia, e levar a perda de peso, anemia e prolapso retal, particularmente em crianças."
+        "Infecções leves costumam ser assintomáticas; infecções intensas podem causar dor abdominal, anorexia e diarreia, e levar a perda de peso, anemia e prolapso retal, particularmente em crianças.",
+        "Na maioria das vezes assintomática. Infecções intensas, sobretudo em crianças pequenas, podem causar dor abdominal, diarreia e prolapso retal, além de possível retardo do crescimento.",
+        "O prolapso retal é citado como manifestação de infecções intensas; a página não detalha seus sinais."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação microscópica de ovos nas fezes; recomenda-se procedimento de concentração.",
@@ -2309,6 +2611,39 @@
             "dpdx_tri"
           ],
           "evidence": "\"the characteristic lemon-shaped eggs with clear opercula at both ends are readily apparent\"",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#19",
+          "section": "Morfologia",
+          "text": "Adultos com extremidade anterior longa, em forma de chicote, em ambos os sexos. A região posterior é enrolada nos machos e reta nas fêmeas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#20",
+          "section": "Clínica",
+          "text": "Na maioria das vezes assintomática. Infecções intensas, sobretudo em crianças pequenas, podem causar dor abdominal, diarreia e prolapso retal, além de possível retardo do crescimento.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "trichuris_trichiura#21",
+          "section": "Clínica",
+          "text": "O prolapso retal é citado como manifestação de infecções intensas; a página não detalha seus sinais.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
           "note": ""
         }
       ],

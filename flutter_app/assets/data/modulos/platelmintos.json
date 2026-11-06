@@ -18,8 +18,8 @@
       "category": "Cestódeo",
       "evolutionaryStage": "Ovo (observação da lâmina)",
       "status": "publicado",
-      "approxSizeMicrons": "Ovo: 30–35 µm de diâmetro. · Número de ramos uterinos laterais primários da proglote grávida: T. saginata 12–30; T. solium 7–13. · Comprimento dos adultos: 2–8 m (faixa geral); em geral até 5 m em T. saginata e 2–7 m em T. solium.",
-      "morphologyDescription": "Os ovos são radialmente estriados (embrióforo) e a oncosfera interna tem seis ganchos refráteis. Todos os ovos de Taenia são morfologicamente idênticos (e semelhantes aos de outros Taeniidae, inclusive Echinococcus).",
+      "approxSizeMicrons": "Ovo: 30–35 µm de diâmetro. · Número de ramos uterinos laterais primários da proglote grávida: T. saginata 12–30; T. solium 7–13. · Comprimento dos adultos: 2–8 m (faixa geral); em geral até 5 m em T. saginata e 2–7 m em T. solium. · Escólex com 1–2 mm de diâmetro. T. saginata tem entre 1.000 e 2.000 proglotes; T. solium, em média, cerca de 1.000.",
+      "morphologyDescription": "Os ovos são radialmente estriados (embrióforo) e a oncosfera interna tem seis ganchos refráteis. Todos os ovos de Taenia são morfologicamente idênticos (e semelhantes aos de outros Taeniidae, inclusive Echinococcus). Proglotes grávidas são mais longas que largas. T. solium tem escólex com quatro ventosas grandes e rostelo com duas fileiras de ganchos; T. saginata tem quatro ventosas grandes, sem rostelo nem ganchos rostelares; T. asiatica tem acúleos rudimentares em formação verrucosa.",
       "keyDiagnosticFeatures": [
         "Estriação radial do embrióforo.",
         "Oncosfera com seis ganchos refráteis."
@@ -29,7 +29,12 @@
       "clinicalManifestations": [
         "A teníase costuma cursar com sintomas leves e inespecíficos (dor abdominal, náusea, diarreia ou constipação).",
         "Neurocisticercose: convulsões, sinais de hipertensão intracraniana e hidrocefalia; é a causa evitável mais frequente de epilepsia no mundo.",
-        "Cisticercos também podem infectar medula espinhal, músculos, tecido subcutâneo e olhos."
+        "Cisticercos também podem infectar medula espinhal, músculos, tecido subcutâneo e olhos.",
+        "Teníase por T. saginata: causa apenas sintomas abdominais leves. O achado mais marcante é a eliminação de proglotes, ativa ou passiva. Proglotes migrantes podem, ocasionalmente, causar apendicite ou colangite.",
+        "Teníase por T. solium: costuma ser menos sintomática; o principal sintoma é geralmente a eliminação passiva de proglotes.",
+        "Cisticercose (larva de T. solium): cistos (cisticercos) se instalam em tecidos como músculo, cérebro e olho. Os sinais dependem da localização e do número de cistos e podem surgir meses a anos após a infecção, geralmente quando os cistos começam a morrer.",
+        "Neurocisticercose: é a cisticercose no cérebro ou no sistema nervoso central. A página consultada do CDC trata convulsões como sintoma controlado com medicamentos e cita o inchaço cerebral como fator na decisão cirúrgica.",
+        "A infecção por ovos de T. solium pode causar cisticercose; comer carne de porco não causa cisticercose. Autoinfecção: a pessoa com a tênia pode infectar a si mesma e outras pessoas da família com os ovos."
       ],
       "diagnosticMethods": {
         "goldStandard": "Identificação microscópica de ovos e proglotes nas fezes é diagnóstica de teníase.",
@@ -510,6 +515,84 @@
           ],
           "evidence": "\"all Taenia species produce eggs that are morphologically identical\" · \"4-8 polar filaments\"",
           "note": ""
+        },
+        {
+          "id": "taenia_sp#31",
+          "section": "Morfologia",
+          "text": "Proglotes grávidas são mais longas que largas. T. solium tem escólex com quatro ventosas grandes e rostelo com duas fileiras de ganchos; T. saginata tem quatro ventosas grandes, sem rostelo nem ganchos rostelares; T. asiatica tem acúleos rudimentares em formação verrucosa.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#32",
+          "section": "Tamanho",
+          "text": "Escólex com 1–2 mm de diâmetro. T. saginata tem entre 1.000 e 2.000 proglotes; T. solium, em média, cerca de 1.000.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#33",
+          "section": "Clínica",
+          "text": "Teníase por T. saginata: causa apenas sintomas abdominais leves. O achado mais marcante é a eliminação de proglotes, ativa ou passiva. Proglotes migrantes podem, ocasionalmente, causar apendicite ou colangite.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#34",
+          "section": "Clínica",
+          "text": "Teníase por T. solium: costuma ser menos sintomática; o principal sintoma é geralmente a eliminação passiva de proglotes.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#35",
+          "section": "Clínica",
+          "text": "Cisticercose (larva de T. solium): cistos (cisticercos) se instalam em tecidos como músculo, cérebro e olho. Os sinais dependem da localização e do número de cistos e podem surgir meses a anos após a infecção, geralmente quando os cistos começam a morrer.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_cysti"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "taenia_sp#36",
+          "section": "Clínica",
+          "text": "Neurocisticercose: é a cisticercose no cérebro ou no sistema nervoso central. A página consultada do CDC trata convulsões como sintoma controlado com medicamentos e cita o inchaço cerebral como fator na decisão cirúrgica.",
+          "status": "ressalva",
+          "refs": [
+            "cdc_cysti"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "Lista específica de sinais da neurocisticercose, e a menção a hidrocefalia, não constam na página do CDC consultada. As outras afirmações desta seção vêm de fontes complementares."
+        },
+        {
+          "id": "taenia_sp#37",
+          "section": "Clínica",
+          "text": "A infecção por ovos de T. solium pode causar cisticercose; comer carne de porco não causa cisticercose. Autoinfecção: a pessoa com a tênia pode infectar a si mesma e outras pessoas da família com os ovos.",
+          "status": "confirmado",
+          "refs": [
+            "cdc_cysti",
+            "dpdx_taen"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -573,8 +656,8 @@
       "category": "Cestódeo",
       "evolutionaryStage": "Ovo (observação da lâmina)",
       "status": "publicado",
-      "approxSizeMicrons": "Ovo: 30–50 µm. Adulto: 15–40 mm.",
-      "morphologyDescription": "Ovos ovais; na membrana interna há dois polos, dos quais partem 4–8 filamentos polares entre as duas membranas; a oncosfera tem seis ganchos.",
+      "approxSizeMicrons": "Ovo: 30–50 µm. Adulto: 15–40 mm. · Adulto de H. nana: 15–40 mm. Adulto de H. diminuta (comparação): 20–60 cm, com escólex de quatro ventosas.",
+      "morphologyDescription": "Ovos ovais; na membrana interna há dois polos, dos quais partem 4–8 filamentos polares entre as duas membranas; a oncosfera tem seis ganchos. Para comparação com H. nana, os ovos de H. diminuta são redondos ou levemente ovais, de 70–85 × 60–80 µm, e não têm filamentos polares. Cisticercoide: forma-se em artrópodes intermediários (como besouros do gênero Tribolium e pulgas) a partir dos ovos ingeridos; em H. nana, também pode se desenvolver na vilosidade intestinal. Tamanho e demais características do cisticercoide não constam na página.",
       "keyDiagnosticFeatures": [
         "Filamentos polares (4–8) entre as membranas.",
         "Oncosfera com seis ganchos."
@@ -582,7 +665,9 @@
       "disease": "Himenolepíase.",
       "pathogenesis": "Os ovos são imediatamente infectantes ao saírem nas fezes; há também autoinfecção interna, sem passagem pelo ambiente externo.",
       "clinicalManifestations": [
-        "Infecções intensas podem causar dor abdominal em cólica, diarreia, anorexia, prurido anal e sintomas sistêmicos inespecíficos."
+        "Infecções intensas podem causar dor abdominal em cólica, diarreia, anorexia, prurido anal e sintomas sistêmicos inespecíficos.",
+        "A maioria das infecções é assintomática. Infecções intensas por H. nana podem causar fraqueza, dor de cabeça, anorexia, dor abdominal e diarreia. Sinais específicos não constam na página.",
+        "Autoinfecção em H. nana: o embrião (hexacanto) eclode no intestino, penetra a vilosidade e continua o ciclo sem passar pelo ambiente externo, o que pode manter a infecção por anos."
       ],
       "diagnosticMethods": {
         "goldStandard": "Demonstração de ovos em amostras de fezes; técnicas de concentração e exames repetidos aumentam a chance de detectar infecções leves.",
@@ -968,6 +1053,61 @@
           ],
           "evidence": "\"radially-striated\"",
           "note": "A ausência de filamentos polares em Taenia é inferência da comparação das duas páginas, não afirmação literal."
+        },
+        {
+          "id": "hymenolepis_nana#20",
+          "section": "Morfologia",
+          "text": "Para comparação com H. nana, os ovos de H. diminuta são redondos ou levemente ovais, de 70–85 × 60–80 µm, e não têm filamentos polares.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#21",
+          "section": "Morfologia",
+          "text": "Cisticercoide: forma-se em artrópodes intermediários (como besouros do gênero Tribolium e pulgas) a partir dos ovos ingeridos; em H. nana, também pode se desenvolver na vilosidade intestinal. Tamanho e demais características do cisticercoide não constam na página.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "A página não informa tamanho nem demais características morfológicas do cisticercoide."
+        },
+        {
+          "id": "hymenolepis_nana#22",
+          "section": "Tamanho",
+          "text": "Adulto de H. nana: 15–40 mm. Adulto de H. diminuta (comparação): 20–60 cm, com escólex de quatro ventosas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#23",
+          "section": "Clínica",
+          "text": "A maioria das infecções é assintomática. Infecções intensas por H. nana podem causar fraqueza, dor de cabeça, anorexia, dor abdominal e diarreia. Sinais específicos não constam na página.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "hymenolepis_nana#24",
+          "section": "Clínica",
+          "text": "Autoinfecção em H. nana: o embrião (hexacanto) eclode no intestino, penetra a vilosidade e continua o ciclo sem passar pelo ambiente externo, o que pode manter a infecção por anos.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
         }
       ],
       "removed": [
@@ -1021,15 +1161,17 @@
       "category": "Trematódeo",
       "evolutionaryStage": "Imagem externa de verme adulto (ver nota)",
       "status": "revisar",
-      "approxSizeMicrons": "Ovo: 114–180 µm × 45–70 µm.",
-      "morphologyDescription": "Ovo grande, com espículo lateral proeminente próximo à extremidade posterior.",
+      "approxSizeMicrons": "Ovo: 114–180 µm × 45–70 µm. · Adultos: macho de 6 a 12 mm; fêmea de 7 a 17 mm.",
+      "morphologyDescription": "Ovo grande, com espículo lateral proeminente próximo à extremidade posterior. Ovos de S. mansoni: 114–180 µm por 45–70 µm, com espinho lateral proeminente próximo à extremidade posterior; a extremidade anterior é afilada e levemente curvada. Ao serem eliminados nas fezes, já contêm miracídio maduro. Sexos separados (dioicos). O macho é robusto e tuberculado; a fêmea é mais longa e delgada e permanece no canal ginecóforo do macho. Miracídio: eclode do ovo e nada até penetrar o caramujo hospedeiro intermediário. Cercária: é a forma infectante; penetra a pele humana e perde a cauda bifurcada ao se transformar em esquistossômulo.",
       "keyDiagnosticFeatures": [
         "Espículo lateral proeminente."
       ],
-      "disease": "Esquistossomose (intestinal, por S. mansoni).",
+      "disease": "Esquistossomose (intestinal, por S. mansoni). Esquistossomose por S. mansoni: a infecção contínua pode causar reações granulomatosas e fibrose no fígado e no baço. Muitas infecções são assintomáticas.",
       "pathogenesis": "A infecção crônica pode causar anemia, fibrose das veias intestinais e do fígado e aumento do baço; casos graves podem ter complicações neurológicas e morte.",
       "clinicalManifestations": [
-        "Esquistossomose intestinal pode causar dor abdominal, diarreia e sangue nas fezes; aumento do fígado é comum em casos avançados e pode haver aumento do baço."
+        "Esquistossomose intestinal pode causar dor abdominal, diarreia e sangue nas fezes; aumento do fígado é comum em casos avançados e pode haver aumento do baço.",
+        "Fase aguda (febre de Katayama): reação de hipersensibilidade sistêmica que pode ocorrer semanas após a infecção, com febre, tosse, dor abdominal, diarreia, hepatoesplenomegalia e eosinofilia. Antes, podem surgir lesões cutâneas locais, pruriginosas e maculopapulares, no local de penetração das cercárias.",
+        "Ovos depositados em outros órgãos podem causar lesões granulomatosas; em S. mansoni, a página cita a medula espinhal."
       ],
       "diagnosticMethods": {
         "goldStandard": "Exame de fezes quando há suspeita de S. mansoni ou S. japonicum; o Kato-Katz pode quantificar os ovos em inquéritos de campo.",
@@ -1288,6 +1430,83 @@
           ],
           "evidence": "\"bear a conspicuous terminal spine\" · \"Eggs contain a mature miracidium when shed in urine\" · \"The eggs of Schistosoma japonicum are large and more rounded than other species\"",
           "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#20",
+          "section": "Morfologia",
+          "text": "Ovos de S. mansoni: 114–180 µm por 45–70 µm, com espinho lateral proeminente próximo à extremidade posterior; a extremidade anterior é afilada e levemente curvada. Ao serem eliminados nas fezes, já contêm miracídio maduro.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#21",
+          "section": "Morfologia",
+          "text": "Sexos separados (dioicos). O macho é robusto e tuberculado; a fêmea é mais longa e delgada e permanece no canal ginecóforo do macho.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#22",
+          "section": "Morfologia",
+          "text": "Miracídio: eclode do ovo e nada até penetrar o caramujo hospedeiro intermediário. Cercária: é a forma infectante; penetra a pele humana e perde a cauda bifurcada ao se transformar em esquistossômulo.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "A página não traz descrição morfológica detalhada do miracídio nem da cercária."
+        },
+        {
+          "id": "schistosoma_mansoni#23",
+          "section": "Tamanho",
+          "text": "Adultos: macho de 6 a 12 mm; fêmea de 7 a 17 mm.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#24",
+          "section": "Clínica",
+          "text": "Fase aguda (febre de Katayama): reação de hipersensibilidade sistêmica que pode ocorrer semanas após a infecção, com febre, tosse, dor abdominal, diarreia, hepatoesplenomegalia e eosinofilia. Antes, podem surgir lesões cutâneas locais, pruriginosas e maculopapulares, no local de penetração das cercárias.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#25",
+          "section": "Doença",
+          "text": "Esquistossomose por S. mansoni: a infecção contínua pode causar reações granulomatosas e fibrose no fígado e no baço. Muitas infecções são assintomáticas.",
+          "status": "confirmado",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": ""
+        },
+        {
+          "id": "schistosoma_mansoni#26",
+          "section": "Clínica",
+          "text": "Ovos depositados em outros órgãos podem causar lesões granulomatosas; em S. mansoni, a página cita a medula espinhal.",
+          "status": "ressalva",
+          "refs": [
+            "dpdx_schi"
+          ],
+          "evidence": "Paráfrase do CDC lida em 06/11/2026 (leitor automático de páginas); conferir o trecho literal na página.",
+          "note": "A página não rotula explicitamente a fase de infecção contínua como 'crônica'. Os sinais por fase, além dos citados, não constam."
         }
       ],
       "removed": [

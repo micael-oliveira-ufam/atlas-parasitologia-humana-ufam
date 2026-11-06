@@ -31,6 +31,10 @@ python3 tools/conferir-documento.py     # falha se o documento não contiver tod
 - Fotos externas de *E. histolytica* e *Giardia* removidas do módulo (arquivadas em `acervo-nao-publicado/imagens_externas_removidas_v5/`).
 - Autoria: somente o que a legenda informa; sem sobrenome, “sobrenome a confirmar”; sem autoria, “Autoria não informada (a confirmar)”.
 - Site: seções sem conteúdo deixam de aparecer nas espécies em revisão (correção em `specimen.js`).
+- Morfologia e doença detalhadas de todas as 15 espécies a partir de páginas oficiais do CDC (DPDx e CDC), lidas em 06/11/2026 (`tools/conteudo/cdc_detalhe.py`): 73 registros novos; afirmações verificadas passaram de 274 para 347. Os trechos são paráfrases do leitor automático de páginas, sinalizadas como tal em cada registro; conferir o trecho literal antes de citar.
+- Dados ausentes na página do CDC ficam marcados como ressalva (ex.: dimensões dos ovos de *S. stercoralis*, flagelos da *Giardia*, cercária e miracídio da *Schistosoma*, cisto da *Chilomastix*, sintomas do *Blastocystis*).
+- Retirado: "flagelos (8)" da *Giardia* (não reconfirmado na leitura de 06/11/2026); "papel em doença incerto" da *Chilomastix* (a página diz apenas "considered nonpathogenic").
+- *Blastocystis* e *Iodamoeba* passam a exibir morfologia (seguem "em revisão" pela literatura ainda não validada).
 
 ## Status das afirmações
 confirmado · corrigido (guarda o texto anterior) · ressalva · observação da lâmina. O que não foi sustentado por fonte lida foi **retirado**

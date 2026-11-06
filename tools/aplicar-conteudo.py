@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 from conteudo import nema, plat, proto, extras, refs as refmod  # noqa: E402
+from conteudo.cdc_detalhe import EXTRA as CDC_EXTRA  # noqa: E402
 
 DATA = ROOT / "public" / "data"
 HOJE = "2026-10-23"
@@ -33,7 +34,7 @@ def join(cl, sep=" "):
 
 
 def build_specimen(sp, old_images):
-    cl = sp["claims"]
+    cl = sp["claims"] + CDC_EXTRA.get(sp["id"], [])
     for c in cl:
         assert c["sec"] in SEC_FIELDS, (sp["id"], c["sec"])
     tax = dict(sp["tax"])
