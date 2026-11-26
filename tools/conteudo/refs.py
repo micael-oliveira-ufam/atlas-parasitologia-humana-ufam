@@ -118,4 +118,8 @@ NEW_REFS = [
          citation="Centers for Disease Control and Prevention (CDC). Cysticercosis — about (larvas de Taenia solium). https://www.cdc.gov/cysticercosis/about/index.html (última atualização indicada na página: 04/09/2024).",
          url="https://www.cdc.gov/cysticercosis/about/index.html",
          access="página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos)"),
+    dict(id="garcia_2018", short="Garcia et al. 2018 (Clin Microbiol Rev)", group="Artigo",
+         citation="Garcia LS et al. Practical guidance for clinical microbiology laboratories: laboratory diagnosis of parasites from the gastrointestinal tract. Clin Microbiol Rev. 2018;31(1):e00025-17. https://doi.org/10.1128/CMR.00025-17.",
+         url="https://doi.org/10.1128/CMR.00025-17",
+         access="citada na legenda da Figura 31 do documento de lâminas v4; NÃO foi lida nesta revisão (as afirmações da legenda que dependem dela não foram verificadas)"),
 ]

@@ -82,12 +82,21 @@
           "lamina": null,
           "confidence": "documento",
           "alt": "Fotografia de lâmina de Entamoeba histolytica (legenda do documento de lâminas de protozoários)",
-          "caption": "Entamoeba hystolitica / E. díspar. (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. A legenda reúne E. histolytica e E. díspar, que a microscopia não distingue.",
+          "caption": "Entamoeba hystolitica / E. díspar. (Autoria: Micael Oliveira) Identificação conforme a legenda do documento; aumento, coloração e técnica não foram informados. A legenda reúne E. histolytica e E. díspar, que a microscopia não distingue. Figura 32 do documento de lâminas v4 — Entamoeba histolytica/dispar – cisto. Grupo (conforme o documento): Protozoário (ameba). Esférico, parede definida, citoplasma granuloso. Cisto maduro: em geral 12–15 µm, 4 núcleos. Obs.: Núcleos não individualizados. A microscopia não separa E. histolytica de E. dispar nem de E. moshkovskii; usar método molecular (PCR). Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
           "credit": "Micael Oliveira (autoria indicada na legenda do documento de lâminas)",
           "license": null,
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image20.png)",
           "hotspots": [],
-          "creditStatus": "informado"
+          "creditStatus": "informado",
+          "detail": {
+            "file": "protozoarios/entamoeba_histolytica_v4f32_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          },
+          "refs": [
+            "dpdx_amoeb"
+          ]
         }
       ],
       "verification": [
@@ -568,6 +577,87 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image23.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f06",
+          "file": "protozoarios/entamoeba_coli_v4f06.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 6,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Entamoeba coli – cisto (Figura 6 do documento de lâminas v4)",
+          "caption": "Figura 6 do documento de lâminas v4 — Entamoeba coli – cisto. Grupo (conforme o documento): Protozoário (ameba). Esférico, parede dupla, citoplasma granuloso; até 8 núcleos na forma madura. Obs.: Núcleos não individualizados nesta foto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/0eafdba0009bde759e3681621c97a97fb54dd2b8.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/entamoeba_coli_v4f06_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f25",
+          "file": "protozoarios/entamoeba_coli_v4f25.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 25,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Entamoeba coli – cisto (Figura 25 do documento de lâminas v4)",
+          "caption": "Figura 25 do documento de lâminas v4 — Entamoeba coli – cisto. Grupo (conforme o documento): Protozoário (ameba). Conjunto de cistos esféricos a ovais, parede fina, citoplasma granuloso. Obs.: Núcleos não individualizados. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/1d4beb4bca313d9270e3074a5aea351e15ade22b.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/entamoeba_coli_v4f25_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f26",
+          "file": "protozoarios/entamoeba_coli_v4f26.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 26,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Entamoeba coli – cisto (Figura 26 do documento de lâminas v4)",
+          "caption": "Figura 26 do documento de lâminas v4 — Entamoeba coli – cisto. Grupo (conforme o documento): Protozoário (ameba). Corpo esférico, parede definida e citoplasma granuloso, junto a três corpos angulosos. Obs.: Núcleos não individualizados; os corpos angulosos não têm forma típica de cisto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/f043f056376d2816ae6f08047be4f9b1f329fc71.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/entamoeba_coli_v4f26_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -811,6 +901,87 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image23.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f20",
+          "file": "protozoarios/endolimax_nana_v4f20.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 20,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Endolimax nana – cistos (Figura 20 do documento de lâminas v4)",
+          "caption": "Figura 20 do documento de lâminas v4 — Endolimax nana – cistos. Grupo (conforme o documento): Protozoário (ameba). Várias formas pequenas, ovais a arredondadas, com halo claro; até 4 núcleos. Obs.: Núcleos pouco visíveis. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/585e3f790f8ded20f418a9716623c24abd89e183.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/endolimax_nana_v4f20_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f27",
+          "file": "protozoarios/endolimax_nana_v4f27.jpg",
+          "width": 825,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 27,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Endolimax nana – cisto (Figura 27 do documento de lâminas v4)",
+          "caption": "Figura 27 do documento de lâminas v4 — Endolimax nana – cisto. Grupo (conforme o documento): Protozoário (ameba). Cisto pequeno, arredondado, parede fina e inclusões internas refringentes. Obs.: Núcleos não individualizados. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/d399f7b3320bab82678c9959e18d60023f19c47e.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/endolimax_nana_v4f27_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f30",
+          "file": "protozoarios/endolimax_nana_v4f30.jpg",
+          "width": 825,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 30,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Endolimax nana – cistos (Figura 30 do documento de lâminas v4)",
+          "caption": "Figura 30 do documento de lâminas v4 — Endolimax nana – cistos. Grupo (conforme o documento): Protozoário (ameba). Numerosas formas pequenas, arredondadas a ovais, dispersas no campo. Obs.: Lâmina obtida por Maria Eduarda. Confirmar núcleos em maior aumento. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria da foto não informada no documento (a confirmar). Lâmina preparada por Maria Eduarda (sobrenome a confirmar), conforme a legenda",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/02be4aecaff6efbcbed7692caafb423970bc3e6b.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/endolimax_nana_v4f30_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -1071,6 +1242,168 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image15.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f11",
+          "file": "protozoarios/giardia_lamblia_v4f11.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 11,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 11 do documento de lâminas v4)",
+          "caption": "Figura 11 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Oval, parede nítida, fibrilas e axonema interno. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/ee2b62ec37e2db79b428ef492fe4fe6d98c75fa5.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f11_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f21",
+          "file": "protozoarios/giardia_lamblia_v4f21.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 21,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 21 do documento de lâminas v4)",
+          "caption": "Figura 21 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Oval, parede nítida, estruturas internas com axonema (linha longitudinal interna). Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/faf0b7401277ed8a5b5b1b4c2d3d12219c5c0bf6.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f21_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f22",
+          "file": "protozoarios/giardia_lamblia_v4f22.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 22,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 22 do documento de lâminas v4)",
+          "caption": "Figura 22 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Oval, elementos internos refringentes, com axonema (linha longitudinal interna). Obs.: Axonema pouco nítido nesta foto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/4ba16adfc0b5649a2e847ec792961ed4face040c.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f22_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f23",
+          "file": "protozoarios/giardia_lamblia_v4f23.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 23,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 23 do documento de lâminas v4)",
+          "caption": "Figura 23 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Cistos ovais, parede destacada, fibrilas longitudinais com axonema (linha longitudinal interna). Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/acd873eec99d441118cbb7bec64c24807b5f8a10.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f23_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f24",
+          "file": "protozoarios/giardia_lamblia_v4f24.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 24,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 24 do documento de lâminas v4)",
+          "caption": "Figura 24 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Oval-arredondado, membrana nítida, feixe central com axonema (linha longitudinal interna). Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/8cb8edbd7205a9d6cc62f20e6774826632e86a69.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f24_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f28",
+          "file": "protozoarios/giardia_lamblia_v4f28.jpg",
+          "width": 860,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 28,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Giardia duodenalis – cisto (Figura 28 do documento de lâminas v4)",
+          "caption": "Figura 28 do documento de lâminas v4 — Giardia duodenalis – cisto. Grupo (conforme o documento): Protozoário flagelado. Cisto oval, parede nítida, fibrilas e axonema interno. Obs.: Lâmina feita por Indira. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria da foto não informada no documento (a confirmar). Lâmina preparada por Indira (sobrenome a confirmar), conforme a legenda",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/640ad730fd4e956c41ecd25467b76b16b2c822ee.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_giar"
+          ],
+          "detail": {
+            "file": "protozoarios/giardia_lamblia_v4f28_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -1488,6 +1821,34 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image19.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f31",
+          "file": "protozoarios/chilomastix_mesnili_v4f31.jpg",
+          "width": 720,
+          "height": 820,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 31,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Chilomastix mesnili – cisto (indicado pela seta) (Figura 31 do documento de lâminas v4)",
+          "caption": "Figura 31 do documento de lâminas v4 — Chilomastix mesnili – cisto (indicado pela seta). Grupo (conforme o documento): Protozoário flagelado (não patogênico). Pequeno, arredondado a levemente piriforme. Característico: forma de limão, saliência hialina anterior, 6–10 µm, 1 núcleo. Obs.: Saliência e núcleo não resolvidos nesta foto; confirmar em maior aumento. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original. Atenção: os detalhes do cisto citados na legenda (6–10 µm, forma de limão, saliência hialina anterior, 1 núcleo) não constam na página do CDC citada ([12]), que só descreve o trofozoíto; a fonte [11] (Garcia et al., 2018) não foi lida nesta revisão.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/b7d4a55bfcd4983784b9a4b73b1fd43ed92cd15d.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "garcia_2018",
+            "dpdx_chilo"
+          ],
+          "detail": {
+            "file": "protozoarios/chilomastix_mesnili_v4f31_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -1795,6 +2156,33 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image24.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f10",
+          "file": "protozoarios/blastocystis_sp_v4f10.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 10,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Blastocystis spp. – forma vacuolar (Figura 10 do documento de lâminas v4)",
+          "caption": "Figura 10 do documento de lâminas v4 — Blastocystis spp. – forma vacuolar. Grupo (conforme o documento): Estramenópila (estudada com os protozoários). Esférica, grande vacúolo central e fina borda de citoplasma. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/7b12ed69f345d772321300be988235e7e17d07ba.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_blasto"
+          ],
+          "detail": {
+            "file": "protozoarios/blastocystis_sp_v4f10_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "reviewNote": "Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia, a designação e a frase do CDC sobre patogenicidade. Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e por isso não são exibidos.",
@@ -2011,6 +2399,33 @@
           "sourceFile": "Laminas_de_Protozoarios.docx (media/image25.png)",
           "hotspots": [],
           "creditStatus": "informado"
+        },
+        {
+          "id": "v4f09",
+          "file": "protozoarios/iodamoeba_buetschlii_v4f09.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 9,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Iodamoeba bütschlii – cisto (Figura 9 do documento de lâminas v4)",
+          "caption": "Figura 9 do documento de lâminas v4 — Iodamoeba bütschlii – cisto. Grupo (conforme o documento): Protozoário (ameba). Pequeno, parede definida, massa castanha excêntrica (vacúolo de glicogênio corado pelo iodo); 1 núcleo. Obs.: Vacúolo pouco evidente. O gênero correto é Iodamoeba, não Entamoeba. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/bc98f22031f8f1787b9c14339dd9ba89c49f2436.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_intam"
+          ],
+          "detail": {
+            "file": "protozoarios/iodamoeba_buetschlii_v4f09_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "reviewNote": "Espécie incluída com as lâminas do documento de 06/11/2026. Verificados nesta revisão: a taxonomia e a grafia. O taxid do NCBI NÃO foi confirmado (consulta bloqueada). Morfologia, tamanho, ciclo, diagnóstico e tratamento ainda NÃO foram validados na literatura e não são exibidos.",

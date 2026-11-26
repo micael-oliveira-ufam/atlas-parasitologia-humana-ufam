@@ -171,6 +171,33 @@
           "creditStatus": "informado",
           "date": "2026-09-04",
           "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "v4f18",
+          "file": "platelmintos/taenia_sp_v4f18.jpg",
+          "width": 984,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 18,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Taenia sp. – dois ovos (Figura 18 do documento de lâminas v4)",
+          "caption": "Figura 18 do documento de lâminas v4 — Taenia sp. – dois ovos. Grupo (conforme o documento): Cestódeo (platelminto). Esféricos, parede espessa e escura (estriação radial), embrião interno. Obs.: Espécie não distinguível pelo ovo; risco de cisticercose se T. solium. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/978ebdb57c3ca3a5c158f932dc1c6b8e5153501b.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_taen"
+          ],
+          "detail": {
+            "file": "platelmintos/taenia_sp_v4f18_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -834,6 +861,87 @@
           "creditStatus": "informado",
           "date": "2026-09-25",
           "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "v4f05",
+          "file": "platelmintos/hymenolepis_nana_v4f05.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 5,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Hymenolepis nana – ovo (Figura 5 do documento de lâminas v4)",
+          "caption": "Figura 5 do documento de lâminas v4 — Hymenolepis nana – ovo. Grupo (conforme o documento): Cestódeo (platelminto). Oval, membrana externa fina, oncosfera central e linhas sugestivas de filamentos polares. Obs.: Ganchos não resolvidos na foto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/9d74429781462245a9989e566cf22759a51386aa.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "detail": {
+            "file": "platelmintos/hymenolepis_nana_v4f05_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f13",
+          "file": "platelmintos/hymenolepis_nana_v4f13.jpg",
+          "width": 825,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 13,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Hymenolepis nana – ovo (Figura 13 do documento de lâminas v4)",
+          "caption": "Figura 13 do documento de lâminas v4 — Hymenolepis nana – ovo. Grupo (conforme o documento): Cestódeo (platelminto). Oval, envoltório liso, zona intermediária granulosa e oncosfera central. Obs.: Ganchos não resolvidos na foto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/54bb1fab4396ecc9dc208762aaf783a16942c00e.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "detail": {
+            "file": "platelmintos/hymenolepis_nana_v4f13_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f16",
+          "file": "platelmintos/hymenolepis_nana_v4f16.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 16,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Hymenolepis nana – ovo (Figura 16 do documento de lâminas v4)",
+          "caption": "Figura 16 do documento de lâminas v4 — Hymenolepis nana – ovo. Grupo (conforme o documento): Cestódeo (platelminto). Oval, envoltório externo, zona granulosa e centro denso (imagem desfocada). Obs.: Ganchos não resolvidos na foto. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/b7ca667e1f44cecd9b271a4446059235234b66dd.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_hym"
+          ],
+          "detail": {
+            "file": "platelmintos/hymenolepis_nana_v4f16_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [

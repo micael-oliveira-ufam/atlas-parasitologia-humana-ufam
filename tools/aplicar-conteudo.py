@@ -9,6 +9,7 @@ integralmente gerados a partir das afirmações verificadas.
 Uso:  python3 tools/aplicar-conteudo.py
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -164,6 +165,62 @@ def proto_images():
     return res
 
 
+V4_REFS = {1: "dpdx_tri", 2: "dpdx_asc", 3: "dpdx_hym", 4: "dpdx_taen", 5: "dpdx_giar", 6: "dpdx_intam", 7: "dpdx_art",
+           8: "dpdx_ent", 9: "dpdx_blasto", 10: "dpdx_stro", 11: "garcia_2018", 12: "dpdx_chilo", 13: "dpdx_amoeb"}
+# Ressalvas do ATLAS sobre legendas do documento (a legenda em si é dos autores e é mantida como escrita).
+V4_NOTAS = {
+    31: ("Atenção: os detalhes do cisto citados na legenda (6–10 µm, forma de limão, saliência hialina anterior, 1 núcleo) não constam "
+         "na página do CDC citada ([12]), que só descreve o trofozoíto; a fonte [11] (Garcia et al., 2018) não foi lida nesta revisão."),
+}
+
+
+def v4_registros():
+    """Lê tools/laminas_v4_import.json (gerado de docs/fontes/Laminas_Parasitologia_v4.docx).
+
+    Devolve (por_especie, anexos, artefatos):
+      por_especie: id da espécie -> imagens novas (foto + 'detail' = ampliação digital do documento);
+      anexos: arquivo já existente no catálogo -> {'detail', 'caption_add'} (foto repetida: não duplica, só anexa a ampliação);
+      artefatos: figuras 'Estrutura não identificada' (não são atribuídas a nenhuma espécie).
+    Crédito: o documento NÃO informa o autor das fotos. "Lâmina feita/obtida por X" é preparo da lâmina, não autoria da foto.
+    """
+    imp = json.loads((ROOT / "tools" / "laminas_v4_import.json").read_text(encoding="utf-8"))
+    por_esp, anexos, arte = {}, {}, []
+    for r in sorted(imp["figuras"], key=lambda x: x["figura"]):
+        n = r["figura"]
+        limpa = lambda t: re.sub(r"\s*\[[\d,\s]+\]", "", t or "").strip()
+        grupo = re.sub(r"\s*\|\s*Objetiva:.*$", "", r["grupo"]).replace("Grupo:", "").strip()
+        obj = (r.get("objetiva_legenda") or "").replace("*", "").strip()
+        refs = [V4_REFS[k] for k in r["refs_numeros"]]
+        partes = [f"Figura {n} do documento de lâminas v4 — {r['identificacao']}.", f"Grupo (conforme o documento): {grupo}.", limpa(r["descricao"]), limpa(r["obs"])]
+        cap = " ".join(x for x in partes if x)
+        if obj:
+            cap += (f" Objetiva estimada: {obj} (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar)."
+                    " Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.")
+        if n in V4_NOTAS:
+            cap += " " + V4_NOTAS[n]
+        if r["lamina_preparada_por"]:
+            credit = (f"Autoria da foto não informada no documento (a confirmar). Lâmina preparada por {r['lamina_preparada_por']} "
+                      "(sobrenome a confirmar), conforme a legenda")
+        else:
+            credit = "Autoria não informada no documento de origem (a confirmar)"
+        detail = {"file": r["arquivo_ampliacao"], "width": r["tamanho_ampliacao"][0], "height": r["tamanho_ampliacao"][1],
+                  "label": "Ampliação digital (conforme o documento de lâminas)"}
+        if r["foto_ja_no_catalogo"]:
+            anexos[r["foto_ja_no_catalogo"]] = {"detail": detail, "caption_add": f" {cap}", "refs": refs}
+            continue
+        reg = {"id": f"v4f{n:02d}", "file": r["arquivo_foto"], "width": r["tamanho_foto"][0], "height": r["tamanho_foto"][1],
+               "type": "microfotografia", "kind": "campo", "lamina": None, "figure": n, "confidence": "documento",
+               "alt": f"Fotografia de lâmina: {r['identificacao']} (Figura {n} do documento de lâminas v4)",
+               "caption": cap, "credit": credit, "license": None,
+               "sourceFile": f"Laminas_Parasitologia_v4.docx ({r['midia_foto']})", "hotspots": [],
+               "creditStatus": "a-confirmar", "refs": refs, "detail": detail}
+        if r["modulo"] == "artefatos":
+            arte.append(reg)
+        else:
+            por_esp.setdefault(r["especie"], []).append(reg)
+    return por_esp, anexos, arte
+
+
 def main():
     modulos = json.loads((DATA / "modulos.json").read_text(encoding="utf-8"))
     ordem_proto = ["entamoeba_histolytica", "entamoeba_coli", "endolimax_nana", "giardia_lamblia", "chilomastix_mesnili",
@@ -171,6 +228,7 @@ def main():
     sp_proto = sorted(proto.SPECIES, key=lambda s: ordem_proto.index(s["id"]))
     all_sp = {"nematelmintos": nema.SPECIES, "platelmintos": list(plat.SPECIES), "protozoarios": sp_proto}
     pimgs = proto_images()
+    v4_esp, v4_anexos, v4_arte = v4_registros()
     totals = {"claims": 0, "removed": 0}
     for mod, species in all_sp.items():
         f = DATA / "modulos" / f"{mod}.json"
@@ -182,7 +240,14 @@ def main():
                 # só as fotografias do documento de lâminas; as externas sem crédito foram removidas em 06/11/2026
                 imgs = list(pimgs.get(sp["id"], []))
             else:
-                imgs = cur_imgs[sp["id"]]
+                # idempotente: as figuras v4 são sempre reconstruídas do JSON do importador
+                imgs = [i for i in cur_imgs[sp["id"]] if not str(i.get("id", "")).startswith("v4f")]
+            imgs = imgs + v4_esp.get(sp["id"], [])
+            for im in imgs:
+                if im["file"] in v4_anexos and "detail" not in im:
+                    ax = v4_anexos[im["file"]]
+                    im["detail"] = ax["detail"]; im["refs"] = ax["refs"]
+                    im["caption"] = (im.get("caption") or "") + ax["caption_add"]
             s = build_specimen(sp, imgs)
             totals["claims"] += len(s["verification"])
             totals["removed"] += len(s["removed"])
@@ -218,9 +283,11 @@ def main():
             "Livros-texto da bibliografia geral da disciplina (listados em Informações) — não consultados",
             "Identificação das espécies nas fotografias das lâminas — feita pelos autores; não foi confirmada de forma independente",
             "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados",
-            "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): só taxonomia e uma frase do CDC foram verificadas; morfologia, tamanho, ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
+            "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): taxonomia, morfologia e doença vêm só de páginas do CDC lidas em 06/11/2026; ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
             "taxid da Iodamoeba buetschlii no NCBI: não confirmado (consulta bloqueada)",
             "Lâminas de protozoários atualizadas em 06/11/2026 a partir do documento de 25 imagens; a identificação das espécies segue as legendas do documento",
+            "Lâminas do documento v4 (25/11/2026): 32 figuras; as legendas são dos autores e a identificação não foi confirmada de forma independente; só a legenda da Figura 31 (Chilomastix) foi conferida contra a página do CDC citada — os detalhes do cisto não constam nela; a fonte [11] (Garcia et al., 2018) não foi lida",
+            "Autoria das fotos do documento v4 não informada; 'Lâmina feita/obtida por' (Indira, Maria Eduarda) é preparo da lâmina, com sobrenome a confirmar",
         ],
         "sourceAccessNote": ("Fontes lidas por ferramentas automáticas (leitor de páginas e PubMed). Onde só o resumo ou trechos foram lidos, isso consta em "
                              "'acesso nesta revisão' de cada referência. Documento da OMS (Bench Aids) com acesso indisponível."),
@@ -228,7 +295,15 @@ def main():
     (DATA / "referencias.json").write_text(json.dumps(rf, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # artefatos e quiz
-    (DATA / "artefatos.json").write_text(json.dumps(extras.ARTEFATOS, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    art = dict(extras.ARTEFATOS)
+    art["naoIdentificadas"] = {
+        "titulo": "Estruturas sem identificação segura",
+        "aviso": ("Duas fotografias do documento de lâminas v4 foram classificadas pelos próprios autores como estrutura não identificada "
+                  "(grupo: indeterminado). O atlas não afirma que sejam artefatos nem parasitos: servem para treinar o olhar e a cautela. "
+                  "A descrição vem da legenda do documento, que cita a página de artefatos do CDC; a identificação precisa ser validada na lâmina original."),
+        "fotos": v4_arte,
+    }
+    (DATA / "artefatos.json").write_text(json.dumps(art, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     quiz = extras.build_quiz()
     (DATA / "quiz.json").write_text(json.dumps(quiz, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("species claims:", totals, "| quiz:", len(quiz), "| refs:", len(rf["items"]))

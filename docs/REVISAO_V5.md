@@ -36,6 +36,17 @@ python3 tools/conferir-documento.py     # falha se o documento não contiver tod
 - Retirado: "flagelos (8)" da *Giardia* (não reconfirmado na leitura de 06/11/2026); "papel em doença incerto" da *Chilomastix* (a página diz apenas "considered nonpathogenic").
 - *Blastocystis* e *Iodamoeba* passam a exibir morfologia (seguem "em revisão" pela literatura ainda não validada).
 
+## Atualização de 25/11/2026 — lâminas v4 e nova interface
+- Fonte: `docs/fontes/Laminas_Parasitologia_v4.docx` (tabela de 32 figuras; cada uma com foto + "ampliação digital" 440×440). Importação reprodutível: `python3 -I tools/importar-docx-laminas-v4.py docs/fontes/Laminas_Parasitologia_v4.docx` → `tools/laminas_v4_import.json` (hash do docx e metadados de cada figura).
+- Resultado: 29 fotos novas em espécies existentes; a Fig. 32 coincidiu (hash perceptual, distância ≤ 6) com foto já no catálogo (*E. histolytica*, pz02) e só recebeu a ampliação; 2 figuras (Fig. 2 e 7) são "estrutura não identificada" e ficam em **Artefatos → Estruturas sem identificação segura**, sem atribuição a espécie.
+- Legendas, identificações e a "objetiva estimada (40×)" são **dos autores do documento**; apenas a Fig. 31 foi conferida com a página do CDC (os detalhes do cisto não constam nessa página; a fonte Garcia 2018, citada na legenda, **não foi lida**). Referências numeradas da legenda foram mapeadas para as fontes DPDx já lidas.
+- Autoria das fotos: **não informada** no documento. "Lâmina feita/obtida por Indira / Maria Eduarda" é preparo da lâmina, não autoria da foto; sobrenomes "a confirmar".
+- Resolução: fotos 1100 px e ampliações 440 px (limite do docx); 45 imagens abaixo de 800 px aparecem como aviso no validador.
+- Removidas do repositório 4 imagens externas antigas de *E. histolytica* e *Giardia* (sem crédito; já estavam retiradas da exibição).
+- Site: nova interface (tokens de design, tema claro/escuro, menu lateral no celular, cartões com mosaico). **Zoom reescrito**: a ficha tem galeria estática (a rolagem da página não é capturada); tocar abre visualizador em tela cheia com pinça, toque duplo, arrastar, roda/teclado, deslizar para trocar ou fechar, botão "voltar" do celular fecha o visualizador, brilho/contraste e alternância foto/ampliação. Testado em Chromium (Pixel 5 emulado e desktop) com eventos de toque via CDP; **não** testado em aparelho físico.
+- Marcadores estruturais (hotspots): nenhum registro os usa; o painel foi removido da ficha (o motor de zoom mantém suporte).
+- App Flutter: **não** recebeu a nova interface/zoom nem exibe `detail`, `figure` e a seção de estruturas sem identificação; apenas os dados e imagens foram sincronizados (`sync_assets.py`; testes Dart ajustados: 52 referências; protozoários 42 registros em 40 arquivos). Dart não foi compilado.
+
 ## Status das afirmações
 confirmado · corrigido (guarda o texto anterior) · ressalva · observação da lâmina. O que não foi sustentado por fonte lida foi **retirado**
 e listado (por espécie, no app, e na seção 9 do documento). A versão anterior completa está em `acervo-nao-publicado/versao_anterior_v4.2/`.

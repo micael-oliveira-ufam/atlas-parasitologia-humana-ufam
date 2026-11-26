@@ -77,5 +77,65 @@
       "antes": "Dica geral de bancada.",
       "motivo": "Sem fonte lida; substituída por orientação geral claramente identificada como dos autores."
     }
-  ]
+  ],
+  "naoIdentificadas": {
+    "titulo": "Estruturas sem identificação segura",
+    "aviso": "Duas fotografias do documento de lâminas v4 foram classificadas pelos próprios autores como estrutura não identificada (grupo: indeterminado). O atlas não afirma que sejam artefatos nem parasitos: servem para treinar o olhar e a cautela. A descrição vem da legenda do documento, que cita a página de artefatos do CDC; a identificação precisa ser validada na lâmina original.",
+    "fotos": [
+      {
+        "id": "v4f02",
+        "file": "artefatos/nao_identificada_v4f02.jpg",
+        "width": 1100,
+        "height": 825,
+        "type": "microfotografia",
+        "kind": "campo",
+        "lamina": null,
+        "figure": 2,
+        "confidence": "documento",
+        "alt": "Fotografia de lâmina: Estrutura não identificada (Figura 2 do documento de lâminas v4)",
+        "caption": "Figura 2 do documento de lâminas v4 — Estrutura não identificada. Grupo (conforme o documento): Indeterminado. Esfera de parede dupla, espaço claro amplo e corpo central corado. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+        "credit": "Autoria não informada no documento de origem (a confirmar)",
+        "license": null,
+        "sourceFile": "Laminas_Parasitologia_v4.docx (media/878c65bd1c0e77498b0ace09539d968fcbc2f4a1.jpg)",
+        "hotspots": [],
+        "creditStatus": "a-confirmar",
+        "refs": [
+          "dpdx_art"
+        ],
+        "detail": {
+          "file": "artefatos/nao_identificada_v4f02_ampliacao.jpg",
+          "width": 440,
+          "height": 440,
+          "label": "Ampliação digital (conforme o documento de lâminas)"
+        }
+      },
+      {
+        "id": "v4f07",
+        "file": "artefatos/nao_identificada_v4f07.jpg",
+        "width": 1100,
+        "height": 825,
+        "type": "microfotografia",
+        "kind": "campo",
+        "lamina": null,
+        "figure": 7,
+        "confidence": "documento",
+        "alt": "Fotografia de lâmina: Estrutura não identificada (Figura 7 do documento de lâminas v4)",
+        "caption": "Figura 7 do documento de lâminas v4 — Estrutura não identificada. Grupo (conforme o documento): Indeterminado. Oval, parede fina, granulações e contornos curvos internos. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+        "credit": "Autoria não informada no documento de origem (a confirmar)",
+        "license": null,
+        "sourceFile": "Laminas_Parasitologia_v4.docx (media/87c99b67ab28a55e84b722a72fa2d3ba75e3bf77.jpg)",
+        "hotspots": [],
+        "creditStatus": "a-confirmar",
+        "refs": [
+          "dpdx_art"
+        ],
+        "detail": {
+          "file": "artefatos/nao_identificada_v4f07_ampliacao.jpg",
+          "width": 440,
+          "height": 440,
+          "label": "Ampliação digital (conforme o documento de lâminas)"
+        }
+      }
+    ]
+  }
 }

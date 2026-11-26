@@ -102,7 +102,31 @@ for (const p of prot) {
 }
 
 // imagens órfãs (arquivo em assets/img sem registro)
-const used = new Set(); for (const m of reg.modules) for (const s of rd(m.dataFile).specimens) for (const im of s.images || []) used.add(im.file);
+const used = new Set();
+// imagens com ampliação digital ('detail'), referências da legenda e fotos do guia de artefatos
+const checkImg = (it, im) => {
+  used.add(im.file);
+  if (im.detail) {
+    const d = im.detail, f = path.join(root, 'assets/img', d.file || '');
+    if (!d.file || !fs.existsSync(f)) E(`${it}: ampliação (detail) sem arquivo (${d.file})`);
+    else { used.add(d.file); const z = pngJpegSize(f); if (z && (z.w !== d.width || z.h !== d.height)) E(`${it}: detail ${d.width}x${d.height} ≠ real ${z.w}x${z.h}`); }
+    if (!d.label) E(`${it}: detail sem label`);
+  }
+  for (const r of im.refs || []) if (!REFID.has(r)) E(`${it}: referência inexistente "${r}"`);
+};
+for (const m of reg.modules) for (const s of rd(m.dataFile).specimens) for (const im of s.images || []) checkImg(`${m.id}/${s.id}#${im.id}`, im);
+const ni = art.naoIdentificadas;
+if (ni) {
+  if (!ni.aviso || !(ni.fotos || []).length) E('artefatos.naoIdentificadas: faltam aviso/fotos');
+  for (const im of ni.fotos || []) {
+    const f = path.join(root, 'assets/img', im.file);
+    if (!fs.existsSync(f)) E(`artefatos#${im.id}: arquivo não existe (${im.file})`);
+    else { const z = pngJpegSize(f); if (z && (z.w !== im.width || z.h !== im.height)) E(`artefatos#${im.id}: dimensões declaradas ≠ reais`); }
+    if (!im.alt) E(`artefatos#${im.id}: alt ausente`);
+    if (im.creditStatus !== 'a-confirmar' && !im.credit) W(`artefatos#${im.id}: sem crédito`);
+    checkImg(`artefatos#${im.id}`, im);
+  }
+}
 for (const d of fs.readdirSync(path.join(root, 'assets/img')).filter(x => x !== 'brand')) for (const f of fs.readdirSync(path.join(root, 'assets/img', d))) if (!used.has(`${d}/${f}`)) W(`imagem órfã (sem registro): ${d}/${f}`);
 if (lowres) W(`${lowres} imagem(ns) de baixa resolução (<800 px nos dois lados): substitua pelos arquivos originais (tools/preparar-imagem.py)`);
 console.log(`Espécies: ${total} | quiz: ${quiz.length} | protocolos: ${prot.length} | artefatos: ${art.itens.length}`);

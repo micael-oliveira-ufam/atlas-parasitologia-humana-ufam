@@ -1,8 +1,7 @@
-import { h, clear } from '../dom.js';
-import { getModule, getSpecimen, imgSrc } from '../store.js';
-import { createViewer } from '../viewer.js';
-import { openLightbox } from '../lightbox.js';
-import { page, badges, list, CONF, STLABEL, refName, IMGTYPE, creditText, creditPending } from './common.js';
+import { h } from '../dom.js';
+import { getModule, getSpecimen } from '../store.js';
+import { createGallery } from '../gallery.js';
+import { page, badges, list, STLABEL, refName } from './common.js';
 
 const row = (k, v) => v ? h('div', { class: 'kv' }, h('dt', null, k), h('dd', null, v)) : null;
 // Uma seção só aparece se algum filho tiver conteúdo visível (texto, imagem, SVG ou controle).
@@ -12,31 +11,7 @@ const section = (id, title, ...kids) => { const c = kids.flat().filter(hasConten
 export function specimenPage(modId, id) {
   const m = getModule(modId), s = m && getSpecimen(modId, id); if (!s) return null;
   const idx = m.specimens.findIndex(x => x.id === id), prev = m.specimens[idx - 1], next = m.specimens[idx + 1];
-  const viewerHost = h('div'), infoHost = h('div', { class: 'img-info', 'aria-live': 'polite' }), hsBox = h('div', { class: 'hs-box', 'aria-live': 'polite' });
-  const thumbs = h('div', { class: 'thumbs', role: 'list', 'aria-label': 'Imagens desta espécie' });
-  let current = null; const btns = new Map();
-
-  function show(im) {
-    current = im; btns.forEach((b, k) => { const on = k === im.id; b.classList.toggle('on', on); b.setAttribute('aria-current', String(on)); });
-    const v = createViewer(im, { onOpen: () => openLightbox(s.images, s.images.indexOf(im), { title: s.commonName }), onHotspot: (p, i) => hsBox.replaceChildren(p ? h('div', null, h('h3', null, `${i + 1}. ${p.title}`), h('p', null, p.description)) : h('p', { class: 'muted' }, 'Clique em um marcador numerado para ver a estrutura.')) });
-    clear(viewerHost).append(v.el);
-    hsBox.replaceChildren(h('p', { class: 'muted' }, (im.hotspots || []).length ? 'Clique em um marcador numerado para ver a estrutura.' : 'Esta imagem ainda não possui marcadores estruturais.'));
-    const conf = CONF[im.confidence];
-    clear(infoHost).append(
-      h('div', { class: 'badges' }, h('span', { class: 'badge ' + (im.type === 'microfotografia' ? 'ok' : 'warn') }, IMGTYPE[im.type] || im.type),
-        im.lamina ? h('span', { class: 'badge' }, `Lâmina ${String(im.lamina).padStart(2, '0')} · ${im.kind === 'detalhe' ? 'detalhe ampliado' : 'campo geral'}`) : null,
-        conf ? h('span', { class: 'badge ' + conf[1] }, conf[0]) : null,
-        im.credit && creditPending(im) ? h('span', { class: 'badge warn' }, 'Autoria a confirmar') : null),
-      im.caption ? h('p', { class: 'caption' }, im.caption) : null,
-      h('p', { class: 'credit', title: im.dateBasis || null }, creditText(im)));
-  }
-  s.images.forEach(im => {
-    const b = h('button', { type: 'button', class: 'thumb-btn', role: 'listitem', title: im.alt, 'aria-label': im.alt, onClick: () => show(im) },
-      h('img', { src: imgSrc(im), alt: '', loading: 'lazy', width: im.width, height: im.height }),
-      h('span', null, im.lamina ? `#${String(im.lamina).padStart(2, '0')} ${im.kind === 'detalhe' ? 'detalhe' : 'campo'}` : 'externa'));
-    btns.set(im.id, b); thumbs.append(b);
-  });
-  show(s.images[0]);
+  const gallery = createGallery(s);
 
   const t = s.taxonomy || {}, d = s.diagnosticMethods || {}, c = s.transmissionAndCycle || {};
   const tax = ['phylum', 'class', 'order', 'family', 'genus', 'species'].filter(k => t[k]);
@@ -47,9 +22,8 @@ export function specimenPage(modId, id) {
     h('header', { class: 'spec-head' }, h('h1', null, s.commonName), h('p', { class: 'sci big' }, s.scientificName), badges(s)),
     s.reviewNote ? h('div', { class: 'notice bad', role: 'note' }, h('strong', null, 'Em revisão: '), s.reviewNote) : null,
     h('div', { class: 'spec-grid' },
-      h('div', null, viewerHost, infoHost, s.images.length > 1 ? thumbs : null),
+      gallery,
       h('aside', { class: 'side' },
-        h('h2', null, 'Marcadores'), hsBox,
         s.keyDiagnosticFeatures ? [h('h2', null, 'Critérios-chave'), list(s.keyDiagnosticFeatures)] : null,
         h('dl', { class: 'facts' }, row('Estágio', s.evolutionaryStage), row('Dimensões de referência', s.approxSizeMicrons),
           h('p', { class: 'muted small' }, 'Dimensões são valores de livro-texto, não medidas feitas nas fotos.')))),

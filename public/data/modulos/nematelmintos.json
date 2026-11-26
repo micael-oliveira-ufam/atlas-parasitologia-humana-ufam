@@ -869,6 +869,169 @@
           "creditStatus": "informado",
           "date": "2026-09-25",
           "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "v4f04",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f04.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 4,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (provável não fertilizado) (Figura 4 do documento de lâminas v4)",
+          "caption": "Figura 4 do documento de lâminas v4 — Ascaris lumbricoides – ovo (provável não fertilizado). Grupo (conforme o documento): Nematódeo. Alongado, casca em camadas com contorno irregular, conteúdo granuloso. Obs.: Proposto como Enterobius vermicularis, mas não confirmado: o ovo de Enterobius é transparente, achatado de um lado e geralmente já embrionado. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/f9a5e2ea7ac7123accb967f1a51bf8a33ed7cd62.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc",
+            "dpdx_ent"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f04_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f08",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f08.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 8,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (Figura 8 do documento de lâminas v4)",
+          "caption": "Figura 8 do documento de lâminas v4 — Ascaris lumbricoides – ovo. Grupo (conforme o documento): Nematódeo. Decorticado: casca espessa, lisa, dourada; massa interna densa. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/39949347a5943d07d9799171eee7c3d9cf5f64a4.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f08_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f12",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f12.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 12,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (Figura 12 do documento de lâminas v4)",
+          "caption": "Figura 12 do documento de lâminas v4 — Ascaris lumbricoides – ovo. Grupo (conforme o documento): Nematódeo. Oval, casca espessa, superfície finamente granulosa, massa interna retraída. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/d9ec31cb31d8371f0335003093df7ad776fa102a.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f12_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f14",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f14.jpg",
+          "width": 709,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 14,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (Figura 14 do documento de lâminas v4)",
+          "caption": "Figura 14 do documento de lâminas v4 — Ascaris lumbricoides – ovo. Grupo (conforme o documento): Nematódeo. Alongado, decorticado, casca espessa amarelada, grânulos grosseiros (provável não fertilizado). Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/2ef1d8ebfd1858dc7e75cef7a245c92610bc940f.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f14_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f15",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f15.jpg",
+          "width": 825,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 15,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (Figura 15 do documento de lâminas v4)",
+          "caption": "Figura 15 do documento de lâminas v4 — Ascaris lumbricoides – ovo. Grupo (conforme o documento): Nematódeo. Mamilonado: casca espessa e rugosa, castanho-alaranjada. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/c1adda29786da5a705397a02a24d062f46c8c845.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f15_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f19",
+          "file": "nematelmintos/ascaris_lumbricoides_v4f19.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 19,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Ascaris lumbricoides – ovo (Figura 19 do documento de lâminas v4)",
+          "caption": "Figura 19 do documento de lâminas v4 — Ascaris lumbricoides – ovo. Grupo (conforme o documento): Nematódeo. Mamilonado: oval, mamilações regulares em todo o contorno. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/6400052d2bdd80b850207d0fed5c421c84d0ae5a.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_asc"
+          ],
+          "detail": {
+            "file": "nematelmintos/ascaris_lumbricoides_v4f19_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -1876,6 +2039,33 @@
           "creditStatus": "informado",
           "date": "2026-09-25",
           "dateBasis": "data no nome do arquivo da câmera"
+        },
+        {
+          "id": "v4f29",
+          "file": "nematelmintos/strongyloides_stercoralis_v4f29.jpg",
+          "width": 825,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 29,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Strongyloides stercoralis – larva (Figura 29 do documento de lâminas v4)",
+          "caption": "Figura 29 do documento de lâminas v4 — Strongyloides stercoralis – larva. Grupo (conforme o documento): Nematódeo. Corpo alongado, delgado, cauda afilada. L1 rabditoide: cavidade bucal curta e primórdio genital evidente; L3 filarioide: cauda entalhada. Obs.: A ponta da cauda parece filamentosa, o que não é típico: pode ser sobreposição ou outro nematódeo. Confirmar cavidade bucal, primórdio e cauda em maior aumento e diferenciar de ancilostomídeos. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/d22e9f107f6a1818be304c4a12a7393ec102c804.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_stro"
+          ],
+          "detail": {
+            "file": "nematelmintos/strongyloides_stercoralis_v4f29_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [
@@ -2406,6 +2596,87 @@
           "sourceFile": "Captura_de_Tela_2026-10-02_às_07_12_08.png",
           "hotspots": [],
           "creditStatus": "a-confirmar"
+        },
+        {
+          "id": "v4f01",
+          "file": "nematelmintos/trichuris_trichiura_v4f01.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 1,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Trichuris trichiura – ovo (Figura 1 do documento de lâminas v4)",
+          "caption": "Figura 1 do documento de lâminas v4 — Trichuris trichiura – ovo. Grupo (conforme o documento): Nematódeo. Barril/limão, casca espessa, dois tampões polares. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/4f8247221cc2375f1bc638bad3f5acc1d74783c9.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "detail": {
+            "file": "nematelmintos/trichuris_trichiura_v4f01_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f03",
+          "file": "nematelmintos/trichuris_trichiura_v4f03.jpg",
+          "width": 1000,
+          "height": 1100,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 3,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Trichuris trichiura – ovo (Figura 3 do documento de lâminas v4)",
+          "caption": "Figura 3 do documento de lâminas v4 — Trichuris trichiura – ovo. Grupo (conforme o documento): Nematódeo. Barril/limão, casca espessa, dois tampões polares. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/1a61568e2f0616d06da4b9597e363cbfe0b2eda2.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "detail": {
+            "file": "nematelmintos/trichuris_trichiura_v4f03_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
+        },
+        {
+          "id": "v4f17",
+          "file": "nematelmintos/trichuris_trichiura_v4f17.jpg",
+          "width": 1100,
+          "height": 825,
+          "type": "microfotografia",
+          "kind": "campo",
+          "lamina": null,
+          "figure": 17,
+          "confidence": "documento",
+          "alt": "Fotografia de lâmina: Trichuris trichiura – ovo (Figura 17 do documento de lâminas v4)",
+          "caption": "Figura 17 do documento de lâminas v4 — Trichuris trichiura – ovo. Grupo (conforme o documento): Nematódeo. Barril/limão, casca espessa, dois tampões polares. Objetiva estimada: 40× (estimada pelos autores a partir do tamanho aparente das estruturas; não foi registrada na foto: a confirmar). Identificação por morfologia em fotografia, sem micrometria; validar na lâmina original.",
+          "credit": "Autoria não informada no documento de origem (a confirmar)",
+          "license": null,
+          "sourceFile": "Laminas_Parasitologia_v4.docx (media/21989e54cb586507498ceee8a6e068ce96521624.jpg)",
+          "hotspots": [],
+          "creditStatus": "a-confirmar",
+          "refs": [
+            "dpdx_tri"
+          ],
+          "detail": {
+            "file": "nematelmintos/trichuris_trichiura_v4f17_ampliacao.jpg",
+            "width": 440,
+            "height": 440,
+            "label": "Ampliação digital (conforme o documento de lâminas)"
+          }
         }
       ],
       "verification": [

@@ -311,6 +311,13 @@ def main():
                 ["Data (nome do arquivo)", im.get("date") or "—"], ["Licença", im.get("license") or "não definida"],
                 ["Dimensões (px)", f"{im['width']} × {im['height']}"],
             ]
+            if im.get("figure"):
+                rows.insert(3, ["Figura (documento de lâminas v4)", im["figure"]])
+            if im.get("detail"):
+                d_ = im["detail"]
+                rows.append(["Ampliação digital (arquivo)", f"{d_['file']} · {d_['width']} × {d_['height']} px · {d_.get('label') or ''}"])
+            if im.get("refs"):
+                rows.append(["Fontes da legenda", "; ".join(short(r) for r in im["refs"])])
             D.table(["Campo", "Valor"], rows, [4.2, 13.2], size=8)
         D.h("Texto exibido no aplicativo", 3)
         D.kv("Tamanho", s.get("approxSizeMicrons"))
@@ -406,6 +413,26 @@ def main():
         D.kv("Status", ST_LABEL.get(a.get("status"), a.get("status")))
         D.kv("Fontes", "; ".join(short(r) for r in a.get("refs", [])))
         D.kv("Evidência", a.get("evidencia"))
+    ni = arte.get("naoIdentificadas")
+    if ni and ni.get("fotos"):
+        D.h("5.x " + ni["titulo"], 3)
+        D.p(ni["aviso"])
+        for im in ni["fotos"]:
+            pth = IMG / im["file"]
+            if pth.exists():
+                par = D.d.add_paragraph()
+                try:
+                    par.add_run().add_picture(str(pth), width=Cm(6.0))
+                except Exception as e:
+                    par.add_run(f"[imagem não pôde ser incorporada: {e}]")
+            D.kv("Arquivo", im["file"])
+            D.kv("Figura (doc. v4)", im.get("figure"))
+            D.kv("Legenda", im.get("caption"))
+            D.kv("Crédito / autoria", im.get("credit") or "NÃO INFORMADO (origem a confirmar)")
+            if im.get("detail"):
+                D.kv("Ampliação digital (arquivo)", im["detail"]["file"])
+            if im.get("refs"):
+                D.kv("Fontes da legenda", "; ".join(short(r) for r in im["refs"]))
     if arte.get("removidos"):
         D.p("Itens do guia anterior retirados:", bold=True, space=1)
         D.table(["Item anterior", "Motivo"], [[f"{r['item']}: {r['antes']}", r["motivo"]] for r in arte["removidos"]],

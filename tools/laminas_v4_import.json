@@ -1,0 +1,1338 @@
+{
+ "docx": "Laminas_Parasitologia_v4.docx",
+ "docx_sha256": "1ccce70455526a92bd039f34ca68dcd0ddd341831ae1e001218f7009354f1f2b",
+ "n_figuras": 32,
+ "figuras": [
+  {
+   "figura": 1,
+   "modulo": "nematelmintos",
+   "especie": "trichuris_trichiura",
+   "identificacao": "Trichuris trichiura – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Barril/limão, casca espessa, dois tampões polares [1].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    1
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/4f8247221cc2375f1bc638bad3f5acc1d74783c9.jpg",
+   "midia_ampliacao": "media/b837cc9a3725611b698df042d55e3e77add81e15.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 107,
+   "legenda_completa": [
+    "Figura 1. Trichuris trichiura – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Barril/limão, casca espessa, dois tampões polares [1]."
+   ],
+   "arquivo_foto": "nematelmintos/trichuris_trichiura_v4f01.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/trichuris_trichiura_v4f01_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 2,
+   "modulo": "artefatos",
+   "especie": "nao_identificada",
+   "identificacao": "Estrutura não identificada",
+   "grupo": "Grupo: Indeterminado | Objetiva: 40×*",
+   "descricao": "Esfera de parede dupla, espaço claro amplo e corpo central corado [7].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    7
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/878c65bd1c0e77498b0ace09539d968fcbc2f4a1.jpg",
+   "midia_ampliacao": "media/168bf48a52ddfd17bb5a38dcd9c83fbb04f0b5e1.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 86,
+   "legenda_completa": [
+    "Figura 2. Estrutura não identificada",
+    "Grupo: Indeterminado | Objetiva: 40×*",
+    "Esfera de parede dupla, espaço claro amplo e corpo central corado [7]."
+   ],
+   "arquivo_foto": "artefatos/nao_identificada_v4f02.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "artefatos/nao_identificada_v4f02_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 3,
+   "modulo": "nematelmintos",
+   "especie": "trichuris_trichiura",
+   "identificacao": "Trichuris trichiura – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Barril/limão, casca espessa, dois tampões polares [1].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    1
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/1a61568e2f0616d06da4b9597e363cbfe0b2eda2.jpg",
+   "midia_ampliacao": "media/769a5b0ae9dcac5f0b94b20a060808b96c70b229.jpg",
+   "tamanho_origem_foto": [
+    1000,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 99,
+   "legenda_completa": [
+    "Figura 3. Trichuris trichiura – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Barril/limão, casca espessa, dois tampões polares [1]."
+   ],
+   "arquivo_foto": "nematelmintos/trichuris_trichiura_v4f03.jpg",
+   "tamanho_foto": [
+    1000,
+    1100
+   ],
+   "arquivo_ampliacao": "nematelmintos/trichuris_trichiura_v4f03_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 4,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo (provável não fertilizado)",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Alongado, casca em camadas com contorno irregular, conteúdo granuloso [2].",
+   "obs": "Obs.: Proposto como Enterobius vermicularis, mas não confirmado: o ovo de Enterobius é transparente, achatado de um lado e geralmente já embrionado [8].",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2,
+    8
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/f9a5e2ea7ac7123accb967f1a51bf8a33ed7cd62.jpg",
+   "midia_ampliacao": "media/42be914ab272de8a804bbff73b8fc71c32cf02ec.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 107,
+   "legenda_completa": [
+    "Figura 4. Ascaris lumbricoides – ovo (provável não fertilizado)",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Alongado, casca em camadas com contorno irregular, conteúdo granuloso [2].",
+    "Obs.: Proposto como Enterobius vermicularis, mas não confirmado: o ovo de Enterobius é transparente, achatado de um lado e geralmente já embrionado [8]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f04.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f04_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 5,
+   "modulo": "platelmintos",
+   "especie": "hymenolepis_nana",
+   "identificacao": "Hymenolepis nana – ovo",
+   "grupo": "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+   "descricao": "Oval, membrana externa fina, oncosfera central e linhas sugestivas de filamentos polares [3].",
+   "obs": "Obs.: Ganchos não resolvidos na foto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    3
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/9d74429781462245a9989e566cf22759a51386aa.jpg",
+   "midia_ampliacao": "media/b0cdbc5f8d5876b49e1fc0cbb4b7fd5afa180f6d.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 99,
+   "legenda_completa": [
+    "Figura 5. Hymenolepis nana – ovo",
+    "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+    "Oval, membrana externa fina, oncosfera central e linhas sugestivas de filamentos polares [3].",
+    "Obs.: Ganchos não resolvidos na foto."
+   ],
+   "arquivo_foto": "platelmintos/hymenolepis_nana_v4f05.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "platelmintos/hymenolepis_nana_v4f05_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 6,
+   "modulo": "protozoarios",
+   "especie": "entamoeba_coli",
+   "identificacao": "Entamoeba coli – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Esférico, parede dupla, citoplasma granuloso; até 8 núcleos na forma madura [6].",
+   "obs": "Obs.: Núcleos não individualizados nesta foto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/0eafdba0009bde759e3681621c97a97fb54dd2b8.jpg",
+   "midia_ampliacao": "media/f2608734180c25e7735d4d8ffef8ca8abf82cc84.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 96,
+   "legenda_completa": [
+    "Figura 6. Entamoeba coli – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Esférico, parede dupla, citoplasma granuloso; até 8 núcleos na forma madura [6].",
+    "Obs.: Núcleos não individualizados nesta foto."
+   ],
+   "arquivo_foto": "protozoarios/entamoeba_coli_v4f06.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/entamoeba_coli_v4f06_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 7,
+   "modulo": "artefatos",
+   "especie": "nao_identificada",
+   "identificacao": "Estrutura não identificada",
+   "grupo": "Grupo: Indeterminado | Objetiva: 40×*",
+   "descricao": "Oval, parede fina, granulações e contornos curvos internos [7].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    7
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/87c99b67ab28a55e84b722a72fa2d3ba75e3bf77.jpg",
+   "midia_ampliacao": "media/7280ea6f58becfbfa2cab48c5645f3412e232343.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 100,
+   "legenda_completa": [
+    "Figura 7. Estrutura não identificada",
+    "Grupo: Indeterminado | Objetiva: 40×*",
+    "Oval, parede fina, granulações e contornos curvos internos [7]."
+   ],
+   "arquivo_foto": "artefatos/nao_identificada_v4f07.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "artefatos/nao_identificada_v4f07_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 8,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Decorticado: casca espessa, lisa, dourada; massa interna densa [2].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/39949347a5943d07d9799171eee7c3d9cf5f64a4.jpg",
+   "midia_ampliacao": "media/881ede67bc96767bb9326d63fefd0411239a9364.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 107,
+   "legenda_completa": [
+    "Figura 8. Ascaris lumbricoides – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Decorticado: casca espessa, lisa, dourada; massa interna densa [2]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f08.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f08_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 9,
+   "modulo": "protozoarios",
+   "especie": "iodamoeba_buetschlii",
+   "identificacao": "Iodamoeba bütschlii – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Pequeno, parede definida, massa castanha excêntrica (vacúolo de glicogênio corado pelo iodo); 1 núcleo [6].",
+   "obs": "Obs.: Vacúolo pouco evidente. O gênero correto é Iodamoeba, não Entamoeba.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/bc98f22031f8f1787b9c14339dd9ba89c49f2436.jpg",
+   "midia_ampliacao": "media/93f5d542d9dd5cf79863bc8594c1bc34e09ae16d.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 108,
+   "legenda_completa": [
+    "Figura 9. Iodamoeba bütschlii – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Pequeno, parede definida, massa castanha excêntrica (vacúolo de glicogênio corado pelo iodo); 1 núcleo [6].",
+    "Obs.: Vacúolo pouco evidente. O gênero correto é Iodamoeba, não Entamoeba."
+   ],
+   "arquivo_foto": "protozoarios/iodamoeba_buetschlii_v4f09.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/iodamoeba_buetschlii_v4f09_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 10,
+   "modulo": "protozoarios",
+   "especie": "blastocystis_sp",
+   "identificacao": "Blastocystis spp. – forma vacuolar",
+   "grupo": "Grupo: Estramenópila (estudada com os protozoários) | Objetiva: 40×*",
+   "descricao": "Esférica, grande vacúolo central e fina borda de citoplasma [9].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    9
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/7b12ed69f345d772321300be988235e7e17d07ba.jpg",
+   "midia_ampliacao": "media/d2a7348b92e2f4a60d543d7090ec4d4120fdefff.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 105,
+   "legenda_completa": [
+    "Figura 10. Blastocystis spp. – forma vacuolar",
+    "Grupo: Estramenópila (estudada com os protozoários) | Objetiva: 40×*",
+    "Esférica, grande vacúolo central e fina borda de citoplasma [9]."
+   ],
+   "arquivo_foto": "protozoarios/blastocystis_sp_v4f10.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/blastocystis_sp_v4f10_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 11,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Oval, parede nítida, fibrilas e axonema interno [5].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/ee2b62ec37e2db79b428ef492fe4fe6d98c75fa5.jpg",
+   "midia_ampliacao": "media/30b0b9e6666b64848d0cc875c5791bcfd6d251f2.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 108,
+   "legenda_completa": [
+    "Figura 11. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Oval, parede nítida, fibrilas e axonema interno [5]."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f11.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f11_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 12,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Oval, casca espessa, superfície finamente granulosa, massa interna retraída [2].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/d9ec31cb31d8371f0335003093df7ad776fa102a.jpg",
+   "midia_ampliacao": "media/85e000a93a368876038a406210b9e8760cc05a61.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 108,
+   "legenda_completa": [
+    "Figura 12. Ascaris lumbricoides – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Oval, casca espessa, superfície finamente granulosa, massa interna retraída [2]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f12.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f12_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 13,
+   "modulo": "platelmintos",
+   "especie": "hymenolepis_nana",
+   "identificacao": "Hymenolepis nana – ovo",
+   "grupo": "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+   "descricao": "Oval, envoltório liso, zona intermediária granulosa e oncosfera central [3].",
+   "obs": "Obs.: Ganchos não resolvidos na foto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    3
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/54bb1fab4396ecc9dc208762aaf783a16942c00e.jpg",
+   "midia_ampliacao": "media/e6e6f2053aab1be8bc6106d28436dbc7beb3f3e0.jpg",
+   "tamanho_origem_foto": [
+    825,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 87,
+   "legenda_completa": [
+    "Figura 13. Hymenolepis nana – ovo",
+    "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+    "Oval, envoltório liso, zona intermediária granulosa e oncosfera central [3].",
+    "Obs.: Ganchos não resolvidos na foto."
+   ],
+   "arquivo_foto": "platelmintos/hymenolepis_nana_v4f13.jpg",
+   "tamanho_foto": [
+    825,
+    1100
+   ],
+   "arquivo_ampliacao": "platelmintos/hymenolepis_nana_v4f13_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 14,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Alongado, decorticado, casca espessa amarelada, grânulos grosseiros (provável não fertilizado) [2].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/2ef1d8ebfd1858dc7e75cef7a245c92610bc940f.jpg",
+   "midia_ampliacao": "media/1dcd00a309701d44873e5da201457bebedfc7750.jpg",
+   "tamanho_origem_foto": [
+    709,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 113,
+   "legenda_completa": [
+    "Figura 14. Ascaris lumbricoides – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Alongado, decorticado, casca espessa amarelada, grânulos grosseiros (provável não fertilizado) [2]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f14.jpg",
+   "tamanho_foto": [
+    709,
+    1100
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f14_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 15,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Mamilonado: casca espessa e rugosa, castanho-alaranjada [2].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/c1adda29786da5a705397a02a24d062f46c8c845.jpg",
+   "midia_ampliacao": "media/07075f1c8be6a466736f72f7b3f6c0765b7c7b02.jpg",
+   "tamanho_origem_foto": [
+    825,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 104,
+   "legenda_completa": [
+    "Figura 15. Ascaris lumbricoides – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Mamilonado: casca espessa e rugosa, castanho-alaranjada [2]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f15.jpg",
+   "tamanho_foto": [
+    825,
+    1100
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f15_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 16,
+   "modulo": "platelmintos",
+   "especie": "hymenolepis_nana",
+   "identificacao": "Hymenolepis nana – ovo",
+   "grupo": "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+   "descricao": "Oval, envoltório externo, zona granulosa e centro denso (imagem desfocada) [3].",
+   "obs": "Obs.: Ganchos não resolvidos na foto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    3
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/b7ca667e1f44cecd9b271a4446059235234b66dd.jpg",
+   "midia_ampliacao": "media/3771f366481c879660d49b8a59c046c269d6bee6.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 103,
+   "legenda_completa": [
+    "Figura 16. Hymenolepis nana – ovo",
+    "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+    "Oval, envoltório externo, zona granulosa e centro denso (imagem desfocada) [3].",
+    "Obs.: Ganchos não resolvidos na foto."
+   ],
+   "arquivo_foto": "platelmintos/hymenolepis_nana_v4f16.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "platelmintos/hymenolepis_nana_v4f16_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 17,
+   "modulo": "nematelmintos",
+   "especie": "trichuris_trichiura",
+   "identificacao": "Trichuris trichiura – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Barril/limão, casca espessa, dois tampões polares [1].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    1
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/21989e54cb586507498ceee8a6e068ce96521624.jpg",
+   "midia_ampliacao": "media/234c12a94154975379a53817f23ea5ce089220b2.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 93,
+   "legenda_completa": [
+    "Figura 17. Trichuris trichiura – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Barril/limão, casca espessa, dois tampões polares [1]."
+   ],
+   "arquivo_foto": "nematelmintos/trichuris_trichiura_v4f17.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/trichuris_trichiura_v4f17_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 18,
+   "modulo": "platelmintos",
+   "especie": "taenia_sp",
+   "identificacao": "Taenia sp. – dois ovos",
+   "grupo": "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+   "descricao": "Esféricos, parede espessa e escura (estriação radial), embrião interno [4].",
+   "obs": "Obs.: Espécie não distinguível pelo ovo; risco de cisticercose se T. solium [4].",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    4
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/978ebdb57c3ca3a5c158f932dc1c6b8e5153501b.jpg",
+   "midia_ampliacao": "media/b24f8ea373b48a56edda4db303751984a105c917.jpg",
+   "tamanho_origem_foto": [
+    984,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 113,
+   "legenda_completa": [
+    "Figura 18. Taenia sp. – dois ovos",
+    "Grupo: Cestódeo (platelminto) | Objetiva: 40×*",
+    "Esféricos, parede espessa e escura (estriação radial), embrião interno [4].",
+    "Obs.: Espécie não distinguível pelo ovo; risco de cisticercose se T. solium [4]."
+   ],
+   "arquivo_foto": "platelmintos/taenia_sp_v4f18.jpg",
+   "tamanho_foto": [
+    984,
+    1100
+   ],
+   "arquivo_ampliacao": "platelmintos/taenia_sp_v4f18_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 19,
+   "modulo": "nematelmintos",
+   "especie": "ascaris_lumbricoides",
+   "identificacao": "Ascaris lumbricoides – ovo",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Mamilonado: oval, mamilações regulares em todo o contorno [2].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    2
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/6400052d2bdd80b850207d0fed5c421c84d0ae5a.jpg",
+   "midia_ampliacao": "media/8ffaac8417df6bc0d609dec377dd2fa2effae242.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 106,
+   "legenda_completa": [
+    "Figura 19. Ascaris lumbricoides – ovo",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Mamilonado: oval, mamilações regulares em todo o contorno [2]."
+   ],
+   "arquivo_foto": "nematelmintos/ascaris_lumbricoides_v4f19.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "nematelmintos/ascaris_lumbricoides_v4f19_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 20,
+   "modulo": "protozoarios",
+   "especie": "endolimax_nana",
+   "identificacao": "Endolimax nana – cistos",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Várias formas pequenas, ovais a arredondadas, com halo claro; até 4 núcleos [6].",
+   "obs": "Obs.: Núcleos pouco visíveis.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/585e3f790f8ded20f418a9716623c24abd89e183.jpg",
+   "midia_ampliacao": "media/40b691155d39c58887c08d3655abf5d9dfa3d6e6.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 108,
+   "legenda_completa": [
+    "Figura 20. Endolimax nana – cistos",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Várias formas pequenas, ovais a arredondadas, com halo claro; até 4 núcleos [6].",
+    "Obs.: Núcleos pouco visíveis."
+   ],
+   "arquivo_foto": "protozoarios/endolimax_nana_v4f20.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/endolimax_nana_v4f20_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 21,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Oval, parede nítida, estruturas internas com axonema (linha longitudinal interna) [5].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/faf0b7401277ed8a5b5b1b4c2d3d12219c5c0bf6.jpg",
+   "midia_ampliacao": "media/abdf13be46820fbf09ae310e667e32313d9049e1.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 105,
+   "legenda_completa": [
+    "Figura 21. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Oval, parede nítida, estruturas internas com axonema (linha longitudinal interna) [5]."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f21.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f21_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 22,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Oval, elementos internos refringentes, com axonema (linha longitudinal interna) [5].",
+   "obs": "Obs.: Axonema pouco nítido nesta foto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/4ba16adfc0b5649a2e847ec792961ed4face040c.jpg",
+   "midia_ampliacao": "media/3dba7774f6eb27974a7d304274368d0748256f29.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 106,
+   "legenda_completa": [
+    "Figura 22. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Oval, elementos internos refringentes, com axonema (linha longitudinal interna) [5].",
+    "Obs.: Axonema pouco nítido nesta foto."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f22.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f22_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 23,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Cistos ovais, parede destacada, fibrilas longitudinais com axonema (linha longitudinal interna) [5].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/acd873eec99d441118cbb7bec64c24807b5f8a10.jpg",
+   "midia_ampliacao": "media/086410f2221bbe78d7e8fad48d33762b5ef6aeee.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 102,
+   "legenda_completa": [
+    "Figura 23. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Cistos ovais, parede destacada, fibrilas longitudinais com axonema (linha longitudinal interna) [5]."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f23.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f23_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 24,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Oval-arredondado, membrana nítida, feixe central com axonema (linha longitudinal interna) [5].",
+   "obs": "",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/8cb8edbd7205a9d6cc62f20e6774826632e86a69.jpg",
+   "midia_ampliacao": "media/806309c1b6c12616deceb1525beb163343603345.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 106,
+   "legenda_completa": [
+    "Figura 24. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Oval-arredondado, membrana nítida, feixe central com axonema (linha longitudinal interna) [5]."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f24.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f24_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 25,
+   "modulo": "protozoarios",
+   "especie": "entamoeba_coli",
+   "identificacao": "Entamoeba coli – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Conjunto de cistos esféricos a ovais, parede fina, citoplasma granuloso [6].",
+   "obs": "Obs.: Núcleos não individualizados.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/1d4beb4bca313d9270e3074a5aea351e15ade22b.jpg",
+   "midia_ampliacao": "media/f3d0bf687f61e42066dfa2d6f040ae786f267cb7.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 113,
+   "legenda_completa": [
+    "Figura 25. Entamoeba coli – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Conjunto de cistos esféricos a ovais, parede fina, citoplasma granuloso [6].",
+    "Obs.: Núcleos não individualizados."
+   ],
+   "arquivo_foto": "protozoarios/entamoeba_coli_v4f25.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/entamoeba_coli_v4f25_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 26,
+   "modulo": "protozoarios",
+   "especie": "entamoeba_coli",
+   "identificacao": "Entamoeba coli – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Corpo esférico, parede definida e citoplasma granuloso, junto a três corpos angulosos [6].",
+   "obs": "Obs.: Núcleos não individualizados; os corpos angulosos não têm forma típica de cisto.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/f043f056376d2816ae6f08047be4f9b1f329fc71.jpg",
+   "midia_ampliacao": "media/4fc2786214d2be9770827c8af2ba0f68f6c5a829.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    825
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 108,
+   "legenda_completa": [
+    "Figura 26. Entamoeba coli – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Corpo esférico, parede definida e citoplasma granuloso, junto a três corpos angulosos [6].",
+    "Obs.: Núcleos não individualizados; os corpos angulosos não têm forma típica de cisto."
+   ],
+   "arquivo_foto": "protozoarios/entamoeba_coli_v4f26.jpg",
+   "tamanho_foto": [
+    1100,
+    825
+   ],
+   "arquivo_ampliacao": "protozoarios/entamoeba_coli_v4f26_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 27,
+   "modulo": "protozoarios",
+   "especie": "endolimax_nana",
+   "identificacao": "Endolimax nana – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Cisto pequeno, arredondado, parede fina e inclusões internas refringentes [6].",
+   "obs": "Obs.: Núcleos não individualizados.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/d399f7b3320bab82678c9959e18d60023f19c47e.jpg",
+   "midia_ampliacao": "media/0686293383e8d352d5faaa47fbdceb71e4518143.jpg",
+   "tamanho_origem_foto": [
+    825,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 107,
+   "legenda_completa": [
+    "Figura 27. Endolimax nana – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Cisto pequeno, arredondado, parede fina e inclusões internas refringentes [6].",
+    "Obs.: Núcleos não individualizados."
+   ],
+   "arquivo_foto": "protozoarios/endolimax_nana_v4f27.jpg",
+   "tamanho_foto": [
+    825,
+    1100
+   ],
+   "arquivo_ampliacao": "protozoarios/endolimax_nana_v4f27_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 28,
+   "modulo": "protozoarios",
+   "especie": "giardia_lamblia",
+   "identificacao": "Giardia duodenalis – cisto",
+   "grupo": "Grupo: Protozoário flagelado | Objetiva: 40×*",
+   "descricao": "Cisto oval, parede nítida, fibrilas e axonema interno [5].",
+   "obs": "Obs.: Lâmina feita por Indira.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    5
+   ],
+   "lamina_preparada_por": "Indira",
+   "midia_foto": "media/640ad730fd4e956c41ecd25467b76b16b2c822ee.jpg",
+   "midia_ampliacao": "media/31c06850ec9c18056285e2988933441db48b3b96.jpg",
+   "tamanho_origem_foto": [
+    860,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 111,
+   "legenda_completa": [
+    "Figura 28. Giardia duodenalis – cisto",
+    "Grupo: Protozoário flagelado | Objetiva: 40×*",
+    "Cisto oval, parede nítida, fibrilas e axonema interno [5].",
+    "Obs.: Lâmina feita por Indira."
+   ],
+   "arquivo_foto": "protozoarios/giardia_lamblia_v4f28.jpg",
+   "tamanho_foto": [
+    860,
+    1100
+   ],
+   "arquivo_ampliacao": "protozoarios/giardia_lamblia_v4f28_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 29,
+   "modulo": "nematelmintos",
+   "especie": "strongyloides_stercoralis",
+   "identificacao": "Strongyloides stercoralis – larva",
+   "grupo": "Grupo: Nematódeo | Objetiva: 40×*",
+   "descricao": "Corpo alongado, delgado, cauda afilada. L1 rabditoide: cavidade bucal curta e primórdio genital evidente; L3 filarioide: cauda entalhada [10].",
+   "obs": "Obs.: A ponta da cauda parece filamentosa, o que não é típico: pode ser sobreposição ou outro nematódeo. Confirmar cavidade bucal, primórdio e cauda em maior aumento e diferenciar de ancilostomídeos [10].",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    10
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/d22e9f107f6a1818be304c4a12a7393ec102c804.jpg",
+   "midia_ampliacao": "media/09a6e426aed114dfc7edeec8101ee03f239a3a7b.jpg",
+   "tamanho_origem_foto": [
+    825,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 87,
+   "legenda_completa": [
+    "Figura 29. Strongyloides stercoralis – larva",
+    "Grupo: Nematódeo | Objetiva: 40×*",
+    "Corpo alongado, delgado, cauda afilada. L1 rabditoide: cavidade bucal curta e primórdio genital evidente; L3 filarioide: cauda entalhada [10].",
+    "Obs.: A ponta da cauda parece filamentosa, o que não é típico: pode ser sobreposição ou outro nematódeo. Confirmar cavidade bucal, primórdio e cauda em maior aumento e diferenciar de ancilostomídeos [10]."
+   ],
+   "arquivo_foto": "nematelmintos/strongyloides_stercoralis_v4f29.jpg",
+   "tamanho_foto": [
+    825,
+    1100
+   ],
+   "arquivo_ampliacao": "nematelmintos/strongyloides_stercoralis_v4f29_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 30,
+   "modulo": "protozoarios",
+   "especie": "endolimax_nana",
+   "identificacao": "Endolimax nana – cistos",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Numerosas formas pequenas, arredondadas a ovais, dispersas no campo [6].",
+   "obs": "Obs.: Lâmina obtida por Maria Eduarda. Confirmar núcleos em maior aumento.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    6
+   ],
+   "lamina_preparada_por": "Maria Eduarda",
+   "midia_foto": "media/02be4aecaff6efbcbed7692caafb423970bc3e6b.jpg",
+   "midia_ampliacao": "media/0eec6b644471e1f12faf4cf13a1efc4cf4936fc7.jpg",
+   "tamanho_origem_foto": [
+    825,
+    1100
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 105,
+   "legenda_completa": [
+    "Figura 30. Endolimax nana – cistos",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Numerosas formas pequenas, arredondadas a ovais, dispersas no campo [6].",
+    "Obs.: Lâmina obtida por Maria Eduarda. Confirmar núcleos em maior aumento."
+   ],
+   "arquivo_foto": "protozoarios/endolimax_nana_v4f30.jpg",
+   "tamanho_foto": [
+    825,
+    1100
+   ],
+   "arquivo_ampliacao": "protozoarios/endolimax_nana_v4f30_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 31,
+   "modulo": "protozoarios",
+   "especie": "chilomastix_mesnili",
+   "identificacao": "Chilomastix mesnili – cisto (indicado pela seta)",
+   "grupo": "Grupo: Protozoário flagelado (não patogênico) | Objetiva: 40×*",
+   "descricao": "Pequeno, arredondado a levemente piriforme. Característico: forma de limão, saliência hialina anterior, 6–10 µm, 1 núcleo [11,12].",
+   "obs": "Obs.: Saliência e núcleo não resolvidos nesta foto; confirmar em maior aumento.",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    11,
+    12
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/b7d4a55bfcd4983784b9a4b73b1fd43ed92cd15d.jpg",
+   "midia_ampliacao": "media/38843df50cad0afca57e5255b80b993afcd796b0.jpg",
+   "tamanho_origem_foto": [
+    720,
+    820
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": null,
+   "distancia_hash": 79,
+   "legenda_completa": [
+    "Figura 31. Chilomastix mesnili – cisto (indicado pela seta)",
+    "Grupo: Protozoário flagelado (não patogênico) | Objetiva: 40×*",
+    "Pequeno, arredondado a levemente piriforme. Característico: forma de limão, saliência hialina anterior, 6–10 µm, 1 núcleo [11,12].",
+    "Obs.: Saliência e núcleo não resolvidos nesta foto; confirmar em maior aumento."
+   ],
+   "arquivo_foto": "protozoarios/chilomastix_mesnili_v4f31.jpg",
+   "tamanho_foto": [
+    720,
+    820
+   ],
+   "arquivo_ampliacao": "protozoarios/chilomastix_mesnili_v4f31_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  },
+  {
+   "figura": 32,
+   "modulo": "protozoarios",
+   "especie": "entamoeba_histolytica",
+   "identificacao": "Entamoeba histolytica/dispar – cisto",
+   "grupo": "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+   "descricao": "Esférico, parede definida, citoplasma granuloso. Cisto maduro: em geral 12–15 µm, 4 núcleos [13].",
+   "obs": "Obs.: Núcleos não individualizados. A microscopia não separa E. histolytica de E. dispar nem de E. moshkovskii; usar método molecular (PCR) [13].",
+   "objetiva_legenda": "40×*",
+   "refs_numeros": [
+    13
+   ],
+   "lamina_preparada_por": null,
+   "midia_foto": "media/1db746f94bdfe6b2beed105dc4135c6373cca042.jpg",
+   "midia_ampliacao": "media/4a04b16ac93b9f52e0bf81068f4924f63c858b92.jpg",
+   "tamanho_origem_foto": [
+    1100,
+    1011
+   ],
+   "tamanho_origem_ampliacao": [
+    440,
+    440
+   ],
+   "foto_ja_no_catalogo": "protozoarios/entamoeba_histolytica_pz02.jpg",
+   "distancia_hash": 1,
+   "legenda_completa": [
+    "Figura 32. Entamoeba histolytica/dispar – cisto",
+    "Grupo: Protozoário (ameba) | Objetiva: 40×*",
+    "Esférico, parede definida, citoplasma granuloso. Cisto maduro: em geral 12–15 µm, 4 núcleos [13].",
+    "Obs.: Núcleos não individualizados. A microscopia não separa E. histolytica de E. dispar nem de E. moshkovskii; usar método molecular (PCR) [13]."
+   ],
+   "arquivo_foto": "protozoarios/entamoeba_histolytica_pz02.jpg",
+   "tamanho_foto": [
+    1280,
+    1177
+   ],
+   "arquivo_ampliacao": "protozoarios/entamoeba_histolytica_v4f32_ampliacao.jpg",
+   "tamanho_ampliacao": [
+    440,
+    440
+   ]
+  }
+ ]
+}

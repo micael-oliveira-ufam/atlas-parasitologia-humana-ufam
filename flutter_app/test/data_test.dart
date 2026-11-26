@@ -26,7 +26,7 @@ void main() {
 
     test('protocolos, referências e quiz', () {
       expect(data.protocols.length, 5);
-      expect(data.refs.length, 51);
+      expect(data.refs.length, 52);
       expect(data.quiz.length, 30);
     });
 
@@ -46,11 +46,11 @@ void main() {
       }
     });
 
-    test('lâminas de protozoários: 27 registros em 25 arquivos; composta compartilhada', () {
+    test('lâminas de protozoários: 42 registros em 40 arquivos; composta compartilhada', () {
       final prot = data.moduleById('protozoarios')!.specimens;
       final entries = [for (final s in prot) ...s.images];
-      expect(entries.length, 27);
-      expect(entries.map((i) => i.file).toSet().length, 25);
+      expect(entries.length, 42);
+      expect(entries.map((i) => i.file).toSet().length, 40);
       expect(entries.where((i) => i.file == 'protozoarios/composto_pz23.jpg').length, 3);
     });
 

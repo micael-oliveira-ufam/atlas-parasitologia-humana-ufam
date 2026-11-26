@@ -8,9 +8,11 @@
       "Livros-texto da bibliografia geral da disciplina (listados em Informações) — não consultados",
       "Identificação das espécies nas fotografias das lâminas — feita pelos autores; não foi confirmada de forma independente",
       "Artigos originais dos métodos clássicos (Lutz, Hoffman, Faust, Graham, Rugai) — não localizados",
-      "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): só taxonomia e uma frase do CDC foram verificadas; morfologia, tamanho, ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
+      "Blastocystis sp. e Iodamoeba buetschlii (incluídas em 06/11/2026): taxonomia, morfologia e doença vêm só de páginas do CDC lidas em 06/11/2026; ciclo, diagnóstico e tratamento NÃO foram revisados e não são exibidos",
       "taxid da Iodamoeba buetschlii no NCBI: não confirmado (consulta bloqueada)",
-      "Lâminas de protozoários atualizadas em 06/11/2026 a partir do documento de 25 imagens; a identificação das espécies segue as legendas do documento"
+      "Lâminas de protozoários atualizadas em 06/11/2026 a partir do documento de 25 imagens; a identificação das espécies segue as legendas do documento",
+      "Lâminas do documento v4 (25/11/2026): 32 figuras; as legendas são dos autores e a identificação não foi confirmada de forma independente; só a legenda da Figura 31 (Chilomastix) foi conferida contra a página do CDC citada — os detalhes do cisto não constam nela; a fonte [11] (Garcia et al., 2018) não foi lida",
+      "Autoria das fotos do documento v4 não informada; 'Lâmina feita/obtida por' (Indira, Maria Eduarda) é preparo da lâmina, com sobrenome a confirmar"
     ],
     "sourceAccessNote": "Fontes lidas por ferramentas automáticas (leitor de páginas e PubMed). Onde só o resumo ou trechos foram lidos, isso consta em 'acesso nesta revisão' de cada referência. Documento da OMS (Bench Aids) com acesso indisponível."
   },
@@ -410,6 +412,14 @@
       "citation": "Centers for Disease Control and Prevention (CDC). Cysticercosis — about (larvas de Taenia solium). https://www.cdc.gov/cysticercosis/about/index.html (última atualização indicada na página: 04/09/2024).",
       "url": "https://www.cdc.gov/cysticercosis/about/index.html",
       "access": "página lida em 06/11/2026 (leitor automático de páginas; trechos extraídos)"
+    },
+    {
+      "id": "garcia_2018",
+      "short": "Garcia et al. 2018 (Clin Microbiol Rev)",
+      "group": "Artigo",
+      "citation": "Garcia LS et al. Practical guidance for clinical microbiology laboratories: laboratory diagnosis of parasites from the gastrointestinal tract. Clin Microbiol Rev. 2018;31(1):e00025-17. https://doi.org/10.1128/CMR.00025-17.",
+      "url": "https://doi.org/10.1128/CMR.00025-17",
+      "access": "citada na legenda da Figura 31 do documento de lâminas v4; NÃO foi lida nesta revisão (as afirmações da legenda que dependem dela não foram verificadas)"
     }
   ]
 }

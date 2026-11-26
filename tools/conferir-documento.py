@@ -69,9 +69,11 @@ def collect():
                 if v:
                     items.append((f"{sid}.tax.{k}", v))
             for im in s["images"]:
-                for k in ("id", "file", "caption", "alt", "credit", "sourceFile", "date"):
+                for k in ("id", "file", "caption", "alt", "credit", "sourceFile", "date", "figure"):
                     if im.get(k):
                         items.append((f"{sid}.img.{im['id']}.{k}", im[k]))
+                if im.get("detail"):
+                    items.append((f"{sid}.img.{im['id']}.detail", im["detail"]["file"]))
             for v in s["verification"]:
                 for k in ("id", "text", "evidence", "note", "before"):
                     if v.get(k):
@@ -93,6 +95,13 @@ def collect():
         for k in ("nome", "confundidaCom", "comoDiferenciar", "evidencia"):
             if it.get(k):
                 items.append((f"artefato.{k}", it[k]))
+    ni = a.get("naoIdentificadas") or {}
+    if ni:
+        items += [("naoIdent.titulo", ni["titulo"]), ("naoIdent.aviso", ni["aviso"])]
+        for im in ni.get("fotos", []):
+            for k in ("file", "caption", "credit"):
+                if im.get(k):
+                    items.append((f"naoIdent.{im['id']}.{k}", im[k]))
     for r in a.get("removidos", []):
         items += [("artefato.removido", r["antes"]), ("artefato.removido.motivo", r["motivo"])]
     for q in J("quiz.json"):
