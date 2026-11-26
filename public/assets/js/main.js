@@ -1,6 +1,7 @@
 import { h, clear, slug } from './dom.js';
 import { loadAll, store } from './store.js';
 import { icon } from './icons.js';
+import { reveal, spy } from './fx.js';
 import { home } from './views/home.js';
 import { modulePage } from './views/module.js';
 import { specimenPage } from './views/specimen.js';
@@ -8,6 +9,7 @@ import { quizPage } from './views/quiz.js';
 import { protocolsPage } from './views/protocols.js';
 import { artifactsPage } from './views/artifacts.js';
 import { searchPage } from './views/search.js';
+import { downloadsPage } from './views/downloads.js';
 import { aboutPage } from './views/about.js';
 
 const main = document.getElementById('conteudo');
@@ -18,7 +20,7 @@ function renderChrome() {
   const links = [
     ['#/', 'Início'],
     ...store.modules.map(m => [`#/m/${m.id}`, m.title]),
-    ['#/artefatos', 'Artefatos'], ['#/protocolos', 'Protocolos'], ['#/quiz', 'Quiz'], ['#/sobre', 'Sobre']
+    ['#/artefatos', 'Artefatos'], ['#/protocolos', 'Protocolos'], ['#/quiz', 'Quiz'], ['#/downloads', 'Downloads'], ['#/sobre', 'Sobre']
   ];
   const form = h('form', { class: 'search', role: 'search', onSubmit: e => { e.preventDefault(); const q = new FormData(e.target).get('q').toString().trim(); if (q) location.hash = '#/busca?q=' + encodeURIComponent(q); } },
     h('input', { type: 'search', name: 'q', placeholder: 'Buscar espécie ou doença…', 'aria-label': 'Buscar no atlas' }));
@@ -26,7 +28,7 @@ function renderChrome() {
   const toggle = h('button', { class: 'icon-btn menu-btn', type: 'button', 'aria-label': 'Abrir menu', 'aria-expanded': 'false', 'aria-controls': 'drawer', onClick: () => setMenu(!topbar.classList.contains('open')) }, icon('menu', 22));
   const theme = h('button', { class: 'icon-btn theme-btn', type: 'button', 'aria-label': 'Alternar tema claro/escuro', onClick: toggleTheme }, icon('moon', 20), icon('sun', 20));
   const drawer = h('div', { class: 'drawer', id: 'drawer' }, nav, form);
-  clear(topbar).append(h('div', { class: 'wrap bar' }, h('a', { class: 'brand', href: '#/' }, h('img', { class: 'brand-seal', src: 'assets/img/brand/ufam_brasao.png', alt: '', width: 36, height: 36 }), h('span', null, h('strong', null, 'Atlas de Parasitologia'), h('small', null, 'Humana · laminário digital'))), drawer, theme, toggle));
+  clear(topbar).append(h('div', { class: 'wrap bar' }, h('a', { class: 'brand', href: '#/' }, h('img', { class: 'brand-seal', src: 'assets/brand/atlas-mark.svg', alt: '', width: 40, height: 40 }), h('span', null, h('strong', null, 'Atlas de Parasitologia'), h('small', null, 'Humana · laminário digital'))), drawer, theme, toggle));
   topbar.append(h('div', { class: 'scrim', onClick: () => setMenu(false) }));
   const s = store.site;
   clear(footer).append(h('div', { class: 'wrap foot' },
@@ -69,6 +71,7 @@ function route() {
     else if (seg[0] === 'protocolos') view = protocolsPage();
     else if (seg[0] === 'artefatos') view = artifactsPage();
     else if (seg[0] === 'busca') view = searchPage(params.get('q') || '');
+    else if (seg[0] === 'downloads') view = downloadsPage();
     else if (seg[0] === 'sobre') view = aboutPage();
   } catch (err) { console.error(err); view = null; }
   clear(main).append(view || notFound());
@@ -77,6 +80,7 @@ function route() {
   const title = view && view.dataset && view.dataset.title;
   document.title = (title ? title + ' · ' : '') + store.site.title;
   window.scrollTo(0, 0);
+  reveal(main); spy(main);
   main.focus({ preventScroll: true });
 }
 

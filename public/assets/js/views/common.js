@@ -9,6 +9,9 @@ export const STATUS = { publicado: null, revisar: 'Em revisão', rascunho: 'Rasc
 export const STLABEL = { confirmado: ['Confirmado', 'ok'], corrigido: ['Corrigido', 'warn'], ressalva: ['Ressalva', 'bad'], observacao: ['Observação da lâmina', ''] };
 export const refName = refLabel;
 
+/** Primeira frase de um texto longo (cartões e destaques; a ficha mostra o texto completo). */
+export const brief = t => { if (!t) return ''; const m = t.match(/^.*?\.(?=\s|$)/); return m ? m[0] : t; };
+
 /** Número de fotos de lâmina da espécie (contagem real das imagens do tipo microfotografia). */
 export const nFotos = s => s.images.filter(i => i.type === 'microfotografia').length;
 
@@ -29,7 +32,7 @@ export function specCard(s) {
       h('button', { type: 'button', class: 'zoom-fab', title: 'Ampliar imagens', 'aria-label': `Ampliar imagens de ${s.commonName}`, onClick: () => openLightbox(s.images, 0, { title: s.commonName }) }, icon('expand', 18)),
       s.images.length > 1 ? h('span', { class: 'pill-n', 'aria-hidden': 'true' }, `${s.images.length} imagens`) : null),
     h('div', { class: 'card-body' },
-      h('h3', null, h('a', { class: 'card-link', href }, s.commonName)), h('p', { class: 'sci' }, s.scientificName), h('p', { class: 'muted' }, s.disease || s.evolutionaryStage), badges(s)));
+      h('h3', null, h('a', { class: 'card-link', href }, s.commonName)), h('p', { class: 'sci' }, s.scientificName), h('p', { class: 'muted' }, brief(s.disease) || s.evolutionaryStage), badges(s)));
 }
 export const list = (arr, ordered) => arr && arr.length ? h(ordered ? 'ol' : 'ul', { class: 'list' }, arr.map(x => h('li', null, x))) : null;
 export function page(title, ...kids) { return h('section', { class: 'wrap page', dataset: { title } }, ...kids); }

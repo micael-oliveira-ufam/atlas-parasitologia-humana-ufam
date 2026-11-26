@@ -27,7 +27,7 @@ export function specimenPage(modId, id) {
         s.keyDiagnosticFeatures ? [h('h2', null, 'Critérios-chave'), list(s.keyDiagnosticFeatures)] : null,
         h('dl', { class: 'facts' }, row('Estágio', s.evolutionaryStage), row('Dimensões de referência', s.approxSizeMicrons),
           h('p', { class: 'muted small' }, 'Dimensões são valores de livro-texto, não medidas feitas nas fotos.')))),
-    h('nav', { class: 'toc', 'aria-label': 'Seções' }, toc.map(([a, l]) => h('a', { href: `#/m/${m.id}/${s.id}`, onClick: e => { e.preventDefault(); const el = document.getElementById(a); el && el.scrollIntoView({ behavior: 'smooth' }); } }, l))),
+    h('nav', { class: 'toc', 'aria-label': 'Seções' }, toc.map(([a, l]) => h('a', { href: `#/m/${m.id}/${s.id}`, dataset: { sec: a }, onClick: e => { e.preventDefault(); const el = document.getElementById(a); el && el.scrollIntoView({ behavior: 'smooth' }); } }, l))),
     section('morfologia', 'Morfologia', h('p', null, s.morphologyDescription), tax.length ? h('dl', { class: 'tax' }, tax.map(k => row(TL[k], t[k])), row('NCBI Taxonomy', t.ncbi)) : null, t.note ? h('p', { class: 'muted small' }, t.note) : null),
     section('diagnostico', 'Diagnóstico laboratorial', h('dl', { class: 'facts' }, row('Método de escolha', d.goldStandard), row('Amostra', d.sampleType), row('Observação técnica', d.technicalObservation)),
       d.alternatives && d.alternatives.length ? [h('h3', null, 'Alternativas'), list(d.alternatives)] : null),

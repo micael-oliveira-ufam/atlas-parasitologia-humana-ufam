@@ -17,7 +17,7 @@ export function modulePage(id) {
   const sel = (label, key, opts) => h('label', null, label, h('select', { onChange: e => { q[key] = e.target.value; paint(); } }, h('option', { value: '' }, 'Todos'), opts.map(o => h('option', { value: o }, o))));
   const filters = m.specimens.length ? h('div', { class: 'filters' },
     h('label', null, 'Buscar', h('input', { type: 'search', placeholder: 'nome, doença…', onInput: e => { q.text = e.target.value; paint(); } })),
-    cats.length > 1 ? sel('Categoria', 'cat', cats) : null, info) : null;
+    cats.length > 1 ? h('div', { class: 'chips', role: 'group', 'aria-label': 'Categoria' }, ['', ...cats].map(c => { const b = h('button', { type: 'button', class: 'chip-btn' + (c === '' ? ' on' : ''), 'aria-pressed': String(c === ''), onClick: () => { q.cat = c; document.querySelectorAll('.filters .chip-btn').forEach(x => { const on = x === b; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); }); paint(); } }, c || 'Todas'); return b; })) : null, info) : null;
   const empty = h('div', { class: 'empty' }, h('h3', null, 'Nenhuma lâmina publicada ainda'), h('p', null, 'Este módulo está pronto para receber conteúdo. Para adicionar lâminas, edite ', h('code', null, m.dataFile), ' e coloque as imagens em ', h('code', null, 'assets/img/' + m.id + '/'), ' (passo a passo em docs/ADICIONAR_LAMINAS.md).'));
   paint();
   return page(m.title,

@@ -1,0 +1,18 @@
+{
+ "geradoEm": "2026-11-26",
+ "dadosSha256": "3d5bf9be5e872312bcd16702f3961ba30833eb36c40c9a6459a8e8da8a6e2115",
+ "arquivos": {
+  "Atlas_Parasitologia_Humana_UFAM.docx": {
+   "bytes": 4216361,
+   "sha256": "46f9cd3d280dd0902e27e5ef0bda005596b9a392f23e38b71501bee7add46904"
+  },
+  "Atlas_Parasitologia_Humana_UFAM.pdf": {
+   "bytes": 5325065,
+   "sha256": "d807782e1cc893aa7f2c880e6a4bcf85e9aec22b2a24858c1a1e0afdd1577b44"
+  },
+  "OPAS_Pranchas_diagnostico_parasitos_intestinais_2ed_2020.pdf": {
+   "bytes": 7506669,
+   "sha256": "e651ea62d7d02d6ba6765ebfa8d5754eeffcd464bc71b86b527df148b5407760"
+  }
+ }
+}
