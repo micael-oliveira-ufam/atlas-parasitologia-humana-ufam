@@ -107,25 +107,87 @@ def jpeg(path, maxside=900):
     return io.BytesIO(_cache[path])
 
 
+def _pic(par, path, maxw=7.9, maxh=8.6):
+    """Insere a imagem dentro de uma caixa maxw x maxh (cm), mantendo a proporção; assim os dois lados do par ficam com altura comparável."""
+    w, h = Image.open(path).size
+    k = min(maxw / w, maxh / h)
+    par.add_run().add_picture(jpeg(path), width=Cm(w * k), height=Cm(h * k))
+
+
+def _cell(c, file, titulo, im, legenda=None):
+    par = c.paragraphs[0]; par.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    try:
+        _pic(par, IMG / file)
+    except Exception as e:  # nunca omite em silêncio
+        par.add_run(f"[imagem não incorporada: {e}]")
+    cap = c.add_paragraph(); cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = cap.add_run(titulo); r.bold = True; r.font.size = Pt(8)
+    if legenda:
+        q = c.add_paragraph(); q.alignment = WD_ALIGN_PARAGRAPH.CENTER; q2 = q.add_run(legenda); q2.font.size = Pt(7)
+    cr = c.add_paragraph(); cr.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r3 = cr.add_run((im.get("credit") or "Crédito não informado (origem a confirmar)") + " · " + CONF.get(im.get("confidence"), "identificação a confirmar"))
+    r3.italic = True; r3.font.size = Pt(7); r3.font.color.rgb = MUTED
+
+
+def _row(D, esq, dir_):
+    """Uma linha com duas imagens lado a lado (esq, dir_ = (arquivo, título, imagem-origem, legenda)); a linha não é quebrada entre páginas."""
+    t = D.d.add_table(rows=1, cols=2); t.alignment = WD_TABLE_ALIGNMENT.CENTER
+    trPr = t.rows[0]._tr.get_or_add_trPr(); cs = OxmlElement("w:cantSplit"); trPr.append(cs)
+    for c, x in zip(t.rows[0].cells, (esq, dir_)):
+        if x:
+            _cell(c, *x)
+            for par in c.paragraphs[:-1]:
+                par.paragraph_format.keep_with_next = True
+    D.d.add_paragraph().paragraph_format.space_after = Pt(2)
+
+
+def _pares(ims):
+    """Pares (campo/foto, ampliação) da MESMA lâmina: (1) 'campo geral' + 'detalhe ampliado' com o mesmo número de lâmina;
+    (2) foto + ampliação digital do documento v4. Devolve (pares, fotos_sem_ampliação)."""
+    pares, usadas = [], set()
+    por_lam = {}
+    for im in ims:
+        if im.get("lamina"):
+            por_lam.setdefault(im["lamina"], {})[im.get("kind")] = im
+    for n in sorted(por_lam):
+        v = por_lam[n]
+        if "campo" in v and "detalhe" in v:
+            c, d = v["campo"], v["detalhe"]
+            pares.append(((c["file"], f"Lâmina {int(n):02d} · campo geral", c, c.get("caption")),
+                          (d["file"], f"Lâmina {int(n):02d} · detalhe ampliado (foto)", d, d.get("caption"))))
+            usadas.update((c["id"], d["id"]))
+    for im in ims:
+        det = im.get("detail")
+        if det and det.get("file") and im["id"] not in usadas:
+            tag = f"Fig. {im['figure']} · " if im.get("figure") else ""
+            pares.append(((im["file"], tag + "foto da lâmina", im, im.get("caption")),
+                          (det["file"], tag + (det.get("label") or "ampliação digital"), im, None)))
+            usadas.add(im["id"])
+    return pares, [im for im in ims if im["id"] not in usadas]
+
+
 def photos(D, s):
     ims = [i for i in s["images"] if i["type"] == "microfotografia"]
     if not ims:
         D.p("Esta espécie ainda não tem fotos de lâmina neste atlas.", italic=True, color=MUTED); return
+    pares, soltas = _pares(ims)
     D.h("Fotos de lâminas", 3)
-    for k in range(0, len(ims), 2):
-        t = D.d.add_table(rows=1, cols=2); t.alignment = WD_TABLE_ALIGNMENT.CENTER
-        for c, im in zip(t.rows[0].cells, ims[k:k + 2]):
-            par = c.paragraphs[0]; par.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            try:
-                par.add_run().add_picture(jpeg(IMG / im["file"]), width=Cm(7.9))
-            except Exception as e:  # nunca omite em silêncio
-                par.add_run(f"[imagem não incorporada: {e}]")
-            tag = f"Fig. {im['figure']} · " if im.get("figure") else (f"Lâmina {int(im['lamina']):02d} · " if im.get("lamina") else "")
-            cap = c.add_paragraph(); r = cap.add_run(tag + (im.get("alt") or "")); r.bold = True; r.font.size = Pt(8)
-            if im.get("caption"):
-                r2 = c.add_paragraph().add_run(im["caption"]); r2.font.size = Pt(7)
-            cr = c.add_paragraph(); r3 = cr.add_run((im.get("credit") or "Crédito não informado (origem a confirmar)") + " · " + CONF.get(im.get("confidence"), "identificação a confirmar")); r3.italic = True; r3.font.size = Pt(7); r3.font.color.rgb = MUTED
-        D.d.add_paragraph().paragraph_format.space_after = Pt(2)
+    if pares:
+        D.p("Cada linha mostra a mesma lâmina à esquerda e a sua ampliação à direita, para comparar o campo geral com os detalhes.", italic=True, size=8.5, color=MUTED).paragraph_format.keep_with_next = True
+        for esq, dir_ in pares:
+            _row(D, esq, dir_)
+    if soltas:
+        if pares:
+            D.p("Outras fotos desta espécie (sem ampliação disponível no material de origem):", bold=True, size=9).paragraph_format.keep_with_next = True
+        else:
+            D.p("Fotos desta espécie (o material de origem não traz ampliação para elas):", bold=True, size=9).paragraph_format.keep_with_next = True
+        for k in range(0, len(soltas), 2):
+            lote = soltas[k:k + 2]
+            xs = []
+            for im in lote:
+                tag = f"Fig. {im['figure']} · " if im.get("figure") else (f"Lâmina {int(im['lamina']):02d} · " if im.get("lamina") else "")
+                xs.append((im["file"], tag + (im.get("alt") or ""), im, im.get("caption")))
+            _row(D, xs[0], xs[1] if len(xs) > 1 else None)
 
 
 def especie(D, m, s):

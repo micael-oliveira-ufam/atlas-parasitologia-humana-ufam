@@ -3,12 +3,12 @@
  "dadosSha256": "3d5bf9be5e872312bcd16702f3961ba30833eb36c40c9a6459a8e8da8a6e2115",
  "arquivos": {
   "Atlas_Parasitologia_Humana_UFAM.docx": {
-   "bytes": 4216361,
-   "sha256": "46f9cd3d280dd0902e27e5ef0bda005596b9a392f23e38b71501bee7add46904"
+   "bytes": 4728940,
+   "sha256": "d238d58d255de88108e15c01392b8d5a0dfa5d8a2409cbde7cb8139959390ca7"
   },
   "Atlas_Parasitologia_Humana_UFAM.pdf": {
-   "bytes": 5325065,
-   "sha256": "d807782e1cc893aa7f2c880e6a4bcf85e9aec22b2a24858c1a1e0afdd1577b44"
+   "bytes": 5988660,
+   "sha256": "0f5ed919c168e98c1021748421c4a704081f036d0fdeb0c01f7e923bb08b6c10"
   },
   "OPAS_Pranchas_diagnostico_parasitos_intestinais_2ed_2020.pdf": {
    "bytes": 7506669,
