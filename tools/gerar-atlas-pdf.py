@@ -9,15 +9,15 @@ Nada é escrito à mão aqui: todo o texto vem de public/data (reprodutível; o 
 Uso:  python3 tools/gerar-atlas-pdf.py
       (gera public/assets/downloads/Atlas_Parasitologia_Humana_UFAM.docx e converte para .pdf com o soffice)
 """
-import hashlib, io, json, subprocess, sys
+import hashlib, importlib.util, io, json, subprocess, sys, tempfile
 from datetime import date
 from pathlib import Path
 
 from docx import Document
-from docx.enum.section import WD_ORIENT
+from docx.enum.section import WD_ORIENT, WD_SECTION
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
-from docx.oxml import OxmlElement
+from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 from PIL import Image
@@ -59,9 +59,20 @@ class Doc:
         for n, sz in (("Heading 1", 20), ("Heading 2", 14), ("Heading 3", 11.5)):
             h = self.d.styles[n]; h.font.name = "Calibri"; h.font.size = Pt(sz); h.font.bold = True; h.font.color.rgb = TEAL
             h.element.rPr.rFonts.set(qn("w:eastAsia"), "Calibri")
-        fp = s.footer.paragraphs[0]; fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        r = fp.add_run("Atlas Digital de Parasitologia Humana · UFAM — material de apoio ao ensino · página "); r.font.size = Pt(8); r.font.color.rgb = MUTED
-        field(fp, "PAGE")
+
+    def secao(self, rodape=True, reiniciar=False):
+        """Nova seção em página nova. rodape=False deixa o rodapé vazio (capa e contracapa); reiniciar=True recomeça a numeração em 1."""
+        sec = self.d.add_section(WD_SECTION.NEW_PAGE)
+        for e in sec._sectPr.findall(qn("w:footerReference")):
+            sec._sectPr.remove(e)          # add_section copia a referência; remove para criar um rodapé próprio
+        sec.footer.is_linked_to_previous = False
+        if rodape:
+            fp = sec.footer.paragraphs[0]; fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = fp.add_run("Atlas Digital de Parasitologia Humana · UFAM — material de apoio ao ensino · página "); r.font.size = Pt(8); r.font.color.rgb = MUTED
+            field(fp, "PAGE")
+        if reiniciar:
+            pg = OxmlElement("w:pgNumType"); pg.set(qn("w:start"), "1"); sec._sectPr.find(qn("w:pgMar")).addnext(pg)
+        return sec
 
     def h(self, t, lvl=2, color=None):
         p = self.d.add_heading(t, lvl)
@@ -226,18 +237,133 @@ def especie(D, m, s):
     D.pagebreak()
 
 
+WHITE = RGBColor(0xFF, 0xFF, 0xFF)
+SOFT = RGBColor(0xE8, 0xF1, 0xF5)
+SITE_URL = "https://micael-oliveira-ufam.github.io/atlas-parasitologia-humana-ufam/"
+
+
+def _arte():
+    sp = importlib.util.spec_from_file_location("arte_livro", ROOT / "tools" / "arte_livro.py")
+    m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m); return m
+
+
+def fullbleed(par, path, descr):
+    """Imagem de página inteira ANCORADA atrás do texto (o texto da capa/capítulos continua sendo texto, selecionável)."""
+    run = par.add_run(); run.add_picture(str(path), width=Cm(21), height=Cm(29.7))
+    inline = run._r.xpath(".//wp:inline")[0]
+    anchor = parse_xml('<wp:anchor xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" distT="0" distB="0" distL="0" distR="0" '
+                       'simplePos="0" relativeHeight="0" behindDoc="1" locked="1" layoutInCell="1" allowOverlap="1"><wp:simplePos x="0" y="0"/>'
+                       '<wp:positionH relativeFrom="page"><wp:posOffset>0</wp:posOffset></wp:positionH>'
+                       '<wp:positionV relativeFrom="page"><wp:posOffset>0</wp:posOffset></wp:positionV></wp:anchor>')
+    docpr = inline.find(qn("wp:docPr")); docpr.set("descr", descr)   # texto alternativo (a arte é decorativa)
+    anchor.append(inline.find(qn("wp:extent")))
+    anchor.append(parse_xml('<wp:effectExtent xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" l="0" t="0" r="0" b="0"/>'))
+    anchor.append(parse_xml('<wp:wrapNone xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"/>'))
+    anchor.append(docpr); anchor.append(inline.find(qn("wp:cNvGraphicFramePr"))); anchor.append(inline.find(qn("a:graphic")))
+    inline.getparent().replace(inline, anchor)
+
+
+def P(D, t, size=10, color=None, bold=False, italic=False, before=0, after=0, align=None, left=0.0, right=0.0, keep=False, spacing=None):
+    """Parágrafo de página especial, com espaçamentos em pontos e recuo em cm."""
+    par = D.d.add_paragraph(); r = par.add_run(t)
+    if spacing: r._r.get_or_add_rPr().append(parse_xml(f'<w:spacing xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w:val="{spacing}"/>'))
+    r.bold = bold; r.italic = italic; r.font.size = Pt(size)
+    if color is not None: r.font.color.rgb = color
+    f = par.paragraph_format; f.space_before = Pt(before); f.space_after = Pt(after); f.left_indent = Cm(left); f.right_indent = Cm(right); f.keep_with_next = keep
+    if align is not None: par.alignment = align
+    return par
+
+
+def capa(D, site, arte, tmp, mark):
+    img = arte.capa(Path(tmp) / "capa.jpg", mark)
+    first = D.d.add_paragraph(); first.paragraph_format.space_after = Pt(0)
+    fullbleed(first, img, "Capa: campo de microscópio com ovo, larva e cisto estilizados")
+    C = WD_ALIGN_PARAGRAPH.CENTER
+    P(D, "LAMINÁRIO INTERATIVO DE ENSINO E DIAGNÓSTICO", 10.5, SOFT, bold=True, before=372, after=8, align=C, spacing=40)
+    P(D, "Atlas Digital de", 36, WHITE, bold=True, after=0, align=C)
+    P(D, "Parasitologia Humana", 40, WHITE, bold=True, after=10, align=C)
+    P(D, "Nematelmintos  ·  Platelmintos  ·  Protozoários", 14, SOFT, italic=True, after=0, align=C)
+    P(D, site.get("institution", ""), 13, WHITE, bold=True, before=88, after=1, align=C)
+    P(D, site.get("course", ""), 11.5, SOFT, after=10, align=C)
+    P(D, " · ".join(d["name"] for d in site.get("developers", [])), 10.5, WHITE, after=1, align=C)
+    if site.get("advisor"):
+        P(D, f"Orientação: {site['advisor']['name']}", 10.5, SOFT, after=8, align=C)
+    P(D, f"Edição de {date.today().strftime('%d/%m/%Y')}  ·  material de apoio ao ensino", 9, SOFT, italic=True, align=C)
+
+
+def abertura_capitulo(D, m, n, sp, img_path):
+    """Página de abertura de capítulo: arte colorida do módulo + título + cartão com descrição e lista de espécies."""
+    L = WD_ALIGN_PARAGRAPH.LEFT
+    first = D.d.add_paragraph(); first.paragraph_format.page_break_before = True; first.paragraph_format.space_after = Pt(0)
+    fullbleed(first, img_path, f"Abertura do capítulo {n}: {m['title']} (ilustração estilizada)")
+    r = first.add_run("CAPÍTULO")
+    r._r.get_or_add_rPr().append(parse_xml('<w:spacing xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w:val="60"/>'))
+    r.bold = True; r.font.size = Pt(13); r.font.color.rgb = SOFT
+    first.paragraph_format.space_before = Pt(26)
+    P(D, str(n), 120, WHITE, bold=True, after=0, align=L)
+    t = D.d.add_heading(m["title"], 1); t.paragraph_format.keep_with_next = True; t.paragraph_format.space_before = Pt(0); t.paragraph_format.space_after = Pt(4)
+    for rr in t.runs:
+        rr.font.size = Pt(40); rr.font.color.rgb = WHITE
+    P(D, m.get("subtitle", ""), 14, SOFT, italic=True, after=0, align=L)
+    nf = sum(1 for s in sp for i in s["images"] if i["type"] == "microfotografia")
+    P(D, m.get("description", ""), 10.5, INK, before=78, after=6, left=0.7, right=0.7)
+    P(D, f"{len(sp)} espécies  ·  {nf} fotografias de lâmina", 10, TEAL if m.get("accent") == "teal" else RGBColor.from_string(ACC.get(m.get("accent"), "0B6B62")), bold=True, after=5, left=0.7)
+    for s in sp:
+        par = D.d.add_paragraph(); par.paragraph_format.left_indent = Cm(0.7); par.paragraph_format.space_after = Pt(2)
+        a = par.add_run("•  " + s["commonName"].split(" (")[0]); a.bold = True; a.font.size = Pt(10.5); a.font.color.rgb = INK
+        b = par.add_run("  " + s["scientificName"]); b.italic = True; b.font.size = Pt(9.5); b.font.color.rgb = MUTED
+        if s.get("status") == "revisar":
+            c = par.add_run("  (em revisão)"); c.font.size = Pt(8.5); c.font.color.rgb = RGBColor(0xA1, 0x26, 0x2B)
+    D.pagebreak()
+
+
+def referencias(D, refs):
+    D.pagebreak()
+    D.h("Referências", 1)
+    D.p("Fontes que sustentam as afirmações científicas deste atlas. O campo \"acesso\" diz o que foi lido de cada uma (texto completo, resumo etc.).", italic=True, size=9, color=MUTED)
+    for r in sorted(refs, key=lambda x: (x.get("citation") or x.get("short") or "").lower()):
+        par = D.d.add_paragraph(); par.paragraph_format.space_after = Pt(3); par.paragraph_format.left_indent = Cm(0.5); par.paragraph_format.first_line_indent = Cm(-0.5)
+        x = par.add_run(r.get("citation") or r.get("short") or r.get("id", "")); x.font.size = Pt(8.5)
+        extra = " ".join(filter(None, [f"DOI: {r['doi']}." if r.get("doi") else "", f"PMID: {r['pmid']}." if r.get("pmid") else "", f"URL: {r['url']}." if r.get("url") else ""]))
+        if extra:
+            y = par.add_run(" " + extra); y.font.size = Pt(8); y.font.color.rgb = MUTED
+        if r.get("access"):
+            z = par.add_run(f" [acesso: {r['access']}]"); z.italic = True; z.font.size = Pt(8); z.font.color.rgb = TEAL
+
+
+def contracapa(D, site, nrefs, sha, arte, tmp, mark):
+    D.secao(rodape=False)
+    img = arte.contracapa(Path(tmp) / "contracapa.jpg", mark)
+    first = D.d.add_paragraph(); first.paragraph_format.space_after = Pt(0)
+    fullbleed(first, img, "Contracapa: campo de microscópio com a marca do atlas e organismos estilizados")
+    C = WD_ALIGN_PARAGRAPH.CENTER
+    t = P(D, "Fim", 46, TEAL, bold=True, before=282, after=0, align=C)
+    P(D, "Obrigado por estudar com este atlas.", 13, MUTED, italic=True, after=14, align=C)
+    P(D, "Equipe", 10, TEAL, bold=True, after=2, left=1.0, right=1.0)
+    for d in site.get("developers", []):
+        P(D, f"{d['name']} — {d['role']}", 10, INK, after=1, left=1.0, right=1.0)
+    if site.get("advisor"):
+        P(D, f"{site['advisor']['name']} — {site['advisor']['role']}", 10, INK, after=1, left=1.0, right=1.0)
+    P(D, f"{site.get('institution', '')} · {site.get('course', '')}", 10, INK, after=10, left=1.0, right=1.0)
+    P(D, "Versão interativa", 10, TEAL, bold=True, after=2, left=1.0, right=1.0)
+    P(D, SITE_URL, 9.5, INK, after=10, left=1.0, right=1.0)
+    P(D, "Sobre este material", 10, TEAL, bold=True, after=2, left=1.0, right=1.0)
+    P(D, f"Material de apoio ao ensino: não substitui livros-texto, normas laboratoriais nem avaliação clínica. As {nrefs} fontes científicas estão na seção Referências. "
+         "As ilustrações da capa, das aberturas de capítulo e desta página são arte original e estilizada, sem escala e sem valor diagnóstico; as fotografias das lâminas estão nas fichas, com crédito e legenda.",
+      9, MUTED, after=8, left=1.0, right=1.0)
+    P(D, f"Edição gerada em {date.today().strftime('%d/%m/%Y')} · SHA-256 dos dados: {sha[:16]}…", 8, MUTED, italic=True, left=1.0, right=1.0)
+
+
 def main():
     reg = J("modulos.json"); site = reg["site"]
     h = hashlib.sha256()
     for f in sorted(DATA.rglob("*.json")):
         h.update(f.read_bytes())
     D = Doc()
-    logo = ROOT / "public" / "assets" / "brand" / "atlas-logo-1200.png"
-    if logo.exists():
-        D.d.add_paragraph().add_run().add_picture(str(logo), width=Cm(12))
-    D.p(site["title"], bold=True, size=24, color=TEAL, after=2)
-    D.p(site.get("institution", ""), size=12, color=MUTED, after=2)
-    D.p(site.get("course", ""), size=11, color=MUTED, after=14)
+    arte = _arte(); tmp = tempfile.mkdtemp(prefix="atlas-arte-")
+    mark = ROOT / "public" / "assets" / "brand" / "atlas-mark-512.png"
+    capa(D, site, arte, tmp, mark)
+    D.secao(rodape=True, reiniciar=True)   # a capa não leva rodapé; a numeração recomeça na ficha técnica
     D.h("Ficha técnica", 2)
     D.kv("Edição", f"gerada em {date.today().strftime('%d/%m/%Y')} a partir dos dados do site")
     D.kv("Desenvolvimento", site.get("developer"))
@@ -260,15 +386,19 @@ def main():
     D.pagebreak()
     for m in sorted(reg["modules"], key=lambda x: x["order"]):
         sp = [s for s in J(m["dataFile"].replace("data/", "", 1))["specimens"] if s["status"] != "rascunho"]
-        D.h(m["title"], 1, ACC.get(m.get("accent")))
-        D.p(m.get("subtitle", ""), italic=True, color=MUTED); D.p(m.get("description", "")); D.pagebreak()
+        n = m["order"]; kind = {"nematelmintos": "nem", "platelmintos": "pla", "protozoarios": "pro"}.get(m["id"], "nem")
+        abertura_capitulo(D, m, n, sp, arte.capitulo(Path(tmp) / f"cap{n}.jpg", m.get("accent", "teal"), kind, n, len(sp)))
         for s in sp:
             especie(D, m, s)
-    arte = J("artefatos.json")
+    art = J("artefatos.json")
+    D.pagebreak()
     D.h("Guia de artefatos", 1)
-    D.p(arte["dica"])
-    for a in arte["itens"]:
+    D.p(art["dica"])
+    for a in art["itens"]:
         D.h(a["nome"], 3); D.kv("Confundida com", a["confundidaCom"]); D.kv("Como diferenciar", a["comoDiferenciar"])
+    refs = J("referencias.json")["items"]
+    referencias(D, refs)
+    contracapa(D, site, len(refs), h.hexdigest(), arte, tmp, mark)
     OUT.mkdir(parents=True, exist_ok=True)
     docx = OUT / f"{NOME}.docx"; D.d.save(docx)
     print("DOCX:", docx, round(docx.stat().st_size / 1e6, 1), "MB")
